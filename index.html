@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>NEURAL</title>
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="NEURAL" />
+  <meta name="theme-color" content="#f4f6fb" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+    :root {
+      --bg: #f4f6fb; --surface: #ffffff; --surface-2: #eef2f8; --border: #e2e8f0;
+      --text: #0f1f3a; --text-soft: #334155; --muted: #64748b;
+      --accent: #2563eb; --gold: #b45309; --gold-soft: #d4af37;
+      --red: #dc2626; --green: #16a34a; --orange: #ea580c; --amber: #d97706; --purple: #7c3aed; --teal: #0891b2;
+      --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      --serif: "Source Serif 4", Georgia, serif;
+      --mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+    }
+    html, body {
+      background: var(--bg); color: var(--text); font-family: var(--sans);
+      height: 100%; overflow: hidden; padding-top: env(safe-area-inset-top); -webkit-font-smoothing: antialiased;
+    }
+    #app { height: 100dvh; display: flex; flex-direction: column; overflow: hidden; }
+    ::-webkit-scrollbar { display: none; }
+
+    .header { background: var(--surface); border-bottom: 1px solid var(--border); padding: 12px 18px; display: flex; justify-content: space-between; align-items: flex-start; flex-shrink: 0; }
+    .logo { font-family: var(--serif); font-size: 19px; font-weight: 700; color: var(--text); letter-spacing: -0.01em; }
+    .logo .nx { color: var(--accent); }
+    .tagline { font-size: 12px; color: var(--accent); margin-top: 1px; font-weight: 600; }
+    .subtitle { font-family: var(--mono); font-size: 10px; color: var(--muted); margin-top: 3px; letter-spacing: 0.16em; }
+    .run-info { font-family: var(--mono); font-size: 11px; color: var(--muted); letter-spacing: 0.08em; text-align: right; line-height: 1.5; }
+
+    .tabs { background: var(--surface); border-bottom: 1px solid var(--border); display: flex; flex-shrink: 0; }
+    .tab { flex: 1; padding: 11px 8px; border: none; background: transparent; font-family: var(--mono); font-size: 12px; letter-spacing: 0.12em; cursor: pointer; color: var(--muted); border-bottom: 2px solid transparent; transition: all 0.15s; display: flex; flex-direction: column; align-items: center; gap: 3px; }
+    .tab.active { color: var(--accent); border-bottom-color: var(--accent); }
+    .tab-icon { font-size: 15px; }
+
+    .screen { flex: 1; overflow-y: auto; padding: 14px; display: none; }
+    .screen.active { display: block; }
+
+    .card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 14px; margin-bottom: 10px; box-shadow: 0 1px 2px rgba(15,31,58,0.04); }
+    .card-label { font-family: var(--mono); font-size: 10px; color: var(--muted); letter-spacing: 0.14em; margin-bottom: 8px; text-transform: uppercase; }
+    .card-label.gold { color: var(--gold); }
+    .card-label.red { color: var(--red); }
+    .card-label.accent { color: var(--accent); }
+    .body-text { font-size: 14px; line-height: 1.7; color: var(--text-soft); }
+
+    .headline-card { border-left: 4px solid var(--accent); }
+    .headline-text { font-family: var(--serif); font-size: 17px; font-weight: 700; line-height: 1.4; margin-bottom: 10px; color: var(--text); }
+    .velocity-badge { display: inline-block; padding: 3px 10px; font-family: var(--mono); font-size: 11px; letter-spacing: 0.1em; border-radius: 4px; border: 1px solid; }
+    .velocity-ACCELERATING { background: rgba(220,38,38,.08); color: var(--red); border-color: rgba(220,38,38,.3); }
+    .velocity-STABLE { background: rgba(37,99,235,.06); color: var(--accent); border-color: rgba(37,99,235,.25); }
+    .velocity-DECELERATING { background: rgba(100,116,139,.08); color: var(--muted); border-color: var(--border); }
+
+    .domain-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 10px; }
+    .domain-card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 12px; position: relative; overflow: hidden; cursor: pointer; transition: border-color 0.15s, box-shadow 0.15s; }
+    .domain-card:hover { box-shadow: 0 2px 8px rgba(15,31,58,0.08); }
+    .domain-card.selected { border-color: var(--accent); }
+    .domain-bar { position: absolute; top: 0; left: 0; right: 0; height: 3px; opacity: 0.9; }
+    .domain-name { font-family: var(--mono); font-size: 10px; color: var(--muted); letter-spacing: 0.1em; margin-bottom: 4px; text-transform: uppercase; }
+    .domain-prob { font-family: var(--mono); font-size: 26px; font-weight: 700; line-height: 1; }
+    .domain-traj { font-size: 13px; margin-left: 4px; font-weight: 600; }
+    .domain-label { font-size: 11px; color: var(--muted); margin-top: 3px; margin-bottom: 6px; line-height: 1.35; }
+    .domain-status { font-size: 12px; color: var(--text-soft); line-height: 1.5; }
+    .domain-more { font-family: var(--mono); font-size: 9px; color: var(--accent); letter-spacing: 0.1em; margin-top: 6px; }
+
+    .deepdive { background: var(--surface-2); border: 1px solid rgba(37,99,235,0.25); border-radius: 10px; padding: 14px; margin-bottom: 10px; display: none; }
+    .deepdive.open { display: block; }
+    .deepdive-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
+    .deepdive-title { font-family: var(--mono); font-size: 12px; color: var(--accent); letter-spacing: 0.1em; }
+    .dd-section-label { font-family: var(--mono); font-size: 10px; color: var(--muted); letter-spacing: 0.12em; margin: 10px 0 4px; text-transform: uppercase; }
+    .dd-driver { display: flex; gap: 8px; padding: 3px 0; font-size: 13px; color: var(--text-soft); line-height: 1.5; }
+    .dd-driver::before { content: "▸"; color: var(--accent); flex-shrink: 0; }
+    .dd-posture { background: rgba(180,83,9,0.07); border: 1px solid rgba(180,83,9,0.18); border-radius: 6px; padding: 8px 10px; margin-top: 10px; font-size: 13px; color: var(--gold); line-height: 1.55; }
+    .close-btn { background: none; border: none; color: var(--muted); font-size: 16px; cursor: pointer; padding: 2px 6px; }
+
+    .watch-item { display: flex; gap: 10px; padding: 8px 0; border-bottom: 1px solid var(--border); }
+    .watch-num { font-family: var(--mono); color: var(--gold); font-size: 12px; min-width: 16px; flex-shrink: 0; }
+    .watch-text { font-size: 14px; line-height: 1.5; color: var(--text-soft); }
+
+    .row { padding: 12px 0; border-bottom: 1px solid var(--border); }
+    .row-title { font-size: 14px; line-height: 1.4; font-weight: 500; }
+    .row-sub { font-family: var(--mono); font-size: 10px; letter-spacing: 0.08em; margin-top: 3px; }
+    .row-note { font-size: 13px; color: var(--muted); line-height: 1.5; margin-top: 4px; }
+    .row-flex { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+    .metric { font-family: var(--mono); font-size: 15px; font-weight: 700; color: var(--accent); white-space: nowrap; }
+    .sec-head { font-family: var(--mono); font-size: 11px; color: var(--muted); letter-spacing: 0.1em; padding: 6px 0 8px; }
+
+    .stale-banner { background: rgba(217,119,6,0.08); border: 1px solid rgba(217,119,6,0.25); border-radius: 8px; padding: 10px 14px; margin-bottom: 12px; font-size: 13px; color: var(--amber); display: none; }
+    .loading-state { text-align: center; padding: 60px 20px; color: var(--muted); }
+    .loading-title { font-family: var(--mono); font-size: 14px; letter-spacing: 0.1em; }
+    .error-state { background: rgba(220,38,38,0.05); border: 1px solid rgba(220,38,38,0.2); border-radius: 10px; padding: 16px; margin-bottom: 12px; }
+    .error-title { font-family: var(--mono); font-size: 13px; color: var(--red); margin-bottom: 6px; }
+    .error-body { font-size: 12px; color: var(--muted); line-height: 1.6; }
+    .empty { font-size: 12px; color: var(--muted); padding: 4px 0; }
+
+    @keyframes fadeUp { from { opacity:0; transform:translateY(8px); } to { opacity:1; transform:translateY(0); } }
+    .fade-up { animation: fadeUp 0.3s ease; }
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.3} }
+    .live-dot { width:6px; height:6px; border-radius:50%; display:inline-block; animation:pulse 2.5s infinite; }
+  </style>
+</head>
+<body>
+<div id="app">
+
+  <div class="header">
+    <div>
+      <div class="logo">NEURAL</div>
+      <div class="tagline">Outside-in intelligence.</div>
+      <div class="subtitle">GOVERNMENT MODERNIZATION · AI CAPABILITY</div>
+    </div>
+    <div class="run-info" id="run-info">LOADING...</div>
+  </div>
+
+  <div class="tabs">
+    <button class="tab active" onclick="showTab('situation')" id="tab-situation"><span class="tab-icon">◆</span>SITUATION</button>
+    <button class="tab" onclick="showTab('news')" id="tab-news"><span class="tab-icon">✦</span>AI NEWS</button>
+    <button class="tab" onclick="showTab('contracts')" id="tab-contracts"><span class="tab-icon">▣</span>GOV NEWS</button>
+  </div>
+
+  <div class="screen active" id="screen-situation">
+    <div class="loading-state" id="situation-loading"><div class="loading-title">LOADING INTELLIGENCE...</div></div>
+    <div id="situation-content" style="display:none"></div>
+  </div>
+  <div class="screen" id="screen-news">
+    <div class="loading-state" id="news-loading"><div class="loading-title">LOADING AI NEWS...</div></div>
+    <div id="news-content" style="display:none"></div>
+  </div>
+  <div class="screen" id="screen-contracts">
+    <div class="loading-state" id="contracts-loading"><div class="loading-title">LOADING CONTRACTS...</div></div>
+    <div id="contracts-content" style="display:none"></div>
+  </div>
+
+</div>
+
+<script>
+function showTab(name) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.getElementById('screen-' + name).classList.add('active');
+  document.getElementById('tab-' + name).classList.add('active');
+}
+
+const DOMAIN_COLORS = {
+  'Gov Modernization': '#2563eb', 'Compliance & Access': '#b45309', 'AI Capability': '#7c3aed',
+  'Delivery Economics': '#0891b2', 'Contract Pipeline': '#16a34a',
+};
+function domainColor(d) { return DOMAIN_COLORS[d] || '#64748b'; }
+function trajGlyph(t) { return t === 'UP' ? '▲' : t === 'DOWN' ? '▼' : '▬'; }
+function trajColor(t) { return t === 'UP' ? '#16a34a' : t === 'DOWN' ? '#dc2626' : '#64748b'; }
+function normProb(p) { return p == null ? 0 : (p <= 1 ? Math.round(p * 100) : Math.round(p)); }
+function probColor(p) { if (p >= 65) return '#16a34a'; if (p >= 40) return '#b45309'; return '#64748b'; }
+function timeAgo(iso) { const h = Math.floor((Date.now() - new Date(iso).getTime())/3600000); if (h<1) return 'just now'; if (h<24) return h+'h ago'; return Math.floor(h/24)+'d ago'; }
+function esc(s){ return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;'); }
+
+// Tiny inline sparkline from a series of numbers (domain probability over recent runs).
+function sparkline(vals, color) {
+  vals = (vals || []).filter(v => v != null);
+  if (vals.length < 2) return '';
+  const w = 46, h = 14, max = Math.max(...vals), min = Math.min(...vals), rng = (max - min) || 1;
+  const pts = vals.map((v, i) => `${(i / (vals.length - 1) * w).toFixed(1)},${(h - 1 - ((v - min) / rng) * (h - 2)).toFixed(1)}`).join(' ');
+  return `<svg width="${w}" height="${h}" style="margin-top:6px;display:block" aria-hidden="true"><polyline points="${pts}" fill="none" stroke="${color || 'var(--accent)'}" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/></svg>`;
+}
+
+// ── SITUATION ─────────────────────────────────────────────────────────────────
+function renderSituation(d, history) {
+  const s = d.situation;
+  if (!s) return '<div class="error-state"><div class="error-title">NO SITUATION DATA</div></div>';
+  const domains = s.domains || [];
+  const hist = Array.isArray(history) ? history : [];
+
+  const cards = domains.map((dom, i) => {
+    const trend = hist.map(h => (h.domains && h.domains[dom.name] != null) ? normProb(h.domains[dom.name]) : null);
+    return `
+    <div class="domain-card" id="domcard-${i}" onclick="toggleDeepDive(${i})">
+      <div class="domain-bar" style="background:${domainColor(dom.name)}"></div>
+      <div class="domain-name">${esc(dom.name)}</div>
+      <div><span class="domain-prob" style="color:${probColor(normProb(dom.prob))}">${esc(normProb(dom.prob))}%</span>
+        <span class="domain-traj" style="color:${trajColor(dom.trajectory)}">${trajGlyph(dom.trajectory)}</span></div>
+      <div class="domain-label">${esc(dom.label)}</div>
+      <div class="domain-status">${esc(dom.status)}</div>
+      ${sparkline(trend, domainColor(dom.name))}
+      ${dom.deepDive ? '<div class="domain-more">▸ TAP FOR DEEP DIVE</div>' : ''}
+    </div>`;
+  }).join('');
+
+  const dives = domains.map((dom, i) => {
+    const dd = dom.deepDive; if (!dd) return '';
+    const drivers = (dd.drivers || []).map(x => `<div class="dd-driver">${esc(x)}</div>`).join('');
+    const sources = (dd.sources || []).filter(Boolean);
+    return `<div class="deepdive" id="dd-${i}">
+      <div class="deepdive-header"><div class="deepdive-title">${esc(dom.name)} · DEEP DIVE</div>
+        <button class="close-btn" onclick="closeDeepDive(${i}, event)">✕</button></div>
+      <div class="body-text">${esc(dd.summary)}</div>
+      ${drivers ? `<div class="dd-section-label">Key Drivers</div>${drivers}` : ''}
+      ${(dd.signal || dd.implication) ? `<div class="dd-section-label">What It Signals</div><div class="body-text">${esc(dd.signal || dd.implication)}</div>` : ''}
+      ${sources.length ? `<div class="dd-section-label">Sources</div><div class="row-sub" style="color:var(--muted)">${sources.map(esc).join(' · ')}</div>` : ''}
+    </div>`;
+  }).join('');
+
+  const watch = (s.watchFor || []).map((w,i) => `<div class="watch-item"><span class="watch-num">${i+1}.</span><span class="watch-text">${esc(w)}</span></div>`).join('');
+  const changed = (s.whatChanged || []).filter(Boolean);
+  const strat = (s.strategicRead || []).filter(Boolean);
+
+  return `
+    <div class="card headline-card fade-up">
+      <div class="card-label">SITUATION · ${new Date(d.generatedAt).toLocaleDateString('en-US',{month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'}).toUpperCase()}</div>
+      <div class="headline-text">${esc(s.headline)}</div>
+      <span class="velocity-badge velocity-${esc(s.velocity)}">${esc(s.velocity)}</span>
+    </div>
+    ${changed.length ? `<div class="card fade-up" style="border-left:4px solid var(--green)"><div class="card-label" style="color:var(--green)">↻ WHAT CHANGED SINCE THE LAST BRIEF</div>${changed.map(w => `<div class="watch-item"><span class="watch-num" style="color:var(--green)">›</span><span class="watch-text">${esc(w)}</span></div>`).join('')}</div>` : ''}
+    ${strat.length ? `<div class="card fade-up" style="border-left:4px solid var(--accent)"><div class="card-label accent">◆ STRATEGIC READ</div>${strat.map(x => `<div class="watch-item"><span class="watch-num" style="color:var(--accent)">▸</span><span class="watch-text">${esc(x)}</span></div>`).join('')}</div>` : ''}
+    <div class="domain-grid fade-up">${cards}</div>
+    ${dives}
+    ${s.unseen ? `<div class="card fade-up" style="border-left:4px solid var(--accent)"><div class="card-label accent">◈ WHAT OTHERS ARE MISSING</div><div class="body-text">${esc(s.unseen)}</div></div>` : ''}
+    ${s.criticalWindow ? `<div class="card fade-up" style="border-left:4px solid var(--red)"><div class="card-label red">⚡ CRITICAL WINDOW</div><div class="body-text">${esc(s.criticalWindow)}</div></div>` : ''}
+    ${watch ? `<div class="card fade-up"><div class="card-label gold">WATCH — NEXT 2 WEEKS</div>${watch}</div>` : ''}
+    ${s.confidenceNote ? `<div style="font-size:11px;color:var(--muted);font-style:italic;padding:4px 0 20px">⚠ ${esc(s.confidenceNote)}</div>` : '<div style="height:20px"></div>'}
+  `;
+}
+
+function originTag(o) {
+  if (o === 'CN') return '<span style="color:var(--red);font-weight:700"> · ⚠ RESTRICTED-CN</span>';
+  if (o === 'ALLIED') return '<span style="color:var(--green)"> · US/ALLIED</span>';
+  return '';
+}
+const ELIGIBILITY_NOTE = '<div style="font-size:11px;color:var(--muted);font-style:italic;margin-top:8px">Foreign-origin models are tracked for capability only — not eligible for U.S. government delivery.</div>';
+
+// ── AI NEWS ───────────────────────────────────────────────────────────────────
+function renderNews(d) {
+  const n = d.aiNews || {};
+  const E = '<div class="empty">No items in the latest run.</div>';
+  const list = (arr, fn, empty) => ((arr||[]).length ? (arr).map(fn).join('') : (empty||E));
+
+  const headlines = list((n.headlines||[]).slice(0,10), h => `<div class="watch-item"><span class="watch-num" style="color:var(--accent)">›</span><span class="watch-text">${esc(h)}</span></div>`);
+  const brief = list((n.brief||[]).slice(0,6), b => `<div class="row"><div class="row-title">${esc(b.title)}</div>${b.summary?`<div class="row-note">${esc(b.summary)}</div>`:''}</div>`);
+  const models = list((n.trendingModels||[]).slice(0,12), m => `<div class="row row-flex"><div><div class="row-title" style="font-size:14px">${esc(m.id)}</div><div class="row-sub" style="color:var(--purple)">${esc((m.pipeline||'MODEL').toUpperCase())}${originTag(m.origin)}</div></div><div style="font-family:var(--mono);font-size:13px;color:var(--muted)">${m.likes!=null?'♥ '+esc(m.likes):''}</div></div>`);
+  const research = list((n.research||[]).slice(0,10), r => `<div class="row"><div class="row-title" style="font-size:14px">${esc(r.title)}</div>${r.summary?`<div class="row-note">${esc(r.summary)}</div>`:''}</div>`);
+  const lb = list((n.leaderboard||[]).slice(0,12), l => `<div class="row row-flex"><div><div class="row-title" style="font-size:14px">#${esc(l.rank)} ${esc(l.model)}</div><div class="row-sub" style="color:${l.open?'var(--green)':'var(--muted)'}">${l.open?'OPEN-WEIGHT':'PROPRIETARY'}${l.org?' · '+esc((l.org||'').toUpperCase()):''}${originTag(l.origin)}</div></div><div class="metric">${esc(l.rating)}</div></div>`);
+
+  return `
+    <div class="sec-head">AI INDUSTRY NEWS &amp; TRENDS · ${timeAgo(d.generatedAt)}</div>
+    <div class="card fade-up"><div class="card-label accent">◈ INDUSTRY HEADLINES (TECHMEME)</div>${headlines}</div>
+    <div class="card fade-up"><div class="card-label">▸ THE AI DAILY BRIEF</div>${brief}</div>
+    <div class="card fade-up"><div class="card-label" style="color:var(--purple)">▸ TRENDING OPEN MODELS (HUGGING FACE)</div>${models}${ELIGIBILITY_NOTE}</div>
+    <div class="card fade-up"><div class="card-label">▸ RESEARCH FRONTIER (ARXIV)</div>${research}</div>
+    <div class="card fade-up"><div class="card-label accent">▸ CAPABILITY LEADERBOARD (LMARENA)</div>${lb}${ELIGIBILITY_NOTE}</div>
+    <div style="height:20px"></div>`;
+}
+
+// ── CONTRACTS ─────────────────────────────────────────────────────────────────
+function renderContracts(d) {
+  const c = d.contracts || {};
+  const E = '<div class="empty">No items in the latest run.</div>';
+  const list = (arr, fn) => ((arr||[]).length ? arr.map(fn).join('') : E);
+
+  const sbir = list((c.sbir||[]).slice(0,10), s => `<a class="row" style="display:block;text-decoration:none;color:inherit" href="${esc(s.url||'#')}" rel="noopener"><div class="row-title" style="color:var(--accent)">${esc(s.title)} ↗</div><div class="row-sub" style="color:var(--gold)">${esc((s.agency||'').toUpperCase())}</div></a>`);
+  const press = list((c.press||[]).slice(0,12), p => `<div class="row"><div class="row-sub" style="color:var(--accent)">${esc((p.source||'').toUpperCase())}</div><div class="row-title" style="font-size:14px">${esc(p.title)}</div>${p.summary?`<div class="row-note">${esc(p.summary)}</div>`:''}</div>`);
+  const labs = list((c.labs||[]), l => `<div class="card" style="border-left:3px solid var(--purple)"><div class="card-label" style="color:var(--purple)">${esc((l.lab||'').toUpperCase())}</div>${(l.items||[]).map(it=>`<div class="watch-item"><span class="watch-num" style="color:var(--purple)">›</span><span class="watch-text">${esc(it)}</span></div>`).join('')||E}</div>`);
+
+  return `
+    <div class="sec-head">DEFENSE &amp; GOVERNMENT NEWS · ${timeAgo(d.generatedAt)}</div>
+    <div class="card fade-up"><div class="card-label accent">▸ DEFENSE-TECH PRESS</div>${press}</div>
+    <div class="fade-up">${labs}</div>
+    <div class="sec-head">SBIR / STTR — OPEN TOPICS &amp; SOLICITATIONS</div>
+    <div class="card fade-up"><div class="card-label gold">▸ NAVY / DoD SBIR RESOURCES</div>${sbir}<div style="font-size:11px;color:var(--muted);font-style:italic;margin-top:8px">Live topic/solicitation systems (gov SBIR APIs resist scraping) — tap to open.</div></div>
+    <div style="height:20px"></div>`;
+}
+
+// ── TOGGLES ───────────────────────────────────────────────────────────────────
+function toggleDeepDive(i) {
+  const el = document.getElementById('dd-' + i); if (!el) return;
+  const card = document.getElementById('domcard-' + i);
+  const isOpen = el.classList.contains('open');
+  document.querySelectorAll('.deepdive.open').forEach(d => d.classList.remove('open'));
+  document.querySelectorAll('.domain-card.selected').forEach(c => c.classList.remove('selected'));
+  if (!isOpen) { el.classList.add('open'); if (card) card.classList.add('selected'); el.scrollIntoView({behavior:'smooth', block:'nearest'}); }
+}
+function closeDeepDive(i, e) {
+  e.stopPropagation();
+  document.getElementById('dd-' + i).classList.remove('open');
+  const card = document.getElementById('domcard-' + i); if (card) card.classList.remove('selected');
+}
+
+function checkStale(generatedAt) {
+  if ((Date.now() - new Date(generatedAt).getTime())/3600000 > 13) {
+    document.querySelectorAll('.screen.active .stale-banner').forEach(b => b.style.display = 'block');
+  }
+}
+
+async function loadData() {
+  try {
+    const res = await fetch('intelligence.json?t=' + Date.now());
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const data = await res.json();
+    let history = [];
+    try { const hr = await fetch('history.json?t=' + Date.now()); if (hr.ok) history = await hr.json(); } catch (_) {}
+    const runNum = data.runNumber ? 'RUN #' + data.runNumber : '';
+    document.getElementById('run-info').innerHTML =
+      `<span class="live-dot" style="background:#16a34a;margin-right:4px"></span>${runNum}<br>${timeAgo(data.generatedAt).toUpperCase()}<br><span style="color:var(--muted);font-size:10px">AI-GENERATED · DAILY</span>`;
+    const stale = `<div class="stale-banner">⚠ Data is ${timeAgo(data.generatedAt)} old — next automated update scheduled soon</div>`;
+    const set = (id, html) => { document.getElementById(id+'-loading').style.display='none'; const c=document.getElementById(id+'-content'); c.style.display='block'; c.innerHTML=html; };
+    set('situation', stale + renderSituation(data, history));
+    set('news', stale + renderNews(data));
+    set('contracts', stale + renderContracts(data));
+    checkStale(data.generatedAt);
+  } catch (err) {
+    const errHTML = `<div class="error-state"><div class="error-title">FAILED TO LOAD INTELLIGENCE DATA</div><div class="error-body">${esc(err.message)}<br><br>Run the GitHub Action: Actions → NEURAL Intelligence Run → Run workflow</div></div>`;
+    ['situation','news','contracts'].forEach(s => { document.getElementById(s+'-loading').style.display='none'; const c=document.getElementById(s+'-content'); c.style.display='block'; c.innerHTML=errHTML; });
+    document.getElementById('run-info').textContent = 'NO DATA';
+  }
+}
+
+if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js');
+loadData();
+</script>
+</body>
+</html>
