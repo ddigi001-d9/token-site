@@ -1,50 +1,52 @@
 {
-  "generatedAt": "2026-07-18T11:51:22.476Z",
-  "runNumber": 44,
+  "generatedAt": "2026-07-19T11:55:00.171Z",
+  "runNumber": 45,
   "situation": {
-    "headline": "Pentagon pauses CMMC Phase 2 and stands up a task force to review the entire program — the compliance floor that gates every defense-IT contractor is now formally in flux, even as an AI Security Institute read shows open-weight models closing the frontier gap to 4-7 months.",
+    "headline": "Navy publishes a 'Strategy to Weaponize Data and Artificial Intelligence' and Trump announces a $10B defense-industry investment in the same window that the Pentagon's CMMC Phase 2 task force convenes and schedules listening sessions — modernization demand is being formalized at the top even as the compliance floor that gates delivery stays in active flux.",
     "velocity": "ACCELERATING",
     "domains": [
       {
         "name": "Gov Modernization",
-        "prob": 93,
+        "prob": 94,
         "label": "agency modernization demand rising 90d",
         "trajectory": "UP",
-        "status": "Navy AI/data doctrine, SDA launch restart, DIU power-beaming and SOCOM autonomy market research keep modernization demand broad and funded.",
+        "status": "Navy's data/AI strategy, a $10B defense-industry investment, DIU power-beaming and SOCOM/counter-drone pulls all point to broad, top-directed modernization demand.",
         "deepDive": {
-          "summary": "Agency modernization demand is broadening from cyber and data toward AI-native operations, with the Navy releasing a formal 'Strategy to Weaponize Data and Artificial Intelligence' and a fresh $10B defense-industry investment announcement signaling top-line budget momentum. At the same time, watchdog findings (GAO on hypersonic scale-up, VA staffing-tool gaps, DHS AI-inventory confusion) show that modernization mandates are outpacing execution maturity across services.",
+          "summary": "Agency modernization demand is broadening from platforms into AI-native data and autonomy programs, with the Navy releasing a 'Strategy to Weaponize Data and Artificial Intelligence' and a $10B defense industry investment announced. Simultaneously, cyber and zero-trust modernization is being framed as urgent because AI is accelerating the speed and scale of threats at network seams. Roughly 80% confidence this represents sustained demand rather than one-off announcements, given the volume of concurrent AI/data mandates.",
           "drivers": [
-            "SECNAV Hung Cao's new Navy data/AI weaponization strategy plus an AI-powered recruiting chatbot indicate service-level operationalization of AI",
-            "Trump's announced $10B defense-industry investment and DIU/SDA/CCA program activity signal sustained modernization capital",
-            "Multiple GAO/IG findings (hypersonic scale, VA police-staffing tool, DHS AI inventory) expose execution and integration gaps that create modernization pull"
+            "SECNAV Hung Cao's new Navy AI/data strategy and DoD's AI-powered recruiting chatbot signal AI moving into core service workflows",
+            "Repeated GAO findings of schedule slips (Zumwalt hypersonics ~2yr behind, Lockheed building ~half needed missiles) point to manufacturing/program-execution modernization pressure",
+            "Zero-trust file security, counter-drone gaps, and 'AI about to overwhelm cyber defenses' framing show cyber modernization tied directly to AI threat velocity"
           ],
-          "signal": "The environment is shifting from AI strategy documents to demand for delivered, auditable AI systems inside agencies — the gap between published strategies and working, scaled capability is widening, which is exactly where modernization work concentrates.",
+          "signal": "The environment is shifting toward data-and-AI operationalization inside agencies rather than pure infrastructure refresh, and persistent GAO-documented execution failures signal an incumbent-delivery credibility gap that reshapes what buyers value.",
           "sources": [
-            "defense press",
             "DoD news",
-            "FedScoop",
+            "DefenseScoop",
+            "Breaking Defense",
             "Federal News Network"
           ]
         }
       },
       {
         "name": "Compliance & Access",
-        "prob": 92,
+        "prob": 93,
         "label": "CMMC/FedRAMP/IL requirements shifting",
         "trajectory": "UP",
-        "status": "CMMC Phase 2 paused with a full-program review task force and listening sessions underway — requirements are actively in motion, direction still unresolved.",
+        "status": "CMMC Phase 2 review is now an active process with listening sessions, and new US restrictions on top AI models add a second, model-eligibility axis of access uncertainty.",
         "deepDive": {
-          "summary": "The compliance floor is actively in flux: CIO Kirsten Davies paused CMMC Phase 2 requirements and stood up a task force to review the entire program, with DoD planning industry listening sessions. Parallel policy threads — OMB M-26-14 cyber guidance, zero-trust file-security gaps, and federal warnings on AI-fueled identity fraud — show accreditation and access requirements being rewritten around AI-era threats.",
+          "summary": "The compliance landscape is in active flux: CMMC Phase 2 requirements have been paused by DoD CIO Kirsten Davies, a Pentagon task force is reviewing the entire program, and listening sessions are planned. Parallel signals show federal AI governance tightening — DHS's updated AI inventory drawing scrutiny and calls for federal response to AI-fueled identity fraud. About 65% confidence the CMMC pause reflects restructuring rather than rollback, given the task force is convening rather than terminating the program.",
           "drivers": [
-            "CMMC Phase 2 pause plus a fast-moving Pentagon review task force inject near-term uncertainty into the primary DIB accreditation gate",
-            "OMB M-26-14 operationalization and zero-trust file-security emphasis expand cyber compliance scope",
-            "Federal panels flagging AI-fueled digital identity fraud and 'AI overwhelming cyber defenses' push new controls onto the compliance agenda"
+            "DoD paused CMMC Phase 2 and stood up a review task force, with listening sessions signaling near-term requirement uncertainty for the defense industrial base",
+            "Federal AI accountability pressure rising (DHS AI inventory questions, digital identity fraud panel, Fed chair refusing to outsource AI decisions)",
+            "The Trump administration's shift from 'light-touch' to interventionist AI policy, including restrictions on top AI models in the US"
           ],
-          "signal": "The specific bar for contractor eligibility (CMMC) is genuinely unsettled right now, while the broader trend is more AI-specific access and cyber requirements accreting — signaling a moving compliance target rather than a stable checklist over the next 90 days.",
+          "signal": "Compliance goalposts are moving simultaneously up (AI governance, identity fraud, model restrictions) and sideways (CMMC in limbo), meaning access requirements are a live variable rather than a fixed floor — and US model-availability restrictions directly affect which frontier tools are deliverable.",
           "sources": [
-            "defense press",
+            "DefenseScoop",
             "Federal News Network",
-            "FedScoop"
+            "FedScoop",
+            "The AI Daily Brief",
+            "Techmeme"
           ]
         }
       },
@@ -53,37 +55,38 @@
         "prob": 96,
         "label": "frontier + open model capability gains",
         "trajectory": "UP",
-        "status": "Anthropic Claude Opus 4.6/4.7 and Fable 5 top the leaderboard while open weights (Inkling, GLM-5.2) and the 4-7 month closing cyber gap push capability up on both tracks.",
+        "status": "A dense wave of new frontier and open-weight models (Claude Opus 4.6/4.7, GPT-5.6, Fable 5, Grok 4.5, Inkling, Kimi K3) keeps capability climbing, though the top open-weight entry is CN-restricted.",
         "deepDive": {
-          "summary": "Anthropic's Claude Opus 4.6/4.7 and Fable 5 hold the top five LMArena slots (Elo 1482-1501) for US/allied proprietary models, with Google Gemini 3.x and OpenAI GPT-5.x clustered just behind, so the deliverable frontier remains US-vendor dominated. The most important structural signal is that open-weight models now trail frontier closed models on cyber capability by only 4-7 months, a narrowing from 6-10 months through 2025.",
+          "summary": "The frontier is dense and clustered at the top: Anthropic's Claude Opus 4.6/4.7 and Fable 5 hold the leaderboard's top five (Elo ~1482-1501), with Google Gemini 3.x and OpenAI GPT-5.4/5.6 close behind. Chinese models (Qwen3.7-max, Kimi K3) sit in the top 15 as capability signals only, and open-weight releases like Thinking Machines' Inkling and Kimi K3 are narrowing the gap while showing reliability/speed/cost limits. Roughly 85% confidence the top cluster remains US/allied-dominated near-term.",
           "drivers": [
-            "AI Security Institute analysis shows the open-vs-closed capability gap compressing to 4-7 months, raising the self-hostable floor",
-            "Anthropic Claude family sweeps the top of LMArena among US/allied options; Chinese Qwen3.7-max and Kimi K3 register as capability signal only (RESTRICTED-CN, not deliverable)",
-            "A wave of new models (GPT-5.6, Grok 4.5, Cognition SWE-1.7, Meta Muse Spark, Thinking Machines Inkling open-weight) shows rapid multi-vendor iteration across coding, voice, and agentic work"
+            "Anthropic sweeps the top of LMArena; agentic work products (ChatGPT Work, agentic coding harnesses, SWE-1.7) mark a shift from chat to long-running task execution",
+            "Open-weight momentum: Inkling and Kimi K3 trending, but Daily Brief flags K3's reliability/speed/cost gaps — self-hostable US/allied floors (Llama, Mistral, Granite, Nemotron, Phi, Gemma) remain the deliverable open option",
+            "arXiv activity toward agentic search robustness, cost-aware security agents, robot context scaling, and pretraining-data poisoning risks"
           ],
-          "signal": "Capability is arriving faster and cheaper at the open-weight tier that is eligible for sovereign/air-gapped government delivery, while strong Chinese models advance but remain ineligible — meaning the usable frontier for gov work is both rising and consolidating around a handful of US labs.",
+          "signal": "Capability gains are increasingly about agentic reliability and control rather than raw benchmark Elo, and the narrowing open-weight frontier signals a viable self-hostable capability floor is rising — even as Chinese models advance, they remain ineligible for government delivery and serve only as pace indicators.",
           "sources": [
-            "Techmeme",
-            "The AI Daily Brief",
             "LMArena leaderboard",
-            "Hugging Face trending"
+            "Hugging Face trending",
+            "The AI Daily Brief",
+            "arXiv",
+            "Techmeme"
           ]
         }
       },
       {
         "name": "Delivery Economics",
-        "prob": 52,
+        "prob": 56,
         "label": "AI/compute cost favorable for delivery",
         "trajectory": "UP",
-        "status": "Escalating model wars, higher usage limits, cheaper implementation models, and a faster-closing open-weight floor tilt delivery economics more favorable than last brief.",
+        "status": "Cheaper implementation models and aggressive quantization (ternary/1-bit) improve on-prem economics, but rising data-center permit/power costs and new model restrictions pull the other way.",
         "deepDive": {
-          "summary": "The cost curve for AI-accelerated delivery is bending favorably: escalating model competition (Apple v. OpenAI, ChatGPT Work, higher usage limits) is driving down price and up throughput, while inference-specialized silicon (Etched raising at a $20B valuation) and 1-bit/ternary quantized open models point to cheaper self-hosted inference. China's reported jump to 140T daily tokens illustrates how fast inference volume — and the economics behind it — is scaling globally.",
+          "summary": "Competition is actively pushing capability up and price down — the Daily Brief explicitly notes escalating AI wars producing better models, higher usage limits, and lower costs, alongside cheaper 'implementation' models and ultra-fast coding agents. Countervailing pressure comes from data-center buildout costs: permitting hurdles, Oracle's costlier fuel-cell pivot, and grassroots anti-data-center protests. About 70% confidence the near-term cost trend favors delivery while infrastructure cost/permitting friction grows medium-term.",
           "drivers": [
-            "NLW/AI Daily Brief thesis that escalating AI wars yield lower costs, higher limits, and agentic 'software factory' workflows",
-            "Inference-chip economics moving fast — Etched raising at $10-20B valuations; Japan buying 27,500 Nvidia Rubin chips",
-            "Quantized/efficient open weights (Bonsai-27B 1-bit MLX, ternary variants, Cactus-Compute needle, on-device MiniCPM5) lowering the self-hosting cost floor"
+            "Model-war dynamics (Apple v. OpenAI, four new models in a week) driving down inference cost and raising usage limits per the Daily Brief",
+            "Emergence of cheaper implementation-tier models and fast coding agents (Cognition SWE-1.7, Grok 4.5) lowering per-task delivery cost",
+            "Data-center cost inflation from permitting, Oracle's fuel-cell pivot costing billions more, and 142 protests across 42 states signaling siting/power headwinds"
           ],
-          "signal": "Delivery cost advantage from AI is compounding via both cheaper frontier API access and increasingly capable low-footprint open models suitable for constrained/air-gapped environments — the compute economics underpinning an AI-accelerated cost advantage are moving in favor of implementers.",
+          "signal": "The current window shows favorable token/compute economics for AI-accelerated delivery, but the Daily Brief's own caveat that 'the opportunity may not last' plus rising infrastructure/permitting costs signal this cost advantage is time-bounded rather than structural.",
           "sources": [
             "The AI Daily Brief",
             "Techmeme",
@@ -96,44 +99,45 @@
         "prob": 91,
         "label": "open SBIR/agency opportunities 90d",
         "trajectory": "UP",
-        "status": "DIU power-beaming demo, SOCOM loitering-munition market research, counter-drone gaps and CCA milestones signal open lanes, though rising protest activity marks contested awards.",
+        "status": "DIU power-beaming call, SOCOM loitering-munition market research, MUSV marketplace, and multiple contested awards indicate an active, if litigious, opportunity flow.",
         "deepDive": {
-          "summary": "Near-term opportunity signals are concentrated in autonomy, counter-drone, space, and medical-supply-chain resilience, with active market research and demos rather than just planning. DIU's power-beaming satellite demo call, SOCOM loitering-munition market research, Army counter-UAS gaps, and DoD's Accenture medical-supply-chain award show agencies moving money and RFIs into these areas now.",
+          "summary": "Near-term opportunity signals cluster around autonomy, counter-drone, space, and cyber: DIU is seeking a near-term power-beaming satellite demo (operational by 2030), SOCOM is doing market research on SOF-peculiar attack drones with automatic target recognition, and the Army flags counter-drone capability gaps. Contested awards (General Dynamics protesting DISA's Enclave expansion; Blue Water/Saildrone suing Navy over MUSV) indicate an active, competitive procurement environment. Roughly 75% confidence these represent genuine 90-day pipeline signals versus long-horizon aspirations.",
           "drivers": [
-            "DIU seeking near-term power-beaming satellite demo (operational by 2030) and SDA resuming its launch campaign create space-domain openings",
-            "SOCOM PEO-Fixed Wing market research for autonomous-target-recognition attack drones plus Army counter-drone capability gaps signal autonomy/CUAS demand",
-            "Contested awards (General Dynamics protest of DISA Enclave; Blue Water Autonomy and Saildrone suits over MUSV Marketplace) show a competitive, protest-heavy procurement environment"
+            "DIU power-beaming call to industry and SOCOM loitering-munition market research indicate open near-term solicitations",
+            "Bid-protest and litigation activity (GDLS/DISA Enclave, MUSV Marketplace lawsuits) signals contested, high-value competitions and re-openable awards",
+            "Accenture's DoD medical supply-chain award and $10B defense industry investment announcement point to concentrated flows toward specific problem areas (supply chain, counter-drone, autonomy, space)"
           ],
-          "signal": "The pipeline is tilting toward autonomy, space power/logistics, counter-UAS, and supply-chain resilience, and the volume of protests and lawsuits signals intense competition and contestable award decisions across these emerging modernization lanes.",
+          "signal": "The pipeline is skewing toward autonomy, counter-UAS, space demos, and cyber/data missions, and the density of protests/lawsuits signals both fierce competition and incumbency instability — awards are being challenged and requirements interpreted inconsistently across the buying community.",
           "sources": [
-            "defense press",
-            "DoD news",
-            "Federal News Network"
+            "Breaking Defense",
+            "DefenseScoop",
+            "Federal News Network",
+            "DoD news"
           ]
         }
       }
     ],
-    "unseen": "The CMMC Phase 2 pause and the AISI finding that open-weight cyber capability is within 4-7 months of frontier are pulling in opposite directions on the same axis: exactly as DoD loosens its certification timeline, the offensive capability available in downloadable models is rising — meaning the compliance relief is arriving precisely when the threat surface it was meant to govern is getting cheaper to attack.",
-    "criticalWindow": "The CMMC review task force output and listening-session signals over the next 30-90 days will determine whether Phase 2 resumes on schedule, is restructured, or slips — reshaping the near-term compliance gate for the entire defense-IT contractor base.",
+    "unseen": "The compliance floor and the model-access floor are moving in the same 30-day window but are treated as separate stories — a CMMC pause loosens the certification gate while new US restrictions on top AI models tighten which capabilities can be fielded, so the net 'what can actually be delivered into a gov system' picture may be narrowing even as demand and raw model capability both rise.",
+    "criticalWindow": "CMMC task-force review and listening-session outcomes over the next 30-90 days, alongside the details of the reported US restrictions on top AI models — together these define both who can bid and which models are eligible for delivery.",
     "watchFor": [
-      "CMMC task force findings or a revised Phase 2 timeline from DoD listening sessions",
-      "GAO/GDLS and MUSV bid-protest outcomes indicating how contested the autonomy and enclave award lanes are becoming",
-      "Farnborough 2026 airshow announcements on air/autonomy programs and international partnerships",
-      "Next AISI-style capability reads and new US/allied open-weight releases (Llama/Mistral/Granite/Nemotron/Gemma-class) that would firm up the self-hostable delivery floor"
+      "Concrete output or interim guidance from the CMMC review/listening sessions that clarifies whether Phase 2 requirements are eased, delayed, or restructured.",
+      "Specifics of the US interventionist AI-policy restrictions — which models/tiers are limited and whether gov/defense use carries carve-outs.",
+      "Implementation vehicles and RFPs spawned by the Navy 'Weaponize Data and AI' strategy and the announced $10B defense investment.",
+      "Resolution of the GD/DISA Enclave protest and the Blue Water/Saildrone MUSV lawsuits as indicators of how contested the federal-IT and autonomy award environment is becoming."
     ],
-    "confidenceNote": "The CMMC pause is clearly reported but its endstate (resume, restructure, or delay) is genuinely unknown; leaderboard model names and version numbers in the context appear speculative/forward-dated and should be treated as directional capability signal, not verified releases.",
-    "topPattern": "Modernization demand and dollars are firmly up while the acquisition rules (CMMC) and award processes (protests) churn — and the AI capability powering delivery keeps rising on both closed and open tracks, closing the self-hostable gap even as the same curve sharpens the cyber threat that compliance is meant to contain.",
+    "confidenceNote": "Headlines confirm that events are occurring (CMMC review, Navy strategy, $10B announcement, model restrictions) but not their scope, terms, or dollar figures; model version labels (Fable 5, GPT-5.6, Opus 4.6/4.7) are as-listed and unverified, and the exact nature of the US AI-model restrictions is described only in headline form.",
+    "topPattern": "Modernization demand and AI capability are both accelerating, but the deliverability chokepoint is shifting into the twin compliance/access levers — a CMMC in flux and new US restrictions on top models — with the open-weight capability leader ineligible for gov use.",
     "strategicRead": [
-      "The CMMC pause cuts two ways: it relieves near-term certification pressure on the contractor base but injects timeline uncertainty into every ATO-dependent bid — the compliance moat that favored already-accredited primes is temporarily blurred.",
-      "As open-weight cyber capability closes to within a couple of quarters of frontier while token consumption and usage limits rise and costs fall, the economics of AI-accelerated delivery keep improving — but the same curve that empowers defenders is explicitly framed (Breaking Defense, FNN) as accelerating AI-driven cyber threats 'at the seams,' raising the security bar on anything delivered.",
-      "Navy's 'Weaponize Data and AI' doctrine, SDA's launch restart, Trump's $10B, and DIU/SOCOM autonomy calls together point to sustained modernization demand — the money and doctrine are aligned even as the acquisition plumbing (protests, CMMC review) gets noisier."
+      "Two compliance/access levers are moving at once — CMMC certification requirements and new US restrictions on top AI models — meaning the barrier to fielding AI in gov systems is being redrawn on both the contractor-certification axis and the model-eligibility axis simultaneously.",
+      "The open-weight capability leader is Chinese and off-limits for delivery, so the practical US-deliverable self-hostable floor rests on US/allied weights (Inkling, Llama, Mistral, Granite, Nemotron, Phi, Gemma); aggressive quantization work (ternary/1-bit) signals the efficiency ceiling for on-prem/air-gapped delivery is rising even as top raw capability sits behind ineligible or restricted models.",
+      "Formal service-level AI strategies plus a headline defense investment point to demand consolidating around named programs and data-weaponization mandates, while GAO findings on hypersonics/Zumwalt schedule slips and GD's DISA protest show the incumbent execution and award environment remains contested and uneven."
     ],
     "whatChanged": [
-      "CMMC is the new center of gravity: CIO Kirsten Davies paused Phase 2 requirements, a review task force held its first meeting, and DoD scheduled listening sessions — a material shift from the steady 'requirements tightening' posture of prior briefs.",
-      "AI Security Institute reports open-weight models now trail closed frontier on cyber capability by 4-7 months, narrowed from 6-10 months through most of 2025 — the self-hostable floor is catching up faster.",
-      "Two new open-weight entrants surfaced: Moonshot's Kimi K3 (RESTRICTED-CN, capability signal only) and Thinking Machines' Inkling, framing an emerging enterprise fight over who owns the model and the data on top of it.",
-      "Contract friction intensified: General Dynamics is protesting DISA's Enclave expansion, and Blue Water Autonomy and Saildrone are suing the Navy over the MUSV Marketplace — bid-protest activity signals contested, high-value award lanes.",
-      "SDA resumed its satellite launch campaign after a months-long pause tied to on-orbit software/hardware issues, restarting Golden Dome-adjacent tracking momentum."
+      "CMMC review advanced from 'pause + task force stood up' (Run #44) to first task-force meeting held plus DoD scheduling formal listening sessions — the review is now a running process, not a one-time announcement.",
+      "SECNAV Hung Cao released a Navy AI/data strategy and Trump announced a $10B defense-industry investment, adding named top-level demand signals absent from the prior brief.",
+      "A new US interventionist AI-policy posture is reported to have produced restrictions on top AI models inside the US — a fresh access variable stacking on top of the compliance story.",
+      "Open-weight frontier reshuffled: Thinking Machines' US-origin Inkling and aggressive quantization efforts (Bonsai ternary/1-bit) trend, while the strongest open-weight model (Kimi K3) is RESTRICTED-CN and thus ineligible for gov delivery.",
+      "General Dynamics protest of DISA's Enclave contract expansion surfaces as a live contested-award signal in the federal-IT pipeline."
     ]
   },
   "signals": [],
@@ -143,21 +147,21 @@
   "groundTruth": [],
   "aiNews": {
     "headlines": [
-      "A review of Microsoft's 13-inch Surface Laptop shows 8GB of RAM is not enough for a good Windows 11 experience; PC makers have unveiled upcoming 8GB laptops (Antonio G. Di Benedetto/The Verge)",
-      "Analysis: recent open weight models lag frontier closed models' cyber capabilities by 4 to 7 months, a narrower gap than the 6 to 10 months through most of 2025 (AI Security Institute)",
-      "SEC filing: GameStop says it owns 9.8% of eBay, signaling its intent to press ahead with a bid for the company after its unsolicited $56B offer was rejected (Reuters)",
-      "Feathery, which develops an AI operating and decisioning system for financial services, raised $30M in total funding, including a recently completed Series A (FinTech Global)",
-      "China's National Data Administration says the country's daily AI token consumption hit 140T in March 2026, up from 100T in December 2025 and 100B in early 2024 (Minxiao Chang/South China Morning Post)",
-      "London-based Risk Ledger, which helps organizations manage supply chain cyber risks, raised a £24M Series B led by Axiom Equity, taking total funding to £33.8M (Ionut Arghire/SecurityWeek)",
-      "Data infrastructure startup Cribl acquires CardinalOps, which offers AI-powered threat detection tools and had raised $40M, sources say for around $100M (Meir Orbach/CTech)",
-      "Sources: China's National AI Industry Investment Fund gained voting rights in DeepSeek by joining its $7.4B round; other investors like Tencent and JD got none (Bloomberg)",
-      "Thira, an AI startup founded by Apptio co-founders to develop AI agents that handle back-office tasks such as IT support, raised a $21M seed led by Madrona (Todd Bishop/GeekWire)",
-      "Japan plans to buy 27,500 Nvidia Rubin chips to develop a domestic AI foundation model for robots, in a Noetra-led effort that includes SoftBank, Sony, and NEC (Bloomberg)",
-      "Anthropic says Claude Fable 5 will be included in Max and Team Premium plans at 50% of limits from July 20 and via usage credits for Pro and Team Standard users (Claude/@claudeai)",
-      "China's BrainCo unveils what it says is the world's first integrated \"brain-to-robot\" platform that lets users control robots using an EEG headset (Minxiao Chang/South China Morning Post)",
-      "Memo: the DOJ says federal employees can now download TikTok on government devices, citing TikTok US' transfer of control, lifting a 2022 congressional ban (David Shepardson/Reuters)",
-      "Sources: AI inference chip startup Etched is raising funds at a $20B valuation and is raising capital at a $10B valuation in a separate round led by Sequoia (Wall Street Journal)",
-      "Sources: Trump Media pitched a monthly fee of as much as $100K for the Truth API, with fast access to Trump's posts, for banks, algorithmic traders, and others (Reuters)"
+      "AI is reshaping entry-level professional services jobs, as companies redesign hiring, training, and workplace culture rather than simply cut junior roles (Andrew Hill/Financial Times)",
+      "Sources: Kimi developer Moonshot told investors it is preparing for a Hong Kong IPO in as early as six months; its ARR hit $300M in June, up from $200M in April (Bloomberg)",
+      "Analysis: OpenAI and Anthropic employees are donating to campaigns more heavily and cohesively than Google, Meta, and Airbnb employees did post-IPO (Alexandra Lindsay/The San Francisco ...)",
+      "A profile of businessman Sebastian Rucci, whose past ventures were subject to legal probes, as he bids to build California's biggest data center, a $10B project (Zusha Elinson/Wall Street Journal)",
+      "Big US pizza delivery chains are struggling as apps such as DoorDash and Uber Eats give independent pizzerias and other restaurants greater market access (Haley Zimmerman/Financial Times)",
+      "Sources: CIA operative Jonny Gannon spied on G42 to probe its China ties and helped the UAE gain expanded access to US AI chips by allaying US suspicions (Wall Street Journal)",
+      "Alibaba open-sources its chip software, following similar plays from Huawei and Moore Threads, as Chinese GPU makers try to break the dominance of Nvidia's CUDA (Ann Cao/South China Morning Post)",
+      "Analysis finds 60+ \"jacket apps\" on the App Store disguised as simple games and utilities that become gambling apps when accessed from Brazilian IP addresses (9to5Mac)",
+      "A look at AI's potential impact on insurance-coverage decisions like prior authorization as the Trump admin starts to pilot using AI to evaluate Medicare claims (Joshua Cohen/Ars Technica)",
+      "UK's incoming PM Andy Burnham is expected to scrap Keir Starmer's plans for digital ID cards; last year a petition opposing the cards attracted 3M signatures (Geraldine McKelvie/The Guardian)",
+      "Permit hurdles push up costs for AI data centers; Oracle pivoted from gas turbines to costlier fuel cells for its Project Jupiter in NM, costing billions more (Ann Davis Vaughan/The Information)",
+      "Prediction market political betting on insider info spreads in DC; sources: WH lawyers raised alarms over anonymous Polymarket bets on the Iran ceasefire timing (Wall Street Journal)",
+      "How the Trump administration shifted from a \"light-touch\" approach to AI policy to an interventionist stance that led to restrictions on top AI models in the US (Leo Schwartz/The Information)",
+      "Grassroots org HumansFirst says it organized 142 protests across 42 US states on July 18 against what it calls the \"unaccountable\" buildout of data centers (Reuters)",
+      "A review of Microsoft's 13-inch Surface Laptop shows 8GB of RAM is not enough for a good Windows 11 experience; PC makers have unveiled upcoming 8GB laptops (Antonio G. Di Benedetto/The Verge)"
     ],
     "brief": [
       {
@@ -197,127 +201,127 @@
       {
         "id": "thinkingmachines/Inkling",
         "pipeline": "image-text-to-text",
-        "likes": 1005,
-        "downloads": 12456,
+        "likes": 1098,
+        "downloads": 13462,
         "origin": "OTHER"
       },
       {
         "id": "prism-ml/Ternary-Bonsai-27B-gguf",
         "pipeline": "text-generation",
-        "likes": 702,
-        "downloads": 301893,
+        "likes": 767,
+        "downloads": 338945,
         "origin": "OTHER"
       },
       {
         "id": "prism-ml/Bonsai-27B-gguf",
         "pipeline": "text-generation",
-        "likes": 415,
-        "downloads": 1218815,
+        "likes": 467,
+        "downloads": 1262894,
         "origin": "OTHER"
       },
       {
         "id": "zai-org/GLM-5.2",
         "pipeline": "text-generation",
-        "likes": 4098,
-        "downloads": 541662,
+        "likes": 4148,
+        "downloads": 536177,
         "origin": "CN"
       },
       {
         "id": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
         "pipeline": "image-text-to-text",
-        "likes": 2286,
-        "downloads": 2112869,
+        "likes": 2327,
+        "downloads": 2118995,
         "origin": "ALLIED"
       },
       {
         "id": "conradlocke/krea2-identity-edit",
         "pipeline": "",
-        "likes": 366,
+        "likes": 407,
         "downloads": 0,
         "origin": "OTHER"
       },
       {
         "id": "bottlecapai/ThinkingCap-Qwen3.6-27B",
         "pipeline": "image-text-to-text",
-        "likes": 426,
-        "downloads": 10445,
+        "likes": 449,
+        "downloads": 10647,
         "origin": "CN"
       },
       {
         "id": "ATH-MaaS/OvisOCR2",
         "pipeline": "image-text-to-text",
-        "likes": 158,
-        "downloads": 13750,
+        "likes": 183,
+        "downloads": 14587,
         "origin": "OTHER"
       },
       {
         "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "pipeline": "image-text-to-text",
-        "likes": 2839,
-        "downloads": 2190398,
+        "likes": 2881,
+        "downloads": 2084530,
         "origin": "CN"
       },
       {
         "id": "OpenMOSS-Team/MOSS-Transcribe-Diarize",
         "pipeline": "audio-text-to-text",
-        "likes": 252,
-        "downloads": 86385,
+        "likes": 269,
+        "downloads": 87533,
         "origin": "OTHER"
       },
       {
-        "id": "empero-ai/Qwythos-9B-v2-GGUF",
-        "pipeline": "image-text-to-text",
-        "likes": 166,
-        "downloads": 103504,
+        "id": "AngelSlim/Hy3-GGUF",
+        "pipeline": "text-generation",
+        "likes": 131,
+        "downloads": 109749,
         "origin": "OTHER"
       },
       {
         "id": "GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-Thinking",
         "pipeline": "text-generation",
-        "likes": 138,
-        "downloads": 5271,
+        "likes": 144,
+        "downloads": 5494,
         "origin": "ALLIED"
-      },
-      {
-        "id": "AngelSlim/Hy3-GGUF",
-        "pipeline": "text-generation",
-        "likes": 126,
-        "downloads": 100768,
-        "origin": "OTHER"
-      },
-      {
-        "id": "tencent/Hy3",
-        "pipeline": "text-generation",
-        "likes": 825,
-        "downloads": 13571,
-        "origin": "CN"
       },
       {
         "id": "prism-ml/Bonsai-27B-mlx-1bit",
         "pipeline": "text-generation",
-        "likes": 121,
-        "downloads": 20639,
-        "origin": "OTHER"
-      },
-      {
-        "id": "empero-ai/Qwythos-9B-v2",
-        "pipeline": "text-generation",
-        "likes": 140,
-        "downloads": 9060,
-        "origin": "OTHER"
-      },
-      {
-        "id": "Wan-AI/Wan-Dancer-14B",
-        "pipeline": "image-to-video",
-        "likes": 112,
-        "downloads": 2328,
+        "likes": 131,
+        "downloads": 21690,
         "origin": "OTHER"
       },
       {
         "id": "Cactus-Compute/needle",
         "pipeline": "",
-        "likes": 261,
-        "downloads": 935,
+        "likes": 275,
+        "downloads": 955,
+        "origin": "OTHER"
+      },
+      {
+        "id": "empero-ai/Qwythos-9B-v2-GGUF",
+        "pipeline": "image-text-to-text",
+        "likes": 176,
+        "downloads": 105749,
+        "origin": "OTHER"
+      },
+      {
+        "id": "Wan-AI/Wan-Dancer-14B",
+        "pipeline": "image-to-video",
+        "likes": 118,
+        "downloads": 2408,
+        "origin": "OTHER"
+      },
+      {
+        "id": "GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking-GGUF",
+        "pipeline": "text-generation",
+        "likes": 117,
+        "downloads": 28012,
+        "origin": "ALLIED"
+      },
+      {
+        "id": "prism-ml/Ternary-Bonsai-27B-mlx-2bit",
+        "pipeline": "text-generation",
+        "likes": 115,
+        "downloads": 17869,
         "origin": "OTHER"
       }
     ],
