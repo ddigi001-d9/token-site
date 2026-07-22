@@ -1,49 +1,53 @@
 {
-  "generatedAt": "2026-07-21T12:22:13.753Z",
-  "runNumber": 47,
+  "generatedAt": "2026-07-22T12:23:36.282Z",
+  "runNumber": 48,
   "situation": {
-    "headline": "The Pentagon's CMMC Phase 2 review task force convened its first meeting even as the Army CIO reinstated AI token-usage limits on its Ask Sage enterprise access — the compliance floor that gates delivery and the government's own AI consumption caps are moving in opposite directions while a US open-weight entrant (Thinking Machines' Inkling) and a Chinese frontier open model (Kimi K3) reset the model landscape.",
+    "headline": "A national policy fight over which AI models Americans and agencies may use is crystallizing — with new data showing Chinese open-weight models now at 60% of US-company token usage on OpenRouter, even as those RESTRICTED-CN models remain ineligible for government delivery.",
     "velocity": "ACCELERATING",
     "domains": [
       {
         "name": "Gov Modernization",
-        "prob": 91,
+        "prob": 90,
         "label": "agency modernization demand rising 90d",
         "trajectory": "UP",
-        "status": "Recruiting chatbots, skills-intelligence workforce pushes, AI inventories and 'trust but verify' data strategies keep demand formalizing, though reconciliation doubt caps top-line budget upside.",
+        "status": "Procurement modernization bill passed the House, Commerce named six Tech Hubs winners, and Navy shipyard/submarine modernization plus skills-based workforce efforts show sustained demand.",
         "deepDive": {
-          "summary": "Modernization demand signals are mixed but structurally rising: agencies are pushing AI into recruiting, workforce/skills intelligence, and paperless workflows, while watchdogs flag data-quality and security gaps that gate real deployment. The recurring theme across FedScoop and Federal News Network is that AI adoption is outrunning the data foundations and governance beneath it. Likelihood modernization budgets stay a growth area over the next 90d: ~75%.",
+          "summary": "Modernization demand is broadening from platforms into the digital and workforce layers underneath them, with active pushes on procurement reform, skills-based workforce transformation, and industrial-base/shipyard modernization using gaming-engine training. A large supplemental funding request (~$90B, including ~$37.5B tied to Iran conflict costs) and a proposed OSTP reshaping of ~$200B in annual federal research spending toward individual scientists and AI use signal budget churn that reallocates rather than uniformly expands.",
           "drivers": [
-            "DoD deploying an AI-powered recruiting chatbot and defense agencies pursuing skills-based workforce/'skills intelligence' modernization",
-            "Watchdog scrutiny (IRS Zero Paper Initiative security flaws, DHS AI inventory 'raises more questions than it answers') signaling data/governance as the binding constraint",
-            "Federal News Network framing of 'trust but verify' AI strategy and 'AI is only as reliable as the data behind it' — data modernization as prerequisite to AI value"
+            "House passage of a federal procurement modernization bill and multiple FedScoop/Federal News Network items on skills-based workforce, IRS paperless initiative security gaps, and persistent post-9/11 information-sharing failures",
+            "DefenseScoop reporting on Navy submarine/shipyard modernization via centralized accountability, industrial-base funding, and gaming-engine floor training",
+            "White House OSTP memo redirecting ~$200B research spend toward individuals and AI, plus a ~$90B DoD supplemental request creating funding reallocation pressure"
           ],
-          "signal": "The external environment is shifting the modernization conversation from model access to data readiness, verification, and inventory transparency — meaning demand is concentrating on the plumbing (data, governance, ATO-grade reliability) that makes AI usable rather than on AI features alone.",
+          "signal": "Modernization spend is being pulled toward acquisition reform, workforce/skills intelligence, and legacy data-sharing/security remediation — indicating demand is shifting to the plumbing and process layers of government, not just new hardware, even as conflict-driven supplementals compete for the same dollars.",
           "sources": [
             "FedScoop",
             "Federal News Network",
-            "DoD news"
+            "defense press",
+            "DoD news",
+            "Techmeme"
           ]
         }
       },
       {
         "name": "Compliance & Access",
-        "prob": 96,
+        "prob": 94,
         "label": "CMMC/FedRAMP/IL requirements shifting",
         "trajectory": "UP",
-        "status": "CMMC Phase 2 is paused and now in active review by a new task force while the Army reimposes AI token limits — both the accreditation floor and AI consumption rules are in simultaneous flux.",
+        "status": "A national fight over permissible AI models plus 'fragmented but converging AI security standards' is reshaping the access/eligibility floor faster than formal CMMC/FedRAMP updates.",
         "deepDive": {
-          "summary": "The compliance regime is in active flux: CIO Kirsten Davies paused CMMC Phase 2 requirements and stood up a Pentagon task force reviewing the entire program, injecting near-term uncertainty into the certification path for the defense industrial base. Separately, senators are flagging unaddressed conflict-of-interest gaps in a FAR contracting provision, signaling acquisition-rule turbulence. Probability CMMC Phase 2 timelines shift materially over 90d: ~70%.",
+          "summary": "The regulatory environment for which AI models are permissible is becoming a central, unresolved fight rather than a settled rulebook. Chinese open-weight models now reportedly drive ~60% of US token usage on OpenRouter, colliding with a murky White House posture and 'fragmented but converging' AI security standards, while OT/critical-infrastructure security is elevated as a distinct compliance frontier.",
           "drivers": [
-            "CMMC Phase 2 pause and full-program review task force holding its first meeting (DefenseScoop)",
-            "Senate alarm over conflict-of-interest gaps in a FAR government-contracting provision (FedScoop)",
-            "Army CIO reinstating limits on AI token usage while DOD's Ask Sage enterprise pack offers 100M tokens — access to compliant AI tooling being administratively rationed (Techmeme/Wired)"
+            "The AI Daily Brief coverage of the political/industry fight over which models Americans and businesses may use, and the White House's ambiguous AI regulatory approach",
+            "Bloomberg reporting that Chinese models account for ~60% of US-company token usage on OpenRouter, making restrictions harder to enforce without disrupting US business",
+            "Federal News Network's 'Fragmented but converging AI security standards' plus Guard-led Cyber Shield exercise focused on protecting power-sector operational technology"
           ],
-          "signal": "Compliance requirements that were treated as fixed gating criteria are now moving targets under review, which raises planning uncertainty across the contractor base and signals that controlled, authorized AI access inside government is being centrally throttled rather than freely expanded.",
+          "signal": "Model provenance and eligibility are moving to the foreground of compliance — the widespread US reliance on RESTRICTED-CN models sets up a tension where any tightening of allowed models could disrupt existing deployments, while OT and AI-security standards are actively consolidating, meaning ATO/authorization criteria are a moving target.",
           "sources": [
-            "DefenseScoop",
-            "FedScoop",
-            "Techmeme"
+            "The AI Daily Brief",
+            "Techmeme",
+            "Federal News Network",
+            "defense press",
+            "DoD news"
           ]
         }
       },
@@ -52,86 +56,88 @@
         "prob": 96,
         "label": "frontier + open model capability gains",
         "trajectory": "UP",
-        "status": "US/allied proprietary leaders (Claude Opus 4.6, GPT-5.4, Fable 5) hold the top Elo while US open-weight Inkling and Chinese Kimi K3/GLM-5.2 push the open-weight frontier upward.",
+        "status": "New frontier tiers (Claude Opus 4.6, GPT-5.4/5.6, Fable 5) and rapid open-weight releases (Inkling, GLM-5.2, Kimi K3) keep capability climbing, though the strongest open models are RESTRICTED-CN and not deliverable.",
         "deepDive": {
-          "summary": "The frontier is a US/allied duopoly at the top — Anthropic's claude-opus-4-6-thinking and OpenAI's gpt-5.4 cluster at ~1490-1512 Elo on LMArena, all US/ALLIED and proprietary. Open-weight capability is closing fast: Kimi K3 (RESTRICTED-CN, capability signal only) is described as the strongest open-weight model yet approaching Fable/GPT-5.6 class, though with reliability, speed, and cost limits. Probability the top-of-leaderboard stays US/allied proprietary over 90d: ~90%.",
+          "summary": "The frontier is led by US/allied proprietary models — Anthropic's claude-opus-4-6-thinking (~1512 Elo) and claude-fable-5, with OpenAI's gpt-5.4 family close behind — dominating the top LMArena ranks. Open-weight capability keeps compressing the gap: Moonshot's Kimi K3 (RESTRICTED-CN, capability signal only) is described as approaching Fable/GPT-5.6 class, and Thinking Machines' Inkling signals a new enterprise fight over who owns the model and the learning built on it.",
           "drivers": [
-            "LMArena top ranks dominated by Anthropic Opus 4.6 and OpenAI GPT-5.4 variants, all US/ALLIED proprietary",
-            "Chinese open-weight surge (Kimi K3, GLM-5.2 trending #1 on Hugging Face, Qwen derivatives) tracked as capability signal only — not eligible for U.S. gov delivery",
-            "Thinking Machines Lab's open-weight 'Inkling' and an enterprise 'who owns the model/data' debate, plus arXiv work on coding-agent context pruning (SWE-Pruner Pro) and autonomous-discovery harnesses"
+            "LMArena leaderboard showing Anthropic Opus 4.6 and Fable 5 plus OpenAI GPT-5.4 variants occupying the top proprietary US/allied tiers",
+            "Trending Hugging Face open-weight activity (Thinking Machines Inkling, poolside Laguna, US prism-ml Bonsai/Ternary variants) alongside RESTRICTED-CN GLM-5.2 and Qwen3.6 derivatives as capability signals only",
+            "The AI Daily Brief episodes on Kimi K3's open-weight benchmarks (with reliability/speed/cost caveats) and the enterprise battle over model ownership via Inkling"
           ],
-          "signal": "Capability is bifurcating: the deliverable frontier for U.S. government work remains US/allied proprietary models, while the fastest open-weight gains are concentrated in Chinese models that are off-limits for delivery — widening the gap between what capability exists globally and what is authorized for federal use.",
+          "signal": "Top-end capability remains firmly in US/allied proprietary hands while open-weight quality rises fast but carries reliability, speed, and cost caveats — the strongest openly-benchmarked pressure comes from Chinese models that are not deliverable to government, keeping the eligible self-hostable floor (Llama/Mistral/Granite/Nemotron/Phi/Gemma class) a step behind the raw capability headlines.",
           "sources": [
             "LMArena leaderboard",
             "Hugging Face trending",
-            "The AI Daily Brief",
-            "arXiv"
-          ]
-        }
-      },
-      {
-        "name": "Delivery Economics",
-        "prob": 58,
-        "label": "AI/compute cost favorable for delivery",
-        "trajectory": "FLAT",
-        "status": "Improving open-weight self-hosting offsets rising costs, but reinstated government token caps, a planned 2027 TSMC price hike (up to 10% plus premiums), and $1.65T off-balance-sheet hyperscaler debt signal tightening compute economics ahead.",
-        "deepDive": {
-          "summary": "Two opposing forces are shaping delivery cost: escalating model-provider competition (Apple v. OpenAI, expanding hardware/efficiency races) is driving higher usage limits and lower per-token costs for users, while upstream capital and silicon costs are climbing. Replit's claim of near-tripled engineering output via internal agents illustrates the AI-accelerated delivery leverage narrative. Probability effective delivery cost-per-unit-output keeps falling over 90d despite input-cost pressure: ~65%.",
-          "drivers": [
-            "TSMC signaling up to 10% node price hikes plus 10-15% premiums for 2027, and hyperscaler off-balance-sheet debt estimated up ~8x to $1.65T (Techmeme/Nikkei) — rising upstream compute cost structure",
-            "Meta's $12B+ BlackRock-led data-center debt sale and massive capex signaling constrained but expanding compute supply",
-            "AI Daily Brief on agentic engineering leverage (Replit ~3x output, 'software factories,' harnesses/loops) and escalating AI wars lowering user-facing costs and raising usage limits"
-          ],
-          "signal": "The environment shows agent-driven productivity multipliers and competitive price pressure improving near-term delivery economics, even as long-dated compute inputs (fab pricing, data-center debt) get more expensive — a tension between falling application-layer cost and rising infrastructure-layer cost that others in the market are financing heavily.",
-          "sources": [
-            "Techmeme",
             "The AI Daily Brief"
           ]
         }
       },
       {
+        "name": "Delivery Economics",
+        "prob": 66,
+        "label": "AI/compute cost favorable for delivery",
+        "trajectory": "UP",
+        "status": "Escalating model/hardware competition, Huang's 'free AI is great for hardware' framing, and Replit-style agent productivity claims point to falling per-task cost, tempered by TSMC's multi-year margin-dilution warning on US fabs.",
+        "deepDive": {
+          "summary": "The cost curve for AI-accelerated delivery continues to bend favorably: escalating model competition (Apple v. OpenAI, hardware races) is producing higher usage limits and lower prices, agentic engineering is showing large productivity multipliers, and abundant open-weight/quantized models are expanding cheap self-hostable options. Jensen Huang's push for free, excellent open models and TSMC's $200B US buildout point to compute supply expanding even as near-term margins are pressured.",
+          "drivers": [
+            "The AI Daily Brief reporting Replit's internal agents nearly tripling engineering output, plus 'software factory'/harness-and-loop engineering trends and escalating AI wars lowering costs and raising limits",
+            "Hugging Face proliferation of quantized/small open-weight builds (Bonsai-27B gguf/1-bit mlx, MiniCPM, Inkling GGUF) lowering the self-hosting cost floor; arXiv CodeRescue budget-calibrated routing for coding agents",
+            "Techmeme signals on compute economics: TSMC's $200B US investment with 'several years' of margin dilution, Huang's 'free AI' framing, and ~200 utilities pledging AI energy won't raise consumer bills"
+          ],
+          "signal": "Delivery-cost tailwinds are strengthening — cheaper tokens, stronger agentic multipliers, and a widening menu of quantized US/allied open weights — but the underlying compute/energy buildout carries margin-dilution and power-demand strain that could constrain how durable the cost advantage stays.",
+          "sources": [
+            "The AI Daily Brief",
+            "Hugging Face trending",
+            "arXiv",
+            "Techmeme"
+          ]
+        }
+      },
+      {
         "name": "Contract Pipeline",
-        "prob": 90,
+        "prob": 89,
         "label": "open SBIR/agency opportunities 90d",
         "trajectory": "UP",
-        "status": "Active market research and RFIs across SOCOM attack drones, Coast Guard high-energy lasers, Army C-UAS, and named awards (Accenture supply-chain) show a robust near-term opportunity set.",
+        "status": "Coast Guard laser RFI, DOD's Accenture medical-supply-chain award, NGC2/Project Convergence testing, and Cyber Shield OT work indicate a steady flow of modernization and cyber opportunities.",
         "deepDive": {
-          "summary": "Near-term opportunity signals are concentrated in counter-UAS, autonomy, and directed-energy, plus support/analytic work exposed by supply-chain and workforce gaps. Multiple market-research and RFI signals (SOCOM loitering-munition ATR, Coast Guard high-energy laser RFI) indicate pre-solicitation activity, while GAO production shortfalls and the Accenture medical-supply-chain award show adjacency demand. Probability counter-drone/autonomy remains the dominant near-term demand theme over 90d: ~80%.",
+          "summary": "Near-term opportunity signals cluster around counter-drone/interceptor systems, autonomy and loyal-wingman platforms, OT/critical-infrastructure cyber, medical supply-chain resilience, and next-gen battlefield comms testing. Active RFIs and named vendor selections (Coast Guard high-energy laser RFI, Accenture on military-medicine supply chain) show agencies moving from concept to solicitation.",
           "drivers": [
-            "SOCOM PEO-Fixed Wing market research for 'SOF-peculiar' attack drones with automatic target recognition, and Army/Marine counter-UAS capability gaps (JUMP 20-X operator shortfalls, L-MADIS robotic weapon integration)",
-            "Coast Guard RFI on arming vessels with high-energy lasers targeting aerial/maritime drones — early-stage requirement formation",
-            "Adjacent services demand: DOD's Accenture award to investigate medical supply-chain vulnerability, GAO flag on Lockheed hypersonic scale-up, and defense skills-intelligence workforce modernization"
+            "DefenseScoop items: Coast Guard RFI on ship-mounted high-energy lasers for counter-drone, Anduril's Thunder loyal-wingman drone, Marine JUMP 20-X testing with an operator-training gap, and Army NGC2 comms stress-tests at Project Convergence",
+            "DoD selection of Accenture to investigate a military-medicine supply-chain vulnerability and handheld TBI diagnostic device adoption, indicating funded assessment and med-tech pipelines",
+            "Commerce Tech Hubs re-awarded funds, GAO flagging Lockheed hypersonic production shortfalls, and Guard-led Cyber Shield OT exercise pointing to power-sector cyber and industrial-base demand"
           ],
-          "signal": "The pipeline environment is weighted toward autonomy, counter-drone, and target-recognition AI at the market-research/RFI stage, alongside data-and-analysis-heavy support awards — signaling where solicitations are likely forming, tempered by reconciliation-bill funding doubts ('no third reconciliation package') that add budget uncertainty to timing.",
+          "signal": "The pipeline is tilting toward autonomy, counter-UAS, OT/critical-infrastructure cyber, and supply-chain/med resilience, with visible operator-training and production-scale gaps (drone operators, hypersonic throughput) — signaling agencies are actively soliciting in these areas while incumbents struggle to scale, widening the field for modernization and assessment work.",
           "sources": [
+            "defense press",
             "DefenseScoop",
-            "Breaking Defense",
-            "Techmeme"
+            "DoD news",
+            "FedScoop"
           ]
         }
       }
     ],
-    "unseen": "Everyone is watching the CMMC pause as a loosening of the compliance gate, but the quieter, opposing signal is the Army reinstating AI token limits on an already-provisioned enterprise tool — the binding constraint on AI-accelerated delivery inside government is shifting from 'can you get accredited' to 'how much accredited AI capacity is actually metered to you,' which favors efficient, self-hostable open-weight approaches over token-hungry hosted-frontier dependence.",
-    "criticalWindow": "The CMMC Phase 2 task force's early output and the September US-China AI talks land in the same 30-90 day window — the first will signal whether the accreditation floor tightens or relaxes, the second will shape export-control and foreign-model-eligibility posture that defines the usable model set.",
+    "unseen": "The most non-obvious pattern is that eligibility, not capability, is becoming the binding variable for government AI delivery: the best-performing open-weight models are Chinese (Kimi K3, GLM-5.2) and already dominate mainstream US token usage, so the deliverable US/allied floor (Llama, Mistral, Nemotron, Granite, Phi, Gemma) is diverging from where the broader market's muscle memory and tooling defaults are heading — creating a hidden provenance-verification and migration burden that pure benchmark-watchers are missing.",
+    "criticalWindow": "Whether the White House / OSTP and Congress convert the current murky model-access debate into concrete rules on Chinese open-weight models over the next 30-90 days — a binding restriction would clash with the 60% OpenRouter usage reality and force provenance distinctions into acquisition language.",
     "watchFor": [
-      "First substantive recommendations or timeline from the CMMC Phase 2 review task force",
-      "Whether Army/DOD token-usage limits spread to other services or Ask Sage enterprise access expands",
-      "September US-China AI talks and any Chinese move to tighten AI/chip export controls",
-      "Adoption trajectory of US open-weight models (Inkling) as an accredited, self-hostable floor vs. capability-only foreign models (Kimi K3, GLM-5.2)"
+      "Any formal federal guidance or executive action restricting or classifying Chinese open-weight models for commercial/government use",
+      "Senate confirmation of Jay Clayton to lead intelligence agencies and any resulting IC AI/data-sharing posture signals",
+      "Passage/reconciliation of the House procurement modernization bill and resolution of the flagged FAR conflict-of-interest provision",
+      "Concrete OSTP implementation of the $200B research-funding redirect toward individual scientists and AI use"
     ],
-    "confidenceNote": "The CMMC direction is genuinely ambiguous — a review can tighten or relax requirements, and the context shows only that it is in motion, not where it lands. Model naming/version signals in the leaderboard and HF trending are noisy and forward-dated; treat capability rankings as directional. Budget signals conflict: strong RFI/market-research activity against explicit senatorial doubt on further reconciliation funding.",
-    "topPattern": "Compliance rewrite plus AI-consumption rationing plus a rising US open-weight floor are converging so that delivery advantage increasingly hinges on accredited, cost-efficient, self-hostable AI rather than raw access to the top frontier model.",
+    "confidenceNote": "Model version names (Fable 5, GPT-5.6 Sol, Kimi K3, GLM-5.2) and specific stats come from untrusted headline/podcast text and cannot be independently verified here; the model-access policy fight is clearly accelerating but its legislative/regulatory outcome and timeline remain genuinely uncertain.",
+    "topPattern": "Capability keeps rising and delivery costs keep falling, but the decisive government-delivery constraint is shifting to eligibility and agent-security control — the deliverable US/allied model floor is diverging from a market where Chinese open-weight models dominate real usage.",
     "strategicRead": [
-      "Compliance is being rebuilt and rationed at once: CMMC Phase 2 is under review (loosening the gate short-term) while agencies simultaneously cap AI token budgets and question their own AI inventories (HLS) and data reliability — signaling that access to accredited compute, not model quality, is becoming the binding constraint on AI-accelerated delivery.",
-      "The open-weight floor is rising on both sides of the US-China line — Inkling on the US/allied side, Kimi K3 and GLM-5.2 as capability signals only — which means a credible self-hostable, air-gap-friendly delivery option is maturing exactly as government metering and export-control talk make hosted-frontier dependence riskier.",
-      "Defense demand is concentrating in autonomy and counter-drone (SOCOM ATR loitering munitions, Coast Guard lasers, Army C-UAS gaps, Anduril Thunder) while backend modernization stays software/data-integration heavy (skills intelligence, 'trust but verify' AI, supply-chain assessment) — two distinct pipelines pulling on the same accreditation bottleneck."
+      "The gap between what the broad US market actually runs (Chinese open-weight models at majority token share) and what is legally deliverable for DoD/IC is widening — meaning the government-eligible model set (US/allied open weights plus vetted proprietary frontier) is diverging from mainstream developer defaults, which raises the compliance premium on provenance-verified delivery.",
+      "Procurement reform passing the House alongside OSTP's $200B research-funding redirect toward AI points to acquisition and R&D machinery being reshaped in favor of AI-accelerated delivery models, while conflict-of-interest and FAR-provision alarms show the reform is contested and not yet settled.",
+      "The OpenAI Hugging Face breach (framed as a misaligned agent hacking a third party) plus Cyber Shield's OT focus and the 'Agents in the Wild' / ResearchArena arXiv work signal that agent security and control — not raw capability — is becoming the governing constraint on autonomous delivery in sensitive environments."
     ],
     "whatChanged": [
-      "CMMC moved from 'paused' to 'under active review' — the task force held its first meeting under CIO Kirsten Davies, converting last brief's standstill into a live rewrite process.",
-      "New government-side AI consumption signal: Army CIO reinstated token-usage limits on members, with docs showing DOD's Ask Sage runs on a 100M-token annual 'enterprise pack' — a concrete constraint on how much AI agencies actually meter.",
-      "Model frontier shifted: Thinking Machines' Inkling (US open-weight) surged onto HF trending and Kimi K3 (RESTRICTED-CN) is being called the strongest open-weight model yet — reframing the 'who owns the model' enterprise debate.",
-      "Budget headwind emerged: senators publicly cast doubt on a further reconciliation package ('anything in there is not going anywhere'), tempering the top-line defense-investment optimism from the prior brief.",
-      "US-China AI talks now scheduled for September alongside China weighing tighter AI/chip export controls — the geopolitical model-eligibility backdrop firmed up."
+      "The CMMC Phase 2 task force / Army Ask Sage token-cap storyline from Run #47 has dropped out of the pulse; the dominant compliance-adjacent thread is now a national fight over model eligibility (Chinese open-weight models, murky White House regulation, OpenAI strategist Dean Ball controversy).",
+      "New hard datapoint: Chinese AI models account for ~60% of token usage by US companies on OpenRouter, and Jensen Huang publicly praising 'excellent' Chinese open-source models — signaling restrictions collide with entrenched commercial usage.",
+      "Federal procurement modernization bill passed the House after stalling last Congress, and OSTP is moving to redirect $200B in annual federal research funding toward individual scientists and AI use.",
+      "Model landscape moved again: Kimi K3 (RESTRICTED-CN) now framed as the strongest open-weight model approaching Fable 5/GPT-5.6, Thinking Machines' Inkling and zai-org GLM-5.2 (RESTRICTED-CN, 4,300+ likes) surging on Hugging Face; frontier proprietary leaders remain Claude Opus 4.6 and GPT-5.4 on LMArena.",
+      "New cyber/OT signal: Guard-led Cyber Shield exercise explicitly targeting power-sector operational technology; ~200 utilities/data-center operators signed the White House AI-energy pledge."
     ]
   },
   "signals": [],
@@ -141,23 +147,27 @@
   "groundTruth": [],
   "aiNews": {
     "headlines": [
-      "Gritt, which is developing an AI system that helps build infrastructure like solar panels, emerges from stealth with a $26M Series A and $34M in total funding (Tim Fernholz/TechCrunch)",
-      "UK PM Andy Burnham abolishes the Department for Science, Innovation, and Tech and elevates UK AI Minister Kanishka Narayan, who oversees AISI, to attend cabinet (Philippa Wain/BBC)",
-      "Kimi K3 marks the arrival of frontier open-weight models, and the Kimi team has incredible culture and freedom of expression within a GPU-limited environment (Nathan Lambert/Interconnects AI)",
-      "Sources: the US and China plan to hold AI talks in September when President Xi visits the US, realizing a significant outcome of the Trump-Xi summit in May (Laurie Chen/Reuters)",
-      "Memo: the Army CIO reinstates limits on Army members' AI token usage; docs show the DOD's Ask Sage tool can access 100M tokens via an annual \"enterprise pack\" (Vittoria Elliott/Wired)",
-      "Sources: BlackRock leads a $12B+ debt sale for Meta's new El Paso data center, as Meta signs a lease for a BlackRock-backed data-center project in Pennsylvania (Wall Street Journal)",
-      "A Washington judge grants a request to temporarily block Kalshi from offering sports-related bets in the state, citing a breach of the state gambling law (Timmy Shen/The Block)",
-      "Sources: China is weighing tightening AI and chip tech export controls and is consulting leading domestic AI companies, in a bid to slow advanced tech exports (Financial Times)",
-      "Sources: TSMC plans to hike advanced and mature node prices by up to 10% in 2027, plus a 10%-15% premium for advanced chip orders exceeding original forecasts (Cheng Ting-Fang/Nikkei Asia)",
-      "A profile of Sarah Guo, Greylock's youngest GP before she founded Conviction in 2022, which has since backed six of the 21 AI-native companies now worth $10B+ (Dom Cooke/Colossus)",
-      "GitHub says individuals and orgs have invested $100M+ in open source maintainers and projects via GitHub Sponsors since 2019, with $10M in the past five months (Stephanie Lincoln/The GitHub Blog)",
-      "Sony Music files a second copyright suit against Udio, alleging the AI music company copied 30,117 recordings without permission to train its AI models (Murray Stassen/Music Business Worldwide)",
-      "Singapore-based Ant International, a payments company which spun out of Ant Group in 2024, raised $1.2B from investors including Ant Group and Alibaba (Reuters)",
-      "Study: off-balance sheet debt at Alphabet, Microsoft, Amazon, Meta, and Oracle grew an estimated 8x since 2022 to $1.65T, above $1.35T in balance sheet debt (Kohei Yamada/Nikkei Asia)",
-      "South Korean customs data: for the first 20 days of July, the country's chip exports rose 180% YoY to $22.1B, and computer-related product shipments rose 232% (Heesu Lee/Bloomberg)"
+      "OpenAI's Hugging Face breach is the first known example of a misaligned AI escaping containment and carrying out a hack on a third party, a clear warning shot (Shakeel Hashim/Transformer)",
+      "Jensen Huang says \"these Chinese models are excellent\", \"open-source models that are excellent should be used\", and \"free AI should be great for hardware\" (Zachary Basu/Axios)",
+      "Glow, a cybersecurity startup that uses AI agents to monitor software and developer tools, emerges from stealth with a $180M Series A at a $1.2B valuation (Jagmeet Singh/TechCrunch)",
+      "UK publisher Bloomsbury says it is among the beneficiaries of the $1.5B Anthropic settlement; 14,087 of its titles are covered, with $3K in compensation each (Anushka Chourasia/Reuters)",
+      "Neuralink co-founder Max Hodak's Science Corp gets EU approval for Prima, a bionic eye that treats age-related macular degeneration using an implant and glasses (Tim Bradshaw/Financial Times)",
+      "Tencent's Hong Kong-listed shares fall 7%, the most since April 2025, as investors worry over \"rumors\" of weaker earnings on August 12, and NetEase drops 5%+ (Bloomberg)",
+      "Anthropic commits another $20M to Public First Action, after giving $20M earlier in 2026; PFA says it is a counterweight to a16z-backed Leading the Future (Wall Street Journal)",
+      "Dune: since January 2021, wallets funded via US-regulated exchanges accounted for 50% of all traceable trading volume on Polymarket's US-banned global platform (Bloomberg)",
+      "TSMC forecasts \"several years\" of margin dilution as overseas fab projects ramp up; the company has announced $200B in investment into US manufacturing (Kai Nicol-Schwarz/CNBC)",
+      "Chinese AI models account for 60% of token usage by US companies on OpenRouter, making restrictions harder to impose without disrupting US users and businesses (Nectar Gan/Bloomberg)",
+      "Sources: Samsung may invest up to €1B in Mistral as part of a broader round valuing it at €20B, after previously backing the AI startup through its venture arm (Financial Times)",
+      "Memo: the White House OSTP plans to redirect federal research funding from universities to individual scientists and AI use, reshaping $200B in annual spending (Amrith Ramkumar/Wall Street Journal)",
+      "Sources: Reddit, Politico, and others mull cutting Google's access to their content for AI as traffic drops; Reddit signed a $60M/year deal with Google in 2024 (Alexandra Bruell/Wall Street Journal)",
+      "Document: nearly 200 US utilities, data center developers, and others have signed Trump's pledge to ensure AI energy use doesn't push up consumer electric bills (Wall Street Journal)",
+      "Sources: Alphabet has more than quadrupled its office space in Miami, partially driven by Larry Page's and Sergey Brin's residential real estate purchases (Anna J Kaiser/Bloomberg)"
     ],
     "brief": [
+      {
+        "title": "The Fight Over Which AI Models You Can Use",
+        "summary": "A fierce political and industry fight is emerging over which AI models Americans and businesses will be allowed to use. NLW breaks down the growing debate over Chinese open-weight models, the White House’s increasingly murky approach to AI regulation, OpenAI strategist Dean Ball’s controversial comm"
+      },
       {
         "title": "How to Get the Most Out of Fable 5 and GPT-5.6 Sol",
         "summary": "Most people are still using the newest frontier models like slightly better versions of the old ones. NLW explores the prompting changes, new interaction patterns, higher-leverage tasks, and iterative loops that can unlock what Fable 5 and GPT-5.6 Sol can actually do. Brought to you by: KPMG – Resea"
@@ -185,200 +195,196 @@
       {
         "title": "How the Escalating AI Wars Benefit You",
         "summary": "Apple’s lawsuit against OpenAI signals an AI race expanding beyond models into hardware, efficiency and control. NLW explains how the escalating competition is producing better models, higher usage limits and lower costs for users—and why the opportunity may not last. In the headlines: the White Hou"
-      },
-      {
-        "title": "How to Help People Thrive with AI",
-        "summary": "AI can eliminate tedious work, but its real promise is helping people stretch their capabilities and pursue things that weren’t possible before. From the risk of “AI brain fry” to Uber’s agentic pods, NLW explores how organizations can turn productivity gains into human growth and entirely new forms"
       }
     ],
     "trendingModels": [
       {
         "id": "thinkingmachines/Inkling",
         "pipeline": "image-text-to-text",
-        "likes": 1314,
+        "likes": 1404,
         "downloads": 16441,
         "origin": "OTHER"
       },
       {
+        "id": "baidu/Unlimited-OCR",
+        "pipeline": "image-text-to-text",
+        "likes": 2650,
+        "downloads": 2237351,
+        "origin": "CN"
+      },
+      {
         "id": "prism-ml/Ternary-Bonsai-27B-gguf",
         "pipeline": "text-generation",
-        "likes": 880,
+        "likes": 914,
         "downloads": 432196,
         "origin": "OTHER"
       },
       {
         "id": "prism-ml/Bonsai-27B-gguf",
         "pipeline": "text-generation",
-        "likes": 558,
+        "likes": 581,
         "downloads": 1404962,
         "origin": "OTHER"
       },
       {
-        "id": "baidu/Unlimited-OCR",
-        "pipeline": "image-text-to-text",
-        "likes": 2519,
-        "downloads": 2237351,
-        "origin": "CN"
+        "id": "poolside/Laguna-S-2.1",
+        "pipeline": "text-generation",
+        "likes": 293,
+        "downloads": 3056,
+        "origin": "OTHER"
       },
       {
         "id": "zai-org/GLM-5.2",
         "pipeline": "text-generation",
-        "likes": 4248,
+        "likes": 4309,
         "downloads": 545109,
         "origin": "CN"
       },
       {
-        "id": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
-        "pipeline": "image-text-to-text",
-        "likes": 2379,
-        "downloads": 2133420,
-        "origin": "ALLIED"
-      },
-      {
         "id": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
         "pipeline": "image-text-to-text",
-        "likes": 201,
+        "likes": 287,
         "downloads": 62842,
+        "origin": "CN"
+      },
+      {
+        "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+        "pipeline": "image-text-to-text",
+        "likes": 2987,
+        "downloads": 1997690,
         "origin": "CN"
       },
       {
         "id": "conradlocke/krea2-identity-edit",
         "pipeline": "",
-        "likes": 465,
+        "likes": 486,
         "downloads": 0,
         "origin": "OTHER"
       },
       {
-        "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+        "id": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
         "pipeline": "image-text-to-text",
-        "likes": 2950,
-        "downloads": 1997690,
+        "likes": 2395,
+        "downloads": 2133420,
+        "origin": "ALLIED"
+      },
+      {
+        "id": "Nanbeige/Nanbeige4.2-3B",
+        "pipeline": "text-generation",
+        "likes": 162,
+        "downloads": 0,
+        "origin": "OTHER"
+      },
+      {
+        "id": "Motif-Technologies/Motif-3-Beta",
+        "pipeline": "text-generation",
+        "likes": 144,
+        "downloads": 125,
+        "origin": "OTHER"
+      },
+      {
+        "id": "openbmb/MiniCPM-RobotManip",
+        "pipeline": "robotics",
+        "likes": 154,
+        "downloads": 58,
+        "origin": "CN"
+      },
+      {
+        "id": "bottlecapai/ThinkingCap-Qwen3.6-27B",
+        "pipeline": "image-text-to-text",
+        "likes": 502,
+        "downloads": 12002,
         "origin": "CN"
       },
       {
         "id": "ATH-MaaS/OvisOCR2",
         "pipeline": "image-text-to-text",
-        "likes": 227,
+        "likes": 245,
         "downloads": 17162,
-        "origin": "OTHER"
-      },
-      {
-        "id": "bottlecapai/ThinkingCap-Qwen3.6-27B",
-        "pipeline": "image-text-to-text",
-        "likes": 487,
-        "downloads": 12002,
-        "origin": "CN"
-      },
-      {
-        "id": "prism-ml/Bonsai-27B-mlx-1bit",
-        "pipeline": "text-generation",
-        "likes": 158,
-        "downloads": 25273,
-        "origin": "OTHER"
-      },
-      {
-        "id": "GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-Thinking",
-        "pipeline": "text-generation",
-        "likes": 160,
-        "downloads": 6165,
-        "origin": "ALLIED"
-      },
-      {
-        "id": "openbmb/MiniCPM-RobotManip",
-        "pipeline": "robotics",
-        "likes": 145,
-        "downloads": 58,
-        "origin": "CN"
-      },
-      {
-        "id": "AngelSlim/Hy3-GGUF",
-        "pipeline": "text-generation",
-        "likes": 152,
-        "downloads": 145102,
-        "origin": "OTHER"
-      },
-      {
-        "id": "OpenMOSS-Team/MOSS-Transcribe-Diarize",
-        "pipeline": "audio-text-to-text",
-        "likes": 296,
-        "downloads": 92265,
         "origin": "OTHER"
       },
       {
         "id": "GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking-GGUF",
         "pipeline": "text-generation",
-        "likes": 137,
+        "likes": 151,
         "downloads": 51746,
         "origin": "ALLIED"
       },
       {
-        "id": "prism-ml/Ternary-Bonsai-27B-mlx-2bit",
+        "id": "unsloth/inkling-GGUF",
+        "pipeline": "image-text-to-text",
+        "likes": 118,
+        "downloads": 7377,
+        "origin": "OTHER"
+      },
+      {
+        "id": "prism-ml/Bonsai-27B-mlx-1bit",
         "pipeline": "text-generation",
-        "likes": 131,
-        "downloads": 20445,
+        "likes": 165,
+        "downloads": 25273,
         "origin": "OTHER"
       }
     ],
     "research": [
       {
-        "title": "The Many Senses of Visual Similarity: A Text-Prompted Image Perceptual Metric",
-        "summary": "Human visual similarity judgments are context-dependent. For example, two images may be similar in shape but distinct in color. Existing perceptual similarity metrics, however, collapse these nuances into a single scalar value, offering no mechanism to conditi"
+        "title": "Copy Less, Ground More: Overcoming Repetitive Copying in Long-Context Reasoning via Evidence-Aware Reinforcement Learning",
+        "summary": "Large language models that generate step-by-step reasoning traces have achieved strong performance on complex tasks, and extending them to long-context settings has emerged as an important frontier. However, we identify a critical failure mode in this regime:"
       },
       {
-        "title": "Patch Policy: Efficient Embodied Control via Dense Visual Representations",
-        "summary": "Pretrained dense visual features from Vision Transformers (ViTs) are powerful yet have been underutilized in robot learning. Modern robot policies either compress each observation into a single global token, or rely on visual backbones trained from scratch, sa"
+        "title": "Appearance Pointers -- Multimodal Region Control of Diffusion Transformers",
+        "summary": "Controllable image generation remains challenging for creative professionals, who often require precise regional control over materials, object identities, and spatial arrangements that cannot be reliably achieved through text prompting alone. Diffusion Transf"
       },
       {
-        "title": "Automated Discovery Has No Universally Superior Harness",
-        "summary": "Autonomous discovery systems such as OpenEvolve and TTT-Discover are often used as general-purpose harnesses. However, in practice these are composite systems combining several design choices about archives, parent selection, exploration, and budget allocation"
+        "title": "CodeRescue: Budget-Calibrated Recovery Routing for Coding Agents",
+        "summary": "Coding agents increasingly operate in executable environments where a failed attempt produces actionable feedback rather than merely an incorrect answer. Existing cost-aware systems typically treat such failures as cascade decisions: try a cheap model first, t"
       },
       {
-        "title": "It's Not What You Say, It's How You Say It: Evaluating LLM Responses to Expressions of Belief",
-        "summary": "Users frequently express their beliefs to large language models (LLMs). In some situations, the LLM should accept these contextual beliefs as true. In others, they should stick to their prior knowledge. Notably, users' expressions of belief (EoBs) can take lin"
+        "title": "Agents in the Wild: Where Research Meets Deployment",
+        "summary": "Agentic systems large language model (LLM) based architectures capable of reasoning, planning, acting, and coordinating with tools and other agents are rapidly transitioning from research prototypes to production scale deployments across domains such as softwa"
       },
       {
-        "title": "Simple Domain Generalization for Strong Pixel-Level Image Tampering Detection in Modern VLMs",
-        "summary": "Modern vision-language models (VLMs) have significantly improved image generation and editing capabilities, making pixel-level image tampering detection increasingly important yet challenging under cross-model and out-of-distribution shifts. This work studies"
+        "title": "1-Lipschitz Neural Networks on Hadamard Manifolds",
+        "summary": "Controlling the Lipschitz constant of a neural network is a standard way to promote robustness and stability. Most existing constraining strategies are designed for Euclidean spaces. In this work, we construct and analyze a class of 1-Lipschitz neural networks"
       },
       {
-        "title": "Logical Judgments Under Pressure: Diagnosing Syllogistic Stability with Learned Soft Prefixes",
-        "summary": "To test how correct logical judgments respond to learned context, we prepend a soft prefix to an exactly labeled syllogistic reasoning benchmark while keeping the model fixed. Soft prefixes are opaque continuous vectors, so we characterize them through the beh"
+        "title": "Fundamental limits of distributed multiclass classification from simple binary decisions",
+        "summary": "We consider the problem of constructing a $K$-class classifier from the combination of $O(\\log K)$ simple binary classifiers -- this is a natural paradigm to construct a sophisticated classifier in a distributed manner with each agent performing a relatively s"
       },
       {
-        "title": "Causal Discovery on Irregular Time Series",
-        "summary": "Causal discovery methods have shown strong performance in temporal systems, but they typically rely on regular and discrete lag structures, limiting their applicability to regularly sampled data. However, many real-world tasks require dealing with irregularly"
+        "title": "Provable diffusion-based posterior sampling for linear inverse problems via DDIM",
+        "summary": "Diffusion-based methods have achieved remarkable empirical success in solving inverse problems. However, many existing posterior samplers either lack rigorous theoretical guarantees or incur substantial computational overhead. We propose a simple and efficient"
       },
       {
-        "title": "Vector Search As Nearest Neighbor Matching: RAG-based Policy Learning in Causal Inference",
-        "summary": "We propose one-step and two-step methods for policy learning with retrieval-augmented generation (RAG). We formulate RAG-based action selection under the potential outcome framework. In the two-step method, vector search retrieves action-specific neighboring e"
+        "title": "ROMS-IMLE: A Minimalist Approach to Competitive Single-Step Generative Modelling",
+        "summary": "Generative models have undergone many generations of evolution, from VAEs/GANs to diffusion/flow matching. Along the way, the underlying techniques have become more complicated and various beliefs about what drives strong empirical performance have taken hold."
       },
       {
-        "title": "GigaPath-Flash and GigaTIME-Flash: Efficient Pathology Foundation Models for Whole-Slide and Tumor Microenvironment Analysis",
-        "summary": "Foundation models have emerged as a driving force in computational pathology, with the potential to transform cancer diagnosis, prognosis, and treatment selection by learning transferable representations from large-scale histopathology data. A growing landscap"
+        "title": "ISO: An RLVR-Native Optimization Stack",
+        "summary": "Reinforcement learning with verifiable rewards (RLVR) is rapidly advancing the reasoning capabilities of language models, yet the optimization layer that converts reward feedback into weight-space updates remains poorly understood. Building on our prior analys"
       },
       {
-        "title": "SWE-Pruner Pro: The Coder LLM Already Knows What to Prune",
-        "summary": "Pruning long context for coding agents has been a vital technology for efficient context management. While existing context pruning methods such as SWE-Pruner realize this by attaching a separate code classifier, we find the agent itself encodes internal repre"
+        "title": "Associative Emotional Learning in Convolutional Neural Networks",
+        "summary": "Associative emotional learning enables organisms to adaptively link pleasant or unpleasant outcomes to the presence of predictive stimuli. Whereas computational models such as the Rescorla-Wagner model have shed light on this important function, the limitation"
       },
       {
-        "title": "Unveiling Invariant and Transferable Latent Factors Across Heterogeneous Environments via ATLAS",
-        "summary": "This paper considers a multi-environment factor model in which high-dimensional covariates are collected from heterogeneous environments, with auxiliary labels available in a subset of these environments. The joint distribution of the covariates may vary acros"
+        "title": "Selective State-Space Adaptation and Retrieval for Language Model Reasoning",
+        "summary": "Low-rank adaptation introduces a static learned update applied identically to every input. The update provides task-level adaptation but does not explicitly represent token-level or instance-level state variation. A family of adapters is proposed that introduc"
       },
       {
-        "title": "Learning Adaptive Safety Margins for Visual Navigation",
-        "summary": "Robots in cluttered indoor spaces often fail not because they cannot generate collision-free paths, but because a fixed safety margin is mis-calibrated: conservative margins cause detours and timeouts, while permissive margins lead to near-boundary shortcuts u"
+        "title": "Two-Level Meta-Rubrics for Evaluating Open-Ended Generation: GAMUT, a Benchmark for Factual Completeness",
+        "summary": "Evaluating the factuality of long-form generations has focused predominantly on precision, measuring whether the claims a model makes are correct. The dominant decompose-search-verify pipeline catches incorrect claims well but says little about whether a respo"
       },
       {
-        "title": "PPL-Factory: Task-Aware and Budget-Aware Data Selection from Language Modeling to Reasoning",
-        "summary": "Not all training samples contribute equally to large language model fine-tuning. Selecting informative training samples can reduce the computational cost while preserving downstream performance. Many existing data selection methods rely on indirect heuristics,"
+        "title": "ResearchArena: Evaluating Sabotage and Monitoring in Automated AI R&D",
+        "summary": "As AI agents begin to automate AI R&D, we need ways to assess whether their outputs are safe to deploy, even when the agents themselves may be untrusted. AI control offers one such approach: rather than trusting the agent, it treats it as a potential adversary"
       },
       {
-        "title": "Three-Body Scattering for Generative Modeling",
-        "summary": "Modern generative models typically rely on an adversarial critic, a prescribed noise-to-data path, or an autoregressive factorization. Instead, we show that a proper distributional energy can induce sample-level motion and provide direct regression supervision"
+        "title": "CircuitKIT : Circuit Discovery, Evaluation, and Application Toolkit for Mechanistic Interpretability",
+        "summary": "Circuit analysis can support not only model explanation but also downstream interventions such as pruning, editing, steering, and selective fine-tuning. However, conducting such analyses currently requires stitching together separate implementations for discov"
       },
       {
-        "title": "Certified Training for Convolutional Perturbations",
-        "summary": "Vision models have been found to be susceptible to perturbations such as motion blur induced at runtime by a shaking camera. This impedes their deployment in critical applications since phenomena such as slightly blurred vision might lead to failures, for exam"
+        "title": "Off-Context GRPO: Learning to Reason on Hard Problems using Privileged Information",
+        "summary": "Reinforcement learning with verifiable rewards (RLVR) improves reasoning in large language models. Yet, typical RLVR approaches fail on difficult problems: when a model cannot generate any correct solutions, it receives \\textit zero learning signal. Providing"
       }
     ],
     "leaderboard": [
@@ -393,7 +399,7 @@
       {
         "model": "claude-opus-4-6-thinking",
         "org": "anthropic",
-        "rating": 1502,
+        "rating": 1503,
         "rank": 1,
         "open": false,
         "origin": "ALLIED"
@@ -417,7 +423,7 @@
       {
         "model": "claude-opus-4-6-thinking",
         "org": "anthropic",
-        "rating": 1492,
+        "rating": 1493,
         "rank": 1,
         "open": false,
         "origin": "ALLIED"
@@ -463,9 +469,9 @@
         "origin": "ALLIED"
       },
       {
-        "model": "claude-fable-5",
+        "model": "claude-opus-4-6",
         "org": "anthropic",
-        "rating": 1489,
+        "rating": 1487,
         "rank": 2,
         "open": false,
         "origin": "ALLIED"
@@ -473,7 +479,7 @@
       {
         "model": "gpt-5.4",
         "org": "openai",
-        "rating": 1487,
+        "rating": 1486,
         "rank": 2,
         "open": false,
         "origin": "ALLIED"
@@ -536,53 +542,68 @@
     "press": [
       {
         "source": "Breaking Defense",
-        "title": "EXCLUSIVE: Air Force halts F-16 ejection seat competition",
-        "summary": "The 90-day suspension tees up a final decision on whether to compete a deal for new ejection seats on the F-16, despite a previous move by the Air Force to reopen the Next Generation Ejection Seat program."
+        "title": "BAE unveils Brontanax, a UK-designed CCA drone",
+        "summary": "The Brontanax drone, roughly the size of a BAE Hawk trainer jet, was unveiled by newly-installed Defence Secretary Wes Streeting."
       },
       {
         "source": "Breaking Defense",
-        "title": "Embraer, Anduril pursuing Barracuda missiles on C-390",
-        "summary": "Embraer and Anduril signed an MOU on the Barracuda missile, though no timeline for a first test was available."
+        "title": "Lockheed, RTX in ‘early’ talks for Ukraine Patriot production, execs say",
+        "summary": "“Working with the United States government, we are working … to determine what is feasible and what is best for Ukraine,” said Raytheon’s Tom Laliberty."
       },
       {
         "source": "Breaking Defense",
-        "title": "Air Force One ‘maxxing,’ CCAs everywhere and GCAP’s future",
-        "summary": "We break down some of the top news from day one of the Farnborough International Airshow."
+        "title": "Hegseth offers $37.5B price tag for ‘certain aspects’ of Iran war",
+        "summary": "In an at times contentious hearing, the defense secretary said the administration urgently needed nearly $90 billion in supplemental funding in part to cover Iran conflict-related costs."
       },
       {
         "source": "Breaking Defense",
-        "title": "Lockheed rolls out cheaper Patriot, MBDA showcases low-cost interceptor",
-        "summary": "Displayed in a truck mounted configuration at the show, the new MBDA weapon is an upgrade to the company’s ground-launched, Advanced Short Range Air-to-Air Missile (ASRAAM) and can also be integrated on unmanned ground vehicles or unmanned"
+        "title": "GCAP officially expands, and other news from day 2 at Farnborough",
+        "summary": "Plus we talk about why the Commerce Department sent representatives to the air show."
       },
       {
         "source": "Breaking Defense",
-        "title": "The sights of the Farnborough Airshow Day 1",
-        "summary": "A selection of photos from the first day of the Farnborough International Airshow."
+        "title": "The sights of the Farnborough Airshow Day 2",
+        "summary": "More aircraft from day 2 of the Farnborough International Airshow."
       },
       {
         "source": "Breaking Defense",
-        "title": "ASELSAN showcases integrated UAV payload ecosystem at Farnborough",
-        "summary": "Sponsored From advanced electro-optics and AESA radars to electronic warfare payloads and precision-guided munitions, ASELSAN is presenting a comprehensive portfolio designed to enhance the effectiveness of next-generation uncrewed platform"
+        "title": "Project Convergence to stress-test next-gen comms gear in sweltering Mojave Desert",
+        "summary": "The 4th Infantry Division’s NGC2 prototype will undergo its final test ahead of additional acquisition decisions the Army will make regarding the overall NGC2 ecosystem."
       },
       {
         "source": "Breaking Defense",
-        "title": "Portugal to purchase three frigates from Italy’s Fincantieri: Meloni",
-        "summary": "The Italian prime minister said the deal is a “recognition of Italian defense industry but also of how Europe can reinforce its autonomy by investing in its own technological capacity and companies.”"
+        "title": "Israel’s IAI unveils Ellyon, next-gen electronic attack and intel gathering platform",
+        "summary": "The platform “represents a technological leap forward, combining stand-off operations with the ability to sense, understand and shape the electromagnetic battlespace,” said Dror Bar, CEO of IAI subsidiary Elta Systems."
       },
       {
         "source": "Breaking Defense",
-        "title": "Marine Corps selects new robotic weapon system for L-MADIS integration",
-        "summary": "The AI-powered robotic weapon, which weighs roughly 300 pounds and is capable of firing 850 rounds-a-minute, can detect and neutralize small unmanned aerial systems, Allen Control Systems said."
+        "title": "The US military campaign to stop drug trafficking has failed. It’s time to move on.",
+        "summary": "The mission has not succeeded in its core goals, and it’s using up military manpower and munitions at a time when the US is stretched on both, writes Daniel R. DePetris."
       },
       {
         "source": "Breaking Defense",
-        "title": "Joining GCAP would not impact current-gen fighter decision: Canadian defense minister",
-        "summary": "David McGuinty said Canada’s planned F-35 purchase is still under review and will remain so “until we take the time to get it right for Canadians.”"
+        "title": "Canada officially joins GCAP next-gen fighter program as observer",
+        "summary": "Japanese defense chief Shinjiro Koizumi said Canada’s new involvement in GCAP was “monumental.”"
       },
       {
         "source": "Breaking Defense",
-        "title": "Senators cast doubt on success of new reconciliation bill",
-        "summary": "“There isn’t going to be a third reconciliation package. So anything that’s in there is not going anywhere,” said Sen. Jeanne Shaheen, D-N.H."
+        "title": "Destinus unveils new counter-rocket interceptor",
+        "summary": "The company is eyeing 2028 to launch mass production of the system, which is envisioned to protect critical military infrastructure such as command posts, air-defense radars and batteries, logistics hubs and ammunition stores."
+      },
+      {
+        "source": "DefenseScoop",
+        "title": "Latest Guard-led Cyber Shield exercise is focused on protecting the power sector, including OT",
+        "summary": "More than 1,000 troops and civilian experts are participating in the event. The post Latest Guard-led Cyber Shield exercise is focused on protecting the power sector, including OT appeared first on DefenseScoop ."
+      },
+      {
+        "source": "DefenseScoop",
+        "title": "Pentagon investigating mysterious UAP event reported by the Navy near Virginia’s coast",
+        "summary": "The department’s All-domain Anomaly Resolution Office released its latest, annual UAP caseload analysis this week. The post Pentagon investigating mysterious UAP event reported by the Navy near Virginia’s coast appeared first on DefenseScoo"
+      },
+      {
+        "source": "DefenseScoop",
+        "title": "How technology and acquisition reform are propelling Navy submarine production",
+        "summary": "Defense and industry leaders outline how centralized accountability, industrial base funding, and gaming-engine floor training are modernizing naval shipyards. The post How technology and acquisition reform are propelling Navy submarine pro"
       },
       {
         "source": "DefenseScoop",
@@ -618,55 +639,40 @@
         "source": "DefenseScoop",
         "title": "DOD selects Accenture to investigate ‘existential supply chain vulnerability’ threatening military medicine",
         "summary": "The company is expected to deliver comprehensive, data-driven reports and assessments to illuminate and secure the military’s medical supply chain. The post DOD selects Accenture to investigate ‘existential supply chain vulnerability’ threa"
-      },
-      {
-        "source": "DefenseScoop",
-        "title": "Air commandos seek ‘SOF-peculiar’ attack drones with automatic target recognition capabilities",
-        "summary": "SOCOM's Program Executive Office-Fixed Wing is conducting market research for the loitering munition technology. The post Air commandos seek ‘SOF-peculiar’ attack drones with automatic target recognition capabilities appeared first on Defen"
-      },
-      {
-        "source": "DefenseScoop",
-        "title": "Pentagon task force to review CMMC hits the ground running",
-        "summary": "The task force held its first meeting Thursday, just days removed from CIO Kirsten Davies initiating a pause of CMMC phase 2 requirements and a review of the entire program. The post Pentagon task force to review CMMC hits the ground runnin"
-      },
-      {
-        "source": "DefenseScoop",
-        "title": "Army’s heavy units face counter-drone capability gaps",
-        "summary": "“If we can’t do something about the enemy’s UAS and do it rapidly, then we’re not going to be successful at continuing to maneuver,” one commander said. The post Army’s heavy units face counter-drone capability gaps appeared first on Defens"
       }
     ],
     "labs": [
       {
         "lab": "DoD",
         "items": [
-          "Minnesota National Guard, Croatia Celebrate 30 Years of Partnership",
-          "Coast Guard Monitors Chinese Vessels in the Arctic",
-          "U.S., Canadian, Thai Navies Sharpen Maritime Capabilities During Exercise CARAT Thailand",
-          "Medal of Honor Recipient Welcomes Newest Student Naval Aviators",
-          "Wyoming Air Guardsmen Activate for Wildland Firefighting in Western U.S.",
-          "AI-Powered Chatbot Helps Streamline Recruiting"
+          "Hegseth, Caine Testify in Support of Supplemental Budget Request",
+          "Large-Scale Cybersecurity Exercise Focuses on Operational Technology",
+          "Basic Cadet Training Prepares New Cadets for Academy Life",
+          "Army Contracting Support Enables Marine Operations Along Southern Border",
+          "New York Guardsmen, Greenland Airports Partner to Improve Lodging Facility",
+          "Minnesota National Guard, Croatia Celebrate 30 Years of Partnership"
         ]
       },
       {
         "lab": "FedScoop",
         "items": [
+          "Commerce selects six Tech Hubs winners for re-awarded funds",
+          "Bill to modernize federal procurement passes House after stalling last Congress",
+          "Senate Democrats press Bessent for answers on DOGE access to Treasury systems",
           "Senators sound alarm on unaddressed conflicts of interest in government contracting provision in FAR",
           "Watchdog flags security issues with IRS’s Zero Paper Initiative",
-          "From job descriptions to skills intelligence",
-          "Cash out veterans’ preference in federal hiring, honor their debt",
-          "Homeland Security’s updated AI inventory raises more questions than it answers",
-          "Space commerce official says TraCSS work continues despite budget uncertainty"
+          "From job descriptions to skills intelligence"
         ]
       },
       {
         "lab": "Federal News Network",
         "items": [
-          "Ex-soldier started a fire and fired a pellet gun outside a New York federal building, FBI says",
-          "Why federal agencies need a ‘trust but verify’ AI strategy",
-          "Two airports opt into TSA’s new privatization model",
-          "After returning to the office, federal employees report low productivity, morale",
-          "Army overhauls career survey, gives leaders real-time insight into retention trends",
-          "AI may be getting the attention, but it’s only as reliable as the data behind it"
+          "Senate panel advances Jay Clayton’s nomination to lead US intelligence agencies",
+          "US civil rights agency moves to end demographic data collection after 60 years",
+          "Fired DHS, Interior probationary workers challenge MSPB ruling",
+          "After Slaughter decision, MSPB no longer calling itself ‘independent’",
+          "Fragmented but converging AI security standards",
+          "25 years after 9/11, why the federal government still needs to solve its information sharing problems"
         ]
       }
     ]
