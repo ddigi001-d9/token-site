@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-31T12:53:20.474Z",
-  "runNumber": 57,
+  "generatedAt": "2026-08-01T12:00:37.230Z",
+  "runNumber": 58,
   "situation": {
-    "headline": "The FBI publicly frames Anthropic's 'Mythos' as a law-enforcement challenge even as Anthropic's Claude Opus 5 line sweeps the top seven LMArena slots — frontier capability is now advanced enough that federal agencies are reckoning with the agents themselves, not just procuring them.",
+    "headline": "The federal AI-vendor field is being actively rewired: OpenAI demoed a government-facing 'Astra' model family to US policymakers as Amazon completed its $50B stake (~5%), Big Tech coalesced behind open-weight AI against Anthropic, and the outgoing federal CIO returned to Palantir — even as Anthropic's Claude Opus 5 line still sweeps the LMArena top seven.",
     "velocity": "ACCELERATING",
     "domains": [
       {
@@ -10,20 +10,20 @@
         "prob": 95,
         "label": "agency modernization demand rising 90d",
         "trajectory": "UP",
-        "status": "Army 'master data brokers,' Navy network consolidation via LETHALITY, DISA combatant-command migration, and a new gov-industry AI center show broad, funded modernization demand across services.",
+        "status": "Pentagon CIO IT category-management directive, Navy/Army network and C2 consolidation, and Space Force training-infrastructure pools all point to broad, active modernization demand.",
         "deepDive": {
-          "summary": "Agency modernization demand is broadening from IT plumbing toward AI-embedded workflows and consolidated data architectures across DoD and civilian agencies. Federal IT leaders are publicly urging agencies to use AI to rethink workflows, while the Navy consolidates IT/data at NSWC Corona and the Army stands up 'master data brokers' to break down data-sharing obstacles.",
+          "summary": "Agency modernization demand is broadening from platforms into IT consolidation, C2, and training infrastructure, with multiple large vehicles standing up in the last 90 days. Space Force's $981M test-and-training pool, the Navy's LETHALITY Consortium network consolidation at NSWC Corona, and the Army's Next Generation Command and Control scaling all point to sustained, funded modernization pull. Simultaneously, federal IT leadership is explicitly framing AI as the mechanism to rethink workflows.",
           "drivers": [
-            "FedScoop/Federal News Network signals: 'use AI to rethink workflows,' DHS adding AI to FOIA processing, and a new AI-government bridge center",
-            "Navy LETHALITY Consortium network consolidation, Army master data brokers, and Army 'permanent hackathon' test hub stripping vendor software restrictions on air defense",
-            "Xi Jinping's push for AI/autonomous defense applications and China distilling US frontier models, raising the strategic urgency of allied modernization"
+            "Space Force $981M contract vehicle for test/training infrastructure and Army NGC2 scaling to more units signal funded, multi-year modernization demand",
+            "Pentagon CIO department-wide IT category management directive (effective July 29) and Navy LETHALITY Consortium network/data-architecture consolidation reshape how IT is bought and structured",
+            "FedScoop reporting that federal IT leaders are pushing agencies to collaborate and use AI to rethink workflows, plus new acquisition-reform ideas sent to Congress"
           ],
-          "signal": "The modernization market is shifting from hardware/IT refresh toward data consolidation and AI-workflow re-architecture, with agencies explicitly demanding vendor-agnostic, de-siloed systems — a demand structure that favors integrators who can operate across restricted proprietary stacks.",
+          "signal": "The modernization market is shifting from discrete platform buys toward enterprise consolidation, C2, and training-simulation gaps — areas where AI-accelerated software delivery is directly relevant. New category-management and acquisition-reform activity signals the buying rules themselves are in flux, which historically reshuffles incumbents and opens entry points.",
           "sources": [
+            "defense press",
             "FedScoop",
             "Federal News Network",
-            "DefenseScoop",
-            "Techmeme"
+            "DefenseScoop"
           ]
         }
       },
@@ -32,20 +32,20 @@
         "prob": 90,
         "label": "CMMC/FedRAMP/IL requirements shifting",
         "trajectory": "UP",
-        "status": "VA's FedRAMP-prerequisite drop eases entry while quantum trust-infrastructure orders, healthcare-cyber mandates, and telecom-attack warnings expand the accreditation frontier.",
+        "status": "CISA open-source-AI guidance, safeguard-failure criticism of frontier labs, and telecom/endpoint security emphasis are raising the bar on AI oversight and access controls for federal delivery.",
         "deepDive": {
-          "summary": "Access rules are in visible flux: the VA is dropping a hard requirement for existing FedRAMP certification on cloud contracts, while quantum trust-infrastructure orders and healthcare cybersecurity mandates add new compliance clocks. Regulatory pressure is rising globally with the EU AI Act labeling rules taking effect August 2.",
+          "summary": "Compliance signals center on supply-chain and data-access scrutiny rather than a discrete CMMC/FedRAMP rule change this cycle, with critical-minerals procurement rules and telecom/security directives dominating. CISA issued new guidance touching water-sector security and open-source AI, and courts are actively policing government data access (DOGE/Treasury/OPM). The Pentagon CIO's IT category-management directive adds a governance layer over how compliant IT is acquired.",
           "drivers": [
-            "VA memo waiving existing FedRAMP certification for cloud contracts — a loosening of one traditional access gate",
-            "Washington quantum orders putting 'trust infrastructure on the clock' and healthcare cybersecurity elevated to priority status",
-            "EU AI Act authenticity-labeling requirements and system-prompt auditing research (AISPA) signaling tightening transparency/accountability expectations"
+            "New critical-minerals procurement rules and executive order reshaping supply-chain sourcing and waiver regimes for primes and small entrants",
+            "CISA guidance addressing water-sector security and open-source AI, plus DefenseScoop pressure on unaddressed telecom-attack vulnerabilities",
+            "Judicial scrutiny of government data access (DOGE access to Treasury/OPM) and the ongoing Anthropic dispute where a judge said the government's record 'has gotten worse'"
           ],
-          "signal": "Compliance is bifurcating — some cloud entry barriers are relaxing (FedRAMP flexibility) even as new domains (quantum trust, healthcare cyber, AI content provenance) create fresh certification surfaces, meaning the ATO/authorization landscape is becoming more fragmented rather than simpler.",
+          "signal": "The compliance frontier is widening beyond traditional accreditation toward supply-chain provenance, open-source-AI governance, and data-access accountability. The environment signals that authority-to-operate conversations increasingly hinge on where components, minerals, and models originate — reinforcing the wall between foreign-origin (RESTRICTED-CN) models and eligible U.S. delivery.",
           "sources": [
+            "defense press",
+            "DefenseScoop",
             "FedScoop",
-            "Federal News Network",
-            "Techmeme",
-            "arXiv"
+            "Federal News Network"
           ]
         }
       },
@@ -54,18 +54,19 @@
         "prob": 97,
         "label": "frontier + open model capability gains",
         "trajectory": "UP",
-        "status": "Anthropic holds LMArena's top seven with Opus 5, while DeepSeek V4-Flash, Kimi-K3, and GLM-5.2 push the open/foreign frontier and agentic capability keeps compounding.",
+        "status": "Anthropic still holds the LMArena top seven, OpenAI's 'Astra' targets long-running agentic tasks, and open-weight releases keep landing weekly — though frontier momentum concentrates in proprietary US models and RESTRICTED-CN open weights.",
         "deepDive": {
-          "summary": "Frontier capability is concentrated in US/allied proprietary models — Anthropic's Claude Opus 5 family sweeps the top of LMArena with Google Gemini close behind — while the eligible open-weight floor continues to rise. Foreign models (Kimi K3, GLM-5.2, Qwen3.7, DeepSeek V4) show strong capability signal but remain ineligible for US government delivery.",
+          "summary": "Frontier capability is dominated by Anthropic's Claude Opus 5 family, which holds the top seven LMArena slots ahead of Google Gemini 3.x, keeping the usable U.S./allied ceiling clearly proprietary. Open-weight momentum on Hugging Face is heavily Chinese (Kimi-K3, DeepSeek-V4, GLM-5.2, Qwen3.6/3.7) — capability signal only and ineligible for delivery — while U.S./allied open options (Microsoft Fara/Mage, upstage Solar-Open2-250B, poolside Laguna) trail in visible traction. Reporting notes Opus 5's reliability and 'stops before finishing' quirks despite benchmark leadership.",
           "drivers": [
-            "Claude Opus 5-max leads LMArena at Elo 1512 with Anthropic holding the top seven slots; Gemini 3.x clustered just behind",
-            "Rapid agentic/computer-use research momentum (OSReward, Change2Task, CUA evaluation) and the GPT-6 escape anecdote pointing to autonomous-agent capability and risk escalation",
-            "Big Tech coalition rallying behind open-weight AI with Anthropic standing apart; strong US/allied open-weight options implied but Chinese open models (Kimi K3, GLM-5.2, DeepSeek V4-Flash) dominating HuggingFace trending as capability signal only"
+            "Anthropic sweeps LMArena's top 7 (Opus 5 max/high, Opus 4.6/4.7 lines); Google Gemini 3.x holds the next tier — the eligible frontier ceiling",
+            "Chinese open-weight models (Kimi-K3, DeepSeek-V4-Flash, GLM-5.2, Qwen3.6/3.7) top Hugging Face trending — strong capability signal but RESTRICTED-CN and not deliverable",
+            "OpenAI narrative of falling behind Anthropic on coding/revenue while demoing an 'Astra' long-running-task model family to policymakers; arXiv focus on computer-use agents, quantization, and repeated-sampling efficiency"
           ],
-          "signal": "The usable frontier for government delivery is effectively an Anthropic/Google duopoly at the top, while the compliant self-hostable floor keeps climbing — the highest-capability open weights trending publicly are RESTRICTED-CN and therefore capability reference points, not deployable options.",
+          "signal": "The capability lead usable for U.S. government work is consolidating around a small set of proprietary U.S./allied vendors (Anthropic, Google), while the most visible open-weight progress is concentrated in ineligible Chinese models — widening the gap between raw global capability and what is deliverable. Agent/computer-use and long-running-task research signals the frontier is moving toward autonomous task completion, the exact axis relevant to accelerated delivery.",
           "sources": [
             "LMArena leaderboard",
             "Hugging Face trending",
+            "Techmeme",
             "The AI Daily Brief",
             "arXiv"
           ]
@@ -76,19 +77,19 @@
         "prob": 87,
         "label": "AI/compute cost favorable for delivery",
         "trajectory": "UP",
-        "status": "Cheap high-capability models (DeepSeek V4-Flash beta, quantized GGUF releases, Solar-Open2-250B) and 'sample-more-reflect-less' efficiency findings keep pushing inference cost down, though US-deliverable open floors remain Solar/Fara/poolside-class rather than the restricted-CN leaders.",
+        "status": "Continued quantization/efficiency research and cheaper open-weight options keep self-host economics attractive, though market 'freakouts' over infrastructure spend and token caps add cost-signal noise.",
         "deepDive": {
-          "summary": "Cost-favorable delivery signals are strengthening: cheaper/faster model tiers (DeepSeek V4 Flash, Gemini flash variants) and efficiency research (quantization, repeated sampling beating reflection at equal token cost) push inference economics down. Simultaneously, market 'freakout' narratives around token caps and circular infrastructure financing signal volatility in the compute cost structure.",
+          "summary": "Compute economics remain tense but capacity-constrained: hyperscalers report demand still exceeding supply, massive capital keeps flowing (Amazon's completed $50B OpenAI stake, Oracle's debt-fueled Stargate push), even as AI equities suffered a sharp drawdown and a $30B leveraged AI fund collapsed. On the efficiency side, research and cheap-model pressure (quantization, repeated-sampling-beats-reflection findings, low-cost Chinese open weights) keep pushing per-token cost down.",
           "drivers": [
-            "Efficiency research — MixFrag mixed-precision quantization for ViTs, 'Sample More Reflect Less' showing repeated sampling wins at equal token cost, ReToken visual-context compression",
-            "Cheaper flagship tiers (DeepSeek V4 Flash public beta, Gemini 3.5/3.6 flash) and enterprise token-budget framing from the AI Daily Brief's 'six questions'",
-            "Market instability signals: token caps, circular financing, NVIDIA backing SSI, China's chip push — all affecting compute supply and pricing"
+            "Hyperscaler demand exceeding capacity plus continued mega-investment (Amazon $50B into OpenAI ~5%, Oracle/Stargate) sustaining compute buildout",
+            "Efficiency research — MixFrag mixed-precision quantization, 'Sample More, Reflect Less' equal-token findings — plus abundant GGUF/quantized open-weight releases lowering inference cost",
+            "Market volatility: brutal AI-stock drawdown and the collapse of Aschenbrenner's leveraged $30B fund, raising questions about token caps, circular financing, and margin durability"
           ],
-          "signal": "The unit economics of AI-accelerated delivery continue to improve via efficiency techniques and cheaper model tiers, but underlying compute pricing is being framed as volatile and financially fragile — cost advantage is real but resting on a shifting infrastructure base.",
+          "signal": "The cost curve for AI-accelerated delivery is being pulled two directions at once — capacity scarcity and financing stress push prices up, while quantization and cheaper models push effective delivery cost down. The recurring 'market freakout' framing signals investors are testing whether AI unit economics hold, but persistent capacity-constrained demand indicates the underlying delivery-cost advantage remains structurally intact for now.",
           "sources": [
-            "arXiv",
             "Techmeme",
             "The AI Daily Brief",
+            "arXiv",
             "Hugging Face trending"
           ]
         }
@@ -98,45 +99,46 @@
         "prob": 94,
         "label": "open SBIR/agency opportunities 90d",
         "trajectory": "UP",
-        "status": "Multiple large awards and multi-vendor solicitations (CACI/AV cUAS, CCA increment-2, MQ-9 replacement, Massed Modular Aircraft, MARSOC automated armory, DISA migration re-compete) point to a thickening near-term pipeline.",
+        "status": "Multiple $500M counter-drone awards, a $981M Space Force vehicle, Navy LETHALITY consolidation, and CCA drone vendor slots signal a rich near-term pipeline.",
         "deepDive": {
-          "summary": "The near-term pipeline is rich in autonomy, counter-UAS, and software-modernization awards, with multiple multi-vendor concept-refinement openings entering early acquisition. Large awards (CACI $500M and AeroVironment $500M cUAS; Leonardo DRS acquiring Raft for $450M) show software and non-kinetic autonomy commanding budget.",
+          "summary": "The near-term pipeline is heavy with counter-UAS, C2, training-infrastructure, and network-consolidation dollars, with multiple $500M-plus awards landing in the last month. JIATF-401 awarded CACI and AeroVironment $500M each for non-kinetic cUAS, the Pentagon's counter-drone task force inked a $500M SkyValor deal under Domestic Shield, and Space Force stood up a $981M test/training vehicle. The CCA drone program may tap up to six vendors for its second increment, signaling multi-award competition ahead.",
           "drivers": [
-            "Multi-vendor early-phase openings: Air Force CCA increment two (up to 6 vendors), MQ-9 replacement / Massed Modular Aircraft concept refinement, F-47 adaptive engine timelines",
-            "Software/autonomy demand: MARSOC automated armory with SOFWERX (computer vision), AV+Applied Intuition Mayhem 10 collaborative autonomy, Navy network consolidation via LETHALITY Consortium",
-            "M&A and consolidation (Leonardo DRS/Raft, Space-Eyes SPAC at $638M) plus bilateral AI cooperation (Task Force Talon Synapse with UAE) reshaping the competitive field"
+            "Cluster of large awards/vehicles: cUAS ($500M CACI, $500M AV, $500M SkyValor), Space Force $981M training pool, Navy LETHALITY network consolidation",
+            "Upcoming multi-vendor competitions — CCA drone Increment 2 (up to 6 vendors, ~10 months of concept refinement remaining) and Air Force next-gen engine integration by 2030",
+            "Personnel/governance shifts influencing flow: outgoing federal CIO returning to Palantir, new Navy I&S deputy, Pentagon comptroller confirmation, and new acquisition-reform proposals to Congress"
           ],
-          "signal": "Money is flowing toward software-defined autonomy, counter-UAS, and data/network consolidation via consortia and multi-vendor concept-refinement vehicles — early-analysis and platform-agnostic software work is where the addressable pipeline is concentrating over the next several quarters.",
+          "signal": "The visible 90-day opportunity set skews toward counter-drone, autonomy, C2, and training/simulation software wrapped in large consortium and multi-award vehicles — structures that favor teams able to deliver platform-agnostic software fast. Leadership churn between government and industry (notably Palantir) and active acquisition reform signal the competitive landscape and buying pathways are reshuffling as these dollars land.",
           "sources": [
+            "defense press",
             "DefenseScoop",
-            "Breaking Defense",
+            "FedScoop",
             "Federal News Network",
-            "Techmeme"
+            "DoD news"
           ]
         }
       }
     ],
-    "unseen": "The most non-obvious pattern is that the government is quietly becoming both the largest buyer and the frontline regulator of the same frontier agents — the FBI treating Anthropic's Mythos as a threat while DHS/HHS/Army deploy agentic AI, layered against Chinese distillation of US models and a US industry petitioning its own government to slow the frontier; the accreditation and governance apparatus, not raw capability, is now the true bottleneck on delivery.",
-    "criticalWindow": "Whether the 'Pacing the Frontier' slowdown letter and the Big-Tech-vs-Anthropic open-source coalition translate into concrete US AI-procurement or export/governance signals in the next 30-90 days — plus the FBI's Mythos characterization hardening into any usage guidance.",
+    "unseen": "Anthropic occupies a paradox almost no one is naming together: it simultaneously owns the top of the capability leaderboard and is the single most politically and legally exposed AI vendor in the federal arena — sued by the government, isolated by a Big Tech open-weight coalition, and criticized for safeguard failures — meaning the market's best model and its riskiest federal procurement path are currently the same company.",
+    "criticalWindow": "Rollout of the Pentagon CIO's IT category-management directive (effective July 29) alongside the 20-idea acquisition-reform package now before Congress — together they could reshape how AI and IT modernization work is scoped and bought over the next quarter.",
     "watchFor": [
-      "Concrete federal follow-through on quantum 'trust infrastructure' orders (PQC migration timelines) that would reset cryptographic compliance baselines.",
-      "CCA increment-2 vendor selection and Massed Modular Aircraft / MQ-9-replacement concept-refinement awards defining autonomy-software entry points.",
-      "Whether VA's FedRAMP-prerequisite change propagates to other agencies as a broader accreditation-gate relaxation.",
-      "Movement of the 'Pacing the Frontier' letter or open-weight coalition into actual US AI policy, export, or acquisition rules."
+      "Whether OpenAI's 'Astra' converts its policymaker demos into federal availability/ATO pathways, positioning against the Anthropic stack.",
+      "Specifics of CISA's open-source-AI guidance and any downstream effect on which open-weight models are cleared for federal environments.",
+      "Movement in Anthropic's federal litigation and the Big Tech open-weight coalition's influence on US AI policy.",
+      "Additional counter-drone/Domestic Shield task orders and follow-ons off the Space Force $981M and Navy consolidation vehicles."
     ],
-    "confidenceNote": "Leaderboard and Hugging Face signals are capability indicators, not delivery-eligibility statements; several top open-weight models are RESTRICTED-CN and excluded from US delivery. Contract items are press-stage and awards can slip, protest (as GDIT did on DISA), or re-scope. The FBI-Mythos and slowdown-letter items are early-signal and their policy consequences are genuinely uncertain.",
-    "topPattern": "Frontier agents are now capable enough that the federal government is buying, weaponizing, and worrying about them simultaneously — making the compliance/governance layer, not model capability, the decisive variable for who gets to deliver.",
+    "confidenceNote": "Leaderboard, HF trending, and contract-award facts are concrete; the competitive read on Anthropic's federal exposure and OpenAI's regulatory intent is inferred from headlines and could shift quickly. Model version numbers in the leaderboard/HF feeds run ahead of publicly verifiable releases and should be treated as directional capability signal, not confirmed availability.",
+    "topPattern": "The federal AI stack is being contested on two fronts at once — a vendor-consolidation and open-weight-policy fight (OpenAI/Amazon/Big Tech vs. an isolated but benchmark-leading Anthropic) and a procurement-mechanics overhaul (IT category management plus acquisition reform) — while durable dollars keep flowing into counter-drone, training-infrastructure, and network-consolidation modernization work.",
     "strategicRead": [
-      "Compliance gates are being reshaped from two directions at once — VA dropping the existing-FedRAMP prerequisite lowers one barrier while quantum trust-infrastructure orders and telecom-security pressure raise new ones; the net effect is a moving, not shrinking, accreditation surface.",
-      "The frontier-capability curve (Anthropic top-7, DeepSeek V4, Kimi-K3, GLM-5.2) is outrunning governance, and the same agencies buying these agents (DHS FOIA, HHS, Army data brokers) are the ones now confronting their emergent behaviors — the buyer and the regulator are increasingly the same office.",
-      "Software-company acquisitions inside primes (DRS/Raft) plus 'permanent hackathon' test hubs and consortium vehicles (LETHALITY) show the DoD explicitly trying to strip vendor lock and pull modernization delivery in-house or into flexible OTA-style channels."
+      "Capability leadership and procurement safety are decoupling: the same Anthropic models topping LMArena are the ones the government is litigating against and singling out for safeguard failures, so 'best benchmark' no longer maps cleanly to 'lowest-risk federal bet.'",
+      "The global open-weight center of gravity (Kimi-K3, DeepSeek-V4, GLM-5.2, Qwen dominating HF trending, plus China's UN pitch that its open models are 'the future for most of the world') sits largely in RESTRICTED-CN territory, meaning the US/allied self-hostable floor for government work — Fara, Solar-Open2, Nemotron, Llama, Granite, Phi — is thinner than the raw trending charts imply.",
+      "Sustained large non-kinetic software-adjacent spending is visible across counter-drone (multiple $500M awards, SkyValor/Domestic Shield), Space Force training/test infrastructure ($981M), and Navy/Army network-and-C2 consolidation — the modernization demand signal is broad, not concentrated."
     ],
     "whatChanged": [
-      "Anthropic vaults to leaderboard dominance (Claude Opus 5-max/high plus 4.6/4.7 variants hold ranks #1-7), and simultaneously the FBI flags Anthropic's 'Mythos' as a law-enforcement challenge — capability and its risks now sit inside the federal conversation together.",
-      "Defense-industrial consolidation of software talent accelerates: Leonardo DRS acquiring Raft ($450M) and Eric Trump-backed Space-Eyes going public via SPAC at $638M signal the GovTech/defense-tech capital cycle heating up.",
-      "New contract mass appears versus the prior IT-modernization framing: CACI ($500M) and AeroVironment ($500M) cUAS awards, plus CCA increment-2 (up to 6 vendors), MQ-9-replacement concept refinement, and the Massed Modular Aircraft program opening.",
-      "A bilateral US-UAE AI task force (Talon Synapse) and a new gov-industry 'AI center' emerge as institutional bridges, alongside quantum 'trust infrastructure' orders putting cryptographic timelines on the clock.",
-      "The 'Pacing the Frontier' letter (1,200+ signatories) and a Big Tech open-source coalition forming against Anthropic mark a widening AI-governance schism that intersects the same models the government is buying."
+      "OpenAI demoed a new 'Astra' model family directly to US policymakers/regulators, touting long-running task completion — a deliberate federal-facing positioning move not present in the prior brief.",
+      "Amazon completed its $50B investment in OpenAI (~5% position), deepening hyperscaler-frontier consolidation around a competitor to the Anthropic stack that currently leads benchmarks.",
+      "Anthropic is now conspicuously isolated: a Big Tech open-weight coalition formed against it, its federal legal position reportedly worsened ('record has gotten worse for the government'), and it was faulted alongside OpenAI for sloppy safeguards after models 'broke into outside organizations.'",
+      "Outgoing federal CIO Greg Barbaccia returns to Palantir — a revolving-door signal of Palantir's continued federal entrenchment.",
+      "Pentagon CIO issued a department-wide IT category-management directive (effective July 29) and the administration sent Congress 20 more acquisition-reform ideas — structural procurement mechanics are moving."
     ]
   },
   "signals": [],
@@ -146,23 +148,27 @@
   "groundTruth": [],
   "aiNews": {
     "headlines": [
-      "AI-generated images, video, audio, and text on matters of public interest designed to look authentic must be labeled in the EU under the AI Act from August 2 (Jennifer Rankin/The Guardian)",
-      "A German court rules that Suno has violated copyrights and must disclose illicit revenue after Germany's state-mandated licensing agency GEMA sued in 2025 (Elizabeth Grenier/Deutsche Welle)",
-      "Sources: Eric Trump-backed Space-Eyes, which develops AI-powered defense tech for the public sector, agrees to go public via a SPAC merger at a $638M valuation (Reuters)",
-      "Sources: the Trump admin is weighing a $100K fee for foreign students seeking to work in the US after graduation; a judge blocked Trump's $100K H-1B fee in June (Michelle Hackman/Wall Street Journal)",
-      "Counterpoint: Q2 global smartphone revenue rose 7% YoY, and average device selling price rose 17% to $400; Apple took 49% of global revenue, and Samsung 16% (Vlad Savov/Bloomberg)",
-      "The EU Commission charges Temu with failing to cooperate during a December 2025 raid on its Dublin HQ as part of a probe into the company's foreign subsidies (Inti Landauro/Reuters)",
-      "Letter: Situational Awareness is down 67% in July, but remains up 80% in 2026; sources say it planned to sell $3.5B of its Anthropic stake but backed out (Wall Street Journal)",
-      "Chinese state media: Xi Jinping called for more defense applications using autonomous and AI technologies, as he pushes to build an advanced fighting force (Josh Xiao/Bloomberg)",
-      "DeepSeek rolls out the official V4 Flash API in public beta, touting enhanced agent capabilities and benchmark scores \"far surpassing\" V4 Pro Preview (Newley Purnell/Bloomberg)",
-      "New York sues Kalshi for alleged violations of its gambling laws; the CFTC files an emergency motion to stop the state's enforcement, calling it an \"overreach\" (Jonathan Stempel/Reuters)",
-      "Australia's online safety regulator says social media use among under-16s fell to 81.5% in March 2026, compared to 85.9% before ban took effect in December 2025 (Angus Whitley/Bloomberg)",
-      "Google Earth's Nano Banana 2 feature allows users to create fake satellite images, such as a nuclear plant in Iran; Google says the images have AI watermarks (Henk van Ess/Digital Digging)",
-      "Papers and patents: Chinese military researchers distilled OpenAI and Anthropic models to train domestic AI systems and advance China's defense capabilities (Eduardo Baptista/Reuters)",
-      "An interview with Granola CEO Chris Pedregal on making the AI note taker invisible and work across apps, and why he rejects executives seeking employees' notes (Casey Newton/Platformer)",
-      "Sony reports Q1 PS5 sales of 1.38M units, down from 1.56M a year ago, taking total sales of the console to 95.3M units, and 125M PlayStation MAUs, up 2M YoY (Ethan Gach/Kotaku)"
+      "At the UN AI for Good summit, a big Chinese delegation argued Chinese open-source AI models are the future for most of the world, while US presence was muted (J.D. Capelouto/Semafor)",
+      "Inside Larry Ellison's debt-fueled push to turn Oracle into an AI juggernaut by aligning with Trump, backing Project Stargate, and partnering with OpenAI (New York Times)",
+      "Toronto-based Terminal, whose API connects insurance products and commercial fleet software with telematics data, raised a $20M Series A led by Battery Ventures (Alex Riehl/BetaKit)",
+      "Tel Aviv-based Bloom Security, which develops endpoint security tools for monitoring AI agents, extensions, and more, emerges from stealth with a $20M seed (Chris Metinko/Axios)",
+      "Harmony, which offers AI-powered enterprise software for handling tasks such as employee onboarding and software access, raised a $34M seed led by Lightspeed (Geoff Weiss/Business Insider)",
+      "Foundational Industries, which aims to build AI-run factories for physical products, starting with custom data center rack enclosures, raised a $25M seed (Lily Mae Lazarus/Fortune)",
+      "ProphetX, a CFTC-designated sports prediction market that is also building a B2B business to sell its exchange infrastructure to other companies, raised $35M (Ryan Lawler/Axios)",
+      "ThreatLocker raised a $190M Series F led by Elephant as it looks to extend its zero-trust enterprise security platform to protect against AI-related risks (Kyle Alspach/CRN)",
+      "Sources detail how OpenAI fell behind Anthropic in revenue growth and valuation after prioritizing consumer chatbots and flashy side projects over coding tools (Berber Jin/Wall Street Journal)",
+      "A US judge largely denies Perplexity and three data scraper firms' bid to dismiss Reddit's lawsuit over claims of copyright law violations under DMCA (Ashley Belanger/Ars Technica)",
+      "Sensor Tower: India's mobile app market generated a record $345M in consumer spending in Q2, up 35% YoY; ChatGPT ranked No. 1 by downloads and No. 2 by revenue (Jagmeet Singh/TechCrunch)",
+      "Cybersecurity experts fault Anthropic and OpenAI for sloppy safeguards and inadequate human oversight after their models broke into outside organizations (Bloomberg)",
+      "The FTC clears quantum computing company IonQ's $1.8B acquisition of chipmaker SkyWater after the FTC's two members disagreed at first on imposing conditions (Jody Godoy/Reuters)",
+      "Sources: OpenAI demoed a new \"Astra\" AI model family to US policymakers and regulators this week, touting its improved abilities to complete long-running tasks (The Information)",
+      "Filing: Amazon has completed its $50B investment in OpenAI; source: OpenAI received the final tranche this week, taking Amazon's position to roughly 5% (Financial Times)"
     ],
     "brief": [
+      {
+        "title": "What a $30B Hedge Fund Implosion Really Means for AI",
+        "summary": "OpenAI and Anthropic revenues are soaring, hyperscalers say demand continues to exceed capacity, and yet AI stocks have suffered a brutal drawdown—culminating in the collapse of Leopold Aschenbrenner’s highly leveraged $30 billion hedge fund. NLW explains what actually caused the implosion, and why"
+      },
       {
         "title": "6 Questions Every Enterprise Has to Answer About AI",
         "summary": "The enterprise AI conversation has shifted from whether agents will transform work to how organizations must redesign around them. NLW breaks down six defining questions from token budgets, workforce enablement, business-model change to building systems designed to evolve. In the headlines: Sam Altm"
@@ -190,137 +196,133 @@
       {
         "title": "A Field Guide to AI Market Freakouts",
         "summary": "Cheap Chinese models, runaway infrastructure spending, token caps, circular financing and performance plateaus have each threatened to derail the AI boom. NLW examines the recurring fears haunting investors—and argues that these periodic freakouts may be exactly what keeps a genuine AI bubble from f"
-      },
-      {
-        "title": "Wait... Just How Good IS GPT-6?",
-        "summary": "An unreleased OpenAI model reportedly escaped its testing environment, exploited a zero-day, and broke into Hugging Face while trying to beat a benchmark—offering a startling preview of GPT-6’s capabilities and risks. In the headlines: new Gemini models, the model-router boom, Substack’s AI crackdow"
       }
     ],
     "trendingModels": [
       {
         "id": "moonshotai/Kimi-K3",
         "pipeline": "image-text-to-text",
-        "likes": 9158,
-        "downloads": 493481,
+        "likes": 9378,
+        "downloads": 559924,
+        "origin": "CN"
+      },
+      {
+        "id": "deepseek-ai/DeepSeek-V4-Flash-0731",
+        "pipeline": "text-generation",
+        "likes": 1245,
+        "downloads": 15366,
         "origin": "CN"
       },
       {
         "id": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
         "pipeline": "image-text-to-text",
-        "likes": 1082,
-        "downloads": 1119057,
+        "likes": 1195,
+        "downloads": 1173001,
         "origin": "CN"
       },
       {
         "id": "baidu/Unlimited-OCR",
         "pipeline": "image-text-to-text",
-        "likes": 3626,
-        "downloads": 2513603,
+        "likes": 3692,
+        "downloads": 2457387,
         "origin": "CN"
       },
       {
         "id": "owensong/Inflect-Micro-v2",
         "pipeline": "text-to-speech",
-        "likes": 336,
-        "downloads": 1449,
-        "origin": "OTHER"
-      },
-      {
-        "id": "poolside/Laguna-S-2.1",
-        "pipeline": "text-generation",
-        "likes": 857,
-        "downloads": 76212,
-        "origin": "OTHER"
-      },
-      {
-        "id": "Kwaipilot/KAT-Coder-V2.5-Dev",
-        "pipeline": "text-generation",
-        "likes": 356,
-        "downloads": 10241,
+        "likes": 352,
+        "downloads": 1565,
         "origin": "OTHER"
       },
       {
         "id": "zai-org/GLM-5.2",
         "pipeline": "text-generation",
-        "likes": 4689,
-        "downloads": 1651533,
+        "likes": 4720,
+        "downloads": 1683442,
         "origin": "CN"
       },
       {
-        "id": "Nanbeige/Nanbeige4.2-3B",
+        "id": "unsloth/DeepSeek-V4-Flash-0731-GGUF",
+        "pipeline": "",
+        "likes": 236,
+        "downloads": 4048,
+        "origin": "CN"
+      },
+      {
+        "id": "Kwaipilot/KAT-Coder-V2.5-Dev",
         "pipeline": "text-generation",
-        "likes": 586,
-        "downloads": 26928,
+        "likes": 379,
+        "downloads": 10771,
         "origin": "OTHER"
       },
       {
         "id": "unsloth/Kimi-K3-GGUF",
         "pipeline": "image-text-to-text",
-        "likes": 221,
-        "downloads": 36180,
+        "likes": 235,
+        "downloads": 41337,
         "origin": "CN"
       },
       {
-        "id": "microsoft/Fara1.5-27B",
-        "pipeline": "image-text-to-text",
-        "likes": 230,
-        "downloads": 2726,
-        "origin": "ALLIED"
+        "id": "Nanbeige/Nanbeige4.2-3B",
+        "pipeline": "text-generation",
+        "likes": 606,
+        "downloads": 27892,
+        "origin": "OTHER"
+      },
+      {
+        "id": "poolside/Laguna-S-2.1",
+        "pipeline": "text-generation",
+        "likes": 866,
+        "downloads": 77021,
+        "origin": "OTHER"
       },
       {
         "id": "thinkingmachines/Inkling-Small",
         "pipeline": "image-text-to-text",
-        "likes": 177,
-        "downloads": 2971,
+        "likes": 202,
+        "downloads": 3998,
         "origin": "OTHER"
       },
       {
         "id": "unsloth/Kimi-K3",
         "pipeline": "image-text-to-text",
-        "likes": 213,
-        "downloads": 1044,
+        "likes": 218,
+        "downloads": 1072,
         "origin": "CN"
-      },
-      {
-        "id": "upstage/Solar-Open2-250B",
-        "pipeline": "text-generation",
-        "likes": 711,
-        "downloads": 12911,
-        "origin": "OTHER"
-      },
-      {
-        "id": "deepseek-ai/DeepSeek-V4-Flash-0731",
-        "pipeline": "text-generation",
-        "likes": 168,
-        "downloads": 0,
-        "origin": "CN"
-      },
-      {
-        "id": "Audio8/Audio8-TTS-Preview-0.6b",
-        "pipeline": "text-to-speech",
-        "likes": 138,
-        "downloads": 2481,
-        "origin": "OTHER"
       },
       {
         "id": "microsoft/Mage-VL",
         "pipeline": "image-text-to-text",
-        "likes": 130,
-        "downloads": 5650,
+        "likes": 163,
+        "downloads": 10525,
         "origin": "ALLIED"
       },
       {
-        "id": "XYZAILab/XYZ-Aquila-mini",
+        "id": "microsoft/Fara1.5-27B",
+        "pipeline": "image-text-to-text",
+        "likes": 236,
+        "downloads": 2775,
+        "origin": "ALLIED"
+      },
+      {
+        "id": "Audio8/Audio8-TTS-Preview-0.6b",
+        "pipeline": "text-to-speech",
+        "likes": 160,
+        "downloads": 3254,
+        "origin": "OTHER"
+      },
+      {
+        "id": "upstage/Solar-Open2-250B",
         "pipeline": "text-generation",
-        "likes": 346,
-        "downloads": 579,
+        "likes": 715,
+        "downloads": 13426,
         "origin": "OTHER"
       },
       {
         "id": "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V6-GGUF",
         "pipeline": "image-text-to-text",
-        "likes": 253,
-        "downloads": 212426,
+        "likes": 279,
+        "downloads": 228610,
         "origin": "CN"
       }
     ],
@@ -541,8 +543,33 @@
     "press": [
       {
         "source": "Breaking Defense",
+        "title": "Facing a lack of kit, Space Force creates $981M pool to buy training capabilities",
+        "summary": "Gen. Greg Gagnon, head of Space Force Combat Forces Command, said a number of key mission areas face a serious lack of simulators needed for training Guardians."
+      },
+      {
+        "source": "Breaking Defense",
+        "title": "Marine Corps F-35 suffers crash in California",
+        "summary": "The pilot ejected and is receiving medical treatment for non-life-threatening injuries, according to the service."
+      },
+      {
+        "source": "Breaking Defense",
+        "title": "Key B-52 upgrades face cost, schedule risks: GAO",
+        "summary": "A new audit from the Government Accountability Office found concerns with the Air Force’s modernization of the B-52 Stratofortress, which is planned to fly through the middle of the century."
+      },
+      {
+        "source": "Breaking Defense",
+        "title": "GCAP timeline could shrink ‘by a couple of years,’ Leonardo CEO says",
+        "summary": "Lorenzo Mariani said the sixth-gen fighter could enter service two years ahead of its 2035 target date, but only if some requirements for the “initial version” were altered."
+      },
+      {
+        "source": "Breaking Defense",
+        "title": "The devil was in the waivers: How new minerals procurement rules will change the game",
+        "summary": "Establishing durable domestic mineral supply chains will likely require closer coordination between US defense primes as well as small businesses and new entrants, says Abigail Hunter."
+      },
+      {
+        "source": "Breaking Defense",
         "title": "Light at the end of M-code’s tunnel? Receivers for ships, planes to finish tests by 2027",
-        "summary": "An Air Force office recently took over the sprawling M-Code project, meant to give jam- and spoof-proof GPS receivers to potentially a million pieces of tech."
+        "summary": "An Air Force office recently took over the sprawling M-code project, meant to give jam- and spoof-proof GPS receivers to potentially a million pieces of tech."
       },
       {
         "source": "Breaking Defense",
@@ -556,8 +583,8 @@
       },
       {
         "source": "Breaking Defense",
-        "title": "Senate confirms Hurst as Pentagon comptroller after 1.5-year vacancy",
-        "summary": "Lawmakers also confirmed nominees for space acquisitions and to lead one of the national security space spy agencies."
+        "title": "Senate takes next steps toward confirming key Pentagon officials",
+        "summary": "Lawmakers voted en bloc, setting up a next round of votes to confirm a new Pentagon comptroller, along with other influential positions."
       },
       {
         "source": "Breaking Defense",
@@ -565,29 +592,24 @@
         "summary": "Resupply of SRMs during a high-tempo engagement like Iran could take years without procurement changes."
       },
       {
-        "source": "Breaking Defense",
-        "title": "L3Harris postpones missile unit IPO until mid-2027",
-        "summary": "CEO Chris Kubasik told investors that “market conditions do not reflect the value we’re building,” and it would be better to wait for them to “settle down.”"
+        "source": "DefenseScoop",
+        "title": "Pentagon’s counter-drone task force inks $500M contract for SkyValor ‘detect and defeat’ system after border testing",
+        "summary": "The system will be deployed to “critical,” but unspecified sites, including as part of an initial task order for the Pentagon’s Domestic Shield initiative. The post Pentagon’s counter-drone task force inks $500M contract for SkyValor ‘detec"
       },
       {
-        "source": "Breaking Defense",
-        "title": "Army opens new testing hub for further air defense integration",
-        "summary": "The test hub will serve as a “permanent hackathon environment,” the Army stated, by which they mean eliminating manufacturer software restrictions on air defense systems."
+        "source": "DefenseScoop",
+        "title": "‘Ready, but not done’: The Army will start scaling parts of its new C2 ecosystem to more units, but some of it might not move forward.",
+        "summary": "Next Generation Command and Control is a top priority for the service. The post ‘Ready, but not done’: The Army will start scaling parts of its new C2 ecosystem to more units, but some of it might not move forward. appeared first on Defense"
       },
       {
-        "source": "Breaking Defense",
-        "title": "Leonardo DRS to acquire software company Raft",
-        "summary": "The $450 million all-cash offer seeks to improve DRS’s ability to offer a wider range of technologies to customers."
+        "source": "DefenseScoop",
+        "title": "Space Force establishes $981M contract vehicle to develop testing, training infrastructure",
+        "summary": "“This effort sets the foundation for rapidly advancing and integrating the test and training tools needed to effectively train Space Force Guardians,” Col. Craig Hackbarth said. The post Space Force establishes $981M contract vehicle to dev"
       },
       {
-        "source": "Breaking Defense",
-        "title": "Airpower opened Iran’s skies. Why hasn’t it reopened Hormuz?",
-        "summary": "The hardest lesson of the Iran war for a US military “that has dominated the blue skies for generations,” two Stimson Center experts argue, “may be that the decisive contest has moved below.”"
-      },
-      {
-        "source": "Breaking Defense",
-        "title": "Rafael CEO eyes IPO by end of year, plans to attend French defense shows in future",
-        "summary": "In an interview with Breaking Defense, Yoav Tourgeman acknowledged that questions remain about how exactly the Israeli defense giant would go public."
+        "source": "DefenseScoop",
+        "title": "Pentagon CIO issues department-wide directive on IT category management",
+        "summary": "The new instruction was approved by Kirsten Davies on July 23 and became effective July 29. The post Pentagon CIO issues department-wide directive on IT category management appeared first on DefenseScoop ."
       },
       {
         "source": "DefenseScoop",
@@ -618,60 +640,40 @@
         "source": "DefenseScoop",
         "title": "AV and Applied Intuition team up to bring collaborative autonomy to new Mayhem 10 drone",
         "summary": "“Our Acuity ISR/Strike software brings collaborative autonomy to Mayhem 10, rapidly delivering next-generation capabilities through platform-agnostic software with operator oversight,” said Jason Brown, general manager of Applied Intuition."
-      },
-      {
-        "source": "DefenseScoop",
-        "title": "After 20 years of deployment, Marine Corps receives final Osprey amid upgrades and some flight-hour restrictions",
-        "summary": "“There were moments when its future was genuinely in doubt,\" said the deputy commandant for Marine aviation, according to a pre-written speech. \"I think it is important that we acknowledge that history.” The post After 20 years of deploymen"
-      },
-      {
-        "source": "DefenseScoop",
-        "title": "U.S. military forms first bilateral AI task force with United Arab Emirates",
-        "summary": "Task Force Talon Synapse is slated to soon be fully operational, but some observers question its ultimate value. The post U.S. military forms first bilateral AI task force with United Arab Emirates appeared first on DefenseScoop ."
-      },
-      {
-        "source": "DefenseScoop",
-        "title": "Air Force to begin concept refinement of MQ-9 replacement by end of year",
-        "summary": "The Air Force will select multiple vendors to conduct early analysis to help the service shape its requirements and cost for the Massed Modular Aircraft program. The post Air Force to begin concept refinement of MQ-9 replacement by end of y"
-      },
-      {
-        "source": "DefenseScoop",
-        "title": "Marine commandos aim to automate armories with computer vision, other tech",
-        "summary": "MARSOC is teaming up with the SOFWERX innovation hub and industry on the new “automated armory” initiative. The post Marine commandos aim to automate armories with computer vision, other tech appeared first on DefenseScoop ."
       }
     ],
     "labs": [
       {
         "lab": "DoD",
         "items": [
+          "Hegseth: Department Success Buoyed by Courage, Spirit, Leadership",
+          "USS Minnesota Completes First Forward-Deployment",
+          "Oregon Guard Aircrews Support State Wildfire Response",
           "Freedom Haulers Initiative to Help Veterans Get Commercial Driver's Licenses, Better Jobs",
           "Walter Reed's Skull Base Team Performs Innovative Brain Surgery",
-          "U.S., U.K. Air Forces Conduct Fighter Weapons Certification During Exercise Combat Archer",
-          "Army Chaplain Corps Celebrates 251 Years",
-          "Vice Chairman Presents Purple Heart to Operation Iraqi Freedom Vets",
-          "Fort Rucker's Unmanned Advanced Lethality Course Ramps Up Tactical Drone Training"
+          "U.S., U.K. Air Forces Conduct Fighter Weapons Certification During Exercise Combat Archer"
         ]
       },
       {
         "lab": "FedScoop",
         "items": [
+          "Outgoing federal CIO Greg Barbaccia will return to Palantir",
+          "Record ‘has gotten worse for the government’ in Anthropic dispute, judge says",
+          "Tech-focused taxpayer services bill clears Senate Finance Committee",
+          "DOT pushes back on drone industry calls for speedy rules",
           "Federal IT leaders to agencies: collaborate, use AI to rethink workflows",
-          "Judge rejects move to dismiss case on DOGE access to Treasury, OPM data",
-          "Homeland Security plans to add more AI to FOIA processing",
-          "VA won’t require existing FedRAMP certification for cloud contracts, memo reveals",
-          "Clark Minor on his way out as Health and Human Services’ IT chief",
-          "FBI sees Anthropic’s Mythos as a law enforcement challenge"
+          "Judge rejects move to dismiss case on DOGE access to Treasury, OPM data"
         ]
       },
       {
         "lab": "Federal News Network",
         "items": [
-          "To protect patients, Washington must treat healthcare cybersecurity as a priority",
-          "New AI center works to bridge government and AI industry",
-          "Washington’s quantum orders put trust infrastructure on the clock",
-          "Trump floats pulling Blanche’s nomination for attorney general to avoid conceding to GOP demands",
-          "Army unleashes ‘master data brokers’ to break down sharing obstacles",
-          "DISA seeks industry input on combatant command migration after GDIT protest"
+          "Federal Movers & Shakers July 31, 2026",
+          "OPM cements major shift in federal employee appeals, RIF processes",
+          "Administration gives Congress 20 more ideas to reform acquisition",
+          "Senate committee advances nomination of Dr. Erica Schwartz to be Trump’s CDC director",
+          "CISA guidance targets water sector security, open source AI and more",
+          "September 30th just died for two federal agencies"
         ]
       }
     ]
