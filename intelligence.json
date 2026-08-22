@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-21T11:21:38.634Z",
-  "runNumber": 78,
+  "generatedAt": "2026-08-22T11:17:20.925Z",
+  "runNumber": 79,
   "situation": {
-    "headline": "A DoD acquisition 'reset' (Feinberg pricing/direct-software directive plus DIU's new Bridge Program) is pushing faster commercial tech transition just as GAO flags information gaps threatening the NGC2 network modernization that anchors the agentic-battlefield buildout.",
+    "headline": "The Army is operationalizing agentic cyber (a task force building AI agents to 'hunt' inside DoD networks) while simultaneously demanding those agents be cost-bounded and non-vulnerable — turning secure, token-efficient agent orchestration into a named defense requirement backed by calls for dedicated AI funding.",
     "velocity": "ACCELERATING",
     "domains": [
       {
@@ -10,61 +10,61 @@
         "prob": 92,
         "label": "agency modernization demand rising 90d",
         "trajectory": "UP",
-        "status": "NSSTS elevates AI, SSA opens an enterprise AI strategy, and NETCOM/Army network-digital-twin demand keeps modernization pull strong despite NGC2 integration friction.",
+        "status": "Army network digital-twin ambitions, NGC2, MH-60 modernization and multiple cyber-AI initiatives keep modernization demand broad and rising.",
         "deepDive": {
-          "summary": "Agency modernization demand is broadening across networks, cyber, and enterprise AI, with the Army pushing digital twins, commercial EW fielding, and next-gen command and control, while civilian agencies (SSA, DHS, VA) signal fresh AI-strategy and EHR modernization spend. A new White House National Security S&T Strategy explicitly elevates AI (alongside undersea and space) as a top military tech priority, framing demand at the strategy level.",
+          "summary": "Agency modernization demand is broadening across cyber, network, and battlefield C2 lines, with the Army explicitly seeking AI-driven digital twins for network training/testing and AI 'hunt' agents inside the DoD network. SPACECOM's warfighter-first 2040 planning, NGC2 network modernization scrutiny, and Navy/MH-60 prototype work all point to sustained multi-domain modernization pull. Probability that AI-integrated network and cyber modernization remains a top-funded theme through the next 90 days: ~85%.",
           "drivers": [
-            "NETCOM's call for an AI-enabled network digital twin and GAO warnings on Army NGC2 information gaps show large network/C2 modernization programs advancing but with execution friction",
-            "Civilian side momentum: SSA seeking an enterprise AI strategy, VA-Oracle EHRM ceiling raised to ~$27B, DHS reworking biometric identity verification",
-            "NSSTS naming AI, undersea, and space as priorities plus DIU's new Bridge Program to transition tech to frontlines faster signal top-down demand and speed pressure"
+            "Army NETCOM seeking a network digital twin to 'leverage AI' to find vulnerabilities and gaps, plus a cyber task force building guardrailed agents to hunt in the DOD network",
+            "GAO flagging information gaps threatening Army Next Generation Command and Control (NGC2), and a DoD S&T review exposing friction points in the defense research enterprise",
+            "SPACECOM Space Warfighting Environment 2040 written 'warfighter-first, not technology-first,' plus Navy MH-60 modernization and directed-energy / counter-drone pilots"
           ],
-          "signal": "Modernization demand is shifting from pilots toward operational fielding and enterprise-scale AI adoption, but GAO/data-friction reports indicate agencies still struggle with information gaps and transition speed — signaling a market that rewards delivery certainty and integration, not just capability.",
+          "signal": "Modernization demand is shifting from generic IT refresh toward AI-embedded, operationally-scoped systems (digital twins, network C2, autonomous cyber defense) where warfighter outcomes and vulnerability reduction drive requirements — a market tilting toward integrators who can wire AI into contested, multi-domain environments.",
           "sources": [
             "defense press",
             "DoD news",
+            "FedScoop"
+          ]
+        }
+      },
+      {
+        "name": "Compliance & Access",
+        "prob": 88,
+        "label": "CMMC/FedRAMP/IL requirements shifting",
+        "trajectory": "UP",
+        "status": "CMMC is being restructured toward an enterprise continuous-monitoring model rather than paused, and GSA's revised AI clause remains contested — requirements are actively shifting, not easing.",
+        "deepDive": {
+          "summary": "The compliance regime is in visible flux: CMMC appears to be pausing while commentators argue accountability must continue via independent assessment and continuous external monitoring, and GSA's revised AI clause has not fully settled industry concerns. Simultaneously the White House is pushing 'ruthless prioritization' against AI threats and DoD is demanding more contractor cost/pricing transparency. Probability that CMMC-related accountability mechanisms tighten rather than loosen despite the pause: ~70%.",
+          "drivers": [
+            "DefenseScoop framing that 'pausing CMMC cannot mean pausing accountability,' pointing to enterprise models with formalized independent assessment and continuous external monitoring",
+            "Revised GSA AI clause still drawing unresolved industry comments, and a DoD memo (Feinberg) pushing more contractor pricing info and potential direct software links",
+            "White House official calling for 'ruthless prioritization' against AI threats; Army cyber advisor warning agents must be implemented securely to avoid increasing attack surface"
+          ],
+          "signal": "The bar for secure AI delivery is being redefined mid-stream — even where formal certification pauses, continuous monitoring, secure-agent expectations, and pricing transparency are rising, signaling compliance is becoming a moving, evidence-driven target rather than a one-time gate.",
+          "sources": [
+            "defense press",
             "FedScoop",
             "Federal News Network"
           ]
         }
       },
       {
-        "name": "Compliance & Access",
-        "prob": 87,
-        "label": "CMMC/FedRAMP/IL requirements shifting",
-        "trajectory": "UP",
-        "status": "A live CMMC pause debate, deeper contractor pricing disclosure, and unresolved GSA AI-clause concerns mean the compliance surface is actively moving rather than settling.",
-        "deepDive": {
-          "summary": "The compliance regime is in flux: CMMC enforcement appears paused even as commentators insist accountability must continue through independent assessment and continuous monitoring, and a revised GSA AI clause has not fully eased industry concerns. A DoD directive is pushing for deeper contractor cost/pricing transparency and a potential direct software link.",
-          "drivers": [
-            "DefenseScoop framing that 'pausing CMMC cannot mean pausing accountability' points to an enterprise/continuous-monitoring model emerging in place of static certification",
-            "FedScoop reporting that the revised GSA AI clause still leaves industry concerns unresolved signals unsettled contracting terms around AI use",
-            "Feinberg-signed DoD memo pushing more supplier pricing information and a potential direct software link resets Pentagon expectations on cost transparency"
-          ],
-          "signal": "The access bar is moving from one-time certification toward continuous, data-backed accountability and greater cost/software transparency — signaling that compliance posture is becoming an ongoing operational discipline rather than a gate, with regulatory ambiguity around AI clauses adding near-term uncertainty.",
-          "sources": [
-            "defense press",
-            "FedScoop"
-          ]
-        }
-      },
-      {
         "name": "AI Capability",
-        "prob": 94,
+        "prob": 95,
         "label": "frontier + open model capability gains",
         "trajectory": "UP",
-        "status": "Claude Opus 5 leads LMArena at 1505 with Anthropic and Gemini clustering the top ranks, while Grok 4.6 and new open-weight releases keep the frontier expanding fast.",
+        "status": "Claude Opus 5 tops LMArena, Nvidia's AVO claims ARC-AGI-3 saturation, and open models are closing the gap faster each era while agentic tooling matures.",
         "deepDive": {
-          "summary": "The frontier is Anthropic-dominated on LMArena (Claude Opus 5 variants holding the top slots) with Google Gemini 3.x and Meta 'muse-spark' close behind, while US/allied leadership at the very top remains intact. Open-weight and cheaper options are proliferating fast — Grok 4.6 is described as dramatically cheaper, and agentic tooling (computer-use, agent teams) is maturing in both research and product.",
+          "summary": "The frontier is dominated by US/allied proprietary models — Anthropic's Claude Opus 5 family and Google Gemini 3.x lead LMArena, with Chinese models (Qwen, GLM) tracked as capability signal only. Open-weight catch-up is accelerating (SemiAnalysis notes each LLM era halves the time for open models to reach the first closed model), and research momentum is centered on agentic tool use, model routing, and recursive self-improvement. Probability that US/allied proprietary models retain the top LMArena tier through the next 90 days: ~90%.",
           "drivers": [
-            "LMArena shows US/allied proprietary models (Claude, Gemini) occupying the top ranks; the strongest open-weight and challenger entries near the top are RESTRICTED-CN (qwen3.8-max, kimi-k3-max) and thus capability-signal-only",
-            "Rapid expansion of usable options — Grok 4.6's speed/cost, open-weight momentum on Hugging Face (heavy Qwen derivative activity, Meta Muse-Glimmer) — widens the capability field",
-            "arXiv concentration on agentic tool use (MidTool), computer-use task induction, and model routing (Pandora's Box) shows the frontier moving toward agents and efficient multi-model orchestration"
+            "LMArena top ranks held by Claude Opus 5 (Elo ~1504) and Gemini 3.x; strongest self-hostable US/allied floor remains Llama/Mistral/Granite/Nemotron/Phi/Gemma class rather than the RESTRICTED-CN GLM/Qwen entries",
+            "arXiv concentration on agentic tool use (MidTool), model routing (Pandora's Box), computer-use task induction, and recursive self-improvement benchmarking (AI4AI-Bench)",
+            "SemiAnalysis observation that open models close the gap to first closed model twice as fast each era; Nvidia's AVO coding agent claiming 100% on ARC-AGI-3 public set"
           ],
-          "signal": "Top-tier capability remains led by US/allied proprietary labs, so government-eligible frontier options are healthy; the fastest-improving open and low-cost entrants skew Chinese and remain ineligible for delivery, meaning the usable open-weight floor for gov work depends on US/allied families (Llama, Mistral, Granite, Nemotron, Phi, Gemma) rather than the trending leaderboard challengers.",
+          "signal": "Capability gains are moving from raw reasoning toward agentic, tool-using, self-routing systems while open-weight options mature faster each cycle — meaning both a durable US/allied frontier for high-assurance work and a rapidly rising self-hostable floor for air-gapped/classified delivery.",
           "sources": [
             "LMArena leaderboard",
-            "Hugging Face trending",
             "arXiv",
+            "Techmeme",
             "The AI Daily Brief"
           ]
         }
@@ -74,66 +74,64 @@
         "prob": 94,
         "label": "AI/compute cost favorable for delivery",
         "trajectory": "UP",
-        "status": "Grok 4.6's steep price cut, maturing model-routing research, and viable US/allied open-weight floors continue to compress AI-accelerated delivery costs.",
+        "status": "20%+ frontier price cuts and cheaper strong models improve unit economics, though data-center political backlash and memory/storage cost inflation are emerging headwinds.",
         "deepDive": {
-          "summary": "Cost curves are bending favorably: Grok 4.6 and competing labs are pushing frontier-adjacent capability at markedly lower prices, model routing research is formalizing cost-optimal query allocation, and open-weight quantized variants (GGUF, FP8, NVFP4) are proliferating for cheaper self-hosting. Countervailing pressures include rising token costs at scale and infrastructure fragility.",
+          "summary": "Token and model economics continue to fall sharply — OpenAI cut GPT-5.6 API prices over 20% (to $4/$20 per 1M in/out tokens), Grok 4.6 is billed as dramatically cheaper, and open-weight/local models proliferate on Hugging Face. Offsetting this, memory/storage cost increases are raising hardware prices (Amazon devices), and data-center buildout faces mounting bipartisan political resistance. Probability that per-token inference pricing keeps declining over the next 90 days: ~80%.",
           "drivers": [
-            "AI Daily Brief highlighting Grok 4.6 as 'dramatically cheaper' and an expanding menu of strong options increases price competition among providers",
-            "arXiv routing work (Pandora's AI Model Routing Box) and heavy quantization activity on Hugging Face point to maturing techniques for lowering inference cost per task",
-            "Cost/reliability headwinds surfaced: AIDB notes rising token costs and AI 'slop', and GitHub's 7+ hour capacity-driven outage underscores infrastructure fragility behind delivery"
+            "OpenAI's 20% GPT-5.6 price cut and Grok 4.6 positioned as fast and dramatically cheaper, expanding low-cost model options",
+            "Strong open-weight/local model adoption (Qwen3.8-27B GGUF/FP8 variants, Ornith, quantized builds) enabling self-hosted inference off metered APIs",
+            "Countervailing cost pressure: memory/storage price hikes flowing into hardware, and bipartisan opposition slowing US data-center development (Abbott, Shapiro)"
           ],
-          "signal": "The economics of AI-accelerated delivery are improving as competition and routing/quantization drive down per-task cost, but scale-driven token costs and infrastructure reliability risks temper the advantage — signaling that the cost edge is real yet contingent on disciplined model selection and resilient infrastructure.",
+          "signal": "The cost curve for AI-accelerated delivery keeps bending favorably on the software/inference side even as physical compute (power, data centers, memory) becomes a political and supply constraint — signaling a widening gap between cheap model access and increasingly contested infrastructure to run it at scale.",
           "sources": [
+            "Techmeme",
             "The AI Daily Brief",
-            "arXiv",
-            "Hugging Face trending",
-            "Techmeme"
+            "Hugging Face trending"
           ]
         }
       },
       {
         "name": "Contract Pipeline",
-        "prob": 90,
+        "prob": 91,
         "label": "open SBIR/agency opportunities 90d",
         "trajectory": "UP",
-        "status": "DIU Bridge Program, SBA access expansion to 114K firms, EW/network commercial fielding, and the ~$27B VA-Oracle ceiling widen near-term entry points.",
+        "status": "DIU Bridge, dedicated Army cyber-AI funding calls, MDA/X-Bow, Hanwha, and counter-drone/directed-energy pilots signal a widening near-term opportunity set.",
         "deepDive": {
-          "summary": "The near-term opportunity set skews toward fast-fielding, AI-agent, and hardware/network modernization work: DIU's Bridge Program, Army commercial EW 'no new starts' fielding, Army Cyber AI agent development, and multiple missile/vehicle prototype awards signal active procurement channels. Small-business access is expanding as SBA moves to open contracting to 114,000 more companies.",
+          "summary": "The near-term opportunity field is dense with fast-transition and low-cost-capability vehicles: DIU's new Bridge Program to speed tech to the frontlines, an Army push to field commercial EW with 'no new starts,' a governmentwide counter-drone / directed-energy shoot-off, and dedicated AI cyber funding requests. Awards like MDA's X-Bow low-cost interceptor and Hanwha's mobile cannon prototype show appetite for rapid, cost-capped prototyping. Probability that AI-cyber and counter-drone remain the hottest near-term solicitation themes: ~80%.",
           "drivers": [
-            "DIU Bridge Program and Army's plan to field commercial EW fast show acquisition mechanisms tuned for rapid, commercial-off-the-shelf transition",
-            "Army Cyber's Task Force Lexington building AI agents (red team, network 'hunt' agents) and NETCOM's digital-twin ask indicate concrete AI/cyber demand streams",
-            "SBA opening contracts to 114,000 more small businesses, plus recent prototype awards (X-Bow LCI, Hanwha cannons, Oshkosh IP/DMX exchange) illustrate an active, competitive award environment"
+            "DIU Bridge Program and Army's commercial-EW fielding path signaling faster acquisition-to-frontline transition mechanisms",
+            "Army principal cyber advisor pushing 'dedicated funding' for AI, and cyber officials seeking secure, cost-bounded AI agents that avoid runaway token costs",
+            "Cost-capped prototype awards (MDA X-Bow ~$750K interceptor, Hanwha tactical cannon) and White House 'Drone Dominance' meeting expanding the counter-drone/industrial-base pipeline"
           ],
-          "signal": "The pipeline favors rapid-transition, AI-agent, and modernization-integration work delivered through non-traditional acquisition pathways, and small-business access is widening — signaling a more crowded but faster-moving competitive field where speed-to-field and AI/cyber capability are the differentiators.",
+          "signal": "The pipeline is skewing toward rapid, price-disciplined prototyping and secure-AI-agent work with explicit token-cost and attack-surface constraints — signaling buyers who reward fast, measurable, cost-controlled delivery over long traditional programs of record.",
           "sources": [
             "defense press",
-            "Federal News Network",
             "DoD news"
           ]
         }
       }
     ],
-    "unseen": "The strongest self-hostable open-weight capability by adoption (Qwen/DeepSeek/Kimi) is exactly the RESTRICTED-CN cohort barred from government delivery — so for compliant work the practical 'floor' rests on US/allied models (Llama, Mistral, Granite, Nemotron, Phi, Gemma, and now Meta's Muse-Glimmer-30B), which trail the raw capability signal; the eligibility gap, not the capability gap, is the binding constraint.",
-    "criticalWindow": "Whether the CMMC pause becomes formal and how the Feinberg pricing/direct-software directive is implemented over the next 30-90 days — both reshape the cost-disclosure and compliance burden for defense software suppliers.",
+    "unseen": "The Army's stated fear — that 'a bunch of agents roaming around' vulnerable inside the network expands the attack surface — quietly reframes the AI market: the government is not just buying model capability, it is buying agent governance (guardrails, human-vs-agent risk triage, token budgets). That converges the AI-capability, compliance, and delivery-economics lenses into one requirement that raw leaderboard Elo does not address, and it favors auditable, self-hostable US/allied open-weight deployment over open-ended frontier API sprawl.",
+    "criticalWindow": "Whether CMMC's 'pause' crystallizes into a concrete enterprise accountability model (independent assessment + continuous monitoring) and how the revised GSA AI clause resolves — both determine the compliance rules of engagement for AI delivery over the next 30-90 days.",
     "watchFor": [
-      "Formal CMMC pause guidance or a replacement continuous-monitoring/enterprise-accountability model",
-      "Implementation detail of the Feinberg DoD memo on contractor pricing data and the 'direct software link'",
-      "DIU Bridge Program solicitations and first transition awards as a fast-fielding channel",
-      "GAO/Army follow-through on NGC2 information-gap fixes, indicating whether the agentic C2 layer stays on schedule"
+      "Formal Army 'hunt agent' or secure-agent solicitation defining token-cost and attack-surface guardrail requirements",
+      "CMMC rulemaking language on continuous monitoring / independent assessment and any final GSA AI-clause revision",
+      "Further frontier API price cuts or open-weight US/allied releases that reset the self-hostable capability floor",
+      "State-level data-center permitting slowdowns (Texas, Pennsylvania) affecting government-adjacent compute capacity"
     ],
-    "confidenceNote": "Headlines confirm direction but not magnitude or timing; CMMC pause scope, the reach of the pricing directive, and NGC2 remediation are all described in-motion without resolution. LMArena Elo deltas at the top are within noise, and several trending 'model' entries appear speculative or origin-unverified, so capability rankings are indicative rather than authoritative.",
-    "topPattern": "Washington is accelerating commercial tech transition and small-business access while simultaneously tightening cost transparency and reworking compliance — and the agentic capability to fill that demand is abundant but gated by data/integration maturity and by delivery-eligibility rather than raw model performance.",
+    "confidenceNote": "Headlines confirm direction and intensity but not dollar figures, timelines, or award vehicles; CMMC and GSA outcomes remain in flux, and several model listings (e.g., version numbers, Nvidia AVO's ARC-AGI-3 claim, origin-unverified entries) are vendor/press assertions not independently validated in-context.",
+    "topPattern": "Defense buyers are moving from 'can AI do it' to 'can we deploy agents securely and cheaply at scale,' which — against falling model prices, faster open-model catch-up, restructured (not relaxed) compliance, and data-center political friction — is pushing the center of gravity toward governed, cost-bounded, auditable agent delivery on a US/allied self-hostable floor.",
     "strategicRead": [
-      "The environment is simultaneously loosening the front door (DIU Bridge, SBA access expansion, faster commercial fielding) and tightening the back office (deeper pricing disclosure, GSA AI clause scrutiny, CMMC accountability-without-pause) — speed-to-field and cost/compliance transparency are being pulled in opposite directions at once.",
-      "Agentic operations are hardening into named defense work — Army Cyber's 'hunt' agents with explicit human-vs-agent guardrails, and NETCOM's push for an AI-enabled network digital twin — but GAO's NGC2 warning signals the binding constraint is now data/integration maturity, not model capability.",
-      "Model economics keep improving for delivery (Grok 4.6 cheaper, routing research like Pandora, US open-weight options like Meta's Muse-Glimmer-30B), yet the trending open-weight adoption is dominated by RESTRICTED-CN Qwen/DeepSeek/Kimi — meaning the strongest self-hostable capability signal is precisely the class ineligible for U.S. government delivery."
+      "The Army's twin demand — agents that hunt AND agents that stay cheap and secure — is fusing AI capability, delivery economics, and compliance into a single procurement criterion; buyers increasingly want provable token-cost control and bounded attack surface, not just raw model performance.",
+      "Falling frontier API prices and the accelerating open-model catch-up widen the self-hostable US/allied floor (Llama, Mistral, Granite, Nemotron, Phi, Gemma) exactly as data-center opposition threatens on-prem/hyperscale compute expansion — the cost advantage is shifting toward efficient, locally deployable models rather than ever-larger hosted frontier calls.",
+      "CMMC's 'pause without pausing accountability' plus GSA AI-clause friction signal that compliance is being re-architected around continuous monitoring and independent assessment; the near-term ambiguity is a demand generator for firms that can operate through the transition rather than a relaxation of the barrier to entry."
     ],
     "whatChanged": [
-      "NGC2 momentum meets friction: GAO warns information gaps could hinder the Army's Next Generation Command and Control modernization — a caution against the program-of-record narrative from the prior brief.",
-      "New acquisition-reset signals: a Feinberg-signed DoD memo demanding more contractor cost/pricing data and a potential direct software link, plus DIU's new Bridge Program to transition tech to the frontlines faster.",
-      "Compliance regime in flux: a CMMC pause is now being openly debated (with calls to preserve accountability via continuous monitoring), and the revised GSA AI clause still hasn't calmed industry concerns.",
-      "Frontier reshuffle: Claude Opus 5 now tops LMArena at Elo 1505 (Anthropic holds 5 of top 7), and Grok 4.6 lands as a fast, dramatically cheaper option — widening the price/performance spread.",
-      "New White House NSSTS strategy names AI alongside undersea and outer space as top-tier military tech priorities; SBA moves to open small-business contract access to 114,000 more firms."
+      "New concrete detail on Army cyber: a standing AI task force building 'hunt' agents in the DOD network, plus an explicit requirement that agents not run up token costs or expand attack surface — a shift from acquisition-reset framing (last brief's Feinberg/DIU) to hands-on secure-agent deployment.",
+      "CMMC narrative moved from steady enforcement to 'pause but preserve accountability,' with proposals for an enterprise model of independent assessment and continuous monitoring — compliance posture is being restructured, not relaxed.",
+      "Fresh downward pressure on delivery economics from the model side: OpenAI cut GPT-5.6 Sol API prices 20% and Grok 4.6 landed as dramatically cheaper, reinforcing the open-model catch-up thesis (SemiAnalysis: open models now close the gap in half the time).",
+      "Data-center political backlash surfaced as a bipartisan liability (Abbott, Shapiro slowing development) — a new headwind to the compute buildout underpinning AI-accelerated delivery.",
+      "New pipeline signals: MDA's $750K low-cost interceptor award to X-Bow, Hanwha's mobile cannon prototype, DIU Bridge Program transition push, and GSA's revised AI clause still unsettling industry."
     ]
   },
   "signals": [],
@@ -143,23 +141,27 @@
   "groundTruth": [],
   "aiNews": {
     "headlines": [
-      "CBRE: NYC becomes the top tech talent market for the first time with 394K jobs, beating the Bay Area's 375K, amid SF job cuts and finance sector tech hiring (Diana Olick/CNBC)",
-      "Samsung unveils a $65.1B-$79.5B shareholder return package for 2026, combining dividends and share buybacks, calling it \"the largest ever by a Korean company\" (Jenny Lee/CNBC)",
-      "Sources: Nvidia is in early talks with South Korean AI chip maker Rebellions for a potential deal, including a partnership, an investment, or an acquisition (Yoolim Lee/Bloomberg)",
-      "China grants Geely a two-year permit for the country's first private satellite IoT trial, letting Geely offer connectivity to sectors like transport and energy (Ben Jiang/South China Morning Post)",
-      "How the memory boom is reshaping Micron's hometown of Boise, Idaho, with new millionaires, job growth, rising housing costs, and uneven wealth distribution (CNBC)",
-      "How crypto, AI, and online betting companies emerged as the biggest industries shaping the 2026 US midterm races, as corporate spending reaches a record $517M (Dawn Kopecki/Reuters)",
-      "Brazil announces $444.2M in AI investments split between US and Chinese companies, including $250.3M for a supercomputing project with Huawei and iFlytek (Marcela Ayres/Reuters)",
-      "Source: AI training data startup Micro1's gross annual run rate grew from $100M to $500M in the past eight months, putting net annual run rate at $150M-$200M (Marina Temkin/TechCrunch)",
-      "Nevada approves permits letting Tesla deploy up to 5,000 robotaxis in the Las Vegas area over the next year, while Waymo and Uber are each allowed up to 1,000 (Kirsten Korosec/TechCrunch)",
-      "A NJ teenager drops her lawsuit against Meta, Google, and Snap over alleged social media addiction, without any payment; TikTok previously settled her claims (Diana Novak Jones/Reuters)",
-      "A US judge tosses part of the conviction of ex-Google engineer Linwei Ding, who was found guilty of stealing AI trade secrets to benefit two Chinese companies (Tom Hals/Reuters)",
-      "OpenAI rolls out an Apple Messages plugin for ChatGPT on macOS, letting ChatGPT read, search, and analyze chats, prepare and send messages, and more (Zac Hall/9to5Mac)",
-      "Super Micro says its independent probe found no evidence its CEO or senior management knew of an alleged scheme to smuggle $2.5B worth of Nvidia chips to China (Amanda Gerut/Fortune)",
-      "Email: Apple Music tells industry partners that songs tagged as \"materially generated using AI\" by content providers will be visibly labeled on the service (Kristin Robinson/Billboard)",
-      "GitHub says its 7+ hour August 17 outage was caused by a capacity failure when peak traffic overwhelmed an infrastructure component in a Central US data center (Vlad Fedorov/The GitHub Blog)"
+      "Inside the World Robot Conference in Beijing, drawing over 300 exhibitors; Unitree founder Wang Xingxing said the industry's \"ChatGPT moment\" has yet to come (Financial Times)",
+      "With each successive era of LLMs, from early scaling, to reasoning, to agentic, open models have taken half as long to catch up to the first closed model (SemiAnalysis)",
+      "Rundoo, a provider of AI-powered business operations software for independent supply stores, raised a $30M Series B led by Battery Ventures (Mike Wheatley/SiliconANGLE)",
+      "OpenAI President Greg Brockman's role has expanded significantly, giving him control over its product and scaling teams following a wave of executive departures (Hayden Field/The Verge)",
+      "Following abandoned IPO attempts in NYC and London, Shein is struggling to grow as it nears a Hong Kong listing at a fraction of its peak valuation of $100B (Sui-Lee Wee/New York Times)",
+      "How politicians who once championed data centers, including Greg Abbott and Josh Shapiro, are now slowing their development as the issue becomes a liability (Wall Street Journal)",
+      "Sources: Anthropic's bankers said the company could raise $100B+ in its IPO, which could value it at $2T, in recent discussions with potential investors (New York Times)",
+      "Amazon raises prices for its Echo smart speakers, Fire TV line, Kindle devices, and eero mesh networking systems to offset increases in memory and storage costs (Sebastian Herrera/Fortune)",
+      "Helcim, a payments processor for SMBs, raised a CA$53M Series C led by Business Development Bank of Canada's Growth Venture Fund at a CA$250M valuation (Madison McLauchlan/BetaKit)",
+      "OpenAI says California should amend SB 53 to expand safeguards, including requiring monitoring of frontier models under training, following AI agent hacks (Chase DiFeliciantonio/Politico)",
+      "Gurman: as part of Vision Pro cuts, Apple is largely shutting down a team focused on gaming and reducing the size of a unit producing immersive video content (Chance Miller/9to5Mac)",
+      "Nvidia makes a minority investment in Cloverleaf, which works with utilities and energy providers to secure infrastructure for data center sites (Rashika Singh/Reuters)",
+      "OpenAI cuts GPT-5.6 Sol's API and credit prices by over 20% for the next three months, to $4/1M input tokens and $20/1M output tokens (Anzar Mehraj/Reuters)",
+      "Sources: Devoted Health, which uses AI to help coordinate medical care for those enrolled in Medicare Advantage, is raising new funding at a $25B valuation (Katie Roof/Business Insider)",
+      "Nvidia says its general-purpose coding agent system AVO scored 100% across all 25 environments in the ARC-AGI-3 public set, completing all 183 levels (Terry Chen/NVIDIA Technical Blog)"
     ],
     "brief": [
+      {
+        "title": "Why Everyone Suddenly Hates AI Data Centers",
+        "summary": "Opposition to AI data centers has become one of America’s fastest-moving bipartisan political issues, driven by concerns about electricity, water, noise, property values, jobs, and a deeper mistrust of Big Tech. NLW provides an end-to-end primer on what data centers actually do, why public sentiment"
+      },
       {
         "title": "9 AI Techniques You Probably Haven't Tried",
         "summary": "Even experienced AI users can fall behind as new features and working methods arrive. NLW breaks down nine techniques worth trying now—from live voice mode, workflow teaching, custom skills, and Claude’s /design command to team agents, GrokBot, local models, and deceptively useful two-word prompts."
@@ -187,138 +189,134 @@
       {
         "title": "Grok 4.6 Shows How Fast Your AI Options Are Expanding",
         "summary": "Grok 4.6 is fast, capable, dramatically cheaper than the leading models—and another sign that AI users have more genuinely strong options than ever. NLW explores how competition from xAI, Chinese labs, and open-weight models is giving individuals and businesses more freedom to choose the right combi"
-      },
-      {
-        "title": "The AI Agent Platform for Everyone",
-        "summary": "Grok Bot packages persistent computers, coordinated agent teams, workflow learning, and computer use into a remarkably simple interface. NLW explores why it could finally unlock widespread AI-agent adoption—and the cost, reliability, and trust issues that could hold it back. In the headlines: Anthro"
       }
     ],
     "trendingModels": [
       {
         "id": "Qwen/Qwen3.8-27B",
         "pipeline": "image-text-to-text",
-        "likes": 11844,
-        "downloads": 1726651,
+        "likes": 12042,
+        "downloads": 2090699,
         "origin": "CN"
       },
       {
         "id": "unsloth/Qwen3.8-27B-GGUF",
         "pipeline": "",
-        "likes": 2431,
-        "downloads": 5804917,
-        "origin": "CN"
-      },
-      {
-        "id": "orcarouter/Qwen3.8-27B-Uncensored-MLX",
-        "pipeline": "image-text-to-text",
-        "likes": 768,
-        "downloads": 18193,
-        "origin": "CN"
-      },
-      {
-        "id": "Qwen/Qwen3.8-27B-FP8",
-        "pipeline": "image-text-to-text",
-        "likes": 644,
-        "downloads": 1939895,
+        "likes": 2563,
+        "downloads": 6320542,
         "origin": "CN"
       },
       {
         "id": "orcarouter/Qwen3.8-27B-Uncensored-FP8",
         "pipeline": "image-text-to-text",
-        "likes": 700,
-        "downloads": 107520,
+        "likes": 914,
+        "downloads": 142846,
         "origin": "CN"
       },
       {
-        "id": "MiniMaxAI/MiniMax-Music3",
-        "pipeline": "text-to-audio",
-        "likes": 1144,
-        "downloads": 15678,
+        "id": "orcarouter/Qwen3.8-27B-Uncensored-MLX",
+        "pipeline": "image-text-to-text",
+        "likes": 848,
+        "downloads": 34909,
         "origin": "CN"
       },
       {
         "id": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
         "pipeline": "text-generation",
-        "likes": 537,
-        "downloads": 1126222,
-        "origin": "CN"
-      },
-      {
-        "id": "Lightricks/LTX-2.5",
-        "pipeline": "image-to-video",
-        "likes": 1444,
-        "downloads": 654175,
-        "origin": "OTHER"
-      },
-      {
-        "id": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
-        "pipeline": "image-text-to-text",
-        "likes": 389,
-        "downloads": 357225,
+        "likes": 592,
+        "downloads": 1223422,
         "origin": "CN"
       },
       {
         "id": "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
         "pipeline": "text-generation",
-        "likes": 360,
-        "downloads": 123956,
+        "likes": 483,
+        "downloads": 164950,
+        "origin": "CN"
+      },
+      {
+        "id": "Lightricks/LTX-2.5",
+        "pipeline": "image-to-video",
+        "likes": 1526,
+        "downloads": 694670,
+        "origin": "OTHER"
+      },
+      {
+        "id": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
+        "pipeline": "image-text-to-text",
+        "likes": 452,
+        "downloads": 486221,
+        "origin": "CN"
+      },
+      {
+        "id": "MiniMaxAI/MiniMax-Music3",
+        "pipeline": "text-to-audio",
+        "likes": 1169,
+        "downloads": 16644,
         "origin": "CN"
       },
       {
         "id": "MiniMaxAI/MiniMax-H3",
         "pipeline": "image-text-to-video",
-        "likes": 4263,
-        "downloads": 3614443,
-        "origin": "CN"
-      },
-      {
-        "id": "unsloth/Qwen3.8-27B-NVFP4",
-        "pipeline": "",
-        "likes": 314,
-        "downloads": 1013917,
-        "origin": "CN"
-      },
-      {
-        "id": "froggeric/Qwen-Fixed-Chat-Templates",
-        "pipeline": "",
-        "likes": 1353,
-        "downloads": 0,
-        "origin": "CN"
-      },
-      {
-        "id": "deepseek-ai/DeepSeek-V4-Pro-0813",
-        "pipeline": "text-generation",
-        "likes": 693,
-        "downloads": 49601,
+        "likes": 4313,
+        "downloads": 3899160,
         "origin": "CN"
       },
       {
         "id": "ornith-ai/Ornith-1.5-35B-A3B",
         "pipeline": "text-generation",
-        "likes": 255,
-        "downloads": 9165,
+        "likes": 304,
+        "downloads": 12611,
         "origin": "OTHER"
       },
       {
-        "id": "Qwen/Qwen3.8-2.4T-A95B",
-        "pipeline": "text-generation",
-        "likes": 1129,
-        "downloads": 15702,
+        "id": "froggeric/Qwen-Fixed-Chat-Templates",
+        "pipeline": "",
+        "likes": 1386,
+        "downloads": 0,
+        "origin": "CN"
+      },
+      {
+        "id": "Qwen/Qwen3.8-27B-FP8",
+        "pipeline": "image-text-to-text",
+        "likes": 661,
+        "downloads": 2306777,
+        "origin": "CN"
+      },
+      {
+        "id": "orcarouter/Qwen3.8-27B-Uncensored-GGUF",
+        "pipeline": "image-text-to-text",
+        "likes": 317,
+        "downloads": 85371,
         "origin": "CN"
       },
       {
         "id": "empero-ai/Qwen3.8-27B-Ridge-GGUF",
         "pipeline": "image-text-to-text",
-        "likes": 229,
-        "downloads": 74038,
+        "likes": 242,
+        "downloads": 97247,
         "origin": "CN"
       },
       {
-        "id": "meta-models/Muse-Glimmer-30B",
+        "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
         "pipeline": "image-text-to-text",
-        "likes": 1725,
-        "downloads": 505113,
+        "likes": 239,
+        "downloads": 635416,
+        "origin": "CN"
+      },
+      {
+        "id": "ornith-ai/Ornith-1.5-35B-A3B-GGUF",
+        "pipeline": "text-generation",
+        "likes": 216,
+        "downloads": 173935,
         "origin": "OTHER"
+      },
+      {
+        "id": "deepseek-ai/DeepSeek-V4-Pro-0813",
+        "pipeline": "text-generation",
+        "likes": 712,
+        "downloads": 54566,
+        "origin": "CN"
       }
     ],
     "research": [
@@ -387,7 +385,7 @@
       {
         "model": "claude-opus-5-high",
         "org": "anthropic",
-        "rating": 1505,
+        "rating": 1504,
         "rank": 1,
         "open": false,
         "origin": "ALLIED"
@@ -395,7 +393,7 @@
       {
         "model": "claude-opus-5-max",
         "org": "anthropic",
-        "rating": 1503,
+        "rating": 1504,
         "rank": 2,
         "open": false,
         "origin": "ALLIED"
@@ -419,7 +417,7 @@
       {
         "model": "claude-fable-5",
         "org": "anthropic",
-        "rating": 1494,
+        "rating": 1495,
         "rank": 5,
         "open": false,
         "origin": "ALLIED"
@@ -427,7 +425,7 @@
       {
         "model": "gemini-3.7-flash-high",
         "org": "google",
-        "rating": 1491,
+        "rating": 1490,
         "rank": 6,
         "open": false,
         "origin": "ALLIED"
@@ -443,39 +441,39 @@
       {
         "model": "muse-spark-1.2 (xHigh)",
         "org": "meta",
-        "rating": 1488,
+        "rating": 1487,
         "rank": 8,
         "open": false,
         "origin": "OTHER"
       },
       {
-        "model": "gemini-3.5-flash-high",
-        "org": "google",
+        "model": "claude-opus-4-7",
+        "org": "anthropic",
         "rating": 1483,
         "rank": 9,
         "open": false,
         "origin": "ALLIED"
       },
       {
-        "model": "qwen3.8-max",
-        "org": "alibaba",
+        "model": "gemini-3.5-flash-high",
+        "org": "google",
         "rating": 1483,
         "rank": 10,
-        "open": false,
-        "origin": "CN"
-      },
-      {
-        "model": "claude-opus-4-7",
-        "org": "anthropic",
-        "rating": 1483,
-        "rank": 11,
         "open": false,
         "origin": "ALLIED"
       },
       {
+        "model": "qwen3.8-max",
+        "org": "alibaba",
+        "rating": 1482,
+        "rank": 11,
+        "open": false,
+        "origin": "CN"
+      },
+      {
         "model": "gemini-3.1-pro-preview",
         "org": "google",
-        "rating": 1479,
+        "rating": 1480,
         "rank": 12,
         "open": false,
         "origin": "ALLIED"
@@ -491,14 +489,14 @@
       {
         "model": "muse-spark-1.1",
         "org": "meta",
-        "rating": 1479,
+        "rating": 1478,
         "rank": 14,
         "open": false,
         "origin": "OTHER"
       },
       {
-        "model": "kimi-k3-max",
-        "org": "moonshot",
+        "model": "glm-5.3-max",
+        "org": "zai",
         "rating": 1477,
         "rank": 15,
         "open": true,
@@ -538,6 +536,31 @@
     "press": [
       {
         "source": "Breaking Defense",
+        "title": "Space war 2040: SPACECOM preps for attacks on ground segments, eyes cislunar ops",
+        "summary": "The Space Warfighting Environment 2040 is unique because it “was deliberately written to be warfighter-first, not technology-first,” an official at SPACECOM’s Joint Forces Development and Training team told Breaking Defense."
+      },
+      {
+        "source": "Breaking Defense",
+        "title": "Taiwan proposes record $35 billion defense budget",
+        "summary": "The new budget proposal will have to be approved by the opposition-controlled legislature."
+      },
+      {
+        "source": "Breaking Defense",
+        "title": "Army cyber defenses need ‘dedicated funding’ for AI, top official says",
+        "summary": "Dedicated funding is key, according to the Army’s principal cyber advisor, because the service’s cyber command cannot fund AI work strictly from their operational budget."
+      },
+      {
+        "source": "Breaking Defense",
+        "title": "‘Hot competition’: NSA deputy sounds alarm on China threat, AI race",
+        "summary": "NSA Deputy Director Tim Kosiba said Beijing is playing “spoiler” the world over, alleging, for example, that “Chinese companies provided GEOINT to the Iranians to help hit our bases and our allies.”"
+      },
+      {
+        "source": "Breaking Defense",
+        "title": "How the Army balances Patriot priorities and approaches Golden Dome",
+        "summary": "A brief chat with the chief of the Army’s Space and Missile Defense Command."
+      },
+      {
+        "source": "Breaking Defense",
         "title": "Army network needs digital twin for training, testing, cybersecurity: NETCOM chief",
         "summary": "“It’s a big ask,” acknowledged Maj. Gen. Denise McPhail, chief of Army Network Command, but it could allow NETCOM to “leverage AI in that model to understand our vulnerabilities, where our gaps are.”"
       },
@@ -562,29 +585,19 @@
         "summary": "The new directive, signed off by Deputy Defense Secretary Steve Feinberg, is meant to “reset” the Pentagon’s expectations for supplier cost and pricing information."
       },
       {
-        "source": "Breaking Defense",
-        "title": "Turkish Aerospace plans naval version of Hurjet as it eyes expanded NATO exports",
-        "summary": "“We believe HÜRJET has the potential to become not only the trainer aircraft of Türkiye and Spain, but also a training platform for NATO,” CEO Mehmet Demiroglu said."
+        "source": "DefenseScoop",
+        "title": "U.S. military to host directed energy ‘shoot-off’ amid governmentwide counter-drone push",
+        "summary": "Officials leading the Joint Interagency Task Force 401 shared new details about that pilot program and other updates on recent progress. The post U.S. military to host directed energy ‘shoot-off’ amid governmentwide counter-drone push appea"
       },
       {
-        "source": "Breaking Defense",
-        "title": "Estonian lawmaker calls US questionnaire to NATO ‘unnecessary stress test’",
-        "summary": "“It is critically important for us in this time, a time of not living in peace time … that both in words and deeds to not make any steps to create an image that would indicate to Moscow or Beijing that NATO is not united or focused on deter"
+        "source": "DefenseScoop",
+        "title": "Army wants fast AI cybersecurity agents that won’t run up token costs or create new vulnerabilities",
+        "summary": "“We need help in implementing agents securely, so that it doesn't inadvertently increase our attack surface,” an Army official said. “If we have a bunch of agents roaming around, and they're vulnerable, that just made it worse because if th"
       },
       {
-        "source": "Breaking Defense",
-        "title": "Army Cyber training AI agents in cyber ‘work roles’ alongside human counterparts",
-        "summary": "Task Force Lexington houses all of Army Cyber Command’s AI efforts, including an AI “red team.”"
-      },
-      {
-        "source": "Breaking Defense",
-        "title": "New White House strategy clarifies military tech priorities: undersea, outer space and AI",
-        "summary": "The National Security Science & Technology Strategy (NSSTS) also outlines an array of second-tier or longer-term technologies to watch, notably quantum and biotech."
-      },
-      {
-        "source": "Breaking Defense",
-        "title": "Picking up the PACE: EW battlefield demands updated contingency planning",
-        "summary": "“Emissions equals target. Emissions put a bullseye on wherever you are, or wherever that emission is detected,” the general who helms I Corps said."
+        "source": "DefenseScoop",
+        "title": "Navy secretary warns of ‘coordinated, multi-domain’ campaign against personnel and installations",
+        "summary": "Hung Cao warned sailors, Marines and Navy civilians about a \"deliberate effort to gather intelligence, test our defenses, disrupt our operations, and intimidate our force.\" The post Navy secretary warns of ‘coordinated, multi-domain’ campai"
       },
       {
         "source": "DefenseScoop",
@@ -620,55 +633,40 @@
         "source": "DefenseScoop",
         "title": "MDA awards X-Bow to develop low-cost interceptor",
         "summary": "The Missile Defense Agency is targeting a $750K price tag for the LCI weapon. The post MDA awards X-Bow to develop low-cost interceptor appeared first on DefenseScoop ."
-      },
-      {
-        "source": "DefenseScoop",
-        "title": "The military transferred Oshkosh IP over a new digital exchange so Marines could make their own parts",
-        "summary": "The military expects to compensate defense companies for letting it transfer IP through the DMX. How that will shake out isn’t clear yet. The post The military transferred Oshkosh IP over a new digital exchange so Marines could make their o"
-      },
-      {
-        "source": "DefenseScoop",
-        "title": "Back from Ukraine support mission, Army signal officers say service still needs to shed old GWOT spectrum mindset",
-        "summary": "The officers recently served in advisory roles for the Security Assistance Group-Ukraine, a Germany-based, U.S.-led organization founded after Russia’s invasion in 2022 that oversees support for Kyiv. The post Back from Ukraine support miss"
-      },
-      {
-        "source": "DefenseScoop",
-        "title": "Navy approves Block II upgrades for E-2D Advanced Hawkeye fleet",
-        "summary": "Prime contractor Northrop Grumman expects to deliver the first upgraded E-2D plane for flight testing by fiscal 2029. The post Navy approves Block II upgrades for E-2D Advanced Hawkeye fleet appeared first on DefenseScoop ."
       }
     ],
     "labs": [
       {
         "lab": "DoD",
         "items": [
+          "Motors Assembled at Tobyhanna Army Depot Power Drone to World-Record Flight",
+          "Navy Advances MH-60 Modernization, Identifies Industry Performers for Prototype Project",
           "Corps of Engineers Modernizes Historic Fort Sill Barracks",
           "USS George Washington Celebrates Historic Aircraft Milestone",
           "Learning With Every Launch: Inside Exercise Cold Raptor",
-          "Exercise Northern Viking Marks 75 Years of Defense Cooperation",
-          "USS Essex Hosts Tiger Cruise on Return to San Diego",
-          "Army Develops Ultra-Light Vehicle for Changing Battlefields"
+          "Exercise Northern Viking Marks 75 Years of Defense Cooperation"
         ]
       },
       {
         "lab": "FedScoop",
         "items": [
+          "House Democrats urge DHS’s Mullin to scrap ICE plans for shock gloves",
+          "IT hiring at GAO lags watchdog’s own timeframes, OIG finds",
           "Revised GSA AI clause hasn’t fully calmed industry concerns, comments show",
           "‘Ruthless prioritization’ needed in face of AI threats, says White House official",
           "DHS tries to lessen constraints of biometric identity verification",
-          "IRS systems were accessible to thousands of staffers on leave, watchdog finds",
-          "VA-Oracle EHRM contract ceiling raises to nearly $27 billion",
-          "SSA seeks direction for new enterprise AI strategy"
+          "IRS systems were accessible to thousands of staffers on leave, watchdog finds"
         ]
       },
       {
         "lab": "Federal News Network",
         "items": [
-          "Army will shut down a unit in Europe focused on learning drone warfare",
-          "Golden Dome cost estimate draws Pentagon pushback",
-          "SBA wants to give 114,000 more companies access to small business contracts",
-          "NRO looks to illuminate supply chain risks",
-          "What’s the difference between a machine that follows instructions and one that can make decisions?",
-          "Stop acting. Start owning."
+          "Pentagon dismisses Stars and Stripes leadership after editor, reporter oppose military interference",
+          "Army Corps of Engineers staff, contractors killed during plane’s attempt to land in heavy fog in Alaska",
+          "National park maintenance work sidelined as Trump’s Freedom 250 takes precedence",
+          "More troops reported sexual assaults last year as incidents fall",
+          "Losses keep piling up for Trump administration over handling of RTO mandate",
+          "National security requires securing modern AI workloads"
         ]
       }
     ]
