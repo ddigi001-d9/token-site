@@ -1,49 +1,50 @@
 {
-  "generatedAt": "2026-09-02T14:56:44.772Z",
-  "runNumber": 90,
+  "generatedAt": "2026-09-03T14:51:03.400Z",
+  "runNumber": 91,
   "situation": {
-    "headline": "A federal judge rules the administration's attempts to punish and ban Anthropic unlawful — cementing government access to the top-ranked Claude Opus 5 family just as the Pentagon's multi-vendor genAI portal (Gemini + ChatGPT + Grok) runs live and DISA moves combatant commands onto DoDNet",
+    "headline": "Nvidia's $12.9B acquisition of Hugging Face concentrates the open-weight model and tooling backbone under a single compute vendor — even as DoD's multi-vendor genAI portal (Gemini + ChatGPT + Grok) goes live and GSA's USAi flips from free to paid",
     "velocity": "ACCELERATING",
     "domains": [
       {
         "name": "Gov Modernization",
-        "prob": 96,
+        "prob": 95,
         "label": "agency modernization demand rising 90d",
         "trajectory": "UP",
-        "status": "DISA's combatant-command DoDNet migration, TITAN production, and the Pentagon genAI portal show large network, data, and AI modernization programs moving into execution simultaneously.",
+        "status": "Execution-and-capacity framing is intensifying (VA EHRM subpoena, 'execution builds ships') alongside sustained modernization spend, but leadership churn at Army/Navy/GSA injects near-term authority uncertainty.",
         "deepDive": {
-          "summary": "Modernization demand is broad and accelerating across services, spanning autonomous mobility, directed-energy, EMS awareness, and large enterprise IT migrations, even as leadership churn and stopgap funding inject near-term uncertainty. The Army's TITAN moving into production ($192M for Palantir/Anduril), Georgia Tech's $33M CAML integrator award, and DISA's combatant-command migration to DoDNet show sustained appetite for both platform and infrastructure modernization.",
+          "summary": "Agency modernization demand is being reframed around execution and capacity rather than raw budget, with high-profile IT programs under intense scrutiny. The Pentagon is actively expanding enterprise genAI access while big-ticket platform programs move from prototype into production.",
           "drivers": [
-            "Army TITAN production phase, CAML weapons integration, and Spectrum Situational Awareness deliveries signal active hardware/software system modernization pipelines",
-            "DISA's massive migration of combatant commands to DoDNet and Pentagon CIO directive from Kirsten Davies indicate large-scale enterprise IT consolidation underway",
-            "Leadership turbulence (Army Secretary Driscoll resignation, SECNAV nomination of Hung Cao) and December continuing-resolution deadline create budget and program-timing uncertainty"
+            "Federal News Network framing ('the government's tech gap is about capacity', 'Money doesn't build ships. Execution does') signals a shift toward delivery-capacity as the binding constraint over funding",
+            "Grok and ChatGPT joining Gemini in the Pentagon's enterprise genAI portal shows DoD standardizing multi-vendor AI access at enterprise scale",
+            "TITAN moving into production ($192M to Palantir/Anduril, eight platforms over 18 months) and USAi no longer being free to agencies show modernization programs maturing into paid, production-phase efforts"
           ],
-          "signal": "The environment shows modernization demand shifting from prototypes to production and infrastructure-scale migrations, but the December appropriations cliff and senior leadership churn mean program timelines and awards remain vulnerable to slippage (as seen in the Navy trainer jet postponement).",
+          "signal": "The market is rewarding demonstrated execution and production delivery over concept work, and DoD is normalizing enterprise access to multiple frontier AI vendors — indicating a modernization environment where AI tooling is becoming baseline infrastructure rather than a differentiator.",
           "sources": [
-            "defense press",
             "DoD news",
-            "Federal News Network"
+            "FedScoop",
+            "Federal News Network",
+            "defense press"
           ]
         }
       },
       {
         "name": "Compliance & Access",
-        "prob": 97,
+        "prob": 96,
         "label": "CMMC/FedRAMP/IL requirements shifting",
         "trajectory": "UP",
-        "status": "The Anthropic ruling locks lawful frontier access while CUI-sprawl CMMC risk, post-quantum crypto probing, and Login.gov enforcement widen the accreditation surface.",
+        "status": "DOD's active probe on software-defined encryption and post-quantum migration signals an emerging compliance vector layered on top of the now-live multi-vendor genAI portal and paid USAi access.",
         "deepDive": {
-          "summary": "Compliance requirements are tightening and expanding around CUI handling, post-quantum cryptography, and identity, while an important legal ruling limits the government's ability to arbitrarily exclude AI vendors. CUI sprawl is being flagged as a hidden CMMC risk driver and DOD is actively probing industry on quantum-safe encryption.",
+          "summary": "Compliance pressure is intensifying around data protection, post-quantum cryptography, and program oversight, with subpoenas and clearance reviews signaling harder accountability. Encryption and quantum-safe migration are emerging as new procurement gates alongside existing authorization frameworks.",
           "drivers": [
-            "DOD industry probe on software-defined encryption and post-quantum cryptography migration, plus 'quantum attack surface' warnings, signal near-term crypto-compliance shifts",
-            "CUI sprawl highlighted as a hidden CMMC risk, and OMB's Login.gov enforcement memo plus 'agencies can use some AI without creating records' memo reshape identity and recordkeeping rules",
-            "Judge ruling that the Trump administration's attempts to punish/ban Anthropic were unlawful sets a precedent on vendor access and non-arbitrary treatment of AI providers"
+            "DOD probing industry on software-defined encryption and post-quantum cryptography migration signals a coming compliance wave around quantum-safe data protection",
+            "Congressional subpoena of Oracle over the VA's $27B EHRM contract and whistleblower claims of 'untested' USPS IT systems show heightened oversight of large modernization vendors",
+            "GSA terminating hundreds of security clearances after review, plus USAi shifting off free access, signal tightening access controls and cost accountability across the federal tech estate"
           ],
-          "signal": "The compliance perimeter is moving toward quantum-safe crypto and stricter CUI/identity controls, while the Anthropic ruling signals that federal AI-vendor access decisions face legal guardrails — reducing the risk that a single provider can be arbitrarily locked out of government channels.",
+          "signal": "The bar for winning and keeping government work is rising toward provable data-protection posture (encryption, PQC) and defensible execution under oversight, indicating that compliance and auditability are becoming as decisive as capability in contract retention.",
           "sources": [
+            "DefenseScoop",
             "FedScoop",
-            "Federal News Network",
-            "defense press"
+            "Federal News Network"
           ]
         }
       },
@@ -52,15 +53,15 @@
         "prob": 96,
         "label": "frontier + open model capability gains",
         "trajectory": "UP",
-        "status": "Anthropic sweeps the LMArena top ranks with Claude Opus 5, while US/allied open weights advance alongside strong RESTRICTED-CN signal (Qwen3.8, GLM-5.3, DeepSeek-V4) tracked for capability only.",
+        "status": "Anthropic sweeps the top of LMArena and open-weight releases (GLM-5.3, Qwen3.8) accelerate, while Nvidia's Hugging Face buy reshapes who controls the open-model distribution layer.",
         "deepDive": {
-          "summary": "The frontier remains led by US/allied proprietary models, with Anthropic's Claude Opus 5 family and Google Gemini 3.x occupying the top of the leaderboard, while Chinese open-weight models (Qwen, GLM, DeepSeek) dominate Hugging Face trending as capability signals ineligible for government delivery. Research momentum is concentrating on agent harnesses, code-generation agents, LLM-as-judge evaluation, and self-hosted/quantized deployment for regulated environments.",
+          "summary": "The proprietary frontier is dense with US/allied leaders — Anthropic's Claude Opus 5 family and Google Gemini 3.x dominate the top of the leaderboard, with the strongest Chinese model (Qwen) present only as a restricted capability signal. Open-weight momentum is heavy but concentrated in Chinese releases, while research trends toward agents, world models, and verifiable-reward reasoning.",
           "drivers": [
-            "LMArena top ranks held by Claude Opus 5 (Elo 1505) and Gemini 3.7 (US/ALLIED), with Qwen3.8-max the only RESTRICTED-CN entry near the top — US/allied frontier lead intact",
-            "Hugging Face trending is saturated with high-capability Chinese open-weight releases (GLM-5.3, Qwen3.8-27B, DeepSeek-V4) that serve as capability benchmarks but are not deliverable to USG",
-            "arXiv clustering on SWE-agent benchmarking, dynamic agent harnesses (CordisBench), verbal reinforcement learning, quantization damage, and self-hosted corporate LLM builds shows the field maturing toward agentic execution and regulated deployment"
+            "LMArena top ranks held by Claude Opus 5 (Elo ~1505) and multiple Gemini 3.x variants, all US/allied proprietary, keeping the deliverable frontier firmly on domestic vendors",
+            "Hugging Face trending is dominated by RESTRICTED-CN models (GLM-5.3, Qwen3.8, DeepSeek-V4, Tencent Hy4) — strong capability signal but not eligible for US government delivery, leaving US/allied open-weight (Llama, Mistral, Granite, Nemotron, Phi, Gemma) as the self-hostable floor by exclusion",
+            "arXiv trends toward web/agent world models, process-reward reasoning (Cliff), competition-grade coding, and FP4 pretraining, pointing to advancing autonomous-agent and efficiency capabilities"
           ],
-          "signal": "Capability gains are increasingly about agentic execution, evaluation reliability, and efficient self-hosting rather than raw benchmark scores; the strongest open-weight momentum is Chinese-origin (delivery-ineligible), meaning the deployable open floor for USG work continues to rest on US/allied families rather than the current trending leaders.",
+          "signal": "US/allied proprietary models retain the deliverable performance lead, but the most visible open-weight energy is Chinese and thus procurement-ineligible — signaling a widening gap between where open-weight capability is trending and what is actually usable for US government workloads.",
           "sources": [
             "LMArena leaderboard",
             "Hugging Face trending",
@@ -71,69 +72,69 @@
       },
       {
         "name": "Delivery Economics",
-        "prob": 89,
+        "prob": 87,
         "label": "AI/compute cost favorable for delivery",
-        "trajectory": "UP",
-        "status": "Agent collaboration, quantization/self-hosting research, and the tier-list emphasis on cost/speed keep pushing model stacks toward cheaper mixed premium-plus-open delivery.",
+        "trajectory": "FLAT",
+        "status": "Abundant open-weight and FP4-pretraining efficiency gains push costs down, but USAi turning paid, memory-cost spikes (~400% YoY DRAM), and Nvidia-HF consolidation introduce upward and concentration pressures.",
         "deepDive": {
-          "summary": "Cost and speed are becoming primary axes of model selection alongside intelligence, with businesses assembling mixed 'model stacks' of premium and open models and building internally controlled harnesses to avoid single-provider lock-in. Research on quantization, SFT/RL budget allocation, and self-hosted LLMs consolidating 200+ internal apps points to sharpening cost-quality economics for delivery.",
+          "summary": "Capital is flooding into AI compute and data-center capacity even as memory and hardware costs spike, creating mixed cost signals for delivery. Efficiency research and provider-dependency risks are shaping the economics of AI-accelerated work.",
           "drivers": [
-            "OpenAI cutting off Cursor and adding ChatGPT/Grok to the Pentagon genAI portal underscore provider volatility, driving interest in model routing and internally controlled harnesses",
-            "arXiv work on quantization damage, near-optimal SFT-RL budget allocation, and self-hosted fleets covering the corporate request mix directly addresses GPU-pool and serving-cost efficiency",
-            "Widening user-productivity gap (2.6x to 8.3x) from OpenAI data and viral 'model tier list' discourse show cost/speed increasingly weighed against capability in real deployments"
+            "Massive compute-capital formation — Fluidstack's $1.5B round at $18B+, Humain's $2.5B fund for 250MW in Saudi Arabia, Nvidia's $12.9B Hugging Face acquisition — signals abundant but consolidating infrastructure supply",
+            "Cost headwinds: TrendForce forecasts ~400% YoY memory cost increases for high-end devices and tariffs up to 100% on foreign drones/hardware, pressuring hardware-side delivery economics",
+            "Provider-dependency risk highlighted by OpenAI cutting off Cursor, driving industry interest in open-weight models, model routing, and internally controlled harnesses; FP4 pretraining and step-reduced video/inference models point to falling compute cost per unit of capability"
           ],
-          "signal": "The environment is rewarding multi-model routing, quantized self-hosting, and provider-independence as hedges against price and access volatility — signaling that delivery cost advantage now depends on stack orchestration and efficient serving rather than access to any single frontier model.",
+          "signal": "The environment shows cheap and improving inference/software economics colliding with rising hardware and memory costs and platform lock-in risk — signaling that delivery cost advantage increasingly depends on model-routing flexibility and efficiency rather than any single provider's pricing.",
           "sources": [
+            "Techmeme",
             "The AI Daily Brief",
-            "arXiv",
-            "defense press"
+            "arXiv"
           ]
         }
       },
       {
         "name": "Contract Pipeline",
-        "prob": 93,
+        "prob": 94,
         "label": "open SBIR/agency opportunities 90d",
         "trajectory": "UP",
-        "status": "Active solicitations span Navy CCA drones, Army tracked howitzers, CAML integration, and DoDNet migration, though the Dec 11 CR cliff and service-secretary churn add timing risk.",
+        "status": "Heavy award and solicitation flow — TITAN production ($192M Palantir/Anduril), AV directed-energy (~$500M), Navy CCA drone RFI, DOD encryption/PQC inquiry — keeps near-term opportunity density high.",
         "deepDive": {
-          "summary": "The near-term pipeline is active across autonomy, directed-energy, drones, and IT migration, with fresh RFIs and solicitations even amid a stopgap CR. The Navy's carrier-capable CCA drone RFI, the Army's tracked-howitzer solicitation, DISA's DoDNet migration notice, and DOD's encryption industry probe represent open or emerging opportunities in the 90-day window.",
+          "summary": "Active demand signals span directed-energy production, autonomous/CCA drones, quantum-safe encryption, and analytics, with several large awards and new solicitations issued in the window. Leadership turnover at the Army and Navy adds near-term programmatic uncertainty.",
           "drivers": [
-            "Navy RFI for first-increment CCA drones (demonstrable within three years), Army tracked-howitzer solicitation, and DOD software-defined encryption probe signal fresh entry points",
-            "Continuing resolution funds government through Dec. 11 with spending restrictions, keeping programs alive but constraining new-start flexibility until full-year appropriations",
-            "ICE analytics spending on voter-data processing and defense-intelligence AI/agentic/Zero-Trust priorities from DoDIIS 2026 indicate demand across civilian and IC segments"
+            "New solicitations and RFIs: Navy CCA drone search (demo/certify within three years), DOD encryption/post-quantum industry probe, and ICE analytics spend on voter data indicate fresh opportunity flow",
+            "Large awards landing: AeroVironment ~$465-500M laser production, GE F414 parts up to $2.9B and a DIU hypersonic test vehicle, Palantir/Anduril $192M TITAN production — showing where production dollars are concentrating",
+            "Leadership churn (Army Secretary Driscoll resignation, Hung Cao nominated SECNAV, Estonian minister resigning over procurement) signals potential shifts in acquisition priorities and timelines, alongside the Navy postponing its trainer-jet award"
           ],
-          "signal": "Opportunity flow remains healthy across defense and civilian agencies, but the December appropriations deadline and CR spending restrictions cap the pace of new starts — signaling a pipeline that is opening in RFI/pre-solicitation form now, with award timing gated by the funding resolution.",
+          "signal": "The pipeline is skewing toward production-phase autonomy, directed energy, and cryptographic modernization, but concurrent senior-leadership turnover introduces timeline and priority volatility — signaling an opportunity-rich but politically fluid contracting environment over the next 90 days.",
           "sources": [
             "defense press",
-            "DoD news",
+            "DefenseScoop",
             "FedScoop",
-            "Federal News Network"
+            "DoD news"
           ]
         }
       }
     ],
-    "unseen": "The most non-obvious pattern is that compliance is quietly becoming a moving target that outruns single certifications: the same week the government defends AI access legally, it opens post-quantum encryption and CUI-sprawl fronts — the accreditation moat is shifting from static ATO checklists toward continuously-evolving crypto and data-residency requirements, which favors firms who treat compliance as a live delivery capability rather than a gate.",
-    "criticalWindow": "The Dec 11 full-year appropriations deadline under the new CR — its resolution (or another stopgap) determines whether the wave of production awards and the DoDNet migration convert into funded new starts or stall under spending restrictions.",
+    "unseen": "The most overlooked pattern is a vertical squeeze: while everyone tracks which frontier model wins the DoD portal, the real structural move is Nvidia acquiring both compute (Groq assets) and the open-model distribution hub (Hugging Face) — meaning even a fully self-hosted, vendor-neutral open-weight delivery stack routes through Nvidia at two layers, quietly eroding the independence that multi-vendor model portals are meant to provide.",
+    "criticalWindow": "Whether the Nvidia-Hugging Face deal draws antitrust scrutiny or closes cleanly over the next 30-90 days — the same NYT context notes federal courts have been reluctant to force structural remedies even after finding violations, suggesting the consolidation likely proceeds and reshapes open-model tooling access.",
     "watchFor": [
-      "Whether the Anthropic ruling is appealed or triggers formal DoD/GSA guidance clarifying frontier-model procurement rules",
-      "DoD's next move on software-defined encryption and post-quantum migration — any RFP or mandate would reset compliance baselines for delivery",
-      "DISA DoDNet migration award structure and timing as combatant-command consolidation scales",
-      "SECNAV confirmation (Hung Cao) and Army secretary succession — leadership turnover reshaping service acquisition priorities"
+      "Regulatory response (or absence) to the Nvidia-Hugging Face acquisition and any changes to open-weight model hosting/access terms",
+      "Post-quantum cryptography / software-defined encryption moving from DOD industry probe to formal solicitation or mandate",
+      "Fallout from VA EHRM/Oracle subpoena and the broader 'execution over procurement' scrutiny reshaping large modernization contracts",
+      "Confirmation cadence and policy direction from new service leadership (Hung Cao SECNAV nomination, Army Secretary vacancy) affecting acquisition priorities"
     ],
-    "confidenceNote": "Model version names and Elo figures in the context are internally consistent but unverifiable and likely synthetic; the Anthropic ruling's scope and durability (appeal risk) are unclear from a single headline; the CR's specific DoD spending restrictions are not detailed, so budget-window read carries the most uncertainty.",
-    "topPattern": "The government is simultaneously locking in legally-defended access to the strongest frontier models and raising the compliance bar (CMMC/CUI, post-quantum crypto, DoDNet) — access and accreditation are tightening in lockstep, rewarding delivery that is fluent in both while a December appropriations cliff caps the runway.",
+    "confidenceNote": "Award and portal items are well-corroborated across DefenseScoop/DoD/Breaking Defense; the Nvidia-Hugging Face acquisition is single-sourced press and its regulatory path and terms are unconfirmed. Leadership-turnover consequences are speculative this early. Model names/version numbers in the frontier data are treated as capability signal, not verified releases.",
+    "topPattern": "The frontier and open-model supply is abundant and increasingly US/allied at the usable tier, but value and scrutiny are migrating to execution capacity and to who controls the compute-and-distribution layer beneath the models — Nvidia's Hugging Face buy is the clearest sign that layer is consolidating.",
     "strategicRead": [
-      "The combination of the Anthropic ruling plus the live multi-vendor portal signals the government is institutionalizing frontier-model access as a durable, legally-defended utility rather than a one-vendor bet — the enterprise question is shifting from 'which model' to model routing, harnesses, and controlled integration",
-      "Two compliance vectors are compounding at once — CMMC/CUI hygiene and a fresh post-quantum/software-defined-encryption push — meaning the ATO/accreditation surface for delivery is expanding faster than any single certification, raising the barrier for entrants but rewarding firms fluent in both",
-      "Production-phase awards (TITAN to Palantir/Anduril at $192M, CAML to Georgia Tech, Navy CCA RFI) alongside the DoDNet migration show modernization dollars flowing to integration and autonomy at scale, while the Dec 11 appropriations cliff caps how far new-start commitments can run in the window"
+      "Two opposing gravity fields are forming: DoD is deliberately diversifying at the application/model layer (three frontier vendors in one portal) while Nvidia consolidates the layer beneath it (compute + the open-model distribution hub), meaning vendor-independence at the model tier increasingly coexists with single-vendor dependence at the compute/tooling tier",
+      "The dominant Beltway narrative is shifting from 'buy AI' to 'can you execute' — House subpoena of Oracle over the $27B VA EHRM contract, 'Money doesn't build ships. Execution does', and 'the tech gap is about capacity' all point to execution capacity, not model access, becoming the differentiator agencies are scrutinizing",
+      "The capability frontier remains overwhelmingly US/allied at the top (Anthropic Claude Opus 5 family sweeps ranks 1-5, Google Gemini deep in the top 15), while Chinese models (Qwen3.8-max at #12, plus heavy GLM-5.3/DeepSeek-V4/Qwen open-weight trending) dominate open-weight mindshare but remain ineligible for delivery — the usable open floor stays anchored to Llama/Mistral/Granite/Nemotron/Phi/Gemma"
     ],
     "whatChanged": [
-      "The Anthropic dispute resolved in Anthropic's favor — a judge ruled the administration's punish/ban attempts unlawful, hardening lawful government access to the LMArena-leading Claude family (now #1-5,7,10 with claude-opus-5-max at Elo 1505)",
-      "Compliance frontier widened beyond CMMC: DoD is probing industry on software-defined encryption and post-quantum cryptography migration, while 'CUI sprawl' is flagged as a hidden CMMC-risk driver and the CR extended cyber info-sharing law through December",
-      "New CR passed averting shutdown but sets a Dec 11 full-appropriations cliff with spending restrictions on DoD — near-term budget certainty, medium-term overhang",
-      "DISA issued additional industry notice for a 'massive migration' of combatant commands to DoDNet under CIO Kirsten Davies — a large network-modernization signal not present in the prior brief",
-      "Leadership churn: Army Secretary Driscoll submitted resignation amid Hegseth tensions, and Hung Cao formally nominated as SECNAV — decision-maker turnover at two services"
+      "Nvidia agrees to buy Hugging Face for $12.9B (following ~$20B Groq-asset purchase) — the primary distribution hub for US/allied open-weight models (Llama, Mistral, Granite, Nemotron, Phi, Gemma) now sits under the dominant compute vendor, a new structural fact for the self-hostable 'floor'",
+      "The Pentagon multi-vendor genAI portal moved from anticipated to confirmed-live: Grok and ChatGPT are now added alongside Gemini (DoD and DefenseScoop both report), advancing the vendor-neutral posture flagged last brief",
+      "GSA's USAi is no longer free for federal agencies — a shift in the economics of government AI access that did not exist in the prior brief",
+      "Post-quantum/quantum-safe compliance surfaced as an active procurement signal: DOD is probing industry on software-defined encryption to accelerate PQC migration",
+      "Senior civilian-military turnover accelerated: Army Secretary Driscoll resigns amid Hegseth tensions, Hung Cao nominated SECNAV, GSA terminated hundreds of clearances — leadership churn across acquisition authorities"
     ]
   },
   "signals": [],
@@ -143,23 +144,27 @@
   "groundTruth": [],
   "aiNews": {
     "headlines": [
-      "A US federal judge rules that Google does not have to sell off its ad exchange and instead must make its ad tech tools work with those operated by rivals (Leah Nylen/Bloomberg)",
-      "Conveo, which uses AI to conduct customer interviews in 15 languages and analyzes transcripts for market insights, raised a $50M Series A led by DST Global (Chris Metinko/Axios)",
-      "Wonderful, which helps enterprises deploy AI, raised a $550M Series C led by Insight at a $5B valuation; investors also paid $170M for shares from employees (Yuliya Chernova/Wall Street Journal)",
-      "OpenAI is facing a new round of lawsuits from witnesses and victims of the February mass shooting in a Canadian town; the suspect spent days talking to ChatGPT (Georgia Wells/Wall Street Journal)",
-      "New Jersey-based Aitan, which offers \"robotic sovereignty as a service\" and \"edge AI weapon systems\", emerges from stealth with $41M led by Deep33 and Dell (Colin Demarest/Axios)",
-      "Valencia-based iPronics raised $125M co-led by Maverick Silicon and Light Street, with participation from Nvidia, to develop optical circuit switch tech (Stephen Nellis/Reuters)",
-      "Survey: 27% of Americans say they turn to AI chatbots like ChatGPT for personal, emotional, or social queries, rising to nearly 40% among adults under 50 (Washington Post)",
-      "The EU General Court dismisses Opera's challenge against the European Commission's decision to exempt Microsoft Edge from DMA gatekeeper regulations in 2024 (Reuters)",
-      "Survey: 53% of US adults say they spend too much time on their smartphone and 36% say about the right amount; 70% of ages 18 to 29 report spending too much time (Pew Research Center)",
-      "Memo: Uber is cutting 3,300 jobs, or 10% of its staff globally, to reduce management layers and reallocate spending into ride-sharing, delivery, and robotaxis (Natalie Lung/Bloomberg)",
-      "Acer unveils the Swift Blade 14, an ultralight laptop weighing 1.76lbs with Intel Wildcat Lake processors, and the Swift Air 16, set to launch in December (Antonio G. Di Benedetto/The Verge)",
-      "Acer unveils its fourth-generation Vero 16 with modular elements like removable bottom covers and hinges, user-replaceable batteries and SSDs, and more (Tyler Graham/CNET)",
-      "Acer unveils the Predator Atlas 7, a 7\" handheld with an Intel Arc G3 Extreme CPU, shipping in November, and the Project DualPlay Mini, an 8\" concept device (Mariella Moon/Engadget)",
-      "Robotics and AI startup Lyte, founded by ex-Face ID engineers, raised $165M led by Maverick Silicon at a $1.6B valuation, taking its total funding to $272M (Samantha Kelly/Bloomberg)",
-      "Dell unveils the student-focused Dell 14S, with Intel Wildcat Lake chips and starting with 8GB of RAM and 256GB of storage, in a bid to rival the MacBook Neo (Antonio G. Di Benedetto/The Verge)"
+      "Upwind, which filters false security alerts in cloud apps so companies can focus on actual risks, raised $300M at a $3.8B valuation, up from $1.5B in January (Meir Orbach/CTech)",
+      "PitchBook: 95+ investors put money into both Anthropic and OpenAI amid shifting norms; sources: Menlo, Lightspeed, and Iconiq each hold 1%-2% Anthropic stakes (Erin Griffith/New York Times)",
+      "Sources: Saudi AI company Humain is planning to raise an initial $2.5B fund to help finance data center capacity of 250 MW in Saudi Arabia (Omar El Chmouri/Bloomberg)",
+      "Munich-based Atira, which aims to use AI to automate the parsing and generation of complex bid proposals, raised a $15M seed led by Accel and a $2.5M pre-seed (Jeremy Kahn/Fortune)",
+      "HTC rolls out its $499 Vive Eagle, which let users choose between Gemini or ChatGPT as their assistant, in North America, Europe, the UK, and Australia (Chris Welch/Bloomberg)",
+      "TrendForce: for a 256GB iPhone Pro model, Q3 memory costs are forecast to be up nearly 400% YoY; Apple is not expected to pass on the full increase to customers (Ben Lovejoy/9to5Mac)",
+      "Nvidia agrees to buy Hugging Face for $12.9B, its second-biggest purchase after it paid $20B for Groq assets at the end of last year (Ari Levy/CNBC)",
+      "PlusAI, which is operating autonomous freight routes in Texas with trucking company Ryder, plans to go public in a SPAC deal at an $800M pre-money equity value (Pragyan Kalita/Reuters)",
+      "Sources: neocloud Fluidstack closed a $1.5B round led by Jane Street at an $18B+ valuation; in July, the startup announced a $750M round at a $7.5B valuation (Iain Martin/Forbes)",
+      "Tel Aviv-based Guardio, which offers a subscription-based consumer security service that protects digital accounts like emails, raised $40M at a $1.1B valuation (Marissa Newman/Bloomberg)",
+      "The Trump administration imposes tariffs of up to 100% on foreign drones, including 100% on models over 55lbs or with thermal imaging, in a bid to thwart China (Farah Stockman/New York Times)",
+      "Modern venture capital has transformed into an unchecked oligarchy, or \"Cancer Capital\", where mega-firms managing $50B+ live off fees and shift risk elsewhere (Anil Dash)",
+      "US federal courts have consistently shown a wariness in demanding Big Tech make major business changes despite finding antitrust violations, as tech races ahead (Steve Lohr/New York Times)",
+      "How some parents, mostly mothers, use AI to help them organize their families' schedules and automate mundane household tasks via apps like Ollie and Cozi Max (Valeriya Safronova/Financial Times)",
+      "Anker unveils the Eufy MindBase, a local AI hub for its cameras that runs an on-device, Anker-developed LLM, with a dedicated AI chip and up to 48TB of storage (Jennifer Pattison Tuohy/The Verge)"
     ],
     "brief": [
+      {
+        "title": "Why Fable 5.1 Is Worth the Upgrade",
+        "summary": "Fable 5.1 is the new state of the art—but its high token usage and restrictive limits mean the real question isn’t whether to switch, but where it belongs in your personal model stack. NLW examines its biggest capability gains, early user reactions, and how to decide when a frontier model is worth t"
+      },
       {
         "title": "OpenClaw 2.0 Shows Where AI Agents Are Going Next",
         "summary": "OpenClaw 2.0 introduces a multiplayer workspace where people and agents can share context, steer work, and hand projects off without reconstructing everything from scratch. NLW argues that collaborative agents—not just personal ones—represent the next major shift in how AI gets used at work. In the"
@@ -187,200 +192,196 @@
       {
         "title": "What the Top AI Users Are Doing Differently",
         "summary": "The gap between average AI users and the most advanced has exploded from 2.6x to 8.3x in just months. NLW breaks down new OpenAI data showing how frontier firms are using agents to move beyond writing and research into execution, workflow automation, and systems-level work. In the headlines: Meta’s"
-      },
-      {
-        "title": "The AI Model Tier List",
-        "summary": "A viral AI model tier list reveals how much harder it has become to name the “best” model. This episode breaks down where today’s leading models belong, why cost and speed increasingly matter alongside intelligence, and how businesses are assembling model stacks that combine premium and open models."
       }
     ],
     "trendingModels": [
       {
-        "id": "zai-org/GLM-5.3-Flash",
-        "pipeline": "image-text-to-text",
-        "likes": 1935,
-        "downloads": 441348,
-        "origin": "CN"
-      },
-      {
         "id": "zai-org/GLM-5.3",
         "pipeline": "text-generation",
-        "likes": 1493,
-        "downloads": 94403,
+        "likes": 1573,
+        "downloads": 151021,
         "origin": "CN"
       },
       {
         "id": "Qwen/Qwen3.8-Flash-Next",
         "pipeline": "image-text-to-text",
-        "likes": 4704,
-        "downloads": 207941,
+        "likes": 4777,
+        "downloads": 263287,
+        "origin": "CN"
+      },
+      {
+        "id": "zai-org/GLM-5.3-Flash",
+        "pipeline": "image-text-to-text",
+        "likes": 1998,
+        "downloads": 517902,
         "origin": "CN"
       },
       {
         "id": "Qwen/Qwen3.8-27B",
         "pipeline": "image-text-to-text",
-        "likes": 13654,
-        "downloads": 4960483,
-        "origin": "CN"
-      },
-      {
-        "id": "unsloth/Qwen3.8-Flash-Next-GGUF",
-        "pipeline": "image-text-to-text",
-        "likes": 710,
-        "downloads": 431339,
+        "likes": 13784,
+        "downloads": 5254882,
         "origin": "CN"
       },
       {
         "id": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
         "pipeline": "image-text-to-text",
-        "likes": 484,
-        "downloads": 17893,
+        "likes": 527,
+        "downloads": 54571,
         "origin": "CN"
       },
       {
         "id": "tencent/Hy4-preview",
         "pipeline": "text-generation",
-        "likes": 394,
-        "downloads": 3516,
+        "likes": 409,
+        "downloads": 4449,
         "origin": "CN"
       },
       {
         "id": "Lightricks/LTX-2.5",
         "pipeline": "image-to-video",
-        "likes": 2524,
-        "downloads": 1232274,
-        "origin": "OTHER"
-      },
-      {
-        "id": "unsloth/Qwen3.8-27B-GGUF",
-        "pipeline": "",
-        "likes": 3369,
-        "downloads": 9354057,
-        "origin": "CN"
-      },
-      {
-        "id": "unsloth/GLM-5.3-Flash-GGUF",
-        "pipeline": "text-generation",
-        "likes": 333,
-        "downloads": 63718,
-        "origin": "CN"
-      },
-      {
-        "id": "BreezeBlue/Breeze-TTS-2",
-        "pipeline": "text-to-speech",
-        "likes": 337,
-        "downloads": 3086,
+        "likes": 2645,
+        "downloads": 1293463,
         "origin": "OTHER"
       },
       {
         "id": "google/timesfm-3.0-pytorch",
         "pipeline": "time-series-forecasting",
-        "likes": 269,
-        "downloads": 0,
+        "likes": 337,
+        "downloads": 46862,
         "origin": "ALLIED"
+      },
+      {
+        "id": "unsloth/Qwen3.8-27B-GGUF",
+        "pipeline": "",
+        "likes": 3419,
+        "downloads": 9553042,
+        "origin": "CN"
+      },
+      {
+        "id": "unsloth/Qwen3.8-Flash-Next-GGUF",
+        "pipeline": "image-text-to-text",
+        "likes": 746,
+        "downloads": 535984,
+        "origin": "CN"
+      },
+      {
+        "id": "BreezeBlue/Breeze-TTS-2",
+        "pipeline": "text-to-speech",
+        "likes": 379,
+        "downloads": 3861,
+        "origin": "OTHER"
       },
       {
         "id": "MiniMaxAI/MiniMax-H3",
         "pipeline": "image-text-to-video",
-        "likes": 4788,
-        "downloads": 5532597,
+        "likes": 4835,
+        "downloads": 5092067,
         "origin": "CN"
       },
       {
         "id": "FastVideo/FastVideo-FastH3-4-step-Preview-v1-VSA-DataFree",
         "pipeline": "text-to-video",
-        "likes": 245,
+        "likes": 250,
         "downloads": 0,
         "origin": "OTHER"
       },
       {
+        "id": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+        "pipeline": "image-text-to-text",
+        "likes": 211,
+        "downloads": 100110,
+        "origin": "CN"
+      },
+      {
         "id": "pipecat-ai/phonellm-alpha-1",
         "pipeline": "text-generation",
-        "likes": 193,
-        "downloads": 6813,
+        "likes": 203,
+        "downloads": 11526,
         "origin": "OTHER"
       },
       {
         "id": "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
         "pipeline": "text-generation",
-        "likes": 1020,
-        "downloads": 805791,
+        "likes": 1044,
+        "downloads": 848781,
+        "origin": "CN"
+      },
+      {
+        "id": "unsloth/GLM-5.3-Flash-GGUF",
+        "pipeline": "text-generation",
+        "likes": 340,
+        "downloads": 75195,
         "origin": "CN"
       },
       {
         "id": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "pipeline": "image-text-to-text",
-        "likes": 858,
-        "downloads": 1276092,
-        "origin": "CN"
-      },
-      {
-        "id": "orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF",
-        "pipeline": "image-text-to-text",
-        "likes": 182,
-        "downloads": 64325,
+        "likes": 880,
+        "downloads": 1336061,
         "origin": "CN"
       }
     ],
     "research": [
       {
-        "title": "Beyond Scores: Understanding LLM-as-a-Judge Mechanisms in Summarization Evaluation",
-        "summary": "LLM-based evaluators of natural language generation (NLG) quality are widely deployed as scoring tools and as automated training signals, yet the internal procedure by which they assign a rating remains poorly understood. We investigate this procedure mechanis"
+        "title": "A Common Measure of Communication for Speech Brain-Computer Interfaces",
+        "summary": "Speech brain-computer interfaces (speech BCIs) translate neural activity into language, offering a path towards restoring speech for people with paralysis and, more broadly, enabling new forms of natural human-computer interaction. Despite this promise, the fi"
       },
       {
-        "title": "Efficient SWE Agent Benchmarking via Trajectory-Aware Evaluation",
-        "summary": "Evaluating software engineering agents on realistic benchmarks is costly, since each task may require multi-step code exploration, modification, and test execution. Existing efficient evaluation methods select representative subsets to estimate full-benchmark"
+        "title": "Discriminative World Models for Web Agents",
+        "summary": "Recent web agents use world models for test-time action selection by sampling candidate actions, predicting the resulting web states, and ranking them with a ranker model or a Process Reward Model (PRM). These world models are typically trained via supervised"
       },
       {
-        "title": "Adaptive Critical Token-Aware Retrieval for Repository-Level Code Generation",
-        "summary": "The repository-level code generation task requires synthesizing code that satisfies task requirements while remaining consistent with the target repository context. Since real-world repositories often exceed the input length limits of LLMs, existing approaches"
+        "title": "Graph Machine: Towards Better Pretraining via Edges",
+        "summary": "We introduce the Graph Machine (GM), an architecture that maintains an $O(n)$-sized state and accesses it through sparse, dynamic routing. Unlike methods with fixed-size states or sparse but static routing, GM preserves $O(n)$ complexity in its sparse layers w"
       },
       {
-        "title": "CordisBench: Can Language Models Reason About Component Lifecycles in Dynamic Agent Harnesses?",
-        "summary": "Dynamic agent harnesses let language models change the software that shapes their own execution. This flexibility brings a new reasoning burden: a local plugin change can propagate through dependencies and cleanup. We introduce CordisBench, a 1,200-question be"
+        "title": "GRADSOLVE: fast exact gradients for ODE ensembles on GPUs",
+        "summary": "Ordinary differential equations (ODEs) underlie models in science and engineering, and many applications need derivatives of their solutions with respect to parameters. Ensembles of independent trajectories suit graphics processing units (GPUs), but current GP"
       },
       {
-        "title": "The Rise of Verbal Reinforcement Learning",
-        "summary": "Natural language is emerging as a primary feedback channel for improving language agents, capable of conveying intent, preferences, and causal structure in forms interpretable by both humans and modern language models. We call this paradigm Verbal Reinforcemen"
+        "title": "Towards Trustworthy Autonomous Robots: An Explainable AI-Based Decision Framework",
+        "summary": "Autonomous robots powered by deep learning face a fundamental auditability challenge: when incidents occur, investigators cannot reconstruct why the system made specific decisions. This paper presents TRACE (Transparent Reasoning Architecture for Credible Exec"
       },
       {
-        "title": "Facet-0: A Robotic Foundation Model for Contact-Rich Precise Manipulation",
-        "summary": "Real-world robotic assembly at sub-millimeter tolerances demands spatial precision, compliant interaction, and robustness to contact failures. We present Facet-0, a robotic foundation model that predicts and values the contact consequences of its actions. Face"
+        "title": "User Feedback Provides a Unique Signal that LLMs Can not Detect",
+        "summary": "Harnessing naturally occurring feedback from user interactions offers a promising learning signal for Large Language Models (LLMs). However, recent studies suggest this feedback is inherently noisy and difficult to leverage effectively. We challenge this conce"
       },
       {
-        "title": "Mechanism Design for Alignment and Control",
-        "summary": "We develop a framework for mechanism design with AI agents whose alignment (preferences) and capabilities (feasible actions and information) are unknown. We want such agents to act on our behalf so mechanisms must incentivize both honesty and obedience. A one-"
+        "title": "Improved Gradient Descent Lower Bounds Beyond Nesterov",
+        "summary": "We study how far gradient descent (GD) can be accelerated by predetermined stepsizes in smooth convex optimization. Going beyond the classical $Ω(n^ -2 )$ first-order oracle lower bound of Nemirovsky and Yudin, we prove an $Ω(n^ -1.6342 )$ non-anytime lower bo"
       },
       {
-        "title": "StudentSim: Training LLM-based Student Simulators",
-        "summary": "AI tutors are most useful when they adapt to each student's strengths, weaknesses, and preferred guidance, but evidence about which guidance works for which student is sparse, slow, and costly to collect from real learners. Student simulators can provide this"
+        "title": "The Implications of Linguistic Illegibility for LLM Security",
+        "summary": "LLMs are trained to generate natural language. However, various strands of evidence indicate that an LLM's externalized linguistic outputs and mechanistically-extracted linguistic features can be an unreliable lens for understanding internal model computation."
       },
       {
-        "title": "Designing Proactive Thought Partners for Writing",
-        "summary": "Writing involves diverse cognitive activities, from ideation to revision, and writers' needs vary across individuals and moments. Proactive AI promises to provide the right support at the right time, yet existing proactive tools largely focus on generic textua"
+        "title": "Post-Training Language Models for Gold-Medal Performance in Coding Competitions",
+        "summary": "Competitive programming has become a key test of large language model reasoning, with international competitions such as IOI and ICPC representing its most challenging settings. We present an end-to-end specialization pipeline combining large-scale problem cur"
       },
       {
-        "title": "The Structure of Quantization Damage in LLMs: Why the Next Bit Should Be Spent Globally",
-        "summary": "Post-training quantization (PTQ) is widely used to reduce the cost of serving large language models (LLMs), but its accuracy cost is uneven and is often tuned per model. We study where quantization damage occurs and how to allocate a small additional precision"
+        "title": "UE5M3 FP4 Block Scaling for Stable Language Model Pretraining",
+        "summary": "Stable 4-bit floating-point (FP4) pretraining is difficult because the E2M1 payload represents only a narrow range of magnitudes. NVIDIA's Transformer Engine \\nv recipe addresses this with current-tensor scaling, a randomized Hadamard transform (RHT), and bflo"
       },
       {
-        "title": "Closing Cost-Quality Gap in Document VLMs: Difficulty-Aware Data Curation and Quality-Adjusted Deployment Economics",
-        "summary": "Extracting structured fields from hundreds of millions of documents annually remains costly in regulated industries: bespoke OCR cascades cover only a fraction of workflows, privacy rules preclude external models, and existing open-source VLMs that clear quali"
+        "title": "Learning Spectral-Like Mesh-Free Discretisations",
+        "summary": "Meshfree methods such as smoothed particle hydrodynamics (SPH) with kernel corrections, radial basis function-generated finite differences (RBF-FD), and the local anisotropic basis function method (LABFM) construct discrete differential operators by imposing p"
       },
       {
-        "title": "Scaling Near-Optimal SFT-RL Annotation Budget Allocation from Small to Large LLMs",
-        "summary": "How to divide a fixed annotation budget between supervised fine-tuning (SFT) and reinforcement learning (RL) during LLM post-training remains an open problem. Existing work characterizes only broad trends (e.g., SFT dominates in low-data regimes), lacks a prin"
+        "title": "AI Contextual Measurement for Recovering Individual and Group-Level Effects: Validation Against Survey Measures and an Occupational Application",
+        "summary": "Researchers increasingly use artificial intelligence to construct measures of social, organizational, and occupational characteristics that are absent from conventional surveys. We propose AICOME, AI COntextual MEasurement, a framework for evaluating whether A"
       },
       {
-        "title": "From Production Traffic to Post-Training: Building a Self-Hosted LLM That Covers the Corporate Request Mix",
-        "summary": "Data-residency constraints force enterprises to self-host LLMs, but continuous adoption of newer models without decommissioning their predecessors expands the serving fleet, fragmenting a finite GPU pool. We consolidate traffic from over 200 internal applicati"
+        "title": "Cliff: Learning Process Rewards from the First Mistake",
+        "summary": "Reinforcement learning with verifiable rewards (RLVR) has emerged as a powerful paradigm for large language model (LLM) post-training, but its reliance on coarse outcome rewards leads to limited guidance on intermediate reasoning processes. Existing approaches"
       },
       {
-        "title": "Selective Agent Guidance via Entropy: Learning Autonomous Policies from Imperfect VLM Teachers",
-        "summary": "Vision-Language Models (VLMs) provide useful priors for interactive decision-making, but using them directly as policies is expensive and brittle: they must be queried at every step, do not improve from environment interaction, and can repeat systematic errors"
+        "title": "Large Language Models (LLMs) for Telecom Root Cause Analysis (RCA): A Structured Reasoning Framework for Evidence-Grounded Diagnosis",
+        "summary": "Root cause analysis (RCA) is a critical task in telecom network operations, but diagnosing performance degradations in modern 5G and emerging 6G networks remains challenging due to complex cross-layer dependencies. While large language models (LLMs) offer prom"
       },
       {
-        "title": "From Confusion to Clarity: Confusion-Aware Retrieval and Knowledge Injection for Text Classification",
-        "summary": "Large language models (LLMs) struggle to classify text into taxonomies with many semantically similar labels, as the distinctions are domain-specific and not captured by pre-training. To handle large label spaces, a common approach retrieves top-$K$ candidate"
+        "title": "frb100-40 After Two Decades: An Optimality Certificate and a Preregistered Search Study",
+        "summary": "For more than 20 years, the Model-RB benchmark frb100-40 remained an open challenge; since 2014, its public record had stood at 99 of 100 variables. We give a directly checkable 100-vertex independent set for its 4,000-vertex graph. Together with a verified pa"
       }
     ],
     "leaderboard": [
@@ -538,53 +539,63 @@
     "press": [
       {
         "source": "Breaking Defense",
+        "title": "Belgium and India partner on local 70mm rocket assembly, wave of industry agreements",
+        "summary": "Belgian defense officials said the cooperation will strengthen European security of rocket supply."
+      },
+      {
+        "source": "Breaking Defense",
+        "title": "GE Aerospace to provide marine gas turbine engines for South Korea’s KDDX destroyers",
+        "summary": "It will supply 12 LM2500+G4 engines for six KDDX-class ships"
+      },
+      {
+        "source": "Breaking Defense",
+        "title": "Hermeus picks Anduril autonomy for Quarterhorse drone",
+        "summary": "In an exclusive interview with Breaking Defense, executives from both firms described a mutually beneficial arrangement."
+      },
+      {
+        "source": "Breaking Defense",
+        "title": "Winning the information war is as much about ideas and perception as it is about data",
+        "summary": "Sponsored “Being able to tell the commander you don’t need to do something is actually a pretty powerful message, as well.”"
+      },
+      {
+        "source": "Breaking Defense",
+        "title": "Estonian defense minister resigns following Ukrainian ammo procurement controversy",
+        "summary": "Hanno Pevkur said on Estonian TV that while he wasn’t personally responsible for the contracts in question, “a leader must have both the courage and stature to take responsibility … .”"
+      },
+      {
+        "source": "Breaking Defense",
+        "title": "GE wins deals for F/A-18 engine parts, hypersonic test",
+        "summary": "The company was separately awarded one deal worth up to $2.9 billion to supply parts for its F414 engine, and another to provide a hypersonic test vehicle for the Defense Innovation Unit."
+      },
+      {
+        "source": "Breaking Defense",
+        "title": "Army awards first-ever laser production contract to AV, with $465M value",
+        "summary": "“One of the key exciting components of this particular production program is introducing production-directed energy for the first time in the nation’s history,” AV’s vice president of directed-energy systems told reporters."
+      },
+      {
+        "source": "Breaking Defense",
+        "title": "Army awards $192M to Palantir and Anduril to produce TITAN system",
+        "summary": "The effort awards $127 million to Palantir and $65 million to Anduril."
+      },
+      {
+        "source": "Breaking Defense",
+        "title": "In the rush to buy drones, make sure not to stockpile obsolescence",
+        "summary": "In this op-ed, the commander of the DCMA’s Unmanned Systems – Experimental Command (US-X) warns that unit cost can’t be the driver when looking at small drones."
+      },
+      {
+        "source": "Breaking Defense",
         "title": "Navy postpones new trainer jet proposal, award dates",
         "summary": "Textron Aviation Defense and SNC are currently competing for the Navy’s Undergraduate Jet Training System program."
       },
       {
-        "source": "Breaking Defense",
-        "title": "Physics AI is different and changes the way defense systems are designed",
-        "summary": "Sponsored Models that replicate real-world physics streamline design, testing and iteration processes."
+        "source": "DefenseScoop",
+        "title": "Pentagon seeks access to vast private UFO records collection",
+        "summary": "AARO notably wants pre-1990 archives, as it hustles to meet Congress’ call to review the U.S. government’s UAP involvement since 1945. The post Pentagon seeks access to vast private UFO records collection appeared first on DefenseScoop ."
       },
       {
-        "source": "Breaking Defense",
-        "title": "Sweden to ‘evaluate’ adding French long-range strike missiles to new frigates",
-        "summary": "After inking a €4.3 billion frigate deal, Sweden’s defense minister told Breaking Defense Stockholm was keeping an “open mind” about additional cruise missiles."
-      },
-      {
-        "source": "Breaking Defense",
-        "title": "Europe’s airpower future is evolving. Here’s what to know.",
-        "summary": "Breaking Defense kicks off a new video series focused on how Europe is modernizing its manned and unmanned aircraft."
-      },
-      {
-        "source": "Breaking Defense",
-        "title": "Trump to formally nominate Cao as Navy Secretary",
-        "summary": "Navy veteran Hung Cao has been the service’s acting secretary since April."
-      },
-      {
-        "source": "Breaking Defense",
-        "title": "How the new stopgap funding bill affects the Defense Department",
-        "summary": "The new continuing resolution keeps the government open, but it also comes with certain restrictions on spending."
-      },
-      {
-        "source": "Breaking Defense",
-        "title": "Army seeks tracked howitzer candidates following award for wheeled platforms",
-        "summary": "The new solicitation comes weeks after the Army awarded Hanwha Defense USA a deal up to $233 million to deliver wheeled K9 mobile howitzer prototypes."
-      },
-      {
-        "source": "Breaking Defense",
-        "title": "House passes funding stopgap, averting government shutdown in October",
-        "summary": "The bill, which now heads to the president’s desk, gives Congress until Dec. 11 to pass full-year appropriations."
-      },
-      {
-        "source": "Breaking Defense",
-        "title": "Army awards Georgia Tech $33M to be lead weapons integrator for CAML program",
-        "summary": "Georgia Tech will lead the integration of the autonomous mobility platform and the modular munitions pallets — the components that make up the CAML system."
-      },
-      {
-        "source": "Breaking Defense",
-        "title": "The defense intelligence community’s AI and cyber view forward",
-        "summary": "From AI adoption and agentic systems to Zero Trust and cyber resilience, Breaking Defense’s latest eBook brings together key reporting from DoDIIS 2026 on the technologies and strategies shaping the future of defense intelligence."
+        "source": "DefenseScoop",
+        "title": "Army awards AeroVironment nearly $500M contract for laser weapons",
+        "summary": "“The Enduring High Energy Laser Program is historically significant,” said Mary Clum, president of AV’s space, cyber and directed energy program. “It's not simply about lasers defeating a drone, it is the transition of directed energy towar"
       },
       {
         "source": "DefenseScoop",
@@ -625,50 +636,40 @@
         "source": "DefenseScoop",
         "title": "DOD probes industry about software-defined encryption as U.S. scurries to get quantum-safe",
         "summary": "The department is also looking into data protection measures that are designed to advance its migration to post-quantum cryptography. The post DOD probes industry about software-defined encryption as U.S. scurries to get quantum-safe appear"
-      },
-      {
-        "source": "DefenseScoop",
-        "title": "After back-to-back airspace blunders earlier this year, border task force shoots down ‘cartel-linked’ drones with AV laser",
-        "summary": "Over two days this week, Joint Task Force-Southern Border used the Army Multipurpose High Energy Laser system to engage three \"hostile\" UAS, according to a press release. The post After back-to-back airspace blunders earlier this year, bord"
-      },
-      {
-        "source": "DefenseScoop",
-        "title": "DISA issues additional notice to industry for massive migration of combatant commands to DoDNet",
-        "summary": "The issuance follows the release of a directive from Pentagon Chief Information Officer Kirsten Davies. The post DISA issues additional notice to industry for massive migration of combatant commands to DoDNet appeared first on DefenseScoop"
       }
     ],
     "labs": [
       {
         "lab": "DoD",
         "items": [
+          "Hegseth Welcomes Australian Prime Minister, Commemorates Alliance",
+          "Sentinel Samurai Strengthens Joint EOD Readiness",
+          "Army Artillery Brigade Builds Tactical Proficiency",
           "Officials Provide Progress Update on Major Operation 1 Year After its Launch",
           "ChatGPT, Grok Added to War Department's AI System Options",
-          "Airlift Wing Builds Mobility Readiness During Exercises",
-          "Michigan National Guard Trains Mission-Ready Pilots Over Lake Huron",
-          "Army Lasers Blast Drones, Proving Directed-Energy Weapons Are Future",
-          "Guard Program Links Global Partnership to DOW Priorities"
+          "Airlift Wing Builds Mobility Readiness During Exercises"
         ]
       },
       {
         "lab": "FedScoop",
         "items": [
+          "House committee votes to subpoena Oracle after fiery hearing on VA’s $27B EHRM contract",
+          "Top CMS tech official says agency is shifting focus from AI usage to outcomes",
+          "USAi is no longer free for federal agencies, website update says",
           "ICE tabs millions for analytics help to comb through voter data",
           "House advances bill putting ‘undermined’ FTC at center of scam-fighting efforts",
-          "Whistleblower says USPS deploying new, ‘untested’ IT systems governing mail-in ballots",
-          "OMB issues anticipated memo enforcing Login-dot-gov use",
-          "Agencies can use some AI without creating records, memo says",
-          "Trump administration attempts to punish, ban Anthropic were unlawful, judge rules"
+          "Whistleblower says USPS deploying new, ‘untested’ IT systems governing mail-in ballots"
         ]
       },
       {
         "lab": "Federal News Network",
         "items": [
-          "OPM’s overhauls to FEVS pose both opportunities and risks, workforce experts say",
-          "CR extends cyber info sharing law through December",
-          "The quantum attack surface is bigger than it seems",
-          "CUI sprawl: The hidden driver of CMMC risk",
-          "I’ve submitted my retirement paperwork. Now what?",
-          "The government is changing some key rules that shape the federal contracting marketplace"
+          "House VA lawmakers to subpoena Oracle over EHR contract",
+          "Forget the budget; the government’s tech gap is about capacity",
+          "Driscoll offers no reason for his exit as Army secretary but says Wednesday is his last full day",
+          "GSA terminates hundreds of security clearances after review",
+          "DoD asks for encryption software to protect military data",
+          "Money doesn’t build ships. Execution does"
         ]
       }
     ]
