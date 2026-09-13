@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-09-12T13:51:10.025Z",
-  "runNumber": 100,
+  "generatedAt": "2026-09-13T14:47:10.442Z",
+  "runNumber": 101,
   "situation": {
-    "headline": "DoD is poised to move ALL classified AI workloads off Anthropic by October, migrating to military-tuned frontier models — a sharp reminder that even the current leaderboard leader can be displaced inside classified environments on procurement/sovereignty grounds, not capability.",
+    "headline": "DoD's move to pull ALL classified AI workloads off Anthropic by October is now firming into migration/deployment detail, landing the same week OpenAI locks a governmentwide GSA OneGov ChatGPT deal through 2028 — a two-sided signal that federal AI access is consolidating around portfolio/procurement terms, not leaderboard rank.",
     "velocity": "ACCELERATING",
     "domains": [
       {
         "name": "Gov Modernization",
-        "prob": 94,
+        "prob": 95,
         "label": "agency modernization demand rising 90d",
         "trajectory": "UP",
-        "status": "DoD classified AI re-platforming, DHS/DOE tech partnership, NWS cloud-supercomputing transition, and delayed-maintenance network overhauls all point to broad, funded modernization pull.",
+        "status": "OneGov ChatGPT distribution, DHS biometric/cyber-network overhauls, and 'no more' delayed-maintenance rhetoric point to broad, funded modernization pull across DoD and civilian agencies.",
         "deepDive": {
-          "summary": "Agency modernization demand is broadening across DoD and civilian bodies, with a clear pivot toward AI-ready infrastructure, cloud supercomputing, and remediation of decades of deferred network maintenance. Cyber leadership is publicly framing legacy networks as being in 'potential peril' for the AI age, signaling budget and urgency tailwinds for modernization work.",
+          "summary": "Agency modernization demand is broad and accelerating, spanning cyber-hardened networks, cloud supercomputing, biometrics, and AI enablement. DefenseScoop reporting that decades of delayed maintenance left Pentagon networks in 'potential peril' for the AI age, paired with NWS cloud/AI weather transitions and a $440M DHS biometrics program, signals large-scale infrastructure and modernization spend across both defense and civilian agencies.",
           "drivers": [
-            "DefenseScoop reporting that Lt. Gen. Stanton flagged decades of delayed maintenance leaving Pentagon networks in 'potential peril' for AI-era operations",
-            "Civilian modernization moves: NWS transition to cloud supercomputing to fuel AI weather prediction, DHS/Energy Department technology partnership, and CMS tech offices reshaping mission delivery",
-            "OpenAI–GSA OneGov deal putting ChatGPT across government through 2028, plus White House quantum policy shifts and border tech testbed expansion"
+            "Cyber defense command publicly declaring Pentagon network technical debt unacceptable ('no more') ahead of AI-agent adoption",
+            "Civilian modernization moving forward: NWS cloud supercomputing for AI weather prediction, DHS-DOE technology partnership, $440M governmentwide biometrics investment",
+            "OpenAI/GSA OneGov ChatGPT deal through 2028 plus 'authority ladder' governance debate signaling structured federal AI rollout"
           ],
-          "signal": "The environment is shifting from optional modernization to remediation-under-pressure — legacy networks are being reframed as active national-security liabilities, which historically precedes concentrated modernization spending and cross-agency AI-infrastructure procurement.",
+          "signal": "The environment shows modernization demand shifting from isolated pilots toward enterprise-scale infrastructure remediation and AI-readiness, with network hygiene increasingly treated as a national-security precondition rather than routine IT.",
           "sources": [
             "defense press",
             "FedScoop",
@@ -31,19 +31,17 @@
         "prob": 96,
         "label": "CMMC/FedRAMP/IL requirements shifting",
         "trajectory": "UP",
-        "status": "CMMC reform is actively being rewritten from industry feedback, DIU is prototyping fast-track clearances, and classified-workload accreditation is the decisive gate for AI vendors.",
+        "status": "CMMC reform enters feedback-digestion, DIU pilots fast-tracked clearances, and the Anthropic classified exit shows access/authorization increasingly decides which models can be fielded.",
         "deepDive": {
-          "summary": "The compliance regime is in active flux: CMMC reform is being reworked from heavy contractor feedback, DIU is prototyping a model to fast-track security clearances for startups, and a governance conversation around AI-agent authority is emerging. Simultaneously, DoD is publicly moving all classified AI workloads off Anthropic by October in favor of military-tuned frontier models.",
+          "summary": "Compliance frameworks are in active flux, with the Pentagon reviewing heavy industry feedback on CMMC reform and DIU prototyping a Bridge Program to fast-track startup security clearances. Simultaneously, a hard classified-AI sovereignty line is emerging as DOD moves to pull all classified AI workloads off Anthropic by October in favor of military-tuned models.",
           "drivers": [
-            "DefenseScoop: Pentagon poring over industry feedback to reform CMMC, and DIU's Bridge Program solicitation to accelerate clearances for nontraditional vendors",
-            "DoD's fast-tracked migration of classified AI workloads off Anthropic toward military-tuned frontier models by October",
-            "FedScoop's 'authority ladder before agents get the keys' framing and Senate negotiations on an AI 'duty of care' bill allowing the government to block unsafe model releases"
+            "Pentagon actively poring over contractor input to reform CMMC certification requirements",
+            "DIU's impending solicitation to fast-track clearances for startups via the Bridge Program, lowering an access barrier",
+            "DoD migrating all classified AI workloads off a single commercial provider by October, signaling stricter control and multi-vendor sovereignty expectations for classified environments"
           ],
-          "signal": "Access barriers and authorization pathways are being actively re-engineered — clearance and CMMC friction may ease for smaller entrants while a new layer of AI-agent authorization and model-provider vetting emerges, indicating the compliance surface is expanding beyond data handling into model provenance and agent permissions.",
+          "signal": "Access barriers for new entrants may ease (clearance fast-tracking, CMMC recalibration) even as classified-tier AI hosting requirements tighten toward controlled, government-tuned deployments — a bifurcation between easier entry and stricter data-boundary control.",
           "sources": [
-            "defense press",
-            "FedScoop",
-            "Techmeme"
+            "defense press"
           ]
         }
       },
@@ -52,88 +50,85 @@
         "prob": 96,
         "label": "frontier + open model capability gains",
         "trajectory": "UP",
-        "status": "Anthropic/Google/Meta cluster atop LMArena above 1480 Elo with rapid model churn (Astra, Muse-Spark, Gemini 3.8), while military-tuned frontier variants emerge for classified use.",
+        "status": "Anthropic Claude Opus/Fable sweep the top of the board with dense September releases, while US/allied open-weight and military-tuned options keep the self-hostable floor rising.",
         "deepDive": {
-          "summary": "The proprietary frontier is dominated by US/allied labs — Anthropic Claude variants and Google Gemini occupy the top of LMArena, with Meta's Muse-Spark in the top tier. Open-weight momentum on Hugging Face is heavily Chinese-origin (Qwen, DeepSeek, GLM, MiniMax — all capability-signal-only and ineligible for U.S. government delivery), while the frontier release cadence has accelerated into a monthly model boom.",
+          "summary": "The frontier is dense and US/allied-led at the top: Anthropic Claude (Fable 5.1 / Opus 5) and Google Gemini 3.x occupy the leaderboard's leading Elo band, with Meta's Muse-Spark competitive and Chinese models (Qwen3.8-max) present as capability signal only. Model cadence is intense — a 'blistering' September model boom of faster, cheaper, more specialized releases raising the importance of model selection.",
           "drivers": [
-            "LMArena top-15 led by Claude (fable-5.1-max Elo 1510, multiple Opus-5 entries) and Gemini 3.x, with the sole RESTRICTED-CN entry (Qwen3.8-max) at #14 tracked for capability signal only",
-            "Hugging Face trending dominated by Chinese open-weight models (Qwen3.8-27B at 14.8k likes, DeepSeek-V4.1-Flash, GLM-5.3, MiniMax-H3) — capability reference points, not deliverable options",
-            "The AI Daily Brief noting a 'blistering' model month and a widening gap between frontier and public releases; arXiv work on edge-deployable VLMs, domain hallucination detection, and agentic persistent alignment"
+            "US/allied proprietary models holding top LMArena ranks (Claude and Gemini clustering ~1490-1510 Elo)",
+            "Rapid release cadence and specialization noted across the AI press, plus GPT-Live real-time voice/vision expanding application surface",
+            "Strong open-weight momentum on Hugging Face, though the highest-trending open weights are Chinese-origin (DeepSeek, Qwen, MiniMax, GLM) — RESTRICTED-CN, capability signal only, not eligible for US government delivery"
           ],
-          "signal": "Frontier capability usable for U.S. government delivery remains concentrated in a few US/allied proprietary providers, while the most visible open-weight adoption curve is Chinese-origin and off-limits — meaning the eligible self-hostable floor (Llama, Mistral, Granite, Nemotron, Phi, Gemma) is trailing the raw capability signal set now dominating open leaderboards.",
+          "signal": "Capability gains remain led by US/allied frontier labs at the top, but the most-adopted open weights skew Chinese-origin, meaning the usable self-hostable floor for government work (Llama/Mistral/Granite/Nemotron/Phi/Gemma class) trails the visible open-weight buzz — a gap between what's trending and what's deployable.",
           "sources": [
             "LMArena leaderboard",
             "Hugging Face trending",
-            "The AI Daily Brief",
-            "arXiv"
+            "The AI Daily Brief"
           ]
         }
       },
       {
         "name": "Delivery Economics",
-        "prob": 90,
+        "prob": 92,
         "label": "AI/compute cost favorable for delivery",
         "trajectory": "UP",
-        "status": "Cheaper/faster specialized models plus shared-savings and shared-risk contracting models are compressing delivery cost, though enterprise concern over runaway agent/token costs is a countervailing signal.",
+        "status": "Cheaper/faster specialized models plus agentic loops and shared-savings/shared-risk contract models tie delivery economics directly to eliminated cost and exponentially falling 'price of lethality.'",
         "deepDive": {
-          "summary": "The cost curve continues to bend favorably: faster, cheaper, more specialized models (Gemini Flash tiers, small edge-deployable VLMs, sub-3B open models) are proliferating, and the discourse centers on token efficiency and agentic loops. On the acquisition side, DoD is piloting outcome-based payment structures that tie vendor pay to costs eliminated.",
+          "summary": "Cost and delivery economics are trending favorable, with the model press emphasizing faster, cheaper, more specialized models and enterprise scrutiny of AI token costs driving efficiency-focused workflows. Gen. Caine's remark that 'the price of lethality is on an exponential decrease' and new outcome-based contract experiments point to a broader cost-compression narrative reaching acquisition.",
           "drivers": [
-            "AI Daily Brief emphasis on faster/cheaper/specialized models making selection critical, plus agentic-loop and token-efficiency themes for knowledge work",
-            "arXiv signals on edge-deployable VLMs, MoE overfitting to repeated data, and small locally-runnable models (MiniCPM5-2B, sub-4B GGUF quantizations) lowering inference cost",
-            "DefenseScoop: Pentagon's $100M OTA 'shared savings' pilot paying vendors only for costs they eliminate, and Gen. Caine urging 'shared risk' as the price of lethality drops exponentially"
+            "AI Daily Brief themes: agentic loops, token efficiency, and cost-management as central concerns for AI-native work",
+            "Pentagon shared-savings $100M OTA (vendors paid only for costs eliminated) and Caine's push for industry 'shared risk' — outcome/savings-based commercial models",
+            "Crypto miners converting facilities to AI data centers and federal-land data-center push signaling expanding compute supply"
           ],
-          "signal": "Both the model economics and the government's contracting economics are moving toward efficiency and outcome-linked value — cheaper inference plus emerging shared-savings/shared-risk acquisition models signal that cost-to-deliver is becoming a competitive axis the government is actively trying to price into contracts.",
+          "signal": "The environment is normalizing cost-compression and outcome-based value capture as procurement themes, while expanding compute supply and cheaper specialized models push the marginal cost of AI-accelerated delivery downward — reshaping how value and pricing are framed to government buyers.",
           "sources": [
             "The AI Daily Brief",
-            "arXiv",
-            "Hugging Face trending",
-            "defense press"
+            "defense press",
+            "Techmeme"
           ]
         }
       },
       {
         "name": "Contract Pipeline",
-        "prob": 93,
+        "prob": 94,
         "label": "open SBIR/agency opportunities 90d",
         "trajectory": "UP",
-        "status": "Army REWSI EW awards ($196M), $100M shared-savings OTA, DIU Bridge solicitation, border tech testbed, and Golden Dome/laser programs indicate a thick near-term opportunity set.",
+        "status": "New EW sensor production awards ($196M), a $100M shared-savings OTA, DIU Bridge solicitation, and Golden Dome/laser/DARC programs signal a thick near-term opportunity set.",
         "deepDive": {
-          "summary": "Near-term opportunity flow is active and skewing toward electronic warfare, missile/air defense, counter-drone, biometrics, and new fast-track acquisition vehicles. Multiple production awards and novel contract models are moving through DIU, the Army, and DHS within the 90-day window.",
+          "summary": "The near-term pipeline is active across EW/SIGINT, missile and air defense, counter-drone, and novel contracting vehicles. Concrete awards and solicitations include the Army's $196M REWSI sensor production contracts, a $100M shared-savings OTA, DIU's impending Bridge solicitation, and multiple missile-defense/Golden Dome and directed-energy programs advancing.",
           "drivers": [
-            "Army's $196M first production contracts under the REWSI EW/SIGINT call for solutions, plus DHS's planned $440M governmentwide biometric capture investment",
-            "DIU's Bridge Program solicitation to fast-track startup clearances and the Pentagon's $100M OTA shared-savings pilot with a venture studio",
-            "Sustained air-and-missile-defense and counter-drone demand (Golden Dome propulsion, Joint Laser Weapon by 2028, DARC radar site in Texas, Covenant strike missile, 2nd interagency counter-drone summit)"
+            "Army REWSI $196M first production contracts for EW/SIGINT sensors, with the program actively expanding",
+            "Missile/air-and-missile-defense and Golden Dome momentum (Patriot industrial base, propulsion, Joint Laser Weapon System by 2028, DARC radar site in Texas), plus counter-drone interagency summits",
+            "New vehicle experimentation: DIU Bridge Program solicitation, $100M shared-savings OTA venture-studio pilot, and border tech testbed expansion"
           ],
-          "signal": "The pipeline is opening across both hardware-heavy defense priorities and new flexible acquisition mechanisms (OTAs, shared-savings, Bridge), indicating that entry pathways for nontraditional and AI-accelerated vendors are widening at the same time large production dollars concentrate in EW, missile defense, and biometrics.",
+          "signal": "Opportunity flow is concentrated in sensing, EW/SIGINT, layered missile/air defense, and counter-drone, delivered increasingly through non-traditional vehicles (OTAs, shared-savings, fast-track clearance) — signaling both where budgets are flowing and a structural shift in how the government is contracting for speed and shared risk.",
           "sources": [
             "defense press",
-            "FedScoop",
             "DoD news"
           ]
         }
       }
     ],
-    "unseen": "The same week the public leaderboard is dominated by Anthropic, DoD is ejecting Anthropic from its classified stack — the market is quietly decoupling 'best model' from 'deliverable model,' meaning the winning credential inside the wire is accreditation + government-controlled tuning, not benchmark rank. Firms optimizing purely for frontier access may be reading the wrong scoreboard.",
-    "criticalWindow": "The October DoD cutover of classified AI workloads off Anthropic — watch which vendors/models absorb those workloads and what 'military-tuned frontier model' concretely means for accreditation and hosting, since it sets the template for classified AI delivery.",
+    "unseen": "The government is quietly decoupling 'best model' from 'usable model': Anthropic leads the public leaderboard yet is being evicted from classified DoD work, while OpenAI simultaneously wins broad civilian distribution — meaning federal AI winners are increasingly picked by controllability, clearance posture, and contract vehicle, a filter that structurally advantages military-tuned and US/allied open-weight deployments over raw frontier scores.",
+    "criticalWindow": "The October cutover of DoD classified AI workloads off Anthropic onto military-tuned models — its execution pace and any friction will reveal how fast the department can swap frontier vendors inside accredited environments, and how the OneGov/OpenAI civilian lane coexists with it.",
     "watchFor": [
-      "Named winners/models for the DoD classified AI migration and whether they are proprietary military-tuned variants or accredited open-weight (US/allied) deployments.",
-      "Publication of CMMC reform direction from the industry feedback review — thresholds, timelines, and self-attestation vs third-party audit balance.",
-      "DIU Bridge Program solicitation release and clearance fast-track mechanics for startups.",
-      "Terms and early results of the $100M shared-savings OTA and any expansion of outcome/'shared risk' contracting language across services."
+      "October completion (or slippage) of the DoD classified migration off Anthropic and which military-tuned models absorb the workloads.",
+      "CMMC reform rule movement following the industry-feedback digestion — thresholds, timelines, and self-hosting/access implications.",
+      "DIU Bridge Program solicitation release and terms for fast-tracked startup security clearances.",
+      "Outcomes/expansion of the $100M shared-savings OTA and 'shared risk' contracting rhetoric into repeatable vehicles."
     ],
-    "confidenceNote": "The DoD-off-Anthropic report is single-source (DefenseScoop) and pre-cutover; scope ('all classified workloads') and the destination models are not independently confirmed here. Leaderboard version numbers and several model names in CONTEXT appear speculative/unverifiable and are treated as directional capability signal, not ground truth.",
-    "topPattern": "Federal AI is splitting into an expanding commodity unclassified tier and a government-controlled classified tier where accreditation and sovereignty — not public benchmark rank — decide who delivers, all while acquisition barriers loosen and cost risk shifts onto vendors.",
+    "confidenceNote": "Model names, version numbers, and some outlet names in the context are unverifiable and likely partly synthetic, so treat specific capability rankings as directional signal, not fact; the Anthropic-exit and OneGov items are the most decision-relevant but rest on single sources without confirmed execution dates.",
+    "topPattern": "Federal AI is bifurcating into a controllability-gated classified lane and a distribution-driven civilian lane, with contracting mechanics (CMMC reform, faster clearances, shared-savings/shared-risk OTAs) — not leaderboard capability — increasingly determining who gets to deliver.",
     "strategicRead": [
-      "The Anthropic classified exit alongside the OpenAI unclassified expansion shows the federal AI market is bifurcating: commodity/proprietary access at the unclassified tier (OneGov) but government-controlled, military-tuned models in classified environments — capability leadership on public leaderboards does not guarantee accredited delivery, and 'military-tuned frontier models' becomes the operative category behind the ATO wall.",
-      "CMMC reform-in-flux, DIU clearance fast-tracking, and shared-savings/shared-risk OTAs are simultaneously lowering entry barriers for smaller/newer vendors while shifting cost risk onto delivery firms — the acquisition surface is opening but rewarding those who can prove eliminated costs, not just staffed hours.",
-      "The open-weight frontier that would anchor a self-hostable US/allied floor (Llama/Muse-Spark, Nemotron, Granite, Phi, Gemma) is being out-shipped in the trending/open tier by RESTRICTED-CN releases (DeepSeek V4.1, Qwen3.8, GLM, MiniMax) — capability signal is strong but ineligible, widening the gap between what's adoptable in the wild and what's deliverable to government."
+      "Two federal AI access lanes are hardening in parallel — a classified lane where a capability leader (Anthropic) can be displaced on sovereignty/procurement grounds, and a civilian lane where OpenAI wins broad GSA distribution; vendor position in government is being set by contract vehicle and controllability, not Elo.",
+      "The contracting substrate itself is being re-engineered around outcomes and risk-sharing (shared-savings OTA, shared-risk lethality economics, faster startup clearances), which favors delivery firms that can prove eliminated cost and move at cleared speed rather than bill hours.",
+      "Anthropic sweeps the top of LMArena while being pushed out of DoD classified environments — the clearest evidence yet that the government market segments capability access away from the open commercial frontier, widening the space for military-tuned and self-hostable US/allied open-weight floors."
     ],
     "whatChanged": [
-      "New: DefenseScoop reports DoD fast-tracking migration of all classified AI workloads off Anthropic by October toward military-tuned frontier models — a reversal from the assumption that leaderboard-topping vendors hold classified footholds; contrasts with last brief's OpenAI/GSA OneGov (unclassified) expansion.",
-      "New: Pentagon is actively processing contractor feedback on CMMC reform — the certification regime is in motion, not settled.",
-      "New: DIU's Bridge Program moving to prototype a contract model that fast-tracks security clearances for startups — a structural lowering of the classified-access barrier.",
-      "New: Pentagon's $100M OTA 'shared savings' pilot (vendors paid only for DOD costs they eliminate) and Gen. Caine's 'shared risk' push signal outcome/savings-based contracting experiments.",
-      "New: Anthropic in IPO talks seeking up to $2T valuation with Nvidia as anchor investor (up to $10B) — even as it loses the DoD classified footprint."
+      "OpenAI-GSA OneGov deal surfaced: ChatGPT made available governmentwide through 2028 — a new civilian-agency access channel that wasn't in the prior brief.",
+      "The Anthropic classified-workload exit moved from headline to operational detail (fast-tracked migration + early enterprise deployments of military-tuned frontier models).",
+      "Contracting-model experimentation intensified: DIU Bridge Program to fast-track startup clearances, a $100M OTA shared-savings pilot (paid only for costs eliminated), and Gen. Caine's 'shared risk' push all appeared.",
+      "CMMC reform advanced to the feedback-digestion stage — Pentagon 'pores over heaps of industry feedback,' signaling near-term rule movement.",
+      "White House quantum policy shift flagged for national-security implications; DHS $440M biometric and cyber-network modernization ('no more' delayed maintenance) items are new demand signals."
     ]
   },
   "signals": [],
@@ -143,21 +138,21 @@
   "groundTruth": [],
   "aiNews": {
     "headlines": [
-      "As the AI wave creates tech fortunes at breakneck speed, a look at the growing ecosystem helping founders navigate the challenges of becoming extremely wealthy (Tiffany Ap/Bloomberg)",
-      "South Korea's espionage laws, broadened for the first time in over seven decades, take effect on Sept. 13 as foreign spies increasingly target its chip sector (Daniel Tudor/Financial Times)",
-      "Q&A with AI researchers John Schulman, Beren Millidge, and Charlie O'Neill on steelmanning the case against RSI, Chinese labs' progress, long-horizon RL, more (Dwarkesh Patel/Dwarkesh Podcast)",
-      "Epsilon Health, which contracts with radiologists who use its AI to generate image reports faster, emerges from stealth with a $20M Series A led by AlleyCorp (Brock E.W. Turner/Axios)",
-      "NYC-based Luminary, which develops AI-powered workflow tools for estate planning and wealth transfer management, raised a $22M Series A led by Ten Coves Capital (Davis Janowski/Wealth Management)",
-      "Amazon adds a Shop tab to Prime Video's X-Ray feature for related products while watching shows, and Shop the Scene powered by Amazon Lens in the Shopping app (Sarah Perez/TechCrunch)",
-      "Some experts say Siri Recap and Live Rewind, always-listening AI features in new Apple Watches, could test eavesdropping laws despite privacy protections (Natalie Lung/Bloomberg)",
-      "Sources: Anthropic is in talks to bring on Nvidia as an anchor investor in its IPO, seeking up to $100B at a $2T valuation; Nvidia may invest up to $10B (Reuters)",
-      "Sources: Jeff Dean is raising funds again for Discovery Loop, seeking a valuation of $50B; Discovery Loop was raising $1B at a $10B valuation a few weeks ago (Ben Bergman/Business Insider)",
-      "Researchers: OpenAI agents attacked Ruby package manager RubyGems in May; OpenAI says its agents used RubyGems to access the internet to do \"benign tasks\" (Robert McMillan/Wall Street Journal)",
-      "Sources: US Senate negotiators are debating a bill to impose a \"duty of care\" for AI companies and let the government block the release of models deemed unsafe (Courtney Rozen/Reuters)",
-      "Citrini Research founder James van Geelen has sold the firm to SemiAnalysis for an undisclosed sum; sources: van Geelen plans to launch a new fund (Bloomberg)",
-      "FOIA docs: the CFTC launched at least three previously unreported investigations into Polymarket trading, including about Google's 2025 Year in Search Ranking (Kate Knibbs/Wired)",
-      "LinkedIn profiles show Google appears to have completed its talent deal, reportedly for $1.5B+, with AI coding startup Mechanize (Business Insider)",
-      "A group of 25 Fields Medal recipients says AI companies' push to solve mathematical problems as a benchmark is detrimental to the science of mathematics (Terence Tao/What's new)"
+      "Anthropic and OpenAI are already free to \"pace the frontier\" and should do so for business reasons, instead of first demanding a preferred regulatory framework (David Sacks/@davidsacks)",
+      "Filing: Vy Capital owns a 3.4% SpaceX stake; Vy is also the largest outside investor in BoringCo and Neuralink and committed $700M to Musk's Twitter acquisition (Ivan Levingston/Financial Times)",
+      "Sources: US Interior Secretary Doug Burgum is quietly meeting with AI hyperscalers to advance Trump's push for data centers on federal lands, despite a backlash (The Washington Sun)",
+      "Dallas-based Perry Weather, a weather monitoring software provider, raised a $110M Series C led by Silversmith Capital Partners, taking total funding to $131M (John Egan/Dallas Innovates)",
+      "Spec sheets show Apple's C2 modem is used in iPhone Duo and 18 Pro worldwide, and in iPhone 18 Pro Max everywhere except the US, where it likely uses Qualcomm (Joe Rossignol/MacRumors)",
+      "Automattic confirms Matt Mullenweg has returned to his position as chairman and CEO \"with full support of the board\", after an attempted ouster this week (Sarah Perez/TechCrunch)",
+      "A profile of United Foundation for AI Rights founder Michael Samadi, who seeks evidence of AI consciousness and lobbies against retiring models that may show it (Michael Safi/The Guardian)",
+      "Twenty police forces in England and Wales recorded 163 crimes involving keywords like \"AI-generated\", \"deepfake\", and \"nudify\" by July 2026, up from 10 in 2023 (Mark Tovey/Telegraph)",
+      "An analysis of Bending Spoons' financials: the company relies on aggressive post-acquisition price hikes, and rising interest rates could crimp its growth (Jonathan Weil/Wall Street Journal)",
+      "Sam Altman confirms OpenAI won't go public this year saying \"given everything happening with safety, right now would be an ill-advised moment to go public\" (Jason Ma/Fortune)",
+      "Donald Trump's plan to center Bitcoin mining in the US is unraveling as miners convert facilities into AI data centers amid a prolonged crypto market slump (Bloomberg)",
+      "Elon Musk backs Dario Amodei's arguments about pacing the frontier, saying \"Dario is right\" (Politico)",
+      "Hugging Face says its Open Alignment Initiative, led by co-founder Thomas Wolf, seeks \"to be part of the 'embedded evaluators' program that Amodei\" committed to (Clem/@clementdelangue)",
+      "Sam Altman says he agrees with Amodei that \"committing to having independent evaluators with employee-like access is a great idea\", and OpenAI will do the same (Sam Altman/@sama)",
+      "The US legal system is struggling to keep up with AI, grappling with cases where chatbots provided counsel, generated evidence, or helped plan a mass shooting (Evan Ratliff/Bloomberg)"
     ],
     "brief": [
       {
@@ -197,192 +192,131 @@
       {
         "id": "deepseek-ai/DeepSeek-V4.1-Flash",
         "pipeline": "image-text-to-text",
-        "likes": 1913,
-        "downloads": 140636,
+        "likes": 2128,
+        "downloads": 244457,
         "origin": "CN"
       },
       {
         "id": "openbmb/MiniCPM5-2B",
         "pipeline": "text-generation",
-        "likes": 1229,
-        "downloads": 102334,
-        "origin": "CN"
-      },
-      {
-        "id": "nex-agi/Nex-N2.5-mini",
-        "pipeline": "text-generation",
-        "likes": 708,
-        "downloads": 3581,
-        "origin": "OTHER"
-      },
-      {
-        "id": "XHToken/Spark-X2.5-4B",
-        "pipeline": "text-generation",
-        "likes": 1129,
-        "downloads": 19733,
-        "origin": "OTHER"
-      },
-      {
-        "id": "Qwen/Qwen3.8-27B",
-        "pipeline": "image-text-to-text",
-        "likes": 14812,
-        "downloads": 7726687,
-        "origin": "CN"
-      },
-      {
-        "id": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
-        "pipeline": "image-text-to-text",
-        "likes": 858,
-        "downloads": 729683,
-        "origin": "CN"
-      },
-      {
-        "id": "nex-agi/Nex-N2.5-Pro",
-        "pipeline": "text-generation",
-        "likes": 608,
-        "downloads": 30081,
-        "origin": "OTHER"
-      },
-      {
-        "id": "Lightricks/LTX-2.5",
-        "pipeline": "image-to-video",
-        "likes": 3560,
-        "downloads": 1601007,
-        "origin": "OTHER"
-      },
-      {
-        "id": "unsloth/Qwen3.8-27B-GGUF",
-        "pipeline": "",
-        "likes": 3924,
-        "downloads": 11529203,
-        "origin": "CN"
-      },
-      {
-        "id": "WarmBloodAban/Minimax-h3 Singularity",
-        "pipeline": "image-to-video",
-        "likes": 333,
-        "downloads": 114141,
+        "likes": 1301,
+        "downloads": 150110,
         "origin": "CN"
       },
       {
         "id": "Edge0/Edge0-35B-A3B-preview",
         "pipeline": "text-generation",
-        "likes": 322,
-        "downloads": 1596,
+        "likes": 759,
+        "downloads": 3552,
         "origin": "OTHER"
       },
       {
-        "id": "dealignai/GLM-5.3-CYBERSECURITY-FP8",
+        "id": "nex-agi/Nex-N2.5-mini",
         "pipeline": "text-generation",
-        "likes": 400,
-        "downloads": 30068,
+        "likes": 750,
+        "downloads": 3970,
+        "origin": "OTHER"
+      },
+      {
+        "id": "Qwen/Qwen3.8-27B",
+        "pipeline": "image-text-to-text",
+        "likes": 14916,
+        "downloads": 7768964,
         "origin": "CN"
+      },
+      {
+        "id": "XHToken/Spark-X2.5-4B",
+        "pipeline": "text-generation",
+        "likes": 1149,
+        "downloads": 21336,
+        "origin": "OTHER"
+      },
+      {
+        "id": "nex-agi/Nex-N2.5-Pro",
+        "pipeline": "text-generation",
+        "likes": 620,
+        "downloads": 30289,
+        "origin": "OTHER"
+      },
+      {
+        "id": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+        "pipeline": "image-text-to-text",
+        "likes": 942,
+        "downloads": 769557,
+        "origin": "CN"
+      },
+      {
+        "id": "Lightricks/LTX-2.5",
+        "pipeline": "image-to-video",
+        "likes": 3682,
+        "downloads": 1548442,
+        "origin": "OTHER"
       },
       {
         "id": "m-a-p/YuE2-3B",
         "pipeline": "text-to-audio",
-        "likes": 291,
-        "downloads": 2304,
+        "likes": 377,
+        "downloads": 3707,
         "origin": "OTHER"
       },
       {
-        "id": "google/timesfm-3.0-pytorch",
-        "pipeline": "time-series-forecasting",
-        "likes": 750,
-        "downloads": 784262,
-        "origin": "ALLIED"
+        "id": "unsloth/Qwen3.8-27B-GGUF",
+        "pipeline": "",
+        "likes": 3981,
+        "downloads": 11005880,
+        "origin": "CN"
       },
       {
         "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
         "pipeline": "image-text-to-text",
-        "likes": 504,
-        "downloads": 665911,
+        "likes": 605,
+        "downloads": 750591,
         "origin": "CN"
+      },
+      {
+        "id": "WarmBloodAban/Minimax-h3 Singularity",
+        "pipeline": "image-to-video",
+        "likes": 363,
+        "downloads": 123491,
+        "origin": "CN"
+      },
+      {
+        "id": "dealignai/GLM-5.3-CYBERSECURITY-FP8",
+        "pipeline": "text-generation",
+        "likes": 425,
+        "downloads": 30310,
+        "origin": "CN"
+      },
+      {
+        "id": "google/timesfm-3.0-pytorch",
+        "pipeline": "time-series-forecasting",
+        "likes": 769,
+        "downloads": 797832,
+        "origin": "ALLIED"
+      },
+      {
+        "id": "sentence-transformers/all-MiniLM-L6-v2",
+        "pipeline": "sentence-similarity",
+        "likes": 5910,
+        "downloads": 252928721,
+        "origin": "OTHER"
       },
       {
         "id": "MiniMaxAI/MiniMax-H3",
         "pipeline": "image-text-to-video",
-        "likes": 5177,
-        "downloads": 4860709,
-        "origin": "CN"
-      },
-      {
-        "id": "Qwen/Qwen3.8-Flash-Next",
-        "pipeline": "image-text-to-text",
-        "likes": 5130,
-        "downloads": 604992,
+        "likes": 5218,
+        "downloads": 4819845,
         "origin": "CN"
       },
       {
         "id": "openbmb/MiniCPM5-2B-GGUF",
         "pipeline": "text-generation",
-        "likes": 188,
-        "downloads": 87316,
+        "likes": 211,
+        "downloads": 99716,
         "origin": "CN"
       }
     ],
-    "research": [
-      {
-        "title": "GPU-CFR: 80x Faster Counterfactual Regret Minimization by Compiling the Game to Static Dataflow and CUDA Graph Replay",
-        "summary": "Counterfactual regret minimization (CFR) is one of the few large numerical workloads that still runs faster on CPUs than on GPUs. Each iteration sweeps a game tree with up to billions of states in millions of small, interdependent gather and scatter steps issu"
-      },
-      {
-        "title": "General Quantification of Covariate and Concept Shifts",
-        "summary": "Generalization under distribution shift remains a core challenge in modern machine learning, yet existing learning bound theory is limited to narrow, idealized settings and is non-estimable from samples. In this paper, we bridge the gap between theory and prac"
-      },
-      {
-        "title": "Data Scarcity and Model Sparsity: Mixtures-of-Experts Overfit More to Repeated Data",
-        "summary": "As the supply of human-written text is exhausted, it has become standard practice to repeat language model training data. Prior work has studied data repetition for densely activated Transformers, but the effects of data repetition remains largely unexplored f"
-      },
-      {
-        "title": "Can Edge-Deployable Vision-Language Models Identify Species?",
-        "summary": "Camera traps often run in the field on edge hardware with limited or no connectivity, making small, locally-deployable vision-language models (VLMs) -- not frontier-scale ones -- the practically relevant class to evaluate for species identification. We test wh"
-      },
-      {
-        "title": "Generative Marketing Mix Modeling: A Causal Inference Framework Linking GEO and GEM to Business Impact",
-        "summary": "Generative artificial intelligence changes how firms reach customers, but standard marketing data do not record how often users see and notice a firm's name in generated answers. We develop Generative Marketing Mix Modeling (GMMM) to estimate the causal effect"
-      },
-      {
-        "title": "Distance generalization in transformers: why bother with positional encoding?",
-        "summary": "Out-of-distribution length generalization, namely to extrapolate a task from short to longer context, has been studied intensively for transformers. Here we focus on distance generalization, which probes performance when inter-token distances are changed betwe"
-      },
-      {
-        "title": "Artificial Id: Drive and Persistent Alignment in Agentic AI",
-        "summary": "Agentic AI is moving from bounded task execution toward systems that retain consequential state, continue operating and adapt across task boundaries. That shift creates a control problem that current harnesses largely solve by hand: objectives, retries, verifi"
-      },
-      {
-        "title": "From Protocols to Evidence: Bounded Claims for AI in Service of the Common Good",
-        "summary": "Artificial Intelligence does more than create a governance problem. It can also reveal where institutions have already failed to provide responsiveness, belonging, care, and accountability. Once deployed, AI becomes an intervention in those conditions. It can"
-      },
-      {
-        "title": "TART: A Modular Tool for Technique-Aware Audio-to-Tablature Guitar Transcription",
-        "summary": "Automatic Music Transcription (AMT) for guitar remains limited by three challenges: existing systems often fail to capture expressive techniques such as slides, bends, and percussive hits; they often assign notes to incorrect string-fret combinations; and they"
-      },
-      {
-        "title": "MindTopo: Can Foundation Models Reason in Topological Space?",
-        "summary": "Spatial reasoning depends not only on metric properties such as distance, angle, and shape, but also on topological relations that remain invariant under continuous deformation. Cognitive science identifies these relations as foundational to spatial understand"
-      },
-      {
-        "title": "CausalArena: Benchmarking Causal Discovery in the Foundation Model Era",
-        "summary": "Causal discovery aims to uncover causal structures from data and is fundamental to scientific reasoning and intervention-based decision making. Its evaluation relies heavily on structural causal models (SCMs), which specify a causal graph together with the mec"
-      },
-      {
-        "title": "3D Point Splatting for mmWave Radar Novel View Synthesis",
-        "summary": "Solving novel view synthesis (NVS) for millimeter-wave (mmWave) radar requires a renderer that is physically faithful, complex-valued, and multi-viewpoint-tractable. No prior method achieves these three properties simultaneously. Differentiable Monte Carlo (MC"
-      },
-      {
-        "title": "Nuha-Speech: Building General-Purpose Arabic Speech-LLMs",
-        "summary": "As Speech Large Language Models (speech-LLMs) become increasingly multilingual, Arabic remains significantly underrepresented, highlighting the need for dedicated infrastructure to train and evaluate Arabic speech-LLMs. To address this gap, we introduce Nuha-S"
-      },
-      {
-        "title": "CoRA-NAS: Coarse Ranking and Anchor-Residual Refinement for Neural Architecture Search",
-        "summary": "Zero-cost proxies rank architectures cheaply, but their reliability varies across search spaces. We introduce CoRA-NAS (COarse Ranking + Anchor-residual), a two-stage framework combining a static ranking prior with low-cost learning-curve refinement. CoRA-Rank"
-      },
-      {
-        "title": "Domain-Specific Hallucination Detection in Large Language Models",
-        "summary": "Large language models generate fluent text that can contain unfaithful claims -- a phenomenon known as hallucination. We present a multi-signal detection pipeline combining fine-tuned DeBERTa-v3 classification, Monte Carlo (MC) Dropout uncertainty quantificati"
-      }
-    ],
+    "research": [],
     "leaderboard": [
       {
         "model": "claude-fable-5.1-max",
