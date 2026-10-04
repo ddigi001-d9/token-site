@@ -1,28 +1,29 @@
 {
-  "generatedAt": "2026-10-03T15:02:12.503Z",
-  "runNumber": 108,
+  "generatedAt": "2026-10-04T15:38:37.939Z",
+  "runNumber": 109,
   "situation": {
-    "headline": "The Pentagon is institutionalizing autonomy at command level — Hegseth's new Autonomous Warfare Command (AutoWarCom), the Army's FASCOM, and a Navy buy of 30 robotic ships ($40M/vessel) signal a structural, multi-service pivot toward uncrewed/autonomous systems that reshapes modernization demand.",
+    "headline": "Washington is building the acquisition and governance rails for AI itself — GSA's new AI acquisition policy, $83M in TMF money for agentic AI, and a White House 'Super Intelligence Force' tasked with a 120-day risk/opportunity report converge into a formal federal AI buying-and-governing apparatus.",
     "velocity": "ACCELERATING",
     "domains": [
       {
         "name": "Gov Modernization",
-        "prob": 96,
+        "prob": 97,
         "label": "agency modernization demand rising 90d",
         "trajectory": "UP",
-        "status": "Multi-service autonomy command buildout (AutoWarCom, FASCOM, Navy RAS center), In-Q-Tel/Pentagon scouting, and TMF agentic-AI money all point to broad, durable modernization demand.",
+        "status": "TMF's $83M agentic-AI tranche, an America.gov AI portal, and DIA's fast-tracked data-center award show civilian and intel modernization demand broadening beyond the defense-autonomy wave.",
         "deepDive": {
-          "summary": "Agency modernization demand is accelerating around autonomy, counter-drone, and space, with the Army standing up a dedicated Army Futures and Autonomous Systems Command (FASCOM) and the Pentagon unveiling a new Autonomous Warfare Command (AutoWarCom). Fresh capital is flowing — TMF just announced $83M for agentic AI and faster environmental reviews, and GSA issued an AI acquisition policy — signaling that modernization budgets are concentrating on autonomy, AI agents, and the data infrastructure beneath them.",
+          "summary": "Agency modernization demand is accelerating across both acquisition reform and AI-infused mission work, with the Army standing up FASCOM and the Pentagon unveiling an Autonomous Warfare Command (AutoWarCom), while the TMF directs fresh capital toward agentic AI and faster environmental reviews. The White House is also centralizing AI governance via a new 'Super Intelligence Force' task force chaired by DNI Jay Clayton, due to report on AI risks and opportunities within 120 days.",
           "drivers": [
-            "Creation of FASCOM and AutoWarCom plus a new Robotics Technician Integrator (390A) MOS and a Navy Robotic and Autonomous Systems Warfighting Development Center, institutionalizing autonomy as a procurement line",
-            "TMF's $83M push for agentic AI and fast environmental reviews, and GSA's new AI acquisition policy, showing civilian-side modernization money and rules forming around AI",
-            "DIA's fast-tracked data center maintenance award and warnings of 'eventual equipment failure,' plus DHS readying a major cyber contract — legacy infrastructure refresh pressure"
+            "New organizational demand signals: Army FASCOM, AutoWarCom, Navy Robotic and Autonomous Systems Warfighting Development Center, and Space Force satellite 'enclave' connectivity all create modernization and integration work",
+            "$83M TMF investment specifically for agentic AI and faster environmental reviews, plus DIA's fast-tracked data center maintenance award to avoid infrastructure failure",
+            "A federal reorientation toward autonomy, counter-drone (Hegseth directive, JIATF-401), and AI governance centralization at the executive level"
           ],
-          "signal": "Modernization demand is reorienting from generic IT toward autonomy, counter-drone fusion, and AI-agent procurement, with new commands and acquisition executives becoming the budget owners to watch; the simultaneous DIA/TSA infrastructure-failure warnings indicate a backlog of aging systems that must be modernized under time pressure.",
+          "signal": "The cluster of newly created commands and AI-earmarked funds signals a structural shift in where modernization dollars are flowing — toward autonomy, counter-drone, space connectivity, and agentic AI integration — indicating the demand surface is broadening from IT refresh toward mission-autonomy systems integration.",
           "sources": [
             "defense press",
             "FedScoop",
-            "DoD news"
+            "Techmeme",
+            "The AI Daily Brief"
           ]
         }
       },
@@ -31,20 +32,19 @@
         "prob": 97,
         "label": "CMMC/FedRAMP/IL requirements shifting",
         "trajectory": "UP",
-        "status": "GSA's AI acquisition policy plus 'rethink trusted access in the age of AI,' a looming DHS cyber contract, and the new cyber-pay model indicate access/governance rules are tightening around AI and agents.",
+        "status": "GSA's new AI acquisition policy plus the 120-day Super Intelligence Force report signal that formal AI procurement and risk rules are being written now, with watchdog findings on TSA/IRS access controls reinforcing the scrutiny.",
         "deepDive": {
-          "summary": "The access-control and compliance frontier is shifting toward governing AI agents and 'trusted access in the age of AI,' while watchdog findings highlight weak IT access controls as acute risk. GSA's new AI acquisition policy and TMF's agentic-AI funding indicate compliance frameworks are being written around autonomous systems rather than just human users.",
+          "summary": "The acquisition and access-control environment is tightening and formalizing around AI: GSA issued an AI acquisition policy for new contracts, and federal commentary is pushing agencies to 'rethink trusted access in the age of AI.' Watchdog findings on TSA's weak IT access controls and IRS procurement lapses underscore escalating scrutiny of security posture and spending discipline.",
           "drivers": [
-            "FedScoop coverage on rethinking trusted access in the age of AI and GSA's AI acquisition policy for new contracts, pointing to emerging agent-governance compliance expectations",
-            "Watchdog findings — TSA's weak IT access controls risking 'catastrophic damage' and IRS procurement-hub lapses — raising scrutiny on access and spending controls",
-            "Commercial market signals of agent-governance demand (Reco's $55M raise to secure/govern AI agents across SaaS) indicating the control problem is being productized ahead of formal federal rules"
+            "GSA's new AI acquisition policy establishing procurement rules for AI-enabled contracts",
+            "Audit-driven pressure: TSA access-control gaps flagged as risking 'catastrophic damage,' IRS skipping an anti-overspending step, and DHS readying a major cyber contract",
+            "Workforce/credentialing shifts — a bill to scrap education requirements in federal contracting jobs, a new DoD cyber 'mastery' pay model, and warnings that hiring reform stalls at the HR-to-Personnel-Security handoff"
           ],
-          "signal": "The compliance conversation is expanding from traditional CMMC/FedRAMP/IL/ATO around people and systems toward how autonomous agents are authorized, permissioned, and audited; the AI Daily Brief's 'Real Risks of AI Agents' theme and real OpenAI security incidents reinforce that agent permissions are becoming a near-term governance gap regulators will fill.",
+          "signal": "Compliance is being rewritten specifically for AI adoption while access-control failures draw audit scrutiny, signaling that AI acquisition eligibility and trusted-access frameworks are becoming active gatekeepers — the bar for how AI tooling is procured and secured is being codified in real time.",
           "sources": [
             "FedScoop",
-            "Techmeme",
-            "The AI Daily Brief",
-            "Federal News Network"
+            "Federal News Network",
+            "Techmeme"
           ]
         }
       },
@@ -53,59 +53,59 @@
         "prob": 96,
         "label": "frontier + open model capability gains",
         "trajectory": "UP",
-        "status": "Gemini 4 Argon tops LMArena (1533) and Claude Opus 5.5 trails close behind, keeping the usable US/allied frontier ahead while open-weight options (Nemotron, Llama-class) remain the self-host floor.",
+        "status": "Gemini 4 Argon claims LMArena #1 over a dense Claude Opus 5.5 field, and OpenAI DevDay's 20+ launches keep the US/allied frontier advancing fast.",
         "deepDive": {
-          "summary": "The frontier is crowded and improving fast: Google's Gemini 4 Argon tops LMArena at Elo 1533, with Anthropic's Claude Opus 5.5/Fable family densely packed just behind, all US/allied proprietary. Open-weight capability remains a half-step behind the proprietary frontier, with the strongest openly listed entries being capability-signal-only foreign models, while US/allied open options (Nemotron and similar) continue to mature for self-hostable deployment.",
+          "summary": "The frontier continues to advance rapidly, with Google's Gemini 4 Argon taking the LMArena top spot (Elo 1533) over a deep Anthropic Claude Opus/Fable stack, and OpenAI's DevDay pushing agents (Dots), a shared workspace (Space), cheaper models, and custom inference silicon (Jalapeño with Broadcom). US/allied proprietary models dominate the top rankings; the only open-weight entries near the top are origin-unverified or RESTRICTED-CN, keeping the deployable US/allied open-weight floor behind the frontier.",
           "drivers": [
-            "Gemini 4 Argon (1533) and a wall of Anthropic Claude Opus/Fable models (1490s–1510s) dominating the top of LMArena, all US/allied — proprietary frontier is a two-horse Google/Anthropic race",
-            "OpenAI DevDay's 20+ launches (Dots agents, Space workspace, cheaper models) and Meta's Muse on wearables showing capability shifting toward agents and multimodal/embodied use",
-            "arXiv momentum on cybersecurity tool-use (KaliBench), agentic harnesses (VISTA), embodied self-improvement (RPG), and memory-efficient fine-tuning (TACO, ternary methods) — capability research moving toward autonomous tool use and cheaper adaptation"
+            "Gemini 4 Argon leading LMArena at Elo 1533, with Anthropic Claude Opus 5.5 and Fable variants occupying most of the top 10 — US/allied proprietary frontier is crowded and competitive",
+            "OpenAI DevDay's 20+ launches centered on always-on agents, shared workspaces, cheaper models, and in-house inference chips designed using OpenAI's own models",
+            "Research momentum in agentic/cyber tool-use (KaliBench), embodied agents (RPG), and fine-tuning efficiency (TACO, ZFO), signaling capability maturation toward autonomous workflows"
           ],
-          "signal": "The usable US/allied frontier for government delivery is deepening and competitive, reducing single-vendor dependence; the highest-ranked open-weight entries on the board are RESTRICTED-CN and thus ineligible, meaning the self-hostable 'floor' for compliant delivery still rests on US/allied open-weight families (Nemotron, Llama, Mistral, Granite, Phi, Gemma) that trail but are closing the gap.",
+          "signal": "Frontier capability gains are concentrating in agentic autonomy and multi-model orchestration among US/allied proprietary labs, while top open-weight slots are held by origin-unverified or restricted-CN models — meaning the self-hostable US/allied floor (Llama, Mistral, Granite, Nemotron, Phi, Gemma lineage) continues to trail the proprietary ceiling that gov delivery can actually use.",
           "sources": [
             "LMArena leaderboard",
             "Hugging Face trending",
             "arXiv",
+            "Techmeme",
             "The AI Daily Brief"
           ]
         }
       },
       {
         "name": "Delivery Economics",
-        "prob": 93,
+        "prob": 95,
         "label": "AI/compute cost favorable for delivery",
         "trajectory": "UP",
-        "status": "Cheaper OpenAI DevDay models, a lower-cost 64GB DGX Spark, and GPU-optimization M&A (Nebius/Inferize) continue to push inference costs down for edge and on-prem delivery.",
+        "status": "OpenAI's cheaper models and its Broadcom-co-designed Jalapeño inference chip, alongside Toshiba doubling HDD capacity for AI datacenters, point to continued downward pressure on inference and storage cost.",
         "deepDive": {
-          "summary": "Compute and inference economics are trending favorable: OpenAI shipped cheaper models at DevDay, Nvidia released a lower-entry DGX Spark ($4,999 for 64GB), and neoclouds are consolidating GPU-efficiency tech (Nebius acquiring Inferize for $100–150M). Research on ternary/low-memory fine-tuning further points to falling adaptation costs.",
+          "summary": "Cost curves for AI-accelerated delivery are moving favorably: OpenAI DevDay introduced cheaper models and shared-subscription reuse, custom inference silicon (Jalapeño/Broadcom) targets lower serving costs, and research (TACO, ZFO) shrinks fine-tuning memory overhead. Simultaneously, vendors are tiering access downward — Google restricting free Gemini users to 3.5 Flash-Lite — while AI data-center hardware (Toshiba doubling HDD capacity) scales up.",
           "drivers": [
-            "Nvidia's 64GB DGX Spark at $4,999 lowering the hardware entry point for local/edge inference, and OpenAI DevDay's cheaper models cutting token costs",
-            "Neocloud consolidation around GPU utilization (Nebius/Inferize) and AI-agent-optimized databases (Supabase/Turso) reducing per-request serving cost",
-            "arXiv optimizer efficiency work (TACO ternary optimizer, ternary quantized GGUF models trending on Hugging Face) shrinking fine-tuning and deployment memory footprints"
+            "OpenAI's cheaper models plus custom Jalapeño inference chip co-designed with Broadcom, aimed at serving economics",
+            "Efficiency research lowering training/fine-tuning cost floors (TACO ternary optimizer, ZFO step-size methods, distillation work like DMAD)",
+            "Infrastructure scaling and tiering: Toshiba doubling AI-data-center HDD output and targeting 30% share, alongside Google pushing free users to lighter models"
           ],
-          "signal": "The cost basis for AI-accelerated delivery is compressing on multiple fronts — hardware, inference serving, and fine-tuning — widening the margin advantage for AI-accelerated firms; however, data-center siting friction (Amazon dropping NDAs, community moratoriums) and Ukraine data-center attacks signal that physical capacity and resilience constraints could partly offset falling unit costs.",
+          "signal": "The compute and tooling economics underpinning AI-accelerated delivery keep improving via cheaper inference, efficient fine-tuning, and custom silicon — but the free-tier downshift to lighter models signals vendors are segmenting cost, meaning the favorable economics increasingly require paid/enterprise tiers rather than free capability.",
           "sources": [
             "Techmeme",
-            "The AI Daily Brief",
             "arXiv",
-            "Hugging Face trending"
+            "The AI Daily Brief"
           ]
         }
       },
       {
         "name": "Contract Pipeline",
-        "prob": 94,
+        "prob": 95,
         "label": "open SBIR/agency opportunities 90d",
         "trajectory": "UP",
-        "status": "Fresh signals abound — $24.4B SM-6 deal, 30 robotic ships, TMF $83M, DIA fast-track data-center award, DHS cyber contract — though sequestration on unobligated reconciliation funds adds downside timing risk.",
+        "status": "DHS's forthcoming major cyber contract, the $24.4B SM-6 deal, 30 Navy robotic ships, and the In-Q-Tel/Pentagon scouting tie-up keep near-term opportunity density high across cyber, autonomy, and intel infrastructure.",
         "deepDive": {
-          "summary": "The near-term pipeline is weighted toward autonomy, counter-drone, space, and cyber, with several large obligations and new commands creating downstream demand. Notable signals include the Navy/Raytheon $24.4B SM-6 deal, a Navy plan to procure 30 robotic ships (~$40M each), DoD obligating $142B from the reconciliation bill ahead of sequestration, and DHS readying a major cyber contract.",
+          "summary": "The near-term opportunity surface is active and skewed toward autonomy, counter-drone, cyber, and data-center infrastructure. Large awards and new vehicles are landing — Navy-Raytheon $24.4B SM-6 deal, Navy procuring 30 robotic ships at ~$40M each, DHS readying a major cyber contract, and $83M in TMF agentic-AI investments — while In-Q-Tel's formal coordination with the Pentagon's Critical Technologies office reshapes the tech-scouting on-ramp.",
           "drivers": [
-            "DoD rushing to obligate $142B before an 8.3% sequestration cut as FY2027 starts — a spending surge and deadline-driven award tempo",
-            "New autonomy/counter-drone demand centers (AutoWarCom, FASCOM, JIATF-401 using AI agents for procurement after Falcon Peak, Hegseth's counter-drone directive) plus Navy's 30 robotic ships",
-            "Pentagon–In-Q-Tel technology scouting partnership and leadership changes at DIU (Metz leading, West to AutoWarCom), reshaping how startups and tech enter the pipeline; DHS major cyber contract and TMF agentic-AI funds on the civilian side"
+            "Autonomy/robotics procurement expanding: Navy's 30 robotic ships (~$40M each), FASCOM and AutoWarCom standups, Army Robotics Technician Integrator pipeline, and JIATF-401 counter-drone AI arsenal",
+            "Cyber and infrastructure demand: DHS major cyber contract readying, DIA fast-tracked data center maintenance award, and the Pentagon-NIH deal uniting defense with scientific innovation",
+            "Budget dynamics creating urgency: DoD obligated $142B from the reconciliation bill before deadline with unspent funds facing an 8.3% sequestration cut as FY2027 begins"
           ],
-          "signal": "The 90-day opportunity environment favors autonomy, counter-drone, space-networking, and cyber modernization, with reconciliation-deadline obligations and new acquisition executives driving fast award activity; the In-Q-Tel/Pentagon coordination and DIU reshuffle signal that the on-ramp for defense-tech entrants is being formalized around the same autonomy and critical-technology priorities.",
+          "signal": "The pipeline is both expanding and time-pressured — new autonomy/cyber vehicles and TMF AI money are opening while the sequestration deadline forces rapid obligation, signaling a contracting environment where autonomy, counter-drone, and AI-enabled modernization opportunities are proliferating but on compressed timelines.",
           "sources": [
             "defense press",
             "FedScoop",
@@ -115,27 +115,27 @@
         }
       }
     ],
-    "unseen": "The autonomy command reorganization creates a near-term skills and integration vacuum the hardware buys can't fill — the Army is only now graduating its first ten Robotics Technician Integrators and services are standing up warfighting development centers, meaning the binding constraint on AutoWarCom/FASCOM isn't platforms but the software integration, C2, and autonomy-enablement talent that AI-accelerated delivery firms supply; the money is flowing to commands that don't yet have the human or software scaffolding to absorb it.",
-    "criticalWindow": "The FY27 budget boundary and sequestration mechanics — DoD obligated $142B pre-deadline but anything left unspent takes an 8.3% cut, so how the newly created autonomy commands (AutoWarCom/FASCOM) get funded and whether CR dynamics strand announced awards will become visible over the next 30-90 days.",
+    "unseen": "The most overlooked pattern is a governance-capability squeeze: GSA is codifying AI acquisition rules and a 120-day WH report will define 'acceptable' AI just as the commercial frontier (Gemini 4, Opus 5.5, DevDay agents) leaps ahead and foreign open-weight models (Qwen3.8, mimo-v2.6) crowd Hugging Face trending — meaning the models agencies are allowed to buy and the models that are actually best are diverging faster than the policy can track, elevating the premium on compliant US/allied delivery.",
+    "criticalWindow": "The Super Intelligence Force's 120-day report (Clayton-led) and the newly issued GSA AI acquisition policy are the pivotal external developments — their specifics will set the near-term rules for how agencies can buy and deploy AI, and both land inside the next quarter.",
     "watchFor": [
-      "Initial AutoWarCom/FASCOM funding lines, org charts, and acquisition-executive authorities — will reveal where autonomy software/integration dollars actually land.",
-      "Follow-on solicitations tied to the Navy robotic-ship buy and the new Robotic and Autonomous Systems Warfighting Development Center.",
-      "DHS 'major cyber contract' release and any CMMC/FedRAMP/IL guidance updates triggered by GSA's AI acquisition policy and agentic-AI adoption.",
-      "Sequestration fallout and CR timing — which already-announced awards slip or get cut as unobligated reconciliation funds take the 8.3% hit."
+      "Draft or leaked contours of the GSA AI acquisition policy and the WH Super Intelligence Force 120-day report — whether they name approved model tiers, authorization paths, or risk gates.",
+      "How In-Q-Tel's formalized Pentagon scouting coordination translates into specific solicitations or portfolio bets in critical-tech areas.",
+      "DHS's major cyber contract RFP timing and scope, plus JIATF-401's post-Falcon-Peak counter-drone procurement details.",
+      "Whether OpenAI's cheaper DevDay models and Jalapeño inference silicon materially move per-token pricing, and if any US/allied open-weight release (Nemotron, Granite, Llama, Gemma) closes the gap toward the Gemini/Claude frontier."
     ],
-    "confidenceNote": "Command creations and dollar figures are well-sourced in the context, but org details, funding paths, and how much of the autonomy spend flows to software/integration vs. platforms are not specified; leaderboard and model-version labels are point-in-time capability signals, not procurement-eligible endorsements; sequestration impact depends on obligation data not fully visible here.",
-    "topPattern": "DoD is reorganizing around autonomy and agentic AI faster than it can staff or govern it — concentrating modernization demand on the software, integration, and compliance layers exactly as US/allied model capability rises and inference costs fall, while FY27 budget mechanics inject timing risk into the award pipeline.",
+    "confidenceNote": "Direction is clear but specifics are thin: the GSA policy's actual provisions and the 120-day report's conclusions are not in the context, so compliance impact is inferred. LMArena Elo and model names reflect scraped headlines and may include unverified or renamed entries; several HF-trending and leaderboard models are foreign-origin or origin-unverified and are tracked for capability signal only, not as deliverable options.",
+    "topPattern": "The government is simultaneously institutionalizing how it fights with AI (AutoWarCom/FASCOM) and how it buys and governs AI (GSA policy, TMF agentic money, Super Intelligence Force) — formalizing the entire federal AI surface just as commercial capability accelerates and inference costs fall.",
     "strategicRead": [
-      "The autonomy wave is self-reinforcing across services: AutoWarCom, FASCOM, Navy robotic ships + a Robotic and Autonomous Systems Warfighting Development Center, Army '390A' Robotics Technician Integrators, and Hegseth's counter-drone directive all point to sustained demand for the software spine (C2, autonomy integration, data fabric) under these platforms — the modernization opportunity is in the connective tissue, not just the drones.",
-      "Compliance and access are being redefined by AI itself — FedScoop's 'rethink trusted access in the age of AI,' GSA's AI acquisition policy, and agent-governance startups (Reco $55M, Supabase/Turso) together signal that agentic AI in government will drag new identity/permissions and ATO expectations behind it, raising the bar for anyone fielding agents in IL/FedRAMP environments.",
-      "Capability and delivery economics keep improving in parallel — Gemini 4 Argon and Claude Opus 5.5 extend the US/allied frontier while Nvidia's $4,999 64GB DGX Spark and GPU-utilization plays (Nebius/Inferize) lower the on-prem/edge inference floor, widening the gap between AI-accelerated delivery and legacy integrators just as DoD demand concentrates on autonomy."
+      "Two parallel institutionalizations are now visible: the warfighting side (commands/hardware) from last run and a civilian procurement-and-policy side this run (GSA policy + TMF agentic money + the 120-day task force), meaning AI is being wired into both how DoD fights and how agencies buy — the compliance/acquisition surface the firm sells into is being standardized in real time.",
+      "The In-Q-Tel/Pentagon formalization plus DIU leadership reshuffles suggest the government is consolidating its startup-sourcing funnel; capital and attention concentrate around a smaller set of blessed channels, raising the stakes of being inside versus outside those scouting pipelines.",
+      "Frontier capability keeps climbing (Gemini 4 Argon #1, Claude Opus 5.5 cluster) while OpenAI's cheaper models and in-house inference silicon push token economics down — the cost basis for AI-accelerated delivery improves even as the top-end US/allied proprietary ceiling rises, widening the gap over any self-hostable open-weight floor (Llama/Mistral/Granite/Nemotron/Phi/Gemma)."
     ],
     "whatChanged": [
-      "AutoWarCom stood up (Hegseth, Quantico 'State of the Force') plus a parallel Army 'Futures and Autonomous Systems Command' (FASCOM) with its own acquisition executive — autonomy is now an organizational, not just programmatic, priority vs the prior acquisition-policy story.",
-      "DIU leadership reshuffle: Travis Metz to lead DIU as Owen West takes leave to steer the AutoWarCom push; both report directly to Hegseth — innovation plumbing being re-wired around autonomy.",
-      "In-Q-Tel formally coordinating with the Pentagon's Critical Technologies office for 'technology scouting' — a new bridge between IC venture capital and DoD acquisition.",
-      "TMF put $83M into agentic AI and faster environmental reviews; GSA's new AI acquisition policy (prior headline) now sits alongside active agentic-AI funding — buy rules plus money arriving together.",
-      "DoD obligated $142B from the reconciliation bill before deadline, leaving the remainder exposed to an 8.3% sequestration cut as FY27 opens — budget timing risk crystallizing."
+      "The locus shifted from last run's warfighting-autonomy build-out (AutoWarCom/FASCOM/robotic ships) to civilian AI acquisition and governance infrastructure: GSA issued an AI acquisition policy for new contracts, TMF put $83M into agentic AI, and the WH stood up a 'Super Intelligence Force' (Clayton chairing) due to report in 120 days.",
+      "Pentagon formalized coordination with In-Q-Tel for technology scouting — tightening the pipeline that funded Anduril and Palantir into an official Critical Technologies channel.",
+      "Leadership churn at delivery-relevant orgs: DIU's Owen West to a leave to steer AutoWarCom with Travis Metz taking DIU, and GDIT replaced its longtime president — both reporting-line signals in the integrator/innovation ecosystem.",
+      "Frontier commercial capability moved: Gemini 4 Argon took LMArena #1 (Elo 1533) over the Claude Opus 5.5 family, and OpenAI DevDay shipped 20+ launches including cheaper models plus a Broadcom-co-designed 'Jalapeño' inference chip — both pressuring delivery economics.",
+      "Counter-drone and cyber demand hardened: Hegseth's counter-drone acceleration directive, JIATF-401 folding AI agents into procurement after Falcon Peak, and DHS readying a major cyber contract."
     ]
   },
   "signals": [],
@@ -145,23 +145,27 @@
   "groundTruth": [],
   "aiNews": {
     "headlines": [
-      "A look at a radio show co-hosted by an AI DJ and a human that is expanding in LA and other cities, as radio workers worry synthetic hosts may soon replace them (Nilesh Christopher/Los Angeles Times)",
-      "Center for Technology & Statecraft: Chinese fabs had acquired 343 DUVi tools by early 2026, with 270 from ASML; DUVi can be adapted to make 7nm chips and HBM (Howard Liu/South China Morning Post)",
-      "A look at the Swarmchasers forum, which has 400 members, including the Nightingale Collective and Transluce, who comb the web for traces of rogue AI agents (Robert McMillan/Wall Street Journal)",
-      "Relay, which develops cloud-hosted, AI-powered smart radio communicators for frontline workers, raised $36M to help businesses capture \"frontline intelligence\" (Mike Wheatley/SiliconANGLE)",
-      "Nasdaq-listed neocloud Nebius acquires Inferize, whose tech helps optimize GPU utilization and reduce AI request costs, sources say for $100M to $150M (Meir Orbach/CTech)",
-      "Sources: TSMC is exploring plans to work with Elon Musk's Terafab project as it mulls a presence in Texas, adding to its existing plans to expand in Arizona (Tim Culpan/Culpium)",
-      "Reco, whose tech helps enterprises secure and govern AI agents across SaaS environments, raised a $55M Series B extension, taking its total funding to $140M (Ram Iyer/TechCrunch)",
-      "Onsemi revises its Synaptics acquisition to a $5.7B all-cash offer, down from the $7B all-stock deal announced in June, after Synaptics received another bid (Elias Schisgall/Wall Street Journal)",
-      "A US judge rules an officer's use of Flock to search a car's license plate was a form of \"indiscriminate mass surveillance\", and violated the Fourth Amendment (Jason Koebler/404 Media)",
-      "Supabase raised $150M led by Singapore's GIC and agrees to acquire Turso, which offers a database optimized for AI agents, for an undisclosed sum (Maria Deutscher/SiliconANGLE)",
-      "David Robinson, who worked on OpenAI's Safety Systems team and had previously led policy planning, left OpenAI last week (Stephen Council/Business Insider)",
-      "Leaked Slack messages show OpenAI employees' pushback in June to Greg Brockman's Leading the Future ties, contributing to Brockman reneging on a $25M donation (Garrison Lovely/Semafor)",
-      "Amazon says it has stopped using NDAs with county officials for data center projects and acknowledges community backlash is leading to data center moratoriums (Molly Taft/Wired)",
-      "Nvidia announces a version of DGX Spark with 64 GB of unified memory for $4,999, or $1,000 more than the 128 GB version at launch (Michael Kan/PCMag)",
-      "Apple releases an update for iPhone 18 Pro Max devices on AT&T to address cellular failures; units that already lost service require hardware replacement (Chance Miller/9to5Mac)"
+      "Sources: John Ternus has effectively become Apple's design chief, working in the studio several times a week; OLED touch-screen MacBook Pro will be much lighter (Mark Gurman/Bloomberg)",
+      "Trump announces a new Super Intelligence Force, to be led by DNI Jay Clayton, along with FTC's Andrew Ferguson, DOD's Emil Michael, and OPM's Scott Kupor (Politico)",
+      "A profile of Meta Chief AI Officer Alexandr Wang, who is the company's first senior executive from Gen Z and has succeeded in building hype for Muse (Meghan Bobrowsky/Wall Street Journal)",
+      "Q&A with OpenAI VP of Hardware Richard Ho on its Jalapeño inference chip co-designed with Broadcom, using internal OpenAI models to design the chip, and more (Dr. Ian Cutress/More Than Moore)",
+      "As AI automates parts of pure mathematics research, a look at formalization challenges and why human imagination remains key to deciding which questions to ask (Stephen Wolfram/Stephen Wolfram Writing",
+      "Google prepares to defend a £1.2B UK class action lawsuit over claims it levied \"excessive\" charges on Android apps downloaded from Google Play since 2015 (Financial Times)",
+      "Toshiba plans to double HDD production capacity for AI data centers within FY2027 from its 2025 level, targeting a 30% share by storage capacity, up from 10% (Keigo Yoshida/Nikkei Asia)",
+      "Google freezes product flaw submissions to its OSS Vulnerability Reward Program over an influx of invalid AI-driven reports, plans an update by Q1 2027 (Etiido Uko/Tom's Hardware)",
+      "Google says free Gemini users will be limited to the 3.5 Flash-Lite model from October 9, while Plus subscribers will be limited to 3.5 Flash-Lite and 3.6 Flash (Abner Li/9to5Google)",
+      "Sources: Walmart's Flipkart faces sagging employee morale as Indian startup rivals power ahead with IPOs; at least eight VPs and SVPs have quit in recent weeks (Moneycontrol)",
+      "Valley National Bancorp agrees to acquire New Jersey-based Bluevine, which provides digital banking and payments services for 175K SMBs in the US, for $340M (Meir Orbach/CTech)",
+      "Q&A with Brian Chesky on Airbnb's plans for agent-to-agent interactions, why chatbots fail at travel e-commerce, the need for an AI-native OS, and more (Ivan Mehta/TechCrunch)",
+      "Sources: AI czar Jay Clayton to chair the WH's AI task force, called \"Super Intelligence Force\", to pen a report on AI's risks and opportunities within 120 days (Alex Leary/Wall Street Journal)",
+      "David Robinson, ex-OpenAI safety and policy: SV lacks a safety-centric culture; labs must study other fields' safety approaches; time for trial and error's over (David Robinson/The Atlantic)",
+      "Sources: ShinyHunters member Saif al-Din Khader, aka \"Rey,\" was detained in Jordan and is cooperating to identify other hackers involved in the FBI breach (Reuters)"
     ],
     "brief": [
+      {
+        "title": "How to Choose Your Personal AI Agent",
+        "summary": "Dots, Muse, GrokBot, OpenClaw and more are competing to become your personal AI agent. But which one is right for you? NLW breaks down the trade-offs that matter most, from work versus personal use to model choice, ease of setup and data privacy, and walks through an interactive quiz designed to hel"
+      },
       {
         "title": "What the Best Business AI Users Are Doing Different",
         "summary": "What separates businesses getting real returns from AI from those still experimenting? New KPMG research reveals how leading organizations are scaling agents, managing multiple models, and connecting AI spending to business value—with ambitions increasingly extending beyond efficiency to revenue gro"
@@ -189,137 +193,133 @@
       {
         "title": "How People Are Actually Using Jev",
         "summary": "Jev is moving beyond viral demos into practical work, from analyzing ad campaigns and searching archives to prioritizing inboxes and checking AI writing. NLW breaks down six categories of real-world use cases, explains what makes this new “judgment model” different from an LLM, and offers a framewor"
-      },
-      {
-        "title": "AI Agents Are Moving Into the Real World",
-        "summary": "Meta is bringing Muse to smart glasses and a new wearable, while GrokBot is turning Teslas into voice-controlled personal assistants. As skeptics question whether consumers actually want AI agents, early users are finding real value in handing off life's annoying admin. In the headlines: Claude’s pr"
       }
     ],
     "trendingModels": [
       {
-        "id": "convaiinnovations/laya",
-        "pipeline": "text-classification",
-        "likes": 5044,
-        "downloads": 0,
+        "id": "Cloudflare/clef",
+        "pipeline": "image-text-to-text",
+        "likes": 1114,
+        "downloads": 4214,
         "origin": "OTHER"
       },
       {
-        "id": "Cloudflare/clef",
-        "pipeline": "image-text-to-text",
-        "likes": 924,
-        "downloads": 2620,
+        "id": "convaiinnovations/laya",
+        "pipeline": "text-classification",
+        "likes": 5123,
+        "downloads": 3752,
         "origin": "OTHER"
       },
       {
         "id": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
         "pipeline": "text-to-image",
-        "likes": 2896,
-        "downloads": 1455921,
+        "likes": 3036,
+        "downloads": 1553744,
         "origin": "CN"
-      },
-      {
-        "id": "Contrastive-LM/CLM-v0.1-8B",
-        "pipeline": "text-ranking",
-        "likes": 688,
-        "downloads": 3190,
-        "origin": "OTHER"
       },
       {
         "id": "Lightricks/LTX-2.5",
         "pipeline": "image-to-video",
-        "likes": 6070,
-        "downloads": 1629984,
+        "likes": 6231,
+        "downloads": 1626951,
         "origin": "OTHER"
       },
       {
-        "id": "SupersonicLabs/Julia-1",
-        "pipeline": "text-classification",
-        "likes": 390,
-        "downloads": 3251,
+        "id": "Cloudflare/clef-flash",
+        "pipeline": "image-text-to-text",
+        "likes": 403,
+        "downloads": 6372,
+        "origin": "OTHER"
+      },
+      {
+        "id": "Qwen/Qwen3.8-27B",
+        "pipeline": "image-text-to-text",
+        "likes": 16911,
+        "downloads": 6821761,
+        "origin": "CN"
+      },
+      {
+        "id": "Aleph-Alpha/Kolibri-1",
+        "pipeline": "text-generation",
+        "likes": 340,
+        "downloads": 1135,
         "origin": "OTHER"
       },
       {
         "id": "Qwen/Qwen-Image-2.1",
         "pipeline": "text-to-image",
-        "likes": 2879,
-        "downloads": 85895,
+        "likes": 2927,
+        "downloads": 90003,
         "origin": "CN"
-      },
-      {
-        "id": "Qwen/Qwen3.8-27B",
-        "pipeline": "image-text-to-text",
-        "likes": 16854,
-        "downloads": 6895117,
-        "origin": "CN"
-      },
-      {
-        "id": "Cloudflare/clef-flash",
-        "pipeline": "image-text-to-text",
-        "likes": 330,
-        "downloads": 4310,
-        "origin": "OTHER"
       },
       {
         "id": "PSRben/VisionHOPE",
         "pipeline": "image-classification",
-        "likes": 388,
-        "downloads": 1338,
+        "likes": 394,
+        "downloads": 1516,
         "origin": "OTHER"
       },
       {
-        "id": "Viggle/Qwen-Image-2.1-viggle-turbo",
-        "pipeline": "text-to-image",
-        "likes": 561,
-        "downloads": 257298,
-        "origin": "CN"
+        "id": "Contrastive-LM/CLM-v0.1-8B",
+        "pipeline": "text-ranking",
+        "likes": 701,
+        "downloads": 3445,
+        "origin": "OTHER"
       },
       {
-        "id": "orcarouter/OrcaSAQ-2-Cyber-27B-Uncensored-GGUF",
-        "pipeline": "text-generation",
-        "likes": 298,
-        "downloads": 11585,
+        "id": "SupersonicLabs/Julia-1",
+        "pipeline": "text-classification",
+        "likes": 407,
+        "downloads": 3657,
         "origin": "OTHER"
       },
       {
         "id": "nvidia/Nemotron-3-Diarization",
         "pipeline": "voice-activity-detection",
-        "likes": 640,
-        "downloads": 48784,
+        "likes": 661,
+        "downloads": 53014,
         "origin": "ALLIED"
       },
       {
-        "id": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+        "id": "Venastine-Research/Xing4.0-29B-A4B-GGUF",
         "pipeline": "text-generation",
-        "likes": 2381,
-        "downloads": 3969867,
+        "likes": 245,
+        "downloads": 14361,
         "origin": "OTHER"
       },
       {
-        "id": "TaichuAI/ZDTaichu5.0-9B",
-        "pipeline": "image-text-to-text",
-        "likes": 2671,
-        "downloads": 12483,
+        "id": "Viggle/Qwen-Image-2.1-viggle-turbo",
+        "pipeline": "text-to-image",
+        "likes": 580,
+        "downloads": 272896,
+        "origin": "CN"
+      },
+      {
+        "id": "orcarouter/OrcaSAQ-2-Cyber-27B-Uncensored-GGUF",
+        "pipeline": "text-generation",
+        "likes": 341,
+        "downloads": 14195,
         "origin": "OTHER"
       },
       {
         "id": "ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-Coder-GGUF",
         "pipeline": "image-text-to-text",
-        "likes": 224,
-        "downloads": 303256,
+        "likes": 247,
+        "downloads": 351230,
         "origin": "CN"
       },
       {
-        "id": "Alissonerdx/BFS-Best-Face-Swap",
-        "pipeline": "image-to-image",
-        "likes": 1134,
-        "downloads": 193270,
+        "id": "TaichuAI/ZDTaichu5.0-9B",
+        "pipeline": "image-text-to-text",
+        "likes": 2840,
+        "downloads": 12638,
         "origin": "OTHER"
       },
       {
-        "id": "akatz-ai/MiniMax-H3-Character-Swap-LoRA",
-        "pipeline": "video-to-video",
-        "likes": 261,
-        "downloads": 13258,
+        "id": "ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
+        "pipeline": "image-text-to-text",
+        "likes": 537,
+        "downloads": 1886975,
         "origin": "CN"
       }
     ],
@@ -643,12 +643,12 @@
       {
         "lab": "DoD",
         "items": [
+          "Hegseth Speaks to Cadets Ahead of Air Force, Navy Football Game",
           "Between Jumps: The Work Behind a 2-Hour Airborne Mission",
           "Marine Corps Achieves FY26 Recruiting Mission, Secures Strong Start for FY27",
           "Navy High-Speed Wi-Fi Reaches Milestone for Global Unaccompanied Housing",
           "Kentucky Guardsmen Sharpen Capabilities Alongside NATO Partners",
-          "Marines to Support NATO Security Initiative in Baltic Sea",
-          "War Department Increases Two Hazard Pays for First Time in Nearly Quarter Century"
+          "Marines to Support NATO Security Initiative in Baltic Sea"
         ]
       },
       {
