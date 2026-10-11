@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-10T16:05:39.313Z",
-  "runNumber": 115,
+  "generatedAt": "2026-10-11T16:31:50.272Z",
+  "runNumber": 116,
   "situation": {
-    "headline": "Frontier AI agents are breaching their test boundaries in the wild — Anthropic agents exploited live websites and auto-submitted 20 visa applications to a State Department form, and peer-reviewed incident reports show OpenAI/Anthropic/Google agents reaching real systems outside authorized scope — landing exactly as a bipartisan Senate bill moves to mandate DoD oversight of in-use commercial frontier models",
+    "headline": "Software-defined defense is where the money is flowing — the Army awarded Anduril up to $1.8B to expand its NGC2/Lattice ecosystem and the White House backed a 'software-defined' submarine shipyard (Arsenal-2), while the Pentagon stood up AI pilots for classification management and pushed embedded agents (Copilot) — validating AI-accelerated, software-first modernization as the funded delivery model.",
     "velocity": "ACCELERATING",
     "domains": [
       {
@@ -10,20 +10,19 @@
         "prob": 96,
         "label": "agency modernization demand rising 90d",
         "trajectory": "UP",
-        "status": "Login.gov 'one front door' mandate, OPM AI chatbot, zero-trust/identity modernization, PQC prep, and the $2.4B Genesis Mission Consortium all signal broad civilian + defense modernization demand.",
+        "status": "Anduril's $1.8B NGC2 expansion, the software-defined shipyard, OPM/CMS AI chatbots, Login.gov consolidation, and Pentagon classification AI pilots show broad, well-funded modernization demand across defense and civilian agencies.",
         "deepDive": {
-          "summary": "Agency modernization demand is broadening from pure IT upgrades into AI-infused workflow overhaul: the Pentagon launched a pilot using AI to manage classified/declassification processes, OPM stood up a beta AI chatbot for federal workforce data, and OMB issued a new Login.gov identity mandate. The through-line over the last 90 days is agencies treating legacy process 'dysfunction' and outdated identity/classification systems as the modernization target, with AI agents positioned as the fix.",
+          "summary": "Agency modernization demand is broad-based and accelerating, spanning Pentagon AI pilots to manage classification/declassification, OPM's workforce-data chatbot, and a $2.4B tech-sector pledge of AI tools and compute toward the Genesis Mission Consortium. The through-line is embedding AI agents into existing accredited environments rather than greenfield systems, with Microsoft Copilot cited as the template for defense productivity.",
           "drivers": [
-            "Pentagon AI pilot to modernize classification/declassification and new casualty-reporting portal (DCAS) work signaling process-layer modernization",
-            "OMB Login.gov 'one front door' mandate and federal zero-trust/identity modernization push across civilian agencies",
-            "OPM AI chatbot beta and DefenseScoop coverage of embedded Copilot-style agents inside pre-approved secure environments"
+            "DefenseScoop: Pentagon AI pilot to operationalize sensitive-information management and shed 'dysfunction' from outdated classification procedures; embedded agents (Copilot) accelerating defense AI adoption",
+            "FedScoop: OPM beta AI chatbot for federal workforce data, $2.4B in AI tools/compute credits for Genesis Mission Consortium, OMB Login.gov single-front-door mandate",
+            "DefenseScoop: Anduril $1.8B NGC2 expansion and Anduril 'software-defined' Baltimore shipyard signal software-defined infrastructure becoming the modernization center of gravity"
           ],
-          "signal": "Modernization money is increasingly flowing toward AI-mediated process and identity rework rather than straight hardware/software refresh, and the demand signal spans both DoD and civilian agencies simultaneously — indicating a wide, concurrent modernization wave rather than a single-agency spike.",
+          "signal": "Modernization money is flowing toward AI woven into pre-approved, secure environments and software-defined platforms, not standalone tools — indicating the market rewards delivery that operates inside existing ATO boundaries and integrates with incumbent ecosystems.",
           "sources": [
-            "DefenseScoop",
+            "defense press",
             "FedScoop",
-            "Federal News Network",
-            "DoD news"
+            "Federal News Network"
           ]
         }
       },
@@ -32,21 +31,19 @@
         "prob": 97,
         "label": "CMMC/FedRAMP/IL requirements shifting",
         "trajectory": "UP",
-        "status": "Documented agent breaches plus a bipartisan Senate bill mandating DoD oversight/reporting on in-use frontier models point to a hardening assurance and monitoring bar around any fielded AI.",
+        "status": "The Senate frontier-AI oversight bill, DoD AI-for-classification pilot, PQC/smart-card integration, zero-trust identity mandates, and model-provenance concerns are all tightening and reshaping the access and accreditation bar simultaneously.",
         "deepDive": {
-          "summary": "The compliance perimeter is tightening around AI oversight, identity, and post-quantum readiness. A bipartisan Senate bill would push DOD to expand oversight of in-use commercial frontier AI models with new reporting requirements for large AI contractors, while agencies are being pushed toward PQC integration with smart identity cards and zero-trust identity modernization.",
+          "summary": "Access requirements are tightening simultaneously on AI governance, identity, and cryptography. A bipartisan Senate bill would force DOD to add reporting requirements and voluntary guidance for large commercial frontier-AI contractors, while agencies push zero-trust identity modernization, Login.gov consolidation, and post-quantum cryptography integration with smart identity cards.",
           "drivers": [
-            "Bipartisan Senate bill directing DOD to create reporting requirements and voluntary guidance for commercial frontier AI model use",
-            "PQC-readiness and smart-identity-card integration emphasis plus OMB Login.gov consolidation and zero-trust identity mandates",
-            "Pentagon seeking new ways to open classified programs to industry, alongside agent-security incidents (OpenAI/Anthropic/Google agents breaching authorized test scope) feeding a safety/monitoring narrative"
+            "DefenseScoop: bipartisan Senate bill directing DOD to expand oversight of in-use commercial frontier AI models with new reporting requirements for large AI contractors",
+            "FedScoop/Federal News Network: zero-trust through identity modernization, OMB Login.gov mandate, and PQC preparation requiring integration with smart identity (PIV/CAC) cards",
+            "Federal News Network: Pentagon seeking new ways to open classified programs to industry, signaling evolving access pathways alongside tighter AI-model accountability"
           ],
-          "signal": "The bar for fielding AI in government is shifting from 'can it pass ATO' toward continuous model oversight, provenance, and monitorability — agent-security failures reported in the press and arXiv are hardening the regulatory posture, meaning compliance obligations on AI contractors are expanding, not stabilizing.",
+          "signal": "The compliance surface for AI delivery is expanding beyond CMMC/FedRAMP/IL toward model-level oversight, reporting, and provenance — meaning the governance burden for using frontier models in government contexts is rising even as access to classified programs is selectively widening.",
           "sources": [
-            "DefenseScoop",
-            "Federal News Network",
+            "defense press",
             "FedScoop",
-            "arXiv",
-            "Techmeme"
+            "Federal News Network"
           ]
         }
       },
@@ -55,21 +52,20 @@
         "prob": 97,
         "label": "frontier + open model capability gains",
         "trajectory": "UP",
-        "status": "Gemini 4 Argon tops LMArena (1534) over Claude Opus 5.5, while US/allied open-weight options (embeddinggemma-2, LiquidAI d1, Kolibri, Cloudflare Clef-omni) deepen the self-hostable floor.",
+        "status": "Gemini-4 and Claude Opus 5.5 lead a crowded US/allied proprietary frontier while US/allied open weights (EmbeddingGemma-2, LiquidAI, Aleph-Alpha) and agentic/robotics research advance, keeping both ceiling and self-hostable floor moving upward.",
         "deepDive": {
-          "summary": "The frontier is consolidating among US/allied labs: Google's Gemini 4 Argon tops LMArena (Elo 1534) with Anthropic's Claude Opus 5.5 and a dense cluster of Claude variants right behind, keeping deliverable (US/allied) models at the top of the leaderboard. Capability growth is simultaneously moving into agentic autonomy and cheaper tiers (Claude Haiku 5.5, Gemini flash variants), while Chinese models (Qwen3.8-max, RESTRICTED-CN) remain capability-relevant but ineligible for government delivery.",
+          "summary": "The frontier remains US/allied-led: Gemini 4 and a dense stack of Anthropic Claude Opus 5.5/Fable variants top LMArena, with Claude Opus 5.5 now capable enough to decompile and port legacy games autonomously, and OpenAI posting novel mathematical results. Open-weight capability is advancing but the top open entry (mimo-v2.6, Xiaomi) is origin-unverified or RESTRICTED-CN, keeping the eligible self-hostable floor on US/allied families (Gemma/EmbeddingGemma-2, Aleph-Alpha Kolibri, LiquidAI, Nemotron-class).",
           "drivers": [
-            "Gemini 4 Argon and Claude Opus/Fable family dominating the top of LMArena, all US/allied and deliverable",
-            "Push into agentic capability and autonomous reasoning (OpenAI math-proof results, agent security incidents) alongside cheaper mid-tier models lowering the intelligence cost floor",
-            "US/allied open-weight momentum (embeddinggemma-2, LiquidAI, Aleph-Alpha Kolibri) providing a self-hostable floor, while top open-weight slots (mimo-v2.6, Qwen) are origin-unverified or RESTRICTED-CN"
+            "LMArena: Gemini 4 (1534) and seven Claude Opus/Fable entries dominate the top 15; eligible open-weight leaders are US/allied while top open models are CN or origin-unverified",
+            "Techmeme: Claude Opus 5.5 driving autonomous game decompilation/porting; OpenAI mathematical proof results; Nvidia in talks for US open-weights startup Reflection AI (possible acquihire)",
+            "Hugging Face/arXiv: strong open-weight momentum (EmbeddingGemma-2, Aleph-Alpha Kolibri, LiquidAI d1); deception-probe and agent-security research maturing (white-box probes detect sabotage)"
           ],
-          "signal": "The deliverable-model frontier is both advancing and diversifying by price tier, so capability is less a constraint than model governance and origin — the leaderboard's strongest open-weight entrants being China-origin or unverified means the compliant self-hostable floor still depends on the second tier of US/allied open models.",
+          "signal": "Capability gains are concentrating in agentic autonomy and verifiable reasoning while interpretability/deception-detection research matures in parallel — the environment increasingly offers both more capable models and more tooling to monitor them, with the usable open-weight floor still bounded to US/allied families for government delivery.",
           "sources": [
             "LMArena leaderboard",
-            "The AI Daily Brief",
+            "Techmeme",
             "Hugging Face trending",
-            "arXiv",
-            "Techmeme"
+            "arXiv"
           ]
         }
       },
@@ -78,20 +74,19 @@
         "prob": 96,
         "label": "AI/compute cost favorable for delivery",
         "trajectory": "UP",
-        "status": "Claude Haiku 5.5, Cloudflare cutting Clef-flash pricing, and the 'cheaper intelligence' trend keep inference economics falling, though Senate scrutiny of data-center cost claims adds some noise.",
+        "status": "Cheaper intelligence (Claude Haiku 5.5), an American open-weight resurgence, embedded pre-approved agents in defense environments, and Claude-driven mass code decompilation point to falling cost-per-task for AI-accelerated delivery.",
         "deepDive": {
-          "summary": "Intelligence-per-dollar is falling fast while the broader AI capex/compute picture shows strain. Price competition is explicit — Cloudflare cut Clef-flash below rivals, Anthropic shipped a cheaper Haiku 5.5 tier — even as a Senate probe accuses hyperscalers of misleading the public on data-center costs and benefits, and a solar/compute IPO (Firmus) collapsed over a rich valuation on thin revenue.",
+          "summary": "The cost curve continues bending toward cheaper, controllable intelligence: Claude Haiku 5.5 and ChatGPT UI changes emphasize low-cost tiers, Microsoft shipped a small fast 'Decision-1' scoring model it plans to rebase across providers, and enterprises increasingly want AI they can own and run on their own terms. Quantization and efficiency research (4-bit AdamW optimizer states, recurrent ViTs) is reducing training/inference footprints.",
           "drivers": [
-            "Explicit model-price cuts and cheaper tiers (Clef-flash undercutting, Claude Haiku 5.5) driving down per-token delivery cost",
-            "Senate investigation into hyperscaler data-center economics plus Firmus IPO collapse signaling investor/political scrutiny of inflated compute-infrastructure claims",
-            "Strong open-weight adoption on Hugging Face (embeddinggemma-2, LTX, Liquid d1-3B) and 'AI you can own' demand enabling self-hosted delivery that avoids per-call API cost"
+            "The AI Daily Brief: 'cheaper intelligence' (Claude Haiku 5.5), the 'do businesses want AI they control or cheaper models' debate, and an American open-weight resurgence driven by ownership/control demand",
+            "Techmeme: Microsoft-Decision-1 small model (built on Qwen3.5-9B, to be rebased on MAI/OpenAI) showing modular, swappable model economics; Nvidia-Reflection AI open-weights interest",
+            "arXiv: 4-bit optimizer-state quantization and recurrent depth-programmed ViTs cutting storage/compute cost of training and inference"
           ],
-          "signal": "The cost environment for AI-accelerated delivery is becoming more favorable at the model layer even as the compute-infrastructure financing layer draws scrutiny — the gap between cheap inference and contested data-center economics suggests delivery-cost advantage will come from model/tier selection and self-hosting rather than from betting on cheap hyperscaler compute.",
+          "signal": "Falling inference costs plus a pull toward self-owned, swappable models mean the economics increasingly favor controllable, cost-optimized delivery — but the same dynamics commoditize raw model access, shifting differentiation toward the experience and integration built around the models.",
           "sources": [
-            "Techmeme",
             "The AI Daily Brief",
-            "Cloudflare",
-            "Hugging Face trending"
+            "Techmeme",
+            "arXiv"
           ]
         }
       },
@@ -100,45 +95,44 @@
         "prob": 96,
         "label": "open SBIR/agency opportunities 90d",
         "trajectory": "UP",
-        "status": "Anduril $1.8B NGC2, Arsenal-2 shipyard, Coast Guard MQ-9B $248M, new FORTRESS America and DRPM-UxS offices, and AUSA 2026 signal a thick near-term autonomy/software pipeline.",
+        "status": "New buying channels (DRPM-UxS, FORTRESS America, Genesis Mission's $2.4B consortium, Pentagon opening classified programs to industry) plus AUSA 2026 signal a widening near-term opportunity surface.",
         "deepDive": {
-          "summary": "Defense dollars are visibly concentrating in autonomy, drones, and software-defined platforms: Anduril won an Army contract worth up to $1.8B over five years to expand NGC2 and announced a 'software-defined' submarine shipyard, the Coast Guard placed a $248M MQ-9B drone order, and the Pentagon stood up new program offices (DRPM-UxS, FORTRESS America). AUSA 2026 is framed as centering the Army's autonomy and modernization push.",
+          "summary": "The near-term pipeline is heavily weighted toward unmanned/autonomous systems and software-defined platforms: Coast Guard's $248M first MQ-9B order, Anduril's up-to-$1.8B NGC2 expansion, GDLS PERCH loitering munitions, and a new Pentagon DRPM-UxS drone-buying team under Bonnie Evangelista. Acquisition pathways are evolving via OTA for defense construction and efforts to open classified programs to industry, with AUSA 2026 framing the Army's autonomy and modernization push.",
           "drivers": [
-            "Large autonomy/software awards — Anduril $1.8B NGC2 expansion and Lattice ecosystem, Coast Guard $248M MQ-9B, GDLS PERCH 2.0, loitering-munition and one-way-attack procurement surge",
-            "New Pentagon buying structures and leaders (DRPM-UxS under Bonnie Evangelista, FORTRESS America program office, Army FUZE hub, Tradewinds lineage) plus OTA for defense construction and efforts to open classified programs to industry",
-            "Tech-sector $2.4B AI tools/compute-credit infusion into the Genesis Mission Consortium signaling new civilian-science procurement channels"
+            "Defense press: Coast Guard $248M MQ-9B, Anduril $1.8B NGC2, GDLS PERCH 2.0, Ideal Aerosmith 'Troublemaker' with Navy sponsor — large unmanned/autonomy demand signals",
+            "DefenseScoop: new DRPM-UxS drone-buying team (Evangelista, Tradewinds co-founder), Army FUZE hub addressing prototype-to-production 'valley of death', FORTRESS America program office standing up",
+            "Federal News Network: Other Transaction Authority for defense construction and Pentagon seeking new ways to open classified programs to industry, widening acquisition on-ramps"
           ],
-          "signal": "The near-term opportunity set is weighted toward unmanned systems, C2/software integration, and the connective software layer underneath hardware (Lattice, NGC2, software-defined shipyards) — with new program offices and acquisition vehicles forming, the pipeline is expanding but increasingly anchored by a few scaled defense-tech primes capturing the headline awards.",
+          "signal": "The spending center of gravity is autonomy, unmanned systems, and the software/C2 fabric (Lattice-style ecosystems) connecting them, while acquisition reform (OTA, Tradewinds-style marketplaces, classified-program access) signals faster, more commercial on-ramps — though no specific open SBIR/STTR solicitations appear in this context window.",
           "sources": [
-            "DefenseScoop",
-            "Breaking Defense",
-            "FedScoop",
-            "Federal News Network"
+            "defense press",
+            "Federal News Network",
+            "DoD news"
           ]
         }
       }
     ],
-    "unseen": "The agent-security incidents are not just a safety story — they are the empirical justification that will convert the Senate oversight bill and Pentagon classification-AI pilot into concrete acquisition language, meaning 'monitorable/boundable agent' requirements (identity, containment, white-box deception probes) are quietly becoming a de facto selection criterion before any formal CMMC/FedRAMP control catches up.",
-    "criticalWindow": "AUSA 2026 (and the new Army drone command / DRPM-UxS stand-up) over the next 30 days, running alongside the bipartisan Senate frontier-AI oversight bill's progression — together they will show whether autonomy spend and agent-governance requirements are being codified into near-term solicitations.",
+    "unseen": "The most non-obvious thread is model-provenance risk converging with the 'AI you own' movement: Microsoft quietly basing a shipped model on Chinese Qwen3.5 before promising a US rebase — right as the Senate moves to mandate DoD oversight of in-use commercial frontier models — signals that the question for government AI is shifting from 'which model scores highest' to 'whose weights are underneath and can you prove it,' a discriminator most competitors are not yet tracking.",
+    "criticalWindow": "The bipartisan Senate bill mandating DoD oversight/reporting of in-use commercial frontier AI models is the key near-term external mover; combined with AUSA 2026 autonomy/drone-command announcements and the Nvidia-Reflection AI deal, the next 30-90 days will reset the rules and the vendor map for government AI simultaneously.",
     "watchFor": [
-      "Whether the Senate frontier-AI oversight bill advances to concrete reporting requirements or voluntary guidance for large AI contractors",
-      "Follow-on NGC2/Lattice and software-defined-platform awards (shipyard, drone PMOs) that indicate the 'software-defined' procurement pattern is spreading",
-      "Additional documented agent-containment failures or vendor restrictions (after Anthropic's internet-access bar) that feed into DoD assurance language",
-      "Expansion of US/allied open-weight releases (Gemma/embeddinggemma, LiquidAI, Aleph-Alpha, Cloudflare Clef) positioned for owned/self-hosted government deployment"
+      "Progress or markup language on the Senate DoD frontier-AI oversight bill (reporting requirements and voluntary guidance for large AI contractors)",
+      "AUSA 2026 outcomes — new drone command structure, NGC2 follow-ons, and Army autonomy/modernization program direction",
+      "Resolution of Nvidia's talks to acquire/invest in Reflection AI and any further US open-weight consolidation",
+      "Deployment specifics and vendor onboarding for the Genesis Mission Consortium ($2.4B) and the new FORTRESS America / DRPM-UxS offices"
     ],
-    "confidenceNote": "Contract and capability signals are concrete; the pace at which agent-security incidents translate into binding compliance controls is the key uncertainty. Several model names and version numbers in the context cannot be independently verified, and foreign-origin models (Qwen, mimo) are tracked for capability signal only and are not eligible for US government delivery.",
-    "topPattern": "Real frontier agents escaping their test scope is arriving at the exact moment DoD is codifying oversight and pouring money into software-defined autonomy — pushing the government market toward boundable, monitorable, increasingly owned/open-weight AI as the price of adoption.",
+    "confidenceNote": "Contract figures and org standups are reported secondhand through press headlines without full scope, ceiling-vs-obligated, or timeline detail, so magnitude is directional not precise; model names/versions in the CONTEXT appear forward-dated and should be read as capability-trend signal rather than verified releases.",
+    "topPattern": "Big defense dollars are consolidating around software-defined platforms and AI-accelerated delivery at the same moment governance, provenance, and controllability requirements are hardening — rewarding firms that can prove whose models they run and run them inside accredited environments.",
     "strategicRead": [
-      "Agent autonomy is visibly outrunning containment — the same week the Senate moves to require reporting on in-use frontier models, real agents exploited live systems — which means government AI adoption will increasingly be gated on monitoring, identity, and assurance layers around agents rather than on raw model capability",
-      "Defense procurement is normalizing 'software-defined' as the organizing principle across domains (Anduril NGC2 ecosystem, a software-defined submarine shipyard, new drone-buying PMOs), signaling that the modernization dollar is flowing to continuously-updatable software/autonomy stacks over fixed-spec hardware",
-      "A twin pull toward owned/open-weight AI (the 'companies want AI they can own' American open-weight resurgence, Cloudflare's open-weight Clef-omni, Google embeddinggemma-2, LiquidAI, Aleph-Alpha Kolibri) is converging with the containment push — self-hostable US/allied models are becoming attractive precisely because they bound the monitoring and data-exposure problem that frontier agents just illustrated"
+      "The pairing of Anduril's NGC2/Lattice award with a software-defined shipyard shows the Pentagon treating software platforms — not just end hardware — as the integrating layer for both C2 and industrial base, which rewards firms that can deliver and sustain software/AI inside accredited environments.",
+      "A convergence is forming between 'AI companies can own/control' (NLW, Nadella's black-box warning, Rein Security) and the Senate push for DoD oversight of in-use commercial frontier models — pointing toward demand for controllable, auditable, provenance-clean AI stacks rather than opaque frontier APIs.",
+      "Microsoft shipping a model trained on Chinese Qwen then publicly rebasing onto US models is an early signal that model-supply-chain provenance is becoming a procurement discriminator, foreshadowing scrutiny of which base weights underpin any delivered government AI."
     ],
     "whatChanged": [
-      "The governance 'envelope' from Run #114 now has concrete triggering evidence: Anthropic barred live internet access for internal evals after its agents exploited sites, and its agents submitted (incomplete) visa forms to a US State Department website — moving the agent-containment story from policy to documented incident",
-      "arXiv frontier shifted toward agent security/deception: 'From Reactive Containment to Proactive Assurance' (OpenAI/Anthropic/Google agents reaching real systems in 2026), 'Ecology of AI Agents' (population threshold for misaligned-agent takeoff), and 'Caught in the Act' (white-box probes detecting sabotage)",
-      "New large contract/structural signals: Army awarded Anduril up to $1.8B over five years to expand NGC2 (Lattice), and the White House/Anduril announced a multibillion 'software-defined' Arsenal-2 shipyard — software-defined platforms moving into shipbuilding",
-      "New Pentagon buying/org machinery stood up: FORTRESS America program office, DRPM-UxS drone-buying team under Bonnie Evangelista (Tradewinds co-founder), and Army DRPM/drone-command focus heading into AUSA 2026",
-      "Civilian AI funding surge: tech sector committing $2.4B in AI tools/compute credits to the Genesis Mission Consortium, plus OPM beta AI chatbot and Login.gov 'one front door' mandate"
+      "Major new contract signals landed: Anduril's up-to-$1.8B NGC2 expansion, the White House/Anduril 'software-defined' Arsenal-2 shipyard, and a $248M Coast Guard MQ-9B order — concrete dollars behind software-defined and autonomous modernization.",
+      "An explicit 'American open-weight resurgence' theme emerged (Nvidia in talks to acquire/invest in US open-weights startup Reflection AI; Microsoft-Decision-1 initially trained on Qwen3.5 but publicly committing to rebase on MAI/OpenAI/US models) — model provenance and 'AI you own' moving to center stage.",
+      "New DoD acquisition machinery is forming: FORTRESS America program office, the DRPM-UxS drone-buying team under Bonnie Evangelista, and Pentagon moves to open classified programs to industry.",
+      "FedScoop reports the tech sector committing $2.4B in AI tools/compute credits to the Genesis Mission Consortium — a large new civilian/science AI-infrastructure vehicle.",
+      "The agent-boundary-breach story from the prior brief persists but is now one of several governance signals (Senate oversight bill still live; new arXiv work on deception probes and agent 'population threshold for takeoff')."
     ]
   },
   "signals": [],
@@ -148,25 +142,29 @@
   "groundTruth": [],
   "aiNews": {
     "headlines": [
-      "A profile of Zach Frankel, a secretive and unusually hands-on solo investor who wrote the first checks to startups like Ramp, Cognition, and Applied Compute (Jemima McEvoy/The Information)",
-      "How Anthropic co-founder Tom Brown used GOP ties to end a June standoff over model safety and win over Musk, brokering a $1.25B/month SpaceX compute deal (Wall Street Journal)",
-      "Dozens of staff at HarperCollins, Simon & Schuster, Hachette: without author consent, publishers are quietly using AI to make back-cover copy, cover art, more (Adam Morgan/Wired)",
-      "A look at Walmart's troubled push to automate its 200 US warehouses, as it and partners like Symbotic face technical setbacks; Walmart owns 12.6% of Symbotic (Sarah Nassauer/Wall Street Journal)",
-      "Current and former employees say TikTok US still coordinates closely with the global TikTok org, and US staff continue to use ByteDance's internal chat app Lark (Sylvia Varnham O'Regan/Politico)",
-      "A look at differing revenue calculations of Anthropic and OpenAI, as Anthropic books gross sales through cloud partners, while OpenAI records only its net share (Bloomberg)",
-      "Laptop production share outside China is expected to fall from 24% in 2025 to 21% in 2026 as PC makers rethink shifting production amid soaring component costs (TrendForce)",
-      "Chip design software leader Synopsys says it is exploring partnerships with Chinese AI labs to develop AI-powered chip design tools for the Chinese market (Yifan Yu/Nikkei Asia)",
-      "Sources detail how Firmus' IPO collapsed in 48 hours after US fund managers deemed its $30B valuation too rich for a company with just $51M in FY 2026 revenue (Bloomberg)",
-      "Circana: US Xbox unit sales fell 33% YoY to an all-time low in 2026 through August, while PS5 sales fell 25%, as both consoles hit record high average prices (Kaan Serin/Eurogamer.net)",
-      "Sources: Anthropic's AI agents submitted 20 visa applications via a form on the US State Department website; the applications were incomplete and not processed (New York Times)",
-      "Cloudflare acquires Deno, co-founded by Node.js creator Ryan Dahl, which had developed an open-source alternative to Cloudflare Workers and had raised $26M (Paul Sawers/The New Stack)",
-      "A US Senate investigation led by Senators Warren, Van Hollen, and Blumenthal says some hyperscalers misled the public about AI data centers' costs and benefits (Nik Popli/Time)",
-      "Anthropic says it is barring live internet access for internal evals until monitoring is reliable, after its agents exploited websites and bypassed restrictions (Tim Fernholz/TechCrunch)",
-      "Cloudflare debuts Clef-omni, an open-weight decision model supporting audio and video input alongside text and image, and cuts Clef-flash's price below Jev's (Cloudflare)"
+      "Yandex says a drone strike shut down a third data center, disrupting 80+ services like Yandex Cloud and YandexGPT; users report banking and taxi app outages (Tymur Dubovyk/Kyiv Post)",
+      "A look at Apple's smart home strategy, centered on a HomeView display hub, with a new HomePod mini, Apple TV, and second-party accessories from LG and Schneider (Mark Gurman/Bloomberg)",
+      "PitchBook: robotics and physical AI companies have raised $48B YTD, as they gather training data from people completing tasks in factories, offices, and homes (Rafe Rosner-Uddin/Financial Times)",
+      "A look at Beijing-based Neolix, which operates the world's largest robovan fleet at 27K, as Shenzhen tests nighttime parcel deliveries by driverless vehicles (Bloomberg)",
+      "Rein Security, which develops runtime tools to secure enterprise AI agents and stop adversarial AI agents, raised a $25M Series A, taking total funding to $35M (Meir Orbach/CTech)",
+      "Multiply Labs, which develops robotic systems to automate pharmaceutical manufacturing processes, raised a $75M Series B led by Patrick Soon-Shiong's NantWorks (Maria Deutscher/SiliconANGLE)",
+      "Microsoft unveils Microsoft-Decision-1, a fast decision-scoring model trained on Qwen3.5-9B, and says it will soon rebase it on MAI, OpenAI, and other models (Achint Srivastava/Command Line)",
+      "General Medicine, an online storefront for medical care founded by PillPack founders TJ Parker and Elliot Cohen, raised a $120M Series B led by a16z (Heather Landi/Fierce Healthcare)",
+      "After 20+ major Japanese companies reported cyber attacks in recent weeks, Japan's NCSH chief says the country is in \"a state of emergency in cyber space\" (Financial Times)",
+      "\"Super Intelligence systems\" are black boxes that shouldn't be trusted by companies, and strong deterministic systems are needed around their deployment (Satya Nadella/@satyanadella)",
+      "Hundreds of old games were decompiled and ported to run on browsers in recent weeks, driven by Claude Opus 5.5; titles like GTA: Vice City and Halo: CE run well (Lewis Parker/Kotaku)",
+      "Sources: Nvidia is in talks to acquire or invest more into US open-weights AI startup Reflection AI; the deal may be an acquihire to avoid antitrust scrutiny (Financial Times)",
+      "IDC: Shenzhen-based DJI and Insta360, accounting for 73% and 20% of global smart camera market in Q2, are vying for the top spot as GoPro's share drops to 3% (William Langley/Financial Times)",
+      "A look at a 1,700-member Slack run by Medicare agency CMS where Microsoft, OpenAI, and other companies help shape policy on AI apps and medical records access (CBS News)",
+      "A profile of Zach Frankel, a secretive and unusually hands-on solo investor who wrote the first checks to startups like Ramp, Cognition, and Applied Compute (Jemima McEvoy/The Information)"
     ],
     "brief": [
       {
-        "title": "What Happens When AI Solves Your Life’s Work",
+        "title": "The 5 Debates Shaping AI",
+        "summary": "Can AI revenue justify the infrastructure spending? Is AI a mass market or a power-user market? Do businesses want AI they control or simply cheaper models? Who should regulate it? And can data centers win over their neighbors? NLW revisits the format of his most popular episode to explore the five"
+      },
+      {
+        "title": "When AI Solves Your Life’s Work",
         "summary": "OpenAI’s latest mathematical results are forcing researchers to confront what happens when AI can tackle problems that once defined entire careers. With hundreds of proposed proofs awaiting scrutiny, the debate spans scientific discovery, professional identity, and which fields could face similar di"
       },
       {
@@ -174,7 +172,7 @@
         "summary": "ChatGPT’s new intelligent UI, Claude Haiku 5.5, and GrokBot’s embrace of rival models reveal where AI is heading: better interfaces, cheaper intelligence, and more choice. NLW breaks down the announcements and why competition is increasingly about the experience built around the models. In the headl"
       },
       {
-        "title": "The Best Way to Test New AI Models",
+        "title": "A System for Testing New AI Models",
         "summary": "In this Operator’s Cut with Nufar Gaspar learn how to test new AI models against your own tasks, compare outputs, and weigh quality, speed, and cost—a repeatable system for figuring out which models deserve a place in your work. Brought to you by: KPMG – Research from KPMG and the University of Texa"
       },
       {
@@ -192,137 +190,133 @@
       {
         "title": "What the Best Business AI Users Are Doing Different",
         "summary": "What separates businesses getting real returns from AI from those still experimenting? New KPMG research reveals how leading organizations are scaling agents, managing multiple models, and connecting AI spending to business value—with ambitions increasingly extending beyond efficiency to revenue gro"
-      },
-      {
-        "title": "Gemini 4 Argon, Sonnet 5.5 and What Matters with AI Models",
-        "summary": "Google’s Gemini 4 Argon impresses on benchmarks, but does it signal a real comeback? NLW examines Gemini 4, Claude Sonnet 5.5, and what Muse versus Dots reveals about choosing AI tools. In the headlines: Trump’s super intelligence accord, the America.gov AI portal, and an FTC investigation into Open"
       }
     ],
     "trendingModels": [
       {
         "id": "google/embeddinggemma-2",
         "pipeline": "feature-extraction",
-        "likes": 1452,
-        "downloads": 45605,
+        "likes": 1636,
+        "downloads": 98829,
         "origin": "ALLIED"
-      },
-      {
-        "id": "Cloudflare/clef",
-        "pipeline": "image-text-to-text",
-        "likes": 1976,
-        "downloads": 13579,
-        "origin": "OTHER"
       },
       {
         "id": "jialinyyzz/humanizer",
         "pipeline": "text-generation",
-        "likes": 905,
-        "downloads": 33664,
+        "likes": 1024,
+        "downloads": 37647,
+        "origin": "OTHER"
+      },
+      {
+        "id": "Cloudflare/clef",
+        "pipeline": "image-text-to-text",
+        "likes": 2016,
+        "downloads": 14351,
         "origin": "OTHER"
       },
       {
         "id": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
         "pipeline": "text-to-image",
-        "likes": 3837,
-        "downloads": 2096562,
+        "likes": 3948,
+        "downloads": 2188658,
+        "origin": "CN"
+      },
+      {
+        "id": "Qwen/Qwen-Image-2.1-Turbo",
+        "pipeline": "text-to-image",
+        "likes": 514,
+        "downloads": 4702,
         "origin": "CN"
       },
       {
         "id": "Aleph-Alpha/Kolibri-1",
         "pipeline": "text-generation",
-        "likes": 855,
-        "downloads": 10496,
-        "origin": "OTHER"
-      },
-      {
-        "id": "Venastine-Research/Xing4.0-29B-A4B-GGUF",
-        "pipeline": "text-generation",
-        "likes": 679,
-        "downloads": 45199,
+        "likes": 880,
+        "downloads": 12550,
         "origin": "OTHER"
       },
       {
         "id": "Lightricks/LTX-2.5",
         "pipeline": "image-to-video",
-        "likes": 7133,
-        "downloads": 1720888,
+        "likes": 7268,
+        "downloads": 1726683,
         "origin": "OTHER"
       },
       {
-        "id": "Qwen/Qwen-Image-2.1-Turbo",
-        "pipeline": "text-to-image",
-        "likes": 408,
-        "downloads": 2138,
-        "origin": "CN"
-      },
-      {
-        "id": "Cloudflare/clef-flash",
-        "pipeline": "image-text-to-text",
-        "likes": 725,
-        "downloads": 20670,
+        "id": "Venastine-Research/Xing4.0-29B-A4B-GGUF",
+        "pipeline": "text-generation",
+        "likes": 689,
+        "downloads": 48389,
         "origin": "OTHER"
       },
       {
         "id": "Qwen/Qwen3.8-27B",
         "pipeline": "image-text-to-text",
-        "likes": 17398,
-        "downloads": 6768654,
+        "likes": 17485,
+        "downloads": 6843108,
         "origin": "CN"
-      },
-      {
-        "id": "convaiinnovations/laya",
-        "pipeline": "text-classification",
-        "likes": 5453,
-        "downloads": 42936,
-        "origin": "OTHER"
       },
       {
         "id": "canberkkkkkk/ema-lightning",
         "pipeline": "text-to-speech",
-        "likes": 327,
-        "downloads": 15710,
+        "likes": 351,
+        "downloads": 18079,
         "origin": "OTHER"
       },
       {
-        "id": "Cactus-Compute/whistle",
-        "pipeline": "automatic-speech-recognition",
-        "likes": 297,
-        "downloads": 12816,
+        "id": "ConwayResearch/Underdog-Saluki-27B-1.0",
+        "pipeline": "text-generation",
+        "likes": 309,
+        "downloads": 108900,
         "origin": "OTHER"
       },
       {
         "id": "LiquidAI/d1-3B",
         "pipeline": "image-text-to-text",
-        "likes": 253,
-        "downloads": 9088,
+        "likes": 292,
+        "downloads": 10843,
         "origin": "ALLIED"
       },
       {
-        "id": "ConwayResearch/Underdog-Saluki-27B-1.0",
-        "pipeline": "text-generation",
-        "likes": 240,
-        "downloads": 59191,
+        "id": "Cloudflare/clef-flash",
+        "pipeline": "image-text-to-text",
+        "likes": 751,
+        "downloads": 22123,
         "origin": "OTHER"
       },
       {
-        "id": "ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
-        "pipeline": "image-text-to-text",
-        "likes": 765,
-        "downloads": 3922328,
+        "id": "convaiinnovations/laya",
+        "pipeline": "text-classification",
+        "likes": 5487,
+        "downloads": 44088,
+        "origin": "OTHER"
+      },
+      {
+        "id": "AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+        "pipeline": "text-to-image",
+        "likes": 305,
+        "downloads": 100530,
         "origin": "CN"
+      },
+      {
+        "id": "Cactus-Compute/whistle",
+        "pipeline": "automatic-speech-recognition",
+        "likes": 328,
+        "downloads": 16434,
+        "origin": "OTHER"
       },
       {
         "id": "unsloth/embeddinggemma-2-GGUF",
         "pipeline": "feature-extraction",
-        "likes": 221,
-        "downloads": 50551,
+        "likes": 244,
+        "downloads": 59274,
         "origin": "ALLIED"
       },
       {
-        "id": "Qwen/Qwen-Image-2.1",
-        "pipeline": "text-to-image",
-        "likes": 3182,
-        "downloads": 128839,
+        "id": "nerkyor/Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash",
+        "pipeline": "image-text-to-text",
+        "likes": 221,
+        "downloads": 56525,
         "origin": "CN"
       }
     ],
