@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-17T14:02:53.932Z",
-  "runNumber": 122,
+  "generatedAt": "2026-10-18T14:16:57.768Z",
+  "runNumber": 123,
   "situation": {
-    "headline": "The 'last mile' of AI-accelerated delivery is being externally codified — a new FDE-Gym benchmark formalizes forward-deployed engineering just as DoD operationalizes AI-driven vendor code vetting (Project Gatekeeper) and pre-hardened secure containers, hardening the delivery+provenance stack that defines GovTech modernization.",
+    "headline": "AI infrastructure financing is visibly cracking — CoreWeave bonds topping 15%, Oracle debt trading at 80-90 cents, Microsoft canceling a 23K-GPU Nscale anchor tenancy, and 47+ US data center projects delayed with Bernstein calling only 35% of the pipeline credible — a new macro constraint on the compute economics behind AI-accelerated delivery, even as the capability frontier keeps climbing.",
     "velocity": "ACCELERATING",
     "domains": [
       {
@@ -10,19 +10,20 @@
         "prob": 95,
         "label": "agency modernization demand rising 90d",
         "trajectory": "UP",
-        "status": "Standing autonomy command (FASCOM), NGC2 fielding, open-architecture XM30 downselect, and Project Gatekeeper onboarding all point to durable, software-centric modernization demand.",
+        "status": "Army autonomy command, Task Force Easy, NGC2 fielding, Project Gatekeeper onboarding, and open-architecture downselects (XM30) all signal sustained modernization demand on the defense side.",
         "deepDive": {
-          "summary": "Army and Navy are standing up new organizations and software-onboarding pipelines at AUSA-season pace, signaling a 90-day surge in modernization demand centered on autonomy, counter-UAS, space, and network ecosystems. The explicit theme is open systems architecture and faster code ingestion, with AI positioned as the mechanism to compress timelines.",
+          "summary": "Army modernization is visibly accelerating across autonomy, counter-UAS, and software onboarding, with new commands and task forces standing up during AUSA. The environment shows a strong pull toward open systems architecture and AI-assisted acquisition pipelines, while civilian agencies grapple with AI integration into legacy IT and safety-critical systems like FAA airspace tools.",
           "drivers": [
-            "Army launching Project Gatekeeper to use AI to vet vendor software in an isolated environment and speed onboarding onto the service network",
-            "New organizational mass: three-star-led autonomy command (FASCOM) focused on corps-level systems, expanding space operations branch, Task Force Easy for drone 'adaptation dominance', and NGC2 ecosystem reaching I Corps in the Pacific",
-            "Open systems architecture called 'hyper important' in the XM30 downselect, plus FedScoop framing of AI to transform the federal IT marketplace"
+            "Army standing up a new three-star autonomy command (FASCOM), Task Force Easy for drone 'adaptation dominance', and Project Gatekeeper to AI-vet vendor software for faster onboarding",
+            "Open systems architecture declared 'hyper important' in XM30 downselect, and NGC2 ecosystem rolling out to I Corps in the Pacific",
+            "Civilian-side friction surfacing: FAA AI tools triggering congressional pause demands and safety reviews, and federal IT marketplace being reframed around AI"
           ],
-          "signal": "Modernization demand is shifting from monolithic platforms toward plug-in software, autonomy, and network ecosystems, and the gating constraint is increasingly the speed of getting vendor code vetted and onto networks rather than the capability itself.",
+          "signal": "Modernization demand is concentrating around autonomy, counter-drone, and faster software onboarding, and the explicit institutional emphasis on open architecture signals that pluggable, vendor-agnostic hardware/software integration is becoming a baseline procurement expectation rather than a differentiator.",
           "sources": [
             "defense press",
             "DoD news",
-            "FedScoop"
+            "FedScoop",
+            "Federal News Network"
           ]
         }
       },
@@ -31,18 +32,18 @@
         "prob": 96,
         "label": "CMMC/FedRAMP/IL requirements shifting",
         "trajectory": "UP",
-        "status": "Pre-hardened container/zero-trust delivery and AI-based code vetting are becoming the de facto gate, raising provenance and continuous-authorization expectations for vendors.",
+        "status": "Pre-hardened containers, AI code vetting (Gatekeeper), C-MIP cyber-pay transition, critical-mineral supply-chain mapping, and the DISA Enclave protest show the provenance/compliance perimeter tightening and churning simultaneously.",
         "deepDive": {
-          "summary": "The compliance conversation is moving toward pre-hardened, continuously maintained containers and AI-assisted code vetting as the path to faster ATO and zero trust, even as AI-generated 'slop' floods the acquisition process. Cyber workforce incentives and contract-vehicle disputes add friction around who can access and sustain these environments.",
+          "summary": "The compliance environment is shifting toward pre-hardened, continuously maintained software supply chains and AI-driven code vetting as gating mechanisms for access. Parallel developments in cyber workforce pay stability and contract protests show the access and acquisition infrastructure under stress.",
           "drivers": [
-            "DefenseScoop messaging on pre-hardened containers to reduce security workload, advance zero trust, and accelerate secure software delivery; Army's Gatekeeper isolated-environment vetting reinforces the same compliance-by-pipeline trend",
-            "AI slop responses to RFPs/RFIs overwhelming federal agencies and FAA AI deployments triggering new safety reviews and congressional pushback — raising scrutiny bars on AI tooling",
-            "Workforce and access turbulence: Pentagon's one-year C-MIP transition plan averting cyber pay cuts, and DISA facing another protest over Enclave contract expansion"
+            "DefenseScoop messaging on pre-hardened, continuously maintained containers to advance zero trust and accelerate ATO-style secure delivery",
+            "Army Project Gatekeeper using AI to vet prospective vendor code in an isolated environment as an onboarding gate",
+            "Pentagon's one-year C-MIP 'transition plan' averting cyber pay cuts, and DISA facing another protest over Enclave contract expansion — both signaling instability in cyber workforce and contract vehicles"
           ],
-          "signal": "The access floor is tightening around continuous, automated compliance (hardened containers, AI code screening, zero trust) while AI-generated submissions and AI-in-production deployments are drawing new verification requirements — compliance is becoming a pipeline capability, not a one-time gate.",
+          "signal": "Security compliance is moving upstream into the build/onboarding pipeline (hardened containers, AI code vetting, zero-trust-by-default), signaling that demonstrable, continuous supply-chain hardening is increasingly the price of entry — while workforce pay instability and repeated contract protests indicate the surrounding acquisition machinery remains contested and fragile.",
           "sources": [
             "defense press",
-            "FedScoop",
+            "DefenseScoop",
             "Federal News Network"
           ]
         }
@@ -52,42 +53,42 @@
         "prob": 97,
         "label": "frontier + open model capability gains",
         "trajectory": "UP",
-        "status": "Gemini 4 Argon leads a crowded US/allied top tier; agentic ML/FDE research and strong open-weight releases keep both frontier and self-hostable floors advancing.",
+        "status": "Gemini 4 Argon leads at Elo 1532 with dense Claude Opus 5.x clustering below, while US/allied open-weight options (Muse Spark Open, LFM2.5, Gemma embeddings, MAI Base 2) keep raising the self-hostable floor.",
         "deepDive": {
-          "summary": "The frontier continues to climb fast, with Google's Gemini 4 Argon leading LMArena at 1532 Elo and Anthropic stacking multiple Claude Opus/Fable variants in the top 10, all US/allied. Capability is simultaneously broadening into agentic engineering, world models, robotics, and formal math, while US/allied open-weight options expand as a self-hostable floor.",
+          "summary": "The frontier continues to climb with Gemini 4 Argon leading LMArena (Elo 1532) ahead of a dense Anthropic Claude Opus/Fable cluster, while Meta's Muse family and open-weight entrants fill out the top tier. Capability gains are increasingly task-specialized (coding vs. writing vs. visual), and research momentum is heavy on agentic autonomy, robotics/world-models, and formal reasoning.",
           "drivers": [
-            "LMArena top tier dominated by US/allied proprietary models (Gemini 4 Argon #1, Claude Opus 5.5 #2), with Meta's Muse Wonder/Spark present but origin-unverified; Chinese models (DeepSeek V4.1, Qwen, mimo) register as capability signal only and remain ineligible for government delivery",
-            "Open-weight momentum from US/allied sources — embeddinggemma-2, LiquidAI LFM2.5, Meta Muse Spark Open, facebook/sam3 — alongside heavy RESTRICTED-CN trending (Qwen, DeepSeek, MiniCPM) indicating where raw capability is concentrating",
-            "arXiv surge in agentic delivery and autonomy research: FDE-Gym (forward-deployed engineer last-mile delivery), MLExpert (autonomous ML engineering/AI4AI), world models, dexterous robotics, and formal theorem proving; OpenAI math-proof results noted in podcasts"
+            "LMArena top ranks dominated by US/allied proprietary models (Gemini 4 Argon #1, Claude Opus 5.5 #2), with commentary noting Gemini 4 Argon's uneven coding but strong writing — reinforcing per-task model selection",
+            "Agentic and self-improving research surging: MLExpert (agentic ML engineering / AI4AI), FDE-Gym benchmarking forward-deployed-engineer delivery tasks, plus Anthropic developing negotiation agents and embedded safety evaluators",
+            "US/allied open-weight momentum (EmbeddingGemma-2, LiquidAI LFM2.5, Meta Muse-Spark-Open, SAM3) alongside RESTRICTED-CN capability signals (DeepSeek-V4.1, Qwen3.8-27B) tracked for reference only"
           ],
-          "signal": "The usable, government-eligible frontier is deepening (multiple near-parity US/allied options rather than a single leader), and research is pushing AI from assistant toward autonomous engineering and delivery — while the strongest open capability signals keep appearing in Chinese models that cannot be fielded, widening the gap between what is best and what is deliverable.",
+          "signal": "Frontier leadership remains with US/allied labs and no single model wins every task, signaling a multi-model, task-routed environment; the rise of agentic delivery benchmarks (FDE-Gym) and self-improving ML agents indicates the capability frontier is shifting toward autonomous engineering and delivery work directly relevant to AI-accelerated services.",
           "sources": [
             "LMArena leaderboard",
             "Hugging Face trending",
             "arXiv",
-            "The AI Daily Brief"
+            "The AI Daily Brief",
+            "Techmeme"
           ]
         }
       },
       {
         "name": "Delivery Economics",
-        "prob": 93,
+        "prob": 88,
         "label": "AI/compute cost favorable for delivery",
-        "trajectory": "UP",
-        "status": "Cheaper models (Claude Haiku 5.5, Gemini Flash) and capable open weights lower delivery cost, but high-yield debt financing of frontier compute signals cost volatility upstream.",
+        "trajectory": "FLAT",
+        "status": "Infrastructure debt stress and canceled/delayed data center capacity introduce cost/supply risk that partially offsets continued open-weight efficiency gains, leaving the net picture more uncertain than last cycle.",
         "deepDive": {
-          "summary": "Cost-per-capability keeps falling as cheaper, faster model tiers (Claude Haiku 5.5, Gemini Flash, Microsoft MAI Base 2) and open-weight releases proliferate, while the capital structure underneath frontier compute shows strain. The market is bifurcating between controllable/cheaper models and premium frontier reasoning.",
+          "summary": "The compute and financing backdrop is tightening: data center projects are being delayed or cancelled, AI debt instruments are under visible strain, and even hyperscalers are walking away from capacity deals. Simultaneously the model layer is cheapening via efficient open-weight and small models, keeping a self-hostable cost floor viable.",
           "drivers": [
-            "Cheaper-intelligence trend: Claude Haiku 5.5, Gemini 3.8/3.7 Flash in the leaderboard, Microsoft MAI Base 2 and Meta Muse Spark Open framed as changing how businesses customize and pay for AI",
-            "Financing stress and concentration signals: CoreWeave debt troubles, Anthropic seeking a 10%+ yield Blackstone-backed $60B debt package for Google TPUs, and Blackstone's $200B data-center buildout — plus insurer worry about AI liability outpacing coverage",
-            "Agentic delivery economics emerging in research/product: FDE-Gym and MLExpert point to automating engineering labor; Anthropic's own report cites a productivity boom and declining entry-level technical hiring"
+            "Infrastructure stress: 47+ US data center projects delayed/withdrawn/blocked in 2026, Bernstein calling only 35% of the pipeline credible, Microsoft cancelling its Nscale Essex anchor-tenant deal, and CoreWeave bond yields topping 15% with Oracle debt trading at 80-90 cents",
+            "Efficiency-oriented model releases (LiquidAI LFM2.5 MoE, EmbeddingGemma-2, MiniCPM-V small variants, Microsoft MAI Base 2) lowering inference cost and enabling smaller-footprint deployment",
+            "AI Daily Brief debate framing — whether AI revenue can justify infrastructure spending and whether businesses want AI they control vs. simply cheaper models"
           ],
-          "signal": "The unit economics favoring AI-accelerated delivery are improving (more capable cheap tiers plus self-hostable open weights), but the frontier compute buildout is being financed with increasingly leveraged, concentrated capital — meaning near-term delivery cost advantages coexist with structural fragility and pricing uncertainty at the high end.",
+          "signal": "The macro signal is a widening gap between constrained, expensive frontier compute/financing and increasingly cheap, capable efficient/open models — meaning the economics favor smaller self-hostable deployments even as large-scale buildout faces capital and grid-power friction, raising the risk premium on frontier-API dependence.",
           "sources": [
-            "The AI Daily Brief",
             "Techmeme",
-            "arXiv",
-            "LMArena leaderboard"
+            "The AI Daily Brief",
+            "Hugging Face trending"
           ]
         }
       },
@@ -96,44 +97,46 @@
         "prob": 92,
         "label": "open SBIR/agency opportunities 90d",
         "trajectory": "UP",
-        "status": "Near-term RFIs (Army CAML-light early selections Mar-Apr), counter-UAS/autonomy task forces, and DISA Enclave activity indicate an active but contested pipeline.",
+        "status": "Near-term triggers include CAML-light early selections (Mar-Apr), a third-CAML RFI, Project Gatekeeper vendor onboarding, and counter-UAS/autonomy programs, though civilian 'AI slop' intake overload may slow some competitions.",
         "deepDive": {
-          "summary": "Near-term opportunity density is highest in counter-UAS, autonomy, software onboarding, and space, with several explicit RFI/selection windows in the March–April timeframe. Open-architecture downselects and new vendor-onboarding programs indicate multiple entry points opening over the next 90 days.",
+          "summary": "The near-term pipeline is skewing toward counter-UAS, autonomy, and software-onboarding modernization, with multiple RFIs and 'early selection' timelines announced during AUSA. At the same time, federal procurement is being flooded with AI-generated RFP/RFI responses, and contract vehicles face active protests.",
           "drivers": [
-            "Army CAML third-system RFI 'coming out in the near future' with early selections targeted for March–April; XM30 downselect emphasizing open systems architecture",
-            "New program and command formation creating acquisition surface: Project Gatekeeper software onboarding, FASCOM autonomy command, expanding space operations branch, Task Force Easy, and NGC2 ecosystem rollout",
-            "Counter-drone and autonomy demand across DoD (JIATF 401 counter-UAS milestone, Africa counter-drone acceleration, GPS-denied drone ship landing, unmanned maritime drone with a carrier strike group), amid DISA Enclave contract protest activity signaling contested vehicles"
+            "Concrete upcoming solicitations: Army CAML-light RFI imminent with 'early selections' targeted March-April, Counter-UAS acceleration via JIATF 401 and Africa task force, and third CAML system under consideration",
+            "New programmatic on-ramps: Project Gatekeeper (vendor software onboarding), Task Force Easy (drone adaptation), G-TEAD/ACEs embedding dual-use innovation with commanders, and the new Army autonomy command initially focused on corps-level systems",
+            "Procurement-integrity headwinds: FedScoop reporting AI-slop RFP/RFI responses overwhelming agencies, and DISA Enclave contract expansion drawing another protest"
           ],
-          "signal": "The pipeline is skewing toward dual-use/software and autonomy awards with compressed decision timelines, while bid-protest activity around major vehicles (DISA Enclave) signals a competitive, contested environment where incumbency and vehicle access shape who can reach the open opportunities.",
+          "signal": "Opportunity density is high in autonomy and counter-drone with compressed selection timelines, signaling a fast-moving pipeline; concurrently, AI-generated proposal slop and protest activity signal that agencies are tightening evaluation filters and that award processes remain contested and vulnerable to delay.",
           "sources": [
             "defense press",
+            "DefenseScoop",
             "DoD news",
+            "FedScoop",
             "Federal News Network"
           ]
         }
       }
     ],
-    "unseen": "Two DoD efforts point the same automation at opposite ends of the same transaction: Gatekeeper uses AI to vet inbound vendor code while agencies are swamped by AI-generated RFP/RFI 'slop' — meaning the government is quietly building machine-speed filters on both sides, and vendors whose delivery is AI-generated-but-not-verifiable will be algorithmically screened out, making human-attested provenance the real moat.",
-    "criticalWindow": "Army CAML-light 'early selections' in the March-April window plus the imminent third-CAML RFI, alongside the DISA Enclave contract protest resolution, are the nearest concrete pipeline/competitive signals to watch over the next 30-90 days.",
+    "unseen": "The real constraint on AI-accelerated delivery is quietly migrating from model capability to power, financing, and political license — Microsoft canceling GPU capacity that won't see grid power until the 2030s, credit stress at CoreWeave/Oracle, and congressional pauses on deployed AI all point the same direction — and this arrives precisely as US/allied open-weight models (Muse Spark Open, LFM2.5, Gemma) mature enough to run on-prem/edge, aligning cost-and-control pressure with the air-gapped, IL-constrained posture defense delivery already requires.",
+    "criticalWindow": "AI-infrastructure credit stress over the next 30-90 days (CoreWeave bond yields, discounted Oracle debt, further data center cancellations/grid-power blocks) as the leading signal of whether hyperscale compute supply and pricing tighten — which would ripple into inference costs underlying AI-accelerated delivery.",
     "watchFor": [
-      "Formalization or adoption of FDE-style delivery benchmarks and AI code-vetting (Gatekeeper rollout) that could set new provenance/evaluation standards for GovTech vendors.",
-      "Terms and completion of the Anthropic $60B TPU debt package and CoreWeave debt situation as a read on frontier-compute cost stability.",
-      "Fielding details and vendor on-ramps for the new FASCOM autonomy command, Task Force Easy, and NGC2 open-architecture ecosystem.",
-      "Outcome of the DISA Enclave contract-expansion protest and any new critical-mineral supply-chain mapping mandates affecting hardware-modernization delivery."
+      "Further data center cancellations, delays, or financing downgrades signaling a broader buildout slowdown and compute-price pressure",
+      "Army CAML-light early selections (Mar-Apr) and third-CAML RFI, plus Project Gatekeeper launch mechanics and the DISA Enclave contract protest resolution",
+      "Adoption trajectory of US/allied open-weight releases (Meta Muse Spark Open, Microsoft MAI Base 2, LiquidAI LFM2.5) for self-hosted/IL-constrained deployment",
+      "Spread of civilian-agency AI governance friction (FAA pause pressure, 'AI slop' procurement overload) into formal review or acquisition-process changes"
     ],
-    "confidenceNote": "Pipeline timing (CAML, RFIs) and the Anthropic financing figures come from single press/podcast mentions and may shift; several model names in the context are forward-dated/unverified, so capability rankings are directional rather than precise, and foreign-origin models are treated as capability signal only.",
-    "topPattern": "Capability is abundant and increasingly commoditized, so the GovTech battleground is moving decisively to verifiable, pre-hardened, provenance-backed delivery — the firm's AI cost advantage matters only to the extent it survives machine-speed vendor vetting and zero-trust onboarding gates.",
+    "confidenceNote": "Several model names/versions and some vendor items in the context appear forward-dated or synthetic and cannot be independently verified; LMArena Elo figures are treated as directional capability signals, not literal rankings. The infrastructure-debt severity is drawn from press headlines whose framing may overstate systemic risk. Defense-contract timelines (Mar-Apr selections, Gatekeeper launch) are as stated in context and subject to slippage.",
+    "topPattern": "The AI frontier keeps advancing while its physical-financial foundation shows cracks and civilian oversight pushes back — concentrating durable advantage in efficient US/allied open-weight delivery with verifiable provenance, exactly where defense modernization is already headed.",
     "strategicRead": [
-      "Trust/provenance, not raw capability, is now the binding constraint on GovTech delivery: agencies simultaneously drowning in AI-'slop' RFP responses and automating code vetting (Gatekeeper) means the premium shifts toward auditable, human-verified, pre-hardened delivery pipelines — exactly where compliance and delivery domains fuse.",
-      "The compute layer that underwrites the AI cost advantage is being financed on debt at high yields (Anthropic/Blackstone, CoreWeave strain), signaling that proprietary frontier access may carry rising and volatile cost, while US/allied open-weight floors (Llama, Granite, Mistral, Nemotron, Phi, Gemma, LiquidAI LFM2.5) keep improving as the self-hostable, IL-eligible hedge.",
-      "DoD is standing up permanent autonomy/space/EW structures (FASCOM, space branch expansion, RF sensing) rather than one-off experiments, converting episodic SBIR demand into durable, open-architecture (XM30, NGC2) modernization pipelines where software plug-ability is the stated selection criterion."
+      "Capability and compute are decoupling: models keep improving while the physical/financial buildout shows cracks, shifting the binding constraint from model quality toward power availability, financing cost, and political license — which raises the strategic value of efficient US/allied open-weight models for on-prem, air-gapped, and IL-constrained delivery.",
+      "DoD is institutionalizing AI into acquisition and autonomy (Gatekeeper code-vetting, FASCOM, Task Force Easy, pre-hardened containers) while civilian agencies show the opposite — pause requests and 'AI slop' intake overload — signaling a bifurcated federal adoption curve where defense normalizes AI faster than civilian oversight permits.",
+      "The combination of AI-generated RFP spam overwhelming agencies and AI-driven vendor code vetting entering the acquisition pipeline suggests provenance, attestation, and human-verified delivery are becoming the differentiators as raw generation becomes commoditized."
     ],
     "whatChanged": [
-      "New capability signal: FDE-Gym ('The Last Mile of AI Delivery') and MLExpert arXiv work formalize forward-deployed/agentic delivery as a measurable discipline — the exact model AI-accelerated firms sell, now being benchmarked externally.",
-      "Compliance plumbing surfaced: DefenseScoop pushes pre-hardened, continuously maintained containers for zero-trust/accelerated ATO — the mechanics behind Gatekeeper-style secure onboarding become visible.",
-      "Delivery economics stress: Anthropic reportedly raising a $60B debt package (10%+ yield, ~$9B from Blackstone) to buy Google TPUs; CoreWeave debt troubles noted — frontier compute is being financed on strained terms.",
-      "Frontier reshuffle: Gemini 4 Argon takes #1 (Elo 1532) over a dense Claude Opus 5.5/Fable wall; US/allied labs hold the top of LMArena, Muse (Meta) origin-unverified.",
-      "DoD autonomy institutionalizing: new three-star FASCOM autonomy command, Task Force Easy for drone 'adaptation dominance,' and NGC2 ecosystem fielding to I Corps — demand signals moving from pilots to standing commands."
+      "Compute/financing stress emerged as the dominant AI-industry narrative this cycle (CoreWeave 15%+ bond yields, Oracle debt at 80-90c, Microsoft walking away from Nscale Essex anchor tenancy, 47+ US data center projects delayed/blocked, Bernstein deeming only 35% of planned pipeline credible) — absent from the prior brief's delivery-stack framing.",
+      "Frontier reshuffled: Gemini 4 Argon takes #1 (Elo 1532) with Claude Opus 5.5 at #2; US/allied open-weight floor advanced (Meta Muse Spark Open 816B-A42B, LiquidAI LFM2.5, embeddinggemma-2) and Microsoft MAI Base 2 surfaced.",
+      "GovTech procurement friction is now explicit — FedScoop flags 'AI slop' responses overwhelming federal RFP/RFI intake, directly adjacent to Army Project Gatekeeper's AI code-vetting carried over from the prior brief.",
+      "New DoD institutional structure appeared: Army standing up an autonomy command (FASCOM, corps-level focus), Task Force Easy for drone 'adaptation dominance,' and space-ops branch expansion — organizational hardening around autonomy/counter-UAS.",
+      "Civilian-agency AI governance friction rose (House Democrats pushing FAA to pause an AI tool in DC airspace; FAA AI use triggering safety/workforce reviews)."
     ]
   },
   "signals": [],
@@ -143,23 +146,27 @@
   "groundTruth": [],
   "aiNews": {
     "headlines": [
-      "As AI giants rack up potential legal liabilities of tens of billions amid safety incidents, insurers worry claims may outpace limits on existing coverage (Jean Eaglesham/Wall Street Journal)",
-      "A profile of Blackstone President Jon Gray, who is making AI his biggest bet, has built a $200B data center empire, and is building a cloud venture with Google (Preeti Singh/Bloomberg)",
-      "An interview with YouTuber Benn Jordan, who recently testified in Congress against license plate readers, on Flock, privacy, the surveillance backlash, and more (Nilay Patel/The Verge)",
-      "A profile of Alexandr Wang, who sources say is \"an operator\", had \"all\" of Zuckerberg's support during Meta's AI revamp, and is being touted as his successor (Rafe Rosner-Uddin/Financial Times)",
-      "Reach Security, which develops AI-powered exposure management tools for securing enterprise systems, raised a $50M+ Series B led by Top Tier Capital Partners (FinTech Global)",
-      "Duvo, which develops tech to automate business processes across enterprise systems, including ERPs and legacy apps, raised a $32M Series A led by Balderton (Mike Butcher/Pathfounders)",
-      "Montevideo, Uruguay-based Scanntech, which develops market intelligence tools using POS data, raised $180M in a Series F led by L Catterton and Partners Group (FinSMEs)",
-      "London-based Scarlet, which certifies AI and software for medical devices, raised a $50M Series B led by Headline to support its US and Asia-Pacific expansion (Cate Lawrence/Tech.eu)",
-      "NAND flash maker Kioxia has lost two-thirds of its market cap since its June peak, when it became Japan's most valuable listed company, as Chinese rivals emerge (Kyohei Suga/Nikkei Asia)",
-      "Mistlabs, which develops Ambi, an ambient AI app for iPhone, Apple Watch, and Mac that learns about users from conversations, raised a $26M pre-Series A (Duncan Riley/SiliconANGLE)",
-      "Workday agrees to acquire C1.ai, formerly known as ConductorOne, which develops enterprise software to manage human and AI agent identities and has raised $111M (Malia Spencer/Portland Business Journa",
-      "Anthropic report on how AI is changing employment at the startup: decline of entry-level technical hiring, productivity boom across departments, and more (Anthropic)",
-      "Sources: Anthropic is offering Blackstone a 10%+ yield to help finance Anthropic's $60B debt package to buy Google TPUs; Blackstone would invest $9B in the debt (Financial Times)",
-      "Survey of Anthropic staffers and US adults: 39% of US adults vs. 91% of staffers expect AI will be able to make a Nobel-level discovery by 2030, and more (Anthropic)",
-      "Intel CEO Lip-Bu Tan says the Trump administration does not have \"any policy\" to use a minority stake in Intel to interfere in its business strategy (Kohei Yamada/Nikkei Asia)"
+      "An interview with Apple's new VP of the App Store, Carson Oliver, on Apple's gaming vision, Apple Arcade, providing tools for indie game developers, and more (Giovanni Colantonio/Polygon)",
+      "RegLayer: 47+ large US data center projects were delayed, withdrawn, or blocked in 2026; Bernstein says 35% of the planned US data center pipeline is credible (Financial Times)",
+      "AI debt worries mount as CoreWeave's bond yield tops 15%, insuring SoftBank debt gets pricier, and some Oracle debt trades near 80 to 90 cents on the dollar (New York Times)",
+      "Microsoft cancels its deal to be the anchor tenant and rent 23K Nvidia AI chips at Nscale's Essex, UK, data center, which may not get grid power until the 2030s (James Titcomb/Telegraph)",
+      "Holyvolt, which develops AI tools for making and testing new battery materials, raised $45M from Zone II, CC.VC, and others, a source says at a $245M valuation (Nick Lichtenberg/Fortune)",
+      "Sources: Anthropic is consulting law firms on deal negotiation tactics as it develops AI agents to negotiate on humans' behalf and interact with AI counterparts (Cristina Criddle/Financial Times)",
+      "GTCR and Elliott agree to acquire and take private CCC, a Nasdaq-listed car insurance software provider, for $4.6B; the deal values CCC at $6.1B including debt (Bloomberg)",
+      "Filing: Disney agreed to hire 60+ staff from Character.AI and pay them $180M over three years, plus $30M for retention awards; a bankruptcy judge must approve (Bloomberg)",
+      "An interview with Microsoft CEO Satya Nadella on the Nvidia RTX Spark-powered Surface Laptop Ultra, plans to make Windows a safer OS to run AI agents, and more (Joanna Stern/The New Things)",
+      "Google says \"magic state cultivation\" works in practice on its Willow quantum processor, calling it a breakthrough that reduces errors by about 40x (Google)",
+      "Anomaly Innovations, behind coding agent OpenCode, says a breach hit 1.4% of OpenCode Console users and their API keys, in a \"large scale distillation attack\" (Walter Schulze/Startup Fortune)",
+      "Turkish police detained Hex and PulseChain founder Richard Heart on Oct. 14, seizing $7M+ in cash and six cold wallets; HEX fell nearly 50% on initial reports (Zack Abrams/The Block)",
+      "Bleecker Street says TikTok suspended the Musk documentary account for \"political policy\" violations and called the suspension \"permanent\"; Bleecker's appealing (Steven Zeitchik/The Hollywood Reporter",
+      "MapQuest adds a Surveillance Layer to its mobile app showing license plate readers and cameras from 10+ companies including Flock, using OpenStreetMap data (Chase DiBenedetto/Mashable)",
+      "Meta removes ToS language that suggested it could scrape websites \"associated with\" business accounts, saying it applied only to \"ads and business products\" (Terrence O'Brien/The Verge)"
     ],
     "brief": [
+      {
+        "title": "A Potentially Historic AI Breakthrough",
+        "summary": "A new essay from former OpenAI researcher Nick Cammarata is being hailed as a potentially historic AI breakthrough. His argument: neural networks may already be far more understandable than researchers believed, and years of apparent complexity may reflect flaws in how we’ve been looking at them. NL"
+      },
       {
         "title": "The Most Important AI News This Week Is Getting Overlooked",
         "summary": "The most consequential AI announcements this week might be the ones getting the least attention. NLW explores what Microsoft’s MAI Base 2 and Meta’s Muse Spark Open mean for how businesses use, customize, and pay for AI. In the headlines: Anthropic’s embedded safety evaluators, Cognition’s performan"
@@ -187,137 +194,133 @@
       {
         "title": "When AI Solves Your Life’s Work",
         "summary": "OpenAI’s latest mathematical results are forcing researchers to confront what happens when AI can tackle problems that once defined entire careers. With hundreds of proposed proofs awaiting scrutiny, the debate spans scientific discovery, professional identity, and which fields could face similar di"
-      },
-      {
-        "title": "The Most Important Trends in New AI Products",
-        "summary": "ChatGPT’s new intelligent UI, Claude Haiku 5.5, and GrokBot’s embrace of rival models reveal where AI is heading: better interfaces, cheaper intelligence, and more choice. NLW breaks down the announcements and why competition is increasingly about the experience built around the models. In the headl"
       }
     ],
     "trendingModels": [
       {
-        "id": "google/embeddinggemma-2",
-        "pipeline": "feature-extraction",
-        "likes": 2561,
-        "downloads": 158490,
-        "origin": "ALLIED"
+        "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+        "pipeline": "image-text-to-text",
+        "likes": 1222,
+        "downloads": 10233,
+        "origin": "CN"
       },
       {
-        "id": "jialinyyzz/humanizer",
-        "pipeline": "text-generation",
-        "likes": 1870,
-        "downloads": 95870,
-        "origin": "OTHER"
+        "id": "google/embeddinggemma-2",
+        "pipeline": "feature-extraction",
+        "likes": 2633,
+        "downloads": 164339,
+        "origin": "ALLIED"
       },
       {
         "id": "openbmb/MiniCPM-V-4.7-35B-A3B",
         "pipeline": "image-text-to-text",
-        "likes": 879,
-        "downloads": 36252,
+        "likes": 945,
+        "downloads": 57935,
         "origin": "CN"
       },
       {
-        "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
-        "pipeline": "image-text-to-text",
-        "likes": 576,
-        "downloads": 0,
-        "origin": "CN"
+        "id": "jialinyyzz/humanizer",
+        "pipeline": "text-generation",
+        "likes": 1926,
+        "downloads": 103709,
+        "origin": "OTHER"
       },
       {
         "id": "fishaudio/drama-3",
         "pipeline": "text-to-speech",
-        "likes": 587,
-        "downloads": 8193,
+        "likes": 657,
+        "downloads": 9620,
         "origin": "OTHER"
       },
       {
         "id": "black-forest-labs/flux-3-image-klein-comfy",
         "pipeline": "image-to-image",
-        "likes": 568,
-        "downloads": 224108,
-        "origin": "OTHER"
-      },
-      {
-        "id": "Lightricks/LTX-2.5",
-        "pipeline": "image-to-video",
-        "likes": 8160,
-        "downloads": 1993003,
+        "likes": 747,
+        "downloads": 338036,
         "origin": "OTHER"
       },
       {
         "id": "meta-models/Muse-Spark-Open-816B-A42B",
         "pipeline": "image-text-to-text",
-        "likes": 474,
-        "downloads": 1600,
+        "likes": 527,
+        "downloads": 1809,
+        "origin": "OTHER"
+      },
+      {
+        "id": "Lightricks/LTX-2.5",
+        "pipeline": "image-to-video",
+        "likes": 8305,
+        "downloads": 2012496,
+        "origin": "OTHER"
+      },
+      {
+        "id": "LiquidAI/LFM2.5-24B-A2B",
+        "pipeline": "text-generation",
+        "likes": 458,
+        "downloads": 13007,
+        "origin": "ALLIED"
+      },
+      {
+        "id": "black-forest-labs/flux-3-image-klein",
+        "pipeline": "image-to-image",
+        "likes": 470,
+        "downloads": 52315,
         "origin": "OTHER"
       },
       {
         "id": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
         "pipeline": "text-to-image",
-        "likes": 4469,
-        "downloads": 2571722,
+        "likes": 4521,
+        "downloads": 2661687,
         "origin": "CN"
-      },
-      {
-        "id": "LiquidAI/LFM2.5-24B-A2B",
-        "pipeline": "text-generation",
-        "likes": 443,
-        "downloads": 11926,
-        "origin": "ALLIED"
-      },
-      {
-        "id": "Qwen/Qwen-Image-2.1-Turbo",
-        "pipeline": "text-to-image",
-        "likes": 954,
-        "downloads": 20703,
-        "origin": "CN"
-      },
-      {
-        "id": "black-forest-labs/flux-3-image-klein",
-        "pipeline": "image-to-image",
-        "likes": 425,
-        "downloads": 46123,
-        "origin": "OTHER"
       },
       {
         "id": "baidu/Unlimited-OCR",
         "pipeline": "image-text-to-text",
-        "likes": 4757,
-        "downloads": 1476672,
+        "likes": 4775,
+        "downloads": 1652742,
         "origin": "CN"
       },
       {
-        "id": "AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+        "id": "Qwen/Qwen-Image-2.1-Turbo",
         "pipeline": "text-to-image",
-        "likes": 524,
-        "downloads": 362499,
+        "likes": 972,
+        "downloads": 23131,
         "origin": "CN"
       },
       {
         "id": "Qwen/Qwen3.8-27B",
         "pipeline": "image-text-to-text",
-        "likes": 17885,
-        "downloads": 7795543,
+        "likes": 17930,
+        "downloads": 7695206,
         "origin": "CN"
+      },
+      {
+        "id": "OpenMOSS-Team/MOSS-Image-SFT",
+        "pipeline": "text-to-image",
+        "likes": 302,
+        "downloads": 2087,
+        "origin": "OTHER"
       },
       {
         "id": "openbmb/MiniCPM-V-4.7-1B",
         "pipeline": "image-text-to-text",
-        "likes": 370,
-        "downloads": 15243,
+        "likes": 381,
+        "downloads": 22689,
         "origin": "CN"
       },
       {
-        "id": "ConwayResearch/Underdog-Saluki-27B-1.0",
-        "pipeline": "text-generation",
-        "likes": 519,
-        "downloads": 394277,
+        "id": "OpenMOSS-Team/MOSS-Image-Base",
+        "pipeline": "text-to-image",
+        "likes": 269,
+        "downloads": 1791,
         "origin": "OTHER"
       },
       {
         "id": "facebook/sam3",
         "pipeline": "mask-generation",
-        "likes": 4539,
-        "downloads": 2013498,
+        "likes": 4590,
+        "downloads": 1945717,
         "origin": "OTHER"
       }
     ],
@@ -641,12 +644,12 @@
       {
         "lab": "DoD",
         "items": [
+          "Hegseth Thanks Young Americans in Knoxville Who Say 'Send Me'",
           "Army Task Force Partners With Acquisition Directorate to Accelerate Counter-Drone Tech in Africa",
           "Navy Accepts Next-Generation Aircraft to Modernize Strategic Communications",
           "Joint Interagency Task Force 401 Marks One Year of Accelerating Counter-UAS Capabilities",
           "Navy Demonstrates Successful Drone Ship Landing Without GPS",
-          "Hegseth Welcomes U.K. Counterpart to Pentagon",
-          "New York National Guard Battalion Mobilizes for Southern Border Mission"
+          "Hegseth Welcomes U.K. Counterpart to Pentagon"
         ]
       },
       {
