@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-23T15:37:23.135Z",
-  "runNumber": 128,
+  "generatedAt": "2026-10-24T14:14:05.682Z",
+  "runNumber": 129,
   "situation": {
     "headline": "Assessment unavailable",
     "velocity": "STABLE",
@@ -61,23 +61,27 @@
   "groundTruth": [],
   "aiNews": {
     "headlines": [
-      "Source: Shein has agreed to pay $100M, equivalent to 44% of its Q2 profit, to settle a US FTC investigation over delivery delays and other customer complaints (Reuters)",
-      "OpenAI makes Decisions API, its Jev competitor, generally available with new voice and visual modalities, at $0.10/1M input tokens and no output-token charges (Tim Fernholz/TechCrunch)",
-      "Pathos AI, which uses AI to develop oncology drugs, raised a $237M Series E at a $3B post-money valuation, up from $1.6B after its $365M Series D in May 2025 (Katherine Davis/Axios)",
-      "An interview with Intel's leadership, including CTO Pushkar Ranade, on AI chip demand, lessons from 10nm, whether Intel can catch up to TSMC, Terafab, and more (Dwarkesh Patel/Dwarkesh Podcast)",
-      "Sources: Anthropic and London-based PE firm Hg agree to launch a consultancy by the end of 2026 to embed AI consultants and engineers into European businesses (Financial Times)",
-      "Greece's parliament passes a bill to ban social media platforms for children under 15 from January 1, 2027, and gives companies 2.5 months to verify users' ages (Angeliki Koutantou/Reuters)",
-      "Anthropic says it partnered with Theorem to use Claude to formally prove useful security properties at the assembly code level across 123 open-source libraries (Anthropic)",
-      "SK Telecom unit SK Hyper is in talks with tech firms and investors to finance 15GW of data center capacity in South Korea by 2035; the first 5GW will cost $350B (Bloomberg)",
-      "Oura sues Indian smart ring rival Ultrahuman again to block US sales of Ring Pro, months after a redesign helped Ultrahuman return following an import ban (Jagmeet Singh/TechCrunch)",
-      "Chinese state media: DeepSeek and MiniMax completed registration and won approval to open-source and deploy AI models overseas under proposed export controls (Bloomberg)",
-      "SK Hynix says its SSD subsidiary Solidigm has halted a review of a potential US IPO to fund a new US chip fab, citing \"market conditions and share price trends\" (P.R. Venkat/Wall Street Journal)",
-      "OpenAI suspected the three fired researchers of leaking internal model designs to AI safety researcher Ryan Greenblatt, including via disappearing Signal chats (Wall Street Journal)",
-      "Spotify confirms it is rolling out a new Family Plan verification method requiring members to scan QR codes on plan managers' phones within seven days of notice (Sarah Perez/TechCrunch)",
-      "The US Treasury proposes a rule to crack down on US high-tech investments in areas like AI and supercomputing in China, Russia, and other \"countries of concern\" (Associated Press)",
-      "An interview with Ondřej Surý, a volunteer who maintains and helps automate PHP patches, about his role in fixing two critical PHP security vulnerabilities (Charlie Warzel/The Atlantic)"
+      "Ukraine says Starshield was working normally again on Saturday morning; US officials said Trump asked Elon Musk to restore the service (Wall Street Journal)",
+      "Inside Meta's law enforcement outreach team, which uses AI and human reviewers to analyze social media posts, aiming to prevent threats like school shootings (Rachel Monroe/New Yorker)",
+      "A look at OpenAI's Project Daybreak, which lets vetted partners use its top hacking models to find and fix vulnerabilities and helped uncover PHP2Shell RCE bugs (Thomas Brewster/Forbes)",
+      "The PHP Foundation, which coordinated fixes for two critical PHP flaws, operates on a shoestring budget with one full-time staff member and 14 contractors (Toby Sterling/Reuters)",
+      "Google updates its privacy policy to clarify it could use data shared via Personal Intelligence from connected apps, including Gmail and Photos, to target ads (Shimul Sood/Android Authority)",
+      "Andy Jassy says AWS capacity for 2027 is \"largely sold out\" and a \"good chunk\" of 2028 capacity is also sold, though AWS reserves some capacity for on-demand (Catherine Perloff/The Information)",
+      "The UK plans to invest £100M to create the AI Biosecurity Lab to boost defenses against biological threats, supported by OpenAI, Anthropic, and Google DeepMind (Liv McMahon/BBC)",
+      "OpenAI says it built an \"offline world\" from cached web content to train isolated frontier models to browse, search for information, and use web apps (OpenAI)",
+      "Utopai, an AI film studio that says it has more than 20 projects in the works, raised $60M at a $1B valuation (Rocket Drew/The Information)",
+      "Memo: Helen Chiang, Xbox's first COO, is leaving Microsoft on October 23, just months after the role was created; she spent 21 years at the company (Tom Warren/The Verge)",
+      "Mave, which is developing an AI-driven tool to automate security investigations, raised a $28M Series A led by Red Dot, bringing its total funding to $34M (Meir Orbach/CTech)",
+      "Sources: Instacart, currently valued at $12B, is in talks to sell itself and held preliminary conversations with DoorDash and Uber; CART jumps 9%+ (The Information)",
+      "OpenAI plans to restrict internet access for its frontier models during training until adequate alignment, monitoring, and security safeguards are established (Rachel Metz/Bloomberg)",
+      "Moonshot says it removed cyber-related data from training phases for Kimi K3.1 Pro \"to reduce potential misuse risk while preserving general usefulness\" (Matthias Bastian/The Decoder)",
+      "Artificial Analysis says Kimi K3.1 Pro lands 4th on its Intelligence Index, behind only Opus 5.5 (max), Sonnet 5.5 (max), and Muse Wonder Full (max) (@artificialanlys)"
     ],
     "brief": [
+      {
+        "title": "The Most Concerning AI Bubble Signals",
+        "summary": "AI bubble fears are getting louder as Anthropic’s IPO approaches. From GPUs sitting in warehouses to shaky data center debt and revenue concentrated among venture-backed startups, NLW examines which warning signs deserve attention and what would turn today’s market jitters into something much more s"
+      },
       {
         "title": "The AI vs AI Battle for the Internet",
         "summary": "AI attackers and AI defenders are now battling over the internet’s vulnerabilities at superhuman speed. A massive PHP exploit and a wave of attacks reveal why cybersecurity is entering a new era—and why businesses are struggling to keep up. In the headlines: Anthropic unveils Claude Duet, Walmart we"
@@ -105,137 +109,133 @@
       {
         "title": "How the Latest AI Leap Is Disrupting Business Models",
         "summary": "AI’s latest capability jump is forcing companies to rethink their business models. From Adobe clones to one-person game studios, NLW explores what’s changing, what’s overhyped, and where new opportunities are emerging. In the headlines: Anthropic’s revenue surge, CoreWeave’s debt troubles, and Jense"
-      },
-      {
-        "title": "What Gemini 4 Argon Is Actually Good For",
-        "summary": "Google’s newest model is here, with mixed coding reviews, impressive visual demos, and a surprising strength in writing. NLW explores where Gemini 4 Argon could fit into your workflow—and why finding the right model for each task matters more than picking one winner. In the headlines: alleged spying"
       }
     ],
     "trendingModels": [
       {
         "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
         "pipeline": "image-text-to-text",
-        "likes": 2512,
-        "downloads": 57715,
+        "likes": 2695,
+        "downloads": 73215,
         "origin": "CN"
-      },
-      {
-        "id": "black-forest-labs/flux-3-image-klein-comfy",
-        "pipeline": "image-to-image",
-        "likes": 1372,
-        "downloads": 534837,
-        "origin": "OTHER"
       },
       {
         "id": "RecursiveSI/flint",
         "pipeline": "text-generation",
-        "likes": 637,
-        "downloads": 1904,
+        "likes": 738,
+        "downloads": 4795,
+        "origin": "OTHER"
+      },
+      {
+        "id": "black-forest-labs/flux-3-image-klein-comfy",
+        "pipeline": "image-to-image",
+        "likes": 1459,
+        "downloads": 590742,
         "origin": "OTHER"
       },
       {
         "id": "OpenMOSS-Team/MOSS-Image-SFT",
         "pipeline": "text-to-image",
-        "likes": 626,
-        "downloads": 7658,
-        "origin": "OTHER"
-      },
-      {
-        "id": "OpenMOSS-Team/MOSS-Image-Base",
-        "pipeline": "text-to-image",
-        "likes": 512,
-        "downloads": 5618,
+        "likes": 673,
+        "downloads": 9717,
         "origin": "OTHER"
       },
       {
         "id": "Lightricks/LTX-2.5",
         "pipeline": "image-to-video",
-        "likes": 8979,
-        "downloads": 2026951,
-        "origin": "OTHER"
-      },
-      {
-        "id": "fishaudio/drama-3",
-        "pipeline": "text-to-speech",
-        "likes": 939,
-        "downloads": 17017,
+        "likes": 9115,
+        "downloads": 2087721,
         "origin": "OTHER"
       },
       {
         "id": "XHToken/Spark-X2.6-4B",
         "pipeline": "text-generation",
-        "likes": 394,
-        "downloads": 1060,
+        "likes": 431,
+        "downloads": 2537,
         "origin": "OTHER"
       },
       {
-        "id": "Comfy-Org/MOSS-Image",
-        "pipeline": "",
-        "likes": 389,
-        "downloads": 1606363,
+        "id": "fishaudio/drama-3",
+        "pipeline": "text-to-speech",
+        "likes": 964,
+        "downloads": 19831,
         "origin": "OTHER"
       },
       {
         "id": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
         "pipeline": "text-to-image",
-        "likes": 4889,
-        "downloads": 2398071,
+        "likes": 4936,
+        "downloads": 2303585,
         "origin": "CN"
       },
       {
         "id": "Qwen/Qwen3.8-27B",
         "pipeline": "image-text-to-text",
-        "likes": 18271,
-        "downloads": 7710011,
+        "likes": 18314,
+        "downloads": 7851161,
         "origin": "CN"
       },
       {
-        "id": "google/embeddinggemma-2",
-        "pipeline": "feature-extraction",
-        "likes": 2860,
-        "downloads": 192741,
-        "origin": "ALLIED"
-      },
-      {
-        "id": "jialinyyzz/humanizer",
-        "pipeline": "text-generation",
-        "likes": 2109,
-        "downloads": 129025,
+        "id": "OpenMOSS-Team/MOSS-Image-Base",
+        "pipeline": "text-to-image",
+        "likes": 526,
+        "downloads": 6943,
         "origin": "OTHER"
       },
       {
-        "id": "datalab-to/indra-ocr",
-        "pipeline": "image-to-text",
-        "likes": 385,
-        "downloads": 4033,
+        "id": "Comfy-Org/MOSS-Image",
+        "pipeline": "",
+        "likes": 415,
+        "downloads": 1944278,
         "origin": "OTHER"
       },
       {
         "id": "dealignai/DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8",
         "pipeline": "image-text-to-text",
-        "likes": 288,
-        "downloads": 4141,
+        "likes": 321,
+        "downloads": 5583,
         "origin": "CN"
+      },
+      {
+        "id": "MiniMaxAI/MiniMax-M3.1-Flash",
+        "pipeline": "image-text-to-text",
+        "likes": 285,
+        "downloads": 5789,
+        "origin": "CN"
+      },
+      {
+        "id": "google/embeddinggemma-2",
+        "pipeline": "feature-extraction",
+        "likes": 2885,
+        "downloads": 206909,
+        "origin": "ALLIED"
       },
       {
         "id": "InternScience/Sage-A1.5",
         "pipeline": "text-generation",
-        "likes": 245,
-        "downloads": 924,
+        "likes": 262,
+        "downloads": 2033,
+        "origin": "OTHER"
+      },
+      {
+        "id": "lodestones/Kromoss",
+        "pipeline": "text-to-image",
+        "likes": 242,
+        "downloads": 21143,
         "origin": "OTHER"
       },
       {
         "id": "mistralai/Timestral-209M",
         "pipeline": "time-series-forecasting",
-        "likes": 302,
-        "downloads": 6815,
+        "likes": 326,
+        "downloads": 8731,
         "origin": "ALLIED"
       },
       {
-        "id": "meta-models/Muse-Spark-Open-816B-A42B",
-        "pipeline": "image-text-to-text",
-        "likes": 671,
-        "downloads": 5196,
+        "id": "datalab-to/indra-ocr",
+        "pipeline": "image-to-text",
+        "likes": 397,
+        "downloads": 4436,
         "origin": "OTHER"
       }
     ],
@@ -456,6 +456,21 @@
     "press": [
       {
         "source": "Breaking Defense",
+        "title": "GDIT announces Amy Johnson as new president",
+        "summary": "Johnson replaces longtime president Amy Gilliland, who was let go from the company earlier this month after almost a decade of leading the business unit."
+      },
+      {
+        "source": "Breaking Defense",
+        "title": "Space Force reveals first 6 ‘operational’ contracts for civil reserve support in space monitoring",
+        "summary": "Space Systems Command officials said the contracts are an initial step for the Commercial Augmentation Space Reserve (CASR) initiative, and don’t address the thornier issues of US rights to deny other customers service or reimbursement for"
+      },
+      {
+        "source": "Breaking Defense",
+        "title": "Kyiv eyes purchase of planned ICEYE, Nokia ‘sovereign’ communication sats",
+        "summary": "The letter of intent comes on the heels of the political dust up between US President Donald Trump and Elon Musk over a US move to throttle Ukraine’s Starshield access that has all but grounded the countries military drones in its war with"
+      },
+      {
+        "source": "Breaking Defense",
         "title": "Qatari Barzan unveils aerial drones, unmanned surface vessels at Milipol 2026",
         "summary": "“This is a significant achievement, particularly as we continue to expand Qatar’s domestic defence and security capabilities in a year where we have had to rise to a number of regional challenges,” the company said in a statement."
       },
@@ -490,19 +505,9 @@
         "summary": "Created in 1958 for NASA, the obscure fiscal tool has since become the predominant approach to military contracting – at great risk to taxpayers, one researcher warns."
       },
       {
-        "source": "Breaking Defense",
-        "title": "MDA awards $75M to Long Wall for low-cost, midcourse interceptor testing",
-        "summary": "Long Wall is matching the Missile Defense Agency’s funding with its own capital to continue development of the Cyclops, according to the company."
-      },
-      {
-        "source": "Breaking Defense",
-        "title": "Navy awards Applied Intuition $25M to deploy AI sensor fusion at sea",
-        "summary": "The Intelligent Perception System will help sailors understand a flood of sensor feeds while collecting data to train improved AI models, the company said."
-      },
-      {
-        "source": "Breaking Defense",
-        "title": "Army unit experimenting with small drones for ‘tailored cyber effects’",
-        "summary": "The Army is testing drone-mounted cyber and electronic warfare capabilities as it works to determine the standard-issue equipment for its 11th Cyber Battalion and a forthcoming second battalion."
+        "source": "DefenseScoop",
+        "title": "Pentagon issues guidance on AI procurements to support Trump’s ‘truth-seeking’ and ‘ideological neutrality’ directives",
+        "summary": "The memo to acquisition leaders came from the principal director for Defense Pricing, Contracting, and Acquisition Policy. The post Pentagon issues guidance on AI procurements to support Trump’s ‘truth-seeking’ and ‘ideological neutrality’"
       },
       {
         "source": "DefenseScoop",
@@ -548,45 +553,40 @@
         "source": "DefenseScoop",
         "title": "Navy expands contract ceiling for AI-enabled repair robots",
         "summary": "Gecko Robotics Co-founder and President Troy Demmer shared new details about the Navy's approach to fleet maintenance. The post Navy expands contract ceiling for AI-enabled repair robots appeared first on DefenseScoop ."
-      },
-      {
-        "source": "DefenseScoop",
-        "title": "HDUSA wants to replicate South Korea’s ‘war footing’ industrial capacity in America",
-        "summary": "HDUSA’s CEO and President Michael Coulter shared new details about the plans in an exclusive interview with DefenseScoop. The post HDUSA wants to replicate South Korea’s ‘war footing’ industrial capacity in America appeared first on Defense"
       }
     ],
     "labs": [
       {
         "lab": "DoD",
         "items": [
+          "Project Agincourt Leaders Reach Out to Industry With Path Forward",
           "U.S., Australia, U.K. Launch Maritime Demonstration to Enhance Interoperability",
           "Air Force Research Lab Demonstrates Rocket Cargo Delivery",
           "Hegseth, Guyanese President Establish Enhanced Military Partnership",
           "Hegseth Lauds New American Golden Age During Arsenal of Freedom Tour Stop",
-          "Hegseth Praises Ohio Aerospace Workers During Arsenal of Freedom Tour",
-          "Exercise Keen Sword 2027 Begins in Japan"
+          "Hegseth Praises Ohio Aerospace Workers During Arsenal of Freedom Tour"
         ]
       },
       {
         "lab": "FedScoop",
         "items": [
+          "HHS sole-source award to Anthropic continues to raise questions",
+          "Fighting fraud at financial agencies is ‘all about prevention’ and collaboration",
+          "NRC finalizes rule allowing commercial reactor license applicants to reuse DOE, DOD data",
           "DHS consolidates software purchasing under $2.7B Carahsoft contract",
           "Keeping a human in the AI loop is ‘untenable’ due to cuts, USDA IT official says",
-          "SBA refocuses Regional Innovation Cluster program following DOGE cuts",
-          "OPM illegally shared millions of employee records with DOGE, federal judge rules",
-          "What’s new in Homeland Security’s updated AI policy",
-          "HUD officially elevates former EV engineer David Julian to CIO"
+          "SBA refocuses Regional Innovation Cluster program following DOGE cuts"
         ]
       },
       {
         "lab": "Federal News Network",
         "items": [
-          "The role OIGs play in the federal fight against fraud",
-          "Pentagon sued over data breach affecting more than 3 million people",
-          "OPM unlawfully let DOGE access sensitive federal employee data, judge rules",
-          "Trump administration drops legal fight to overhaul student loan forgiveness program",
-          "Federal unions got caught standing still: Federal workers face the consequences",
-          "DOL gives employers a green light, with guardrails, to let non-exempt employees split their workday between home and office"
+          "Army’s Strategic Capital Initiative is ‘not slowing down’ under new leadership",
+          "Federal Movers & Shakers October 23, 2026",
+          "The battlefield has no boundaries: How the Iran war is redrawing the cyber threat map",
+          "Federal employees: What’s changing in FEHB for 2027 (and ways to save)",
+          "Army builds one-stop shop for civilian jobs, benefits and career development",
+          "Cybersecurity liability doesn’t necessarily start with a breach"
         ]
       }
     ]
