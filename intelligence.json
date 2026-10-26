@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-25T14:46:28.956Z",
-  "runNumber": 130,
+  "generatedAt": "2026-10-26T17:06:54.087Z",
+  "runNumber": 131,
   "situation": {
     "headline": "Assessment unavailable",
     "velocity": "STABLE",
@@ -61,23 +61,27 @@
   "groundTruth": [],
   "aiNews": {
     "headlines": [
-      "Lawmakers and Hill staffers in both parties say AI leaders are becoming a political liability as they swing between claims of prosperity and existential dangers (Maria Curi/Axios)",
-      "How a Blackstone-led $2.3B private credit loan to CoreWeave in 2023 became a blueprint for chip-backed debt, which is on track to become a $1T market (Bloomberg)",
-      "Baba, which develops AI tools to help Medicare and Medicaid patients connect to care teams and handle advocacy tasks, raised a $40M Series A led by FirstMark (Cailey Gleeson/Fierce Healthcare)",
-      "CapitalOS, which helps vertical software platforms offer spend management, cards, and bill payment tools to SMB customers, raised a $21.9M Series A led by LGVP (Ryan Lawler/Axios)",
-      "Instagram launches an Apple TV app for watching Reels, longer videos, and live shows; the app previously launched on Fire TV, Google TV, and Samsung smart TVs (Hartley Charlton/MacRumors)",
-      "Kimi K3.1 Pro's debut draws scrutiny over allegations that influencers were asked to promote the model without disclosing a commercial relationship to Moonshot (Carl Franzen/VentureBeat)",
-      "LSEG agrees to acquire Octus, an NY-based provider of credit intelligence, data, and workflow software, from Permira and Octus' management for $3.54B in cash (Dominic Chopping/Wall Street Journal)",
-      "A look at Meta's role in Brazil's runoff, where Lula da Silva alleges Meta restricts his content and a court ordered it not to interfere; Meta cites glitches (Augusta Saraiva/Bloomberg)",
-      "Outside of tech there has been no financial payoff to US companies for using AI, now viewed as a margin-hurting cost center, as VC-backed firms burn more tokens (Torsten Slok/Apollo Global Management)",
-      "Source: Replit recently moved most AI spend from Anthropic to OpenAI, which gave 30%+ off in a deal worth $100M+/year, after Anthropic discontinued its discount (The Information)",
-      "A look at Alpha School, a network of private schools that claims to teach kids 2x as fast using AI; data shows 50% of K-8 students missed this goal in math (Dana Goldstein/New York Times)",
-      "An interview with Ciena CEO Gary Smith, a veteran of the 2001 telecoms crash, on AI demand outpacing supply for Ciena's optical networking chips, and more (Steven Rosenbush/Wall Street Journal)",
-      "Block unveils Dessa, a \"true speech-to-speech\" AI model trained on \"nothing but human conversation\" that it says runs locally on a MacBook Pro M4 Max or newer (Jay Peters/The Verge)",
-      "Ukraine says Starshield was working normally again on Saturday morning; US officials said Trump asked Elon Musk to restore the service (Wall Street Journal)",
-      "Inside Meta's law enforcement outreach team, which uses AI and human reviewers to analyze social media posts, aiming to prevent threats like school shootings (Rachel Monroe/New Yorker)"
+      "S-1: as of September 30, Anthropic had 11,900+ customers spending $100,000+ annually, 1,900+ customers spending $1M+, and 250 customers spending $10M+ (Rebecca Bellan/TechCrunch)",
+      "Microsoft and others push out emergency patches for a critical flaw in Brotli, the C decoder library built into Node.js, that could allow remote code execution (Bill Toulas/BleepingComputer)",
+      "Few VC firms are mentioned in Anthropic's S-1, except Spark, which invested $800M across six rounds and whose GP Yasmin Razavi is the sole VC on its board (Kate Clark/Wall Street Journal)",
+      "Nevis, which uses AI to automate paperwork for financial advisors, raised a $70M Series B led by EQT Ventures, a source says at a $500M valuation (Camila Grigera Naón/Fortune)",
+      "Microsoft offers buyouts to 60K workers at VP level and below across teams in the US, Canada, India, and the UK; its headcount at the end of June was 223K (Bloomberg)",
+      "Bedrock Robotics, which makes driverless excavators and other autonomous construction machines, raised a $600M Series C at a $4.1B valuation (Edward Ludlow/Bloomberg)",
+      "Instagram is testing Features, a new long-form horizontal video format of up to 90 minutes aimed at podcasters, comedians, and other creators, in the US (Caitlin Huston/The Hollywood Reporter)",
+      "S-1: Anthropic warns prospective investors that its AI safety and advocacy stances risk disproportionate and selective targeting from the Trump administration (Maria Curi/Axios)",
+      "Sources: Anthropic is aiming to go public the week of November 16 and could raise $100B at a $1.5T to $2T valuation, after initially preparing for October (Wall Street Journal)",
+      "Anthropic's S-1 lists 94 pages of risk factors and warns that the \"scale of harm\" from a \"catastrophic\" AI incident might mean it is unable to obtain insurance (Wall Street Journal)",
+      "Anthropic S-1: post-IPO governance will retain Public Benefit Corporation status, giving its seven co-founders 50.1% voting control via a single Class F share (Deborah Mary Sophia/Reuters)",
+      "SpaceX agrees to a $40B equipment finance lease with Apollo to fund purchases of Nvidia GPUs for its AI initiatives, set to close before the end of 2026 (Carmen Arroyo/Bloomberg)",
+      "S-1: Anthropic outlines its mission to revolutionize sectors like medicine and warns its corporate behavior may diverge from traditional profit-maximization (Robert Hart/The Verge)",
+      "Anthropic S-1: of its $81B net loss in H1 2026, over $72B was related to changes in the value of convertible notes as the company's valuation increased (Financial Times)",
+      "Anthropic S-1: an $80.7B net loss on revenue of $16.3B in H1 2026, up from a $13B net loss on revenue of $1.2B in H1 2025, and a net revenue retention of 900% (Bloomberg)"
     ],
     "brief": [
+      {
+        "title": "Introducing How We Got Here -- NLW's new podcast",
+        "summary": "NLW's new show How We Got Here launched today. It's a weekly deep dive into how today's biggest stories came to be, made for the topics that have too much backstory to fit into the AI Daily Brief. This is the first five minutes of Episode 1, How Tech Lost America, about how tech went from America's"
+      },
       {
         "title": "How I'm Actually Using AI Right Now (Including Claude Duet)",
         "summary": "Claude Duet's launch is an opportunity to take stock of how I'm actually using AI today. From strategy and research to coding, content creation and data analysis, I break down my current AI stack and which models work best for which tasks. Then, a comparison of ChatGPT Dots and Claude Duet, and why"
@@ -105,200 +109,196 @@
       {
         "title": "A Potentially Historic AI Breakthrough",
         "summary": "A new essay from former OpenAI researcher Nick Cammarata is being hailed as a potentially historic AI breakthrough. His argument: neural networks may already be far more understandable than researchers believed, and years of apparent complexity may reflect flaws in how we’ve been looking at them. NL"
-      },
-      {
-        "title": "The Most Important AI News This Week Is Getting Overlooked",
-        "summary": "The most consequential AI announcements this week might be the ones getting the least attention. NLW explores what Microsoft’s MAI Base 2 and Meta’s Muse Spark Open mean for how businesses use, customize, and pay for AI. In the headlines: Anthropic’s embedded safety evaluators, Cognition’s performan"
       }
     ],
     "trendingModels": [
       {
         "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
         "pipeline": "image-text-to-text",
-        "likes": 2903,
-        "downloads": 85275,
+        "likes": 3137,
+        "downloads": 95889,
         "origin": "CN"
       },
       {
         "id": "RecursiveSI/flint",
         "pipeline": "text-generation",
-        "likes": 818,
-        "downloads": 6444,
+        "likes": 899,
+        "downloads": 8470,
         "origin": "OTHER"
       },
       {
-        "id": "black-forest-labs/flux-3-image-klein-comfy",
-        "pipeline": "image-to-image",
-        "likes": 1567,
-        "downloads": 660874,
+        "id": "Nanbeige/Nanbeige4.3-33B",
+        "pipeline": "text-generation",
+        "likes": 557,
+        "downloads": 2787,
         "origin": "OTHER"
       },
       {
         "id": "XHToken/Spark-X2.6-4B",
         "pipeline": "text-generation",
-        "likes": 481,
-        "downloads": 3488,
+        "likes": 628,
+        "downloads": 4726,
+        "origin": "OTHER"
+      },
+      {
+        "id": "black-forest-labs/flux-3-image-klein-comfy",
+        "pipeline": "image-to-image",
+        "likes": 1671,
+        "downloads": 700652,
         "origin": "OTHER"
       },
       {
         "id": "Lightricks/LTX-2.5",
         "pipeline": "image-to-video",
-        "likes": 9255,
-        "downloads": 2107108,
-        "origin": "OTHER"
-      },
-      {
-        "id": "OpenMOSS-Team/MOSS-Image-SFT",
-        "pipeline": "text-to-image",
-        "likes": 716,
-        "downloads": 10757,
+        "likes": 9417,
+        "downloads": 2117147,
         "origin": "OTHER"
       },
       {
         "id": "MiniMaxAI/MiniMax-M3.1-Flash",
         "pipeline": "image-text-to-text",
-        "likes": 335,
-        "downloads": 7355,
+        "likes": 378,
+        "downloads": 8782,
         "origin": "CN"
-      },
-      {
-        "id": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
-        "pipeline": "text-to-image",
-        "likes": 5009,
-        "downloads": 2235846,
-        "origin": "CN"
-      },
-      {
-        "id": "fishaudio/drama-3",
-        "pipeline": "text-to-speech",
-        "likes": 1005,
-        "downloads": 21375,
-        "origin": "OTHER"
       },
       {
         "id": "Qwen/Qwen3.8-27B",
         "pipeline": "image-text-to-text",
-        "likes": 18377,
-        "downloads": 7762014,
+        "likes": 18441,
+        "downloads": 7608285,
+        "origin": "CN"
+      },
+      {
+        "id": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+        "pipeline": "text-generation",
+        "likes": 330,
+        "downloads": 891147,
+        "origin": "CN"
+      },
+      {
+        "id": "OpenMOSS-Team/MOSS-Image-SFT",
+        "pipeline": "text-to-image",
+        "likes": 748,
+        "downloads": 12114,
+        "origin": "OTHER"
+      },
+      {
+        "id": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+        "pipeline": "text-to-image",
+        "likes": 5086,
+        "downloads": 2207486,
         "origin": "CN"
       },
       {
         "id": "InternScience/Sage-A1.5",
         "pipeline": "text-generation",
-        "likes": 283,
-        "downloads": 3875,
+        "likes": 308,
+        "downloads": 5235,
         "origin": "OTHER"
       },
       {
-        "id": "dealignai/DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8",
-        "pipeline": "image-text-to-text",
-        "likes": 360,
-        "downloads": 6792,
-        "origin": "CN"
+        "id": "fishaudio/drama-3",
+        "pipeline": "text-to-speech",
+        "likes": 1025,
+        "downloads": 23216,
+        "origin": "OTHER"
       },
       {
-        "id": "OpenMOSS-Team/MOSS-Image-Base",
-        "pipeline": "text-to-image",
-        "likes": 549,
-        "downloads": 7641,
+        "id": "unsloth/flint-GGUF",
+        "pipeline": "text-generation",
+        "likes": 261,
+        "downloads": 125188,
         "origin": "OTHER"
       },
       {
         "id": "Comfy-Org/MOSS-Image",
         "pipeline": "",
-        "likes": 449,
-        "downloads": 2161961,
+        "likes": 471,
+        "downloads": 2442344,
         "origin": "OTHER"
       },
       {
-        "id": "lodestones/Kromoss",
-        "pipeline": "text-to-image",
-        "likes": 257,
-        "downloads": 23972,
-        "origin": "OTHER"
-      },
-      {
-        "id": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
-        "pipeline": "text-generation",
-        "likes": 261,
-        "downloads": 412392,
+        "id": "dealignai/DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8",
+        "pipeline": "image-text-to-text",
+        "likes": 380,
+        "downloads": 7557,
         "origin": "CN"
       },
       {
         "id": "mistralai/Timestral-209M",
         "pipeline": "time-series-forecasting",
-        "likes": 359,
-        "downloads": 9765,
+        "likes": 394,
+        "downloads": 10971,
         "origin": "ALLIED"
       },
       {
-        "id": "orcarouter/OrcaCyber-Nano-1.0",
-        "pipeline": "image-text-to-text",
-        "likes": 248,
-        "downloads": 30330,
+        "id": "datalab-to/indra-ocr",
+        "pipeline": "image-to-text",
+        "likes": 435,
+        "downloads": 5008,
         "origin": "OTHER"
       }
     ],
     "research": [
       {
-        "title": "Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success",
-        "summary": "Robotic foundation models are typically evaluated through costly closed-loop rollouts, which motivates cheap offline proxies for model capability. The Platonic Representation Hypothesis (PRH) suggests that as representations improve, different modalities such"
+        "title": "The Language of Instruction: Genre and Generative AI",
+        "summary": "This article argues that instruction-fine-tuned language models should be understood as implementing a genre, what is proposed as the instructional-conversational genre. This genre is an amalgamation of discursive language from prior conversations between gene"
       },
       {
-        "title": "Direct Pass@$k$ Optimization for Thought Pruning: Balancing Quality and Diversity in Test-Time Reasoning",
-        "summary": "Test-time scaling has emerged as a key inference strategy for reasoning models, where a model generates a large number of candidate solutions in the hope of finding at least one correct solution. Running all candidate solutions to completion can be computation"
+        "title": "SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning",
+        "summary": "Training generalizable embodied agents requires realistic, varied, and simulation-ready indoor environments. Language-guided methods support semantic planning and object-level reasoning, but precise spatial grounding remains difficult. Visual generative models"
       },
       {
-        "title": "Phase Transition from Random Features to Fully Trainable Networks",
-        "summary": "Constructing accurate and computationally tractable approximation spaces is a fundamental task in scientific computing. Partially trainable neural networks bridge fixed random features and fully adaptive representations. This paper quantifies a phase transitio"
+        "title": "RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Learning Algorithms",
+        "summary": "Robust reinforcement learning (RL) is critical for reliable real-world deployment, where policies may fail under diverse shifts and disruptions. Existing robust RL algorithms offer a rich set of mechanisms and principles, yet two major barriers limit their bro"
       },
       {
-        "title": "Reliable AI-Assisted Decisions via Selective Auditing",
-        "summary": "We consider online monitoring of an AI system that produces a sequence of decisions. At each round, the system outputs a proposed decision together with a confidence score estimating the trustworthiness of the decision. The decision and confidence score need n"
+        "title": "DexPort: A Hand-Held Skill Interface for Dexterous Hand Data Collection",
+        "summary": "Collecting high-quality demonstrations remains a central bottleneck for learning dexterous manipulation. Teleoperation records executable robot actions, but it requires a complete robot setup and places the burden of coordinating many finger joints on the oper"
       },
       {
-        "title": "SpectralCanary: Embarrassingly Simple Low-Frequency Traces for T2I Dataset-Use Auditing",
-        "summary": "Auditing whether a text-to-image (T2I) model was fine-tuned on a particular image collection is difficult: a model can absorb collection-level visual characteristics without reproducing training images. Proactive dataset-use auditing plants a shared signal in"
+        "title": "Flownomaly: Single-Step Conditional-Mean Recovery for Few-Shot Anomaly Detection",
+        "summary": "Few-shot industrial anomaly detection requires modeling category-specific normality from only a handful of defect-free images. Common approaches tie inference to stored exemplars, impose rigid linear structure, or risk reproducing anomalous content. Flownomaly"
       },
       {
-        "title": "Cost-Aware Abstention for LLM-Based IT Ticket Classification",
-        "summary": "Wrong automatic routing of an IT support ticket can cost more than human triage. We evaluate cost-aware abstention as an offline, cost-conditional readiness assessment: select a routing policy on calibration data under explicit costs, then evaluate that frozen"
+        "title": "Measure Before You Train: Typed Decision Models vs. a Classical Baseline vs. a Generative LLM for Routing a Personal Multilingual Inbox",
+        "summary": "Personal email agents decide, for every message, what it is, whether it is urgent, whether to draft a reply, create a task, or ignore it. Their error rate is rarely measured: the stored labels were written by the system itself. We present Foyer, a self-hosted"
       },
       {
-        "title": "METTA: Memory-Enhanced Test-Time Adaptation for Meta-Reinforcement Learning",
-        "summary": "Meta-reinforcement learning aims to train agents that adapt quickly to unseen tasks from limited interaction, but this requires representing task evidence over long interaction histories. Classical recurrent agents compress experience into hidden states, while"
+        "title": "Where Rounding Happens Matters: Rounding-Location Alignment Stabilizes LLM Reinforcement Learning",
+        "summary": "Reinforcement learning for large language models often uses separate systems for inference and training. Even with identical weights and BF16 tensors, implementation differences can make an intended on-policy update off-policy and destabilize training. Existin"
       },
       {
-        "title": "EpiSEM-Bench: Evaluating Safety and Evidence Recovery in LLM Agents under Missing Evidence",
-        "summary": "Tool-using language model agents rely on environmental facts to decide whether an action is permitted. When a tool response omits a safety-relevant fact, an agent may carry out a prohibited action even though the user request is benign and every returned state"
+        "title": "Beyond Discrete Tokens: Preserving Numerical Continuity in Medical Vision-Language Models",
+        "summary": "Objective: To develop a unified vision-language model for prompt-conditioned quantitative ultrasound measurement that addresses the mismatch between continuous measurement targets and discrete token-based numerical prediction. Methods: This article presents HA"
       },
       {
-        "title": "Low-Bit N-Gram Embeddings for Language Models",
-        "summary": "Many recent open-weight language models use n-gram embedding tables to improve performance. These tables store learned representations of short token sequences, such as pairs or triples of consecutive tokens, which the model retrieves during processing. Howeve"
+        "title": "Monetizing Intelligence: Advertising and Subscription Design on LLM Platforms",
+        "summary": "Large language model (LLM) platforms introducing advertising must decide how much capability ad revenue should fund and what consumers should pay to avoid ads. We study a monopolistic platform that jointly chooses costly response quality, advertising intensity"
       },
       {
-        "title": "A Fix for Softmax and Cross-Entropy",
-        "summary": "Standard implementations of softmax, log-softmax, and cross-entropy have two numerical bugs. The first bug, Softmax Collapse, rounds the target logit's gradient to zero if that one logit is much larger than the others, resulting in gradients that no longer sum"
+        "title": "Knowledge Distillation across Item and Code Spaces for Parallel Generative Recommendation",
+        "summary": "Generative recommendation with semantic IDs represents each item as a sequence of discrete codes derived from its semantic representation and predicts these codes to generate recommendations. Existing semantic-ID recommenders are typically trained with hard la"
       },
       {
-        "title": "Causal Chain of Thought: Mitigating Attention Leakage via Context Isolation",
-        "summary": "Chain-of-thought (CoT) prompting elicits step-by-step rationales that appear to explain model predictions, but there is no guarantee these steps causally drive the final answer. In standard autoregressive generation, dense attention allows each reasoning step"
+        "title": "If at First You Don't Succeed, Backtrack: Lightweight Recovery for Frozen VLAs",
+        "summary": "Vision-Language-Action (VLA) models perform well on robotic manipulation, yet remain brittle once their own actions carry them into states their training data barely covers. Recovering from such failures usually requires recovery demonstrations, policy retrain"
       },
       {
-        "title": "Can an Agent Debug a Web Corpus? Agentic Auditing of Slovak FineWeb2",
-        "summary": "Multilingual pipelines such as FineWeb2 apply one recipe across a thousand languages, leaving the failure modes of individual languages unanticipated. We use an LLM once, as a corpus debugger rather than a classifier: a tool-using agent explores the corpus thr"
+        "title": "Learning Positive Linear Combinations of ReLUs in Fully Polynomial Time",
+        "summary": "We study the fundamental problem of PAC learning positive linear combinations of $k$ arbitrary ReLU activations on $\\mathbb R ^d$ with respect to the Gaussian distribution, in $L 2$ loss. We give the first fully-polynomial time algorithm for this learning task"
       },
       {
-        "title": "BeNice! Closing Looping's Inference-Memory Gap via KV-Sharing",
-        "summary": "Looped architectures scale quality while keeping parameter count fixed by repeatedly passing activations through the same block of layers. During inference, each recurrence generates independent KV-caches, causing memory to grow linearly. To address this chall"
+        "title": "Yalda-Embedding: Open Development of a Competitive Persian Retrieval Model",
+        "summary": "Despite advances in multilingual text representations, effective dense retrieval for Persian remains constrained by the limited availability of language-specific training resources and compact embedding models. We present Yalda Embedding, a 595.8-million-param"
       },
       {
-        "title": "Questioning Instrumental Convergence in RLVR: Checkpoint Evidence from OLMo-3",
-        "summary": "Instrumental convergence is often invoked as a general reason to expect capable agents to acquire or express power-seeking subgoals: self-preservation, resource acquisition, deception, or resistance to oversight which poses an important threat to the society."
+        "title": "ZENO: Nonlinear filtering with Zakai Equation Neural Operators",
+        "summary": "State inference and parameter learning for nonlinear filters is a core computation for scientific machine learning with varied applications in engineering and neuroscience. The unnormalized filtering distribution is governed by the Zakai equation, a stochastic"
       },
       {
-        "title": "Bilingual Language Models Capture Cross-Linguistic Influence in Second-Language Reading",
-        "summary": "While monolingual language model (LM) surprisal is widely established as a predictor of reading times, it cannot capture the non-native (L2) reading dynamics that are shaped by the reader's first language (L1). In this work, we investigate whether the cross-li"
+        "title": "Adaptive Frequency Threshold Byte Pair Encoding for Mixed Natural Language and Structured Symbolic Corpora",
+        "summary": "Modern language models rely on subwording tokenization to define the discrete units of input processing, typically using methods like Byte Pair Encoding (BPE) that treat whitespace as a fixed semantic boundary. This design is inherently limited, as many meanin"
       }
     ],
     "leaderboard": [
@@ -456,6 +456,21 @@
     "press": [
       {
         "source": "Breaking Defense",
+        "title": "EXCLUSIVE: SOUTHCOM chief seeks unmanned river solution as he embraces autonomy",
+        "summary": "In an interview with Breaking Defense, Gen. Francis Donovan said autonomous systems are “not just for testing anymore” but “taking the fight to the enemy.”"
+      },
+      {
+        "source": "Breaking Defense",
+        "title": "Is the Pentagon’s demand signal for drones working? It depends on who you ask.",
+        "summary": "“There’s a lot of positive signaling, but we need to see the whites of the eyes: We need to see sustained, normalized demand,” said James Slider, CEO of Performance Drone Works."
+      },
+      {
+        "source": "Breaking Defense",
+        "title": "Unmanned systems take center stage at Turkish Ateş Serbest military demonstration",
+        "summary": "The highlight of the exercise may have been the Turkish military showing off a new drone for the first time: Turkish Aerospace Industries’ Ayaz, a turbojet-powered one-way attack unmanned aerial vehicle."
+      },
+      {
+        "source": "Breaking Defense",
         "title": "GDIT announces Amy Johnson as new president",
         "summary": "Johnson replaces longtime president Amy Gilliland, who was let go from the company earlier this month after almost a decade of leading the business unit."
       },
@@ -490,19 +505,14 @@
         "summary": "Maj. Gen. Stephen Purdy, the Space Force’s portfolio acquisition executive for advanced programs, said the service wants to field cislunar capabilities by the end of fiscal 2029."
       },
       {
-        "source": "Breaking Defense",
-        "title": "Winning the information war through ideas and perception",
-        "summary": "Sponsored As social media and AI amplify dis- and misinformation campaigns, effectively countering them requires a coordinated response."
+        "source": "DefenseScoop",
+        "title": "Smack Technologies lands new deal for AI prototype to enhance joint military campaigning",
+        "summary": "The OTA comes as SOCOM is fast-tracking frontier AI capabilities to solve real-world operational challenges and free up its leaders to focus on the most complex strategic and tactical priorities. The post Smack Technologies lands new deal f"
       },
       {
-        "source": "Breaking Defense",
-        "title": "‘Ability to strike back’: Denmark commits to long-range missile orders",
-        "summary": "Copenhagen said it would purchase Joint Strike Missiles for its F-35s and a new ground-launched munition from an American firm."
-      },
-      {
-        "source": "Breaking Defense",
-        "title": "The Pentagon has gone too far in using the Other Transaction Authority. Congress should act.",
-        "summary": "Created in 1958 for NASA, the obscure fiscal tool has since become the predominant approach to military contracting – at great risk to taxpayers, one researcher warns."
+        "source": "DefenseScoop",
+        "title": "As Project Gatekeeper goes live, Army plans integration with frontier AI models",
+        "summary": "Soon, Project Gatekeeper’s security testing will be powered by frontier AI models and the wider public will be able to access the platform using Login.Gov credentials. The post As Project Gatekeeper goes live, Army plans integration with fr"
       },
       {
         "source": "DefenseScoop",
@@ -543,16 +553,6 @@
         "source": "DefenseScoop",
         "title": "Space Force aims to beef up guardian presence for Centcom and other combatant commands",
         "summary": "“We have proven that spacepower produces battlefield success. This means providing effective and well-equipped space forces, in the right quantities, to combatant commands on the front lines … and bringing space expertise directly to the fi"
-      },
-      {
-        "source": "DefenseScoop",
-        "title": "Marine Corps moves to expand Maven Smart System account access across its enterprise",
-        "summary": "A notable expansion of enterprise licensing for Palantir’s AI-powered software platform went into effect Oct. 1. The post Marine Corps moves to expand Maven Smart System account access across its enterprise appeared first on DefenseScoop ."
-      },
-      {
-        "source": "DefenseScoop",
-        "title": "Navy expands contract ceiling for AI-enabled repair robots",
-        "summary": "Gecko Robotics Co-founder and President Troy Demmer shared new details about the Navy's approach to fleet maintenance. The post Navy expands contract ceiling for AI-enabled repair robots appeared first on DefenseScoop ."
       }
     ],
     "labs": [
@@ -570,12 +570,12 @@
       {
         "lab": "FedScoop",
         "items": [
+          "America needs a national model for solving big problems with AI",
           "HHS sole-source award to Anthropic continues to raise questions",
           "Fighting fraud at financial agencies is ‘all about prevention’ and collaboration",
           "NRC finalizes rule allowing commercial reactor license applicants to reuse DOE, DOD data",
           "DHS consolidates software purchasing under $2.7B Carahsoft contract",
-          "Keeping a human in the AI loop is ‘untenable’ due to cuts, USDA IT official says",
-          "SBA refocuses Regional Innovation Cluster program following DOGE cuts"
+          "Keeping a human in the AI loop is ‘untenable’ due to cuts, USDA IT official says"
         ]
       },
       {
