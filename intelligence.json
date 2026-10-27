@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-26T17:06:54.087Z",
-  "runNumber": 131,
+  "generatedAt": "2026-10-27T16:10:42.379Z",
+  "runNumber": 132,
   "situation": {
     "headline": "Assessment unavailable",
     "velocity": "STABLE",
@@ -61,23 +61,27 @@
   "groundTruth": [],
   "aiNews": {
     "headlines": [
-      "S-1: as of September 30, Anthropic had 11,900+ customers spending $100,000+ annually, 1,900+ customers spending $1M+, and 250 customers spending $10M+ (Rebecca Bellan/TechCrunch)",
-      "Microsoft and others push out emergency patches for a critical flaw in Brotli, the C decoder library built into Node.js, that could allow remote code execution (Bill Toulas/BleepingComputer)",
-      "Few VC firms are mentioned in Anthropic's S-1, except Spark, which invested $800M across six rounds and whose GP Yasmin Razavi is the sole VC on its board (Kate Clark/Wall Street Journal)",
-      "Nevis, which uses AI to automate paperwork for financial advisors, raised a $70M Series B led by EQT Ventures, a source says at a $500M valuation (Camila Grigera Naón/Fortune)",
-      "Microsoft offers buyouts to 60K workers at VP level and below across teams in the US, Canada, India, and the UK; its headcount at the end of June was 223K (Bloomberg)",
-      "Bedrock Robotics, which makes driverless excavators and other autonomous construction machines, raised a $600M Series C at a $4.1B valuation (Edward Ludlow/Bloomberg)",
-      "Instagram is testing Features, a new long-form horizontal video format of up to 90 minutes aimed at podcasters, comedians, and other creators, in the US (Caitlin Huston/The Hollywood Reporter)",
-      "S-1: Anthropic warns prospective investors that its AI safety and advocacy stances risk disproportionate and selective targeting from the Trump administration (Maria Curi/Axios)",
-      "Sources: Anthropic is aiming to go public the week of November 16 and could raise $100B at a $1.5T to $2T valuation, after initially preparing for October (Wall Street Journal)",
-      "Anthropic's S-1 lists 94 pages of risk factors and warns that the \"scale of harm\" from a \"catastrophic\" AI incident might mean it is unable to obtain insurance (Wall Street Journal)",
-      "Anthropic S-1: post-IPO governance will retain Public Benefit Corporation status, giving its seven co-founders 50.1% voting control via a single Class F share (Deborah Mary Sophia/Reuters)",
-      "SpaceX agrees to a $40B equipment finance lease with Apollo to fund purchases of Nvidia GPUs for its AI initiatives, set to close before the end of 2026 (Carmen Arroyo/Bloomberg)",
-      "S-1: Anthropic outlines its mission to revolutionize sectors like medicine and warns its corporate behavior may diverge from traditional profit-maximization (Robert Hart/The Verge)",
-      "Anthropic S-1: of its $81B net loss in H1 2026, over $72B was related to changes in the value of convertible notes as the company's valuation increased (Financial Times)",
-      "Anthropic S-1: an $80.7B net loss on revenue of $16.3B in H1 2026, up from a $13B net loss on revenue of $1.2B in H1 2025, and a net revenue retention of 900% (Bloomberg)"
+      "Anthropic's S-1 shows an 85% gross margin in H1 from running its models, a reality check for skeptics who said pay-as-you-go model sales wouldn't be profitable (Stephanie Palazzolo/The Information)",
+      "London-based Machenta, which is building an AI model that can teach robots new physical tasks after seeing them performed just once, raised a $40M seed (Rya Jetha/Business Insider)",
+      "Apple adds a beta AI assistant built on Apple's and OpenAI's models to Keynote, Pages, Numbers, and Logic Pro, plus MCP support to Keynote, Pages, and Numbers (Emma Roth/The Verge)",
+      "Dallas-based Disruptive raised $10B to invest in AI, defense, and software, doubling its AUM, and pivots from single-deal SPVs to a discretionary fund structure (Natasha Mascarenhas/Bloomberg)",
+      "Neocloud General Compute, which specializes in bare-metal infrastructure, raised a $100M Series A led by Blackbird and Abstract at an $800M post-money valuation (Tim Fernholz/TechCrunch)",
+      "Anduril and Qualcomm unveil BlueChip, a line of laptops designed and assembled in the US for defense and government; Anduril will begin taking orders in 2027 (Bloomberg)",
+      "Apple updates the 24-inch iMac with an M6, which has up to a 12-core CPU and up to a 12-core GPU, and a dual 16-core Neural Engine, for $1,499+ from November 6 (Apple)",
+      "Apple unveils a 14\" MacBook Pro with an M6, which has a 12-core CPU and a 12-core GPU, 16GB or 32GB of unified memory, and Wi-Fi 7, for $1,999+ from November 6 (Apple)",
+      "The FCC warns TP-Link that three of its routers violate power limits, which could bring more bans, and it may have submitted \"false or incorrect information\" (Bloomberg)",
+      "Study: non-English languages can consume far more AI tokens, with the most expensive language using 1.5x to 5x more than the cheapest, causing a \"tokenizer tax\" (Ananya Bhattacharya/Rest of World)",
+      "Sources: Trend Micro's TrendAI found Israeli adtech company Discover-Tech heavily targeted Starlink users in 100+ countries, likely to geolocate or surveil them (Raphael Satter/Reuters)",
+      "PayPal reports Q3 revenue up 2% YoY to $8.58B, below $8.71B est., TPV up 6% to $487.14B, and raises full-year adjusted EPS guidance to $5.60, above $5.39 est. (Elias Schisgall/Wall Street Journal)",
+      "Hyphenate, which develops reinforcement-learning-driven AI agents to automate corporate finance tasks, raised a $45M Series A, taking its total funding to $54M (Saritha Rai/Bloomberg)",
+      "Analysis: AI political groups have spent $78.5M on US federal candidates during the 2026 cycle; AI accelerationists spent $34M and safeguard-focused groups $39M (Luke Fountain/CNBC)",
+      "Anthropic's S-1 excludes Labs co-lead Ben Mann from its \"Continuing Founders\" and Founder LLC; Anthropic says \"it's still fair to refer to him as a co-founder\" (Zara Stone/The San Francisco Standard)"
     ],
     "brief": [
+      {
+        "title": "4 Questions for AI This Week",
+        "summary": "Is China closing the AI gap? Is cyber chaos the new normal? Is data center funding drying up? And what happens if Anthropic’s IPO disappoints? From Kimi K3.1 to rogue agent swarms to Elon Musk’s debt market warning, NLW examines the four questions shaping AI this week. Listen to the new How We Got H"
+      },
       {
         "title": "Introducing How We Got Here -- NLW's new podcast",
         "summary": "NLW's new show How We Got Here launched today. It's a weekly deep dive into how today's biggest stories came to be, made for the topics that have too much backstory to fit into the AI Daily Brief. This is the first five minutes of Episode 1, How Tech Lost America, about how tech went from America's"
@@ -105,200 +109,196 @@
       {
         "title": "The AI Wealth Problem",
         "summary": "Anthropic’s plan to devote billions to public benefit raises a bigger question: who gets to decide how AI wealth is shared? NLW explores the collision between philanthropy, concentrated power, and democratic accountability. In the headlines: OpenCode’s major security breach, mounting AI bubble fears"
-      },
-      {
-        "title": "A Potentially Historic AI Breakthrough",
-        "summary": "A new essay from former OpenAI researcher Nick Cammarata is being hailed as a potentially historic AI breakthrough. His argument: neural networks may already be far more understandable than researchers believed, and years of apparent complexity may reflect flaws in how we’ve been looking at them. NL"
       }
     ],
     "trendingModels": [
       {
         "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
         "pipeline": "image-text-to-text",
-        "likes": 3137,
-        "downloads": 95889,
+        "likes": 3322,
+        "downloads": 105667,
         "origin": "CN"
       },
       {
         "id": "RecursiveSI/flint",
         "pipeline": "text-generation",
-        "likes": 899,
-        "downloads": 8470,
+        "likes": 952,
+        "downloads": 10574,
         "origin": "OTHER"
       },
       {
         "id": "Nanbeige/Nanbeige4.3-33B",
         "pipeline": "text-generation",
-        "likes": 557,
-        "downloads": 2787,
+        "likes": 642,
+        "downloads": 4785,
         "origin": "OTHER"
       },
       {
         "id": "XHToken/Spark-X2.6-4B",
         "pipeline": "text-generation",
-        "likes": 628,
-        "downloads": 4726,
+        "likes": 756,
+        "downloads": 6191,
         "origin": "OTHER"
       },
       {
         "id": "black-forest-labs/flux-3-image-klein-comfy",
         "pipeline": "image-to-image",
-        "likes": 1671,
-        "downloads": 700652,
+        "likes": 1815,
+        "downloads": 750694,
         "origin": "OTHER"
       },
       {
         "id": "Lightricks/LTX-2.5",
         "pipeline": "image-to-video",
-        "likes": 9417,
-        "downloads": 2117147,
+        "likes": 9533,
+        "downloads": 2163739,
         "origin": "OTHER"
       },
       {
         "id": "MiniMaxAI/MiniMax-M3.1-Flash",
         "pipeline": "image-text-to-text",
-        "likes": 378,
-        "downloads": 8782,
-        "origin": "CN"
-      },
-      {
-        "id": "Qwen/Qwen3.8-27B",
-        "pipeline": "image-text-to-text",
-        "likes": 18441,
-        "downloads": 7608285,
+        "likes": 401,
+        "downloads": 11075,
         "origin": "CN"
       },
       {
         "id": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
         "pipeline": "text-generation",
-        "likes": 330,
-        "downloads": 891147,
+        "likes": 378,
+        "downloads": 1105751,
         "origin": "CN"
       },
       {
-        "id": "OpenMOSS-Team/MOSS-Image-SFT",
-        "pipeline": "text-to-image",
-        "likes": 748,
-        "downloads": 12114,
-        "origin": "OTHER"
+        "id": "Qwen/Qwen3.8-27B",
+        "pipeline": "image-text-to-text",
+        "likes": 18512,
+        "downloads": 7522728,
+        "origin": "CN"
       },
       {
         "id": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
         "pipeline": "text-to-image",
-        "likes": 5086,
-        "downloads": 2207486,
+        "likes": 5164,
+        "downloads": 2201569,
         "origin": "CN"
       },
       {
         "id": "InternScience/Sage-A1.5",
         "pipeline": "text-generation",
-        "likes": 308,
-        "downloads": 5235,
-        "origin": "OTHER"
-      },
-      {
-        "id": "fishaudio/drama-3",
-        "pipeline": "text-to-speech",
-        "likes": 1025,
-        "downloads": 23216,
+        "likes": 327,
+        "downloads": 6613,
         "origin": "OTHER"
       },
       {
         "id": "unsloth/flint-GGUF",
         "pipeline": "text-generation",
-        "likes": 261,
-        "downloads": 125188,
+        "likes": 280,
+        "downloads": 149888,
+        "origin": "OTHER"
+      },
+      {
+        "id": "OpenMOSS-Team/MOSS-Image-SFT",
+        "pipeline": "text-to-image",
+        "likes": 771,
+        "downloads": 13253,
+        "origin": "OTHER"
+      },
+      {
+        "id": "fishaudio/drama-3",
+        "pipeline": "text-to-speech",
+        "likes": 1053,
+        "downloads": 24996,
+        "origin": "OTHER"
+      },
+      {
+        "id": "orcarouter/DeepSeek-V4.1-Flash-1017-abliterated-GGUF",
+        "pipeline": "text-generation",
+        "likes": 259,
+        "downloads": 13441,
+        "origin": "CN"
+      },
+      {
+        "id": "HuggingFaceBio/Carbon-X",
+        "pipeline": "text-generation",
+        "likes": 217,
+        "downloads": 1595,
         "origin": "OTHER"
       },
       {
         "id": "Comfy-Org/MOSS-Image",
         "pipeline": "",
-        "likes": 471,
-        "downloads": 2442344,
+        "likes": 498,
+        "downloads": 2760550,
         "origin": "OTHER"
       },
       {
-        "id": "dealignai/DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8",
-        "pipeline": "image-text-to-text",
-        "likes": 380,
-        "downloads": 7557,
-        "origin": "CN"
-      },
-      {
-        "id": "mistralai/Timestral-209M",
-        "pipeline": "time-series-forecasting",
-        "likes": 394,
-        "downloads": 10971,
-        "origin": "ALLIED"
-      },
-      {
-        "id": "datalab-to/indra-ocr",
-        "pipeline": "image-to-text",
-        "likes": 435,
-        "downloads": 5008,
+        "id": "Comfy-Org/Fibo-2.0",
+        "pipeline": "",
+        "likes": 201,
+        "downloads": 170383,
         "origin": "OTHER"
       }
     ],
     "research": [
       {
-        "title": "The Language of Instruction: Genre and Generative AI",
-        "summary": "This article argues that instruction-fine-tuned language models should be understood as implementing a genre, what is proposed as the instructional-conversational genre. This genre is an amalgamation of discursive language from prior conversations between gene"
+        "title": "Retriever-Free Retrieval: Navigating Documents with Decision Models",
+        "summary": "While language models have become dramatically more capable, retrieval still largely relies on lexical matching or similarity in fixed embedding spaces. This creates a capability asymmetry: what the retriever fails to find, even the strongest generator cannot"
       },
       {
-        "title": "SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning",
-        "summary": "Training generalizable embodied agents requires realistic, varied, and simulation-ready indoor environments. Language-guided methods support semantic planning and object-level reasoning, but precise spatial grounding remains difficult. Visual generative models"
+        "title": "Center-of-Mass Interpretation of Evolution Strategies",
+        "summary": "Evolution strategies (ES) update a model by sampling a population of perturbed copies, scoring each one, and moving in the reward-weighted direction of the perturbations. This update is usually presented as an estimate of a smoothed gradient. We present a geom"
       },
       {
-        "title": "RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Learning Algorithms",
-        "summary": "Robust reinforcement learning (RL) is critical for reliable real-world deployment, where policies may fail under diverse shifts and disruptions. Existing robust RL algorithms offer a rich set of mechanisms and principles, yet two major barriers limit their bro"
+        "title": "Auto-Research Arena: Benchmarking and Advancing Auto-Research in Language Modeling",
+        "summary": "As autonomous research systems become more capable, benchmarks must both evaluate their performance and support meaningful research progress. We introduce Auto-Research Arena, a multi-target benchmark for evaluating autonomous research systems and discovering"
       },
       {
-        "title": "DexPort: A Hand-Held Skill Interface for Dexterous Hand Data Collection",
-        "summary": "Collecting high-quality demonstrations remains a central bottleneck for learning dexterous manipulation. Teleoperation records executable robot actions, but it requires a complete robot setup and places the burden of coordinating many finger joints on the oper"
+        "title": "Learning Force-Reactive Humanoid Loco-Manipulation",
+        "summary": "Many everyday tasks require controlling contact force as well as motion. On a humanoid, this force must often be coordinated across both hands and the whole body, and cannot be specified by kinematic trajectories alone. Therefore, we present FLORE, a framework"
       },
       {
-        "title": "Flownomaly: Single-Step Conditional-Mean Recovery for Few-Shot Anomaly Detection",
-        "summary": "Few-shot industrial anomaly detection requires modeling category-specific normality from only a handful of defect-free images. Common approaches tie inference to stored exemplars, impose rigid linear structure, or risk reproducing anomalous content. Flownomaly"
+        "title": "On the stability of learning",
+        "summary": "Learning algorithms are usually analyzed under the assumption that informative gradients are continuously available. But this is not always true---learning signals in biological neural networks, for example, may be sparse, local, and only intermittently availa"
       },
       {
-        "title": "Measure Before You Train: Typed Decision Models vs. a Classical Baseline vs. a Generative LLM for Routing a Personal Multilingual Inbox",
-        "summary": "Personal email agents decide, for every message, what it is, whether it is urgent, whether to draft a reply, create a task, or ignore it. Their error rate is rarely measured: the stored labels were written by the system itself. We present Foyer, a self-hosted"
+        "title": "Patient-specific rubric-based evaluation of large language models across longitudinal cancer care",
+        "summary": "Large language models (LLMs) show promise in specialty medicine, yet existing evaluations largely focus on isolated clinical encounters rather than tracking how clinical responsibilities evolve across a longitudinal care pathway. Here we introduce NPC-RubricBe"
       },
       {
-        "title": "Where Rounding Happens Matters: Rounding-Location Alignment Stabilizes LLM Reinforcement Learning",
-        "summary": "Reinforcement learning for large language models often uses separate systems for inference and training. Even with identical weights and BF16 tensors, implementation differences can make an intended on-policy update off-policy and destabilize training. Existin"
+        "title": "Preserve to Expand: Source-Aware Adaptation and Model Merging for Multilingual LLM-Based ASR",
+        "summary": "Expanding multilingual ASR systems to new languages is challenging when adaptation must preserve previously supported languages without replaying source-language training data. We study this problem in connector-based Speech LLMs, where a trainable connector m"
       },
       {
-        "title": "Beyond Discrete Tokens: Preserving Numerical Continuity in Medical Vision-Language Models",
-        "summary": "Objective: To develop a unified vision-language model for prompt-conditioned quantitative ultrasound measurement that addresses the mismatch between continuous measurement targets and discrete token-based numerical prediction. Methods: This article presents HA"
+        "title": "Work Agents: Systems, Capabilities, and Optimization",
+        "summary": "As foundation models evolve from information generation to digital work execution, agents are increasingly capable of completing complex tasks across tools, applications, and workflows. However, existing research lacks a unified perspective on how agents relia"
       },
       {
-        "title": "Monetizing Intelligence: Advertising and Subscription Design on LLM Platforms",
-        "summary": "Large language model (LLM) platforms introducing advertising must decide how much capability ad revenue should fund and what consumers should pay to avoid ads. We study a monopolistic platform that jointly chooses costly response quality, advertising intensity"
+        "title": "I-HITL: Inalienable Human-in-the-Loop",
+        "summary": "Human oversight is a pillar of AI safety. It is often exercised by a human in the loop (HITL) who approves critical actions taken by an AI agent. AI agents' increasing ability to bypass guardrails, though, raises the question of how to enforce HITL robustly. W"
       },
       {
-        "title": "Knowledge Distillation across Item and Code Spaces for Parallel Generative Recommendation",
-        "summary": "Generative recommendation with semantic IDs represents each item as a sequence of discrete codes derived from its semantic representation and predicts these codes to generate recommendations. Existing semantic-ID recommenders are typically trained with hard la"
+        "title": "Information-Theoretic Secure Aggregation With Heterogeneous Client Quantization",
+        "summary": "In federated learning (FL), secure aggregation enables a server to compute the sum of local model updates of $N$ clients, without revealing any information on the individual model updates to the server, beyond their sum. Different clients may be subject to het"
       },
       {
-        "title": "If at First You Don't Succeed, Backtrack: Lightweight Recovery for Frozen VLAs",
-        "summary": "Vision-Language-Action (VLA) models perform well on robotic manipulation, yet remain brittle once their own actions carry them into states their training data barely covers. Recovering from such failures usually requires recovery demonstrations, policy retrain"
+        "title": "Profiling a Frontier Agent with EBench: From Direct Control to Harness with Policy",
+        "summary": "Frontier multimodal large language models (MLLMs) can control robots without robot-specific training, but how their capabilities compare and interact with post-trained vision-language-action (VLA) and world action model (WAM) policies across manipulation deman"
       },
       {
-        "title": "Learning Positive Linear Combinations of ReLUs in Fully Polynomial Time",
-        "summary": "We study the fundamental problem of PAC learning positive linear combinations of $k$ arbitrary ReLU activations on $\\mathbb R ^d$ with respect to the Gaussian distribution, in $L 2$ loss. We give the first fully-polynomial time algorithm for this learning task"
+        "title": "Reva: Real-Time Vulnerability Detection through Contextual Probing of Large Language Models",
+        "summary": "A vulnerability costs more to fix the later it is discovered. As coding agents generate code faster than developers can review it, software needs a first line of defense screening each new function in real time. LLM agents have recently become capable of findi"
       },
       {
-        "title": "Yalda-Embedding: Open Development of a Competitive Persian Retrieval Model",
-        "summary": "Despite advances in multilingual text representations, effective dense retrieval for Persian remains constrained by the limited availability of language-specific training resources and compact embedding models. We present Yalda Embedding, a 595.8-million-param"
+        "title": "Understanding Jev-Style System One Models: Does Structure Reduce Selection Bias?",
+        "summary": "Selection bias in large language models (LLMs) can persist despite instructions to ignore presentation order or prompts that elicit reasoning. Recent efforts to reproduce Jev-style System One behavior have produced a growing family of models that predict proba"
       },
       {
-        "title": "ZENO: Nonlinear filtering with Zakai Equation Neural Operators",
-        "summary": "State inference and parameter learning for nonlinear filters is a core computation for scientific machine learning with varied applications in engineering and neuroscience. The unnormalized filtering distribution is governed by the Zakai equation, a stochastic"
+        "title": "Pretraining Knows What, Simulation Teaches How: Compositional Generalization in a Sim-Trained Robot Agent",
+        "summary": "A robot policy needs to understand what a task is asking for in a scene, and how to move the robot to accomplish that task. To achieve these two skills, we introduce Zero-real Agent Policy (ZAP), a recipe that teaches a small off-the-shelf vision-language mode"
       },
       {
-        "title": "Adaptive Frequency Threshold Byte Pair Encoding for Mixed Natural Language and Structured Symbolic Corpora",
-        "summary": "Modern language models rely on subwording tokenization to define the discrete units of input processing, typically using methods like Byte Pair Encoding (BPE) that treat whitespace as a fixed semantic boundary. This design is inherently limited, as many meanin"
+        "title": "Does VGGT Know What It Does Not Know?",
+        "summary": "Feed-forward 3D reconstruction models such as VGGT regress cameras and geometry in a single forward pass, but they report no uncertainty for the camera poses they predict: an incorrect relative pose looks no different from a correct one. We ask whether the fro"
       }
     ],
     "leaderboard": [
@@ -456,6 +456,36 @@
     "press": [
       {
         "source": "Breaking Defense",
+        "title": "How the Pentagon wants to buy cyber outcomes, not equipment",
+        "summary": "The Pentagon has been exploring a new paradigm dubbed Cyber Effects-as-a-Service, aiming to purchase specific outcomes as opposed to bespoke capabilities."
+      },
+      {
+        "source": "Breaking Defense",
+        "title": "2026 midterm cheat sheet: Which races to watch on defense",
+        "summary": "With pollsters predicting that Democrats will flip one or both chambers of Congress, there could be major changes to the roster of defense advocates on Capitol Hill."
+      },
+      {
+        "source": "Breaking Defense",
+        "title": "The new must-have capabilities for drones",
+        "summary": "Sponsored Electronic warfare, GPS denial, and battlefield attrition are driving new requirements for small UAS."
+      },
+      {
+        "source": "Breaking Defense",
+        "title": "USAF should buy newly designed air refuelers to meet China threat: Report",
+        "summary": "Although there’s a “temptation” to keep buying KC-46s, a plan to procure 75 more of the Boeing-made tankers should be an “upper limit” followed by a new, longer range tanker, the Hudson Institute’s Timothy Walton told Breaking Defense."
+      },
+      {
+        "source": "Breaking Defense",
+        "title": "Helsing rolls out Contra air defense design, plus two new inteceptors",
+        "summary": "The company claims the Contra system can track and engage “hundreds or thousands of drone and missile threats at the same time.”"
+      },
+      {
+        "source": "Breaking Defense",
+        "title": "Cyprus to acquire new offshore patrol vessel with ‘advanced’ naval systems from Israel",
+        "summary": "The new patrol vessel will be built by Israel Shipyards and “support expanded patrol, surveillance, and search-and-rescue missions,” according to Israel’s Ministry of Defense."
+      },
+      {
+        "source": "Breaking Defense",
         "title": "EXCLUSIVE: SOUTHCOM chief seeks unmanned river solution as he embraces autonomy",
         "summary": "In an interview with Breaking Defense, Gen. Francis Donovan said autonomous systems are “not just for testing anymore” but “taking the fight to the enemy.”"
       },
@@ -475,34 +505,14 @@
         "summary": "Johnson replaces longtime president Amy Gilliland, who was let go from the company earlier this month after almost a decade of leading the business unit."
       },
       {
-        "source": "Breaking Defense",
-        "title": "Space Force reveals first 6 ‘operational’ contracts for civil reserve support in space monitoring",
-        "summary": "Space Systems Command officials said the contracts are an initial step for the Commercial Augmentation Space Reserve (CASR) initiative, and don’t address the thornier issues of US rights to deny other customers service or reimbursement for"
+        "source": "DefenseScoop",
+        "title": "Gen. Caine urges defense logistics leaders to be ‘creative and entrepreneurial’ ahead of future fights",
+        "summary": "America’s top-ranking military officer spoke on the opening day of the annual Fall Meeting co-hosted by the National Defense Transportation Association and U.S. Transportation Command. The post Gen. Caine urges defense logistics leaders to"
       },
       {
-        "source": "Breaking Defense",
-        "title": "Kyiv eyes purchase of planned ICEYE, Nokia ‘sovereign’ communication sats",
-        "summary": "The letter of intent comes on the heels of the political dust up between US President Donald Trump and Elon Musk over a US move to throttle Ukraine’s Starshield access that has all but grounded the countries military drones in its war with"
-      },
-      {
-        "source": "Breaking Defense",
-        "title": "Qatari Barzan unveils aerial drones, unmanned surface vessels at Milipol 2026",
-        "summary": "“This is a significant achievement, particularly as we continue to expand Qatar’s domestic defence and security capabilities in a year where we have had to rise to a number of regional challenges,” the company said in a statement."
-      },
-      {
-        "source": "Breaking Defense",
-        "title": "HD Hyundai, Kiewit unveil plans for new US shipyard",
-        "summary": "The companies said they aim to build both US auxiliary and commercial vessels at the shipyard."
-      },
-      {
-        "source": "Breaking Defense",
-        "title": "Natilus secures Air Force contract to develop blended wing body aircraft",
-        "summary": "“We think now’s the right time” for a blended wing body design to make its debut, Natilus Chief Operating Officer Nolan Giblin told Breaking Defense."
-      },
-      {
-        "source": "Breaking Defense",
-        "title": "Space Force shifts into high gear on cislunar warfare, with RFIs coming soon",
-        "summary": "Maj. Gen. Stephen Purdy, the Space Force’s portfolio acquisition executive for advanced programs, said the service wants to field cislunar capabilities by the end of fiscal 2029."
+        "source": "DefenseScoop",
+        "title": "Anduril expanding into laptop manufacturing in partnership with Qualcomm",
+        "summary": "The companies plan to market the tech to government and military customers, among other potential buyers. The post Anduril expanding into laptop manufacturing in partnership with Qualcomm appeared first on DefenseScoop ."
       },
       {
         "source": "DefenseScoop",
@@ -543,50 +553,40 @@
         "source": "DefenseScoop",
         "title": "Air Force starting to game out sustainment framework for CCA drones",
         "summary": "Once the AI-enabled uncrewed systems are fielded, the Air Force will need its maintenance enterprise to help keep them flying and ready for combat. The post Air Force starting to game out sustainment framework for CCA drones appeared first"
-      },
-      {
-        "source": "DefenseScoop",
-        "title": "Army pilots AI-backed maintenance program to digitize manuals, streamline repairs",
-        "summary": "Army officials said soldiers can query AIAM for repair references, document maintenance issues for their supervisors to vet, connect with civilian logistics assistance representatives for help and access parts inventory. The post Army pilot"
-      },
-      {
-        "source": "DefenseScoop",
-        "title": "Space Force aims to beef up guardian presence for Centcom and other combatant commands",
-        "summary": "“We have proven that spacepower produces battlefield success. This means providing effective and well-equipped space forces, in the right quantities, to combatant commands on the front lines … and bringing space expertise directly to the fi"
       }
     ],
     "labs": [
       {
         "lab": "DoD",
         "items": [
+          "What's In a Name: 'War' Sends Clarifying Message to Adversaries About Departmental Mission",
+          "Junior ROTC Cadets Test Teamwork, Endurance at National Raider Challenge",
           "Project Agincourt Leaders Reach Out to Industry With Path Forward",
           "U.S., Australia, U.K. Launch Maritime Demonstration to Enhance Interoperability",
           "Air Force Research Lab Demonstrates Rocket Cargo Delivery",
-          "Hegseth, Guyanese President Establish Enhanced Military Partnership",
-          "Hegseth Lauds New American Golden Age During Arsenal of Freedom Tour Stop",
-          "Hegseth Praises Ohio Aerospace Workers During Arsenal of Freedom Tour"
+          "Hegseth, Guyanese President Establish Enhanced Military Partnership"
         ]
       },
       {
         "lab": "FedScoop",
         "items": [
+          "Records show White House, DOGE involvement in National Science Foundation grant terminations",
+          "Financial agency rule changes leave banks open to cyber threats, Elizabeth Warren warns",
           "America needs a national model for solving big problems with AI",
           "HHS sole-source award to Anthropic continues to raise questions",
           "Fighting fraud at financial agencies is ‘all about prevention’ and collaboration",
-          "NRC finalizes rule allowing commercial reactor license applicants to reuse DOE, DOD data",
-          "DHS consolidates software purchasing under $2.7B Carahsoft contract",
-          "Keeping a human in the AI loop is ‘untenable’ due to cuts, USDA IT official says"
+          "NRC finalizes rule allowing commercial reactor license applicants to reuse DOE, DOD data"
         ]
       },
       {
         "lab": "Federal News Network",
         "items": [
-          "Army’s Strategic Capital Initiative is ‘not slowing down’ under new leadership",
-          "Federal Movers & Shakers October 23, 2026",
-          "The battlefield has no boundaries: How the Iran war is redrawing the cyber threat map",
-          "Federal employees: What’s changing in FEHB for 2027 (and ways to save)",
-          "Army builds one-stop shop for civilian jobs, benefits and career development",
-          "Cybersecurity liability doesn’t necessarily start with a breach"
+          "Your Social Security Reality Check: Fear, facts and the fixes feds need",
+          "Data readiness is the foundation for AI-enabled JADC2",
+          "DoD issues guidance for procuring ‘unbiased’ AI systems",
+          "Government efficiency starts before the work begins",
+          "Citizen reports of problems with government programs can reveal larger issues",
+          "Inflation affects every retiree, but not all federal retirees receive the same cost-of-living protection"
         ]
       }
     ]
