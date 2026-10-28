@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-27T16:10:42.379Z",
-  "runNumber": 132,
+  "generatedAt": "2026-10-28T16:57:55.028Z",
+  "runNumber": 133,
   "situation": {
     "headline": "Assessment unavailable",
     "velocity": "STABLE",
@@ -61,23 +61,27 @@
   "groundTruth": [],
   "aiNews": {
     "headlines": [
-      "Anthropic's S-1 shows an 85% gross margin in H1 from running its models, a reality check for skeptics who said pay-as-you-go model sales wouldn't be profitable (Stephanie Palazzolo/The Information)",
-      "London-based Machenta, which is building an AI model that can teach robots new physical tasks after seeing them performed just once, raised a $40M seed (Rya Jetha/Business Insider)",
-      "Apple adds a beta AI assistant built on Apple's and OpenAI's models to Keynote, Pages, Numbers, and Logic Pro, plus MCP support to Keynote, Pages, and Numbers (Emma Roth/The Verge)",
-      "Dallas-based Disruptive raised $10B to invest in AI, defense, and software, doubling its AUM, and pivots from single-deal SPVs to a discretionary fund structure (Natasha Mascarenhas/Bloomberg)",
-      "Neocloud General Compute, which specializes in bare-metal infrastructure, raised a $100M Series A led by Blackbird and Abstract at an $800M post-money valuation (Tim Fernholz/TechCrunch)",
-      "Anduril and Qualcomm unveil BlueChip, a line of laptops designed and assembled in the US for defense and government; Anduril will begin taking orders in 2027 (Bloomberg)",
-      "Apple updates the 24-inch iMac with an M6, which has up to a 12-core CPU and up to a 12-core GPU, and a dual 16-core Neural Engine, for $1,499+ from November 6 (Apple)",
-      "Apple unveils a 14\" MacBook Pro with an M6, which has a 12-core CPU and a 12-core GPU, 16GB or 32GB of unified memory, and Wi-Fi 7, for $1,999+ from November 6 (Apple)",
-      "The FCC warns TP-Link that three of its routers violate power limits, which could bring more bans, and it may have submitted \"false or incorrect information\" (Bloomberg)",
-      "Study: non-English languages can consume far more AI tokens, with the most expensive language using 1.5x to 5x more than the cheapest, causing a \"tokenizer tax\" (Ananya Bhattacharya/Rest of World)",
-      "Sources: Trend Micro's TrendAI found Israeli adtech company Discover-Tech heavily targeted Starlink users in 100+ countries, likely to geolocate or surveil them (Raphael Satter/Reuters)",
-      "PayPal reports Q3 revenue up 2% YoY to $8.58B, below $8.71B est., TPV up 6% to $487.14B, and raises full-year adjusted EPS guidance to $5.60, above $5.39 est. (Elias Schisgall/Wall Street Journal)",
-      "Hyphenate, which develops reinforcement-learning-driven AI agents to automate corporate finance tasks, raised a $45M Series A, taking its total funding to $54M (Saritha Rai/Bloomberg)",
-      "Analysis: AI political groups have spent $78.5M on US federal candidates during the 2026 cycle; AI accelerationists spent $34M and safeguard-focused groups $39M (Luke Fountain/CNBC)",
-      "Anthropic's S-1 excludes Labs co-lead Ben Mann from its \"Continuing Founders\" and Founder LLC; Anthropic says \"it's still fair to refer to him as a co-founder\" (Zara Stone/The San Francisco Standard)"
+      "GitHub says it's seeing 7.4B commits per month, up from 2.9B in August, and has added 4M CPU cores and 160PB of storage in 2026 so far to support this growth (Frederic Lardinois/The New Stack)",
+      "GitHub says Copilot Fusion, which handles model selection and orchestration, is now generally available, releases the GitHub Copilot app, and more (Meredith Shubel/The New Stack)",
+      "Reddit rolls out a dual-feed homepage, with For You and Following feeds, joining TikTok, Instagram, and others in offering a For You feed (Aisha Malik/TechCrunch)",
+      "OpenAI says it's launching an election \"war room\" ahead of the US midterms to identify potential spread of misinfo or other efforts to disrupt the elections (Calder McHugh/Politico)",
+      "Nvidia debuts Nemotron 3.5 Transcribe, an open-weight model for multilingual audio transcription and translation, and Granary v2, its open-source speech dataset (Kyt Dotson/SiliconANGLE)",
+      "Foundry, a manufacturing-as-a-service startup that builds factories with robots powered by physical AI models, raised a $100M Series A led by Marlinspike (Rocket Drew/The Information)",
+      "Dropbox plans to cut 6% of its staff, or 200 jobs, costing $27M to $33M in severance and related costs, and says CTO Ali Dasdan will step down on November 18 (Anhata Rooprai/Reuters)",
+      "X adds an intrusive promotional animation of an arm reaching across the screen to direct users to a \"promote\" post button, targeting verified and Premium users (Andrew Liszewski/The Verge)",
+      "Chinese PCB maker Dongshan rises on its Hong Kong debut, after raising $1.3B in an IPO, below its $3B goal, at a $30B valuation, amid a tricky IPO market (Sangmi Cha/Bloomberg)",
+      "Amazon Kindle Paperwhite and Kindle Colorsoft review: premium feel, lightweight, nice colors, and snappy performance, but expensive after price increases (Nena Farrell/Wired)",
+      "Artificial Analysis launches the Intelligence Index v5, with new coding and science benchmarks, built on private datasets; Claude Opus 5.5 (max) leads at 58 (@artificialanlys)",
+      "Google unveils Google Multi-Party Compute (MPC), a digital-asset custody and security service in private preview, set for commercial availability in early 2027 (Aoyon Ashraf/CoinDesk)",
+      "Samsung unveils the $229 Galaxy Buds On, its first open-fit, C-shaped cuff earbuds to compete with Sony and Bose, designed with AI's help, shipping November 6 (Chris Welch/Bloomberg)",
+      "Etsy reports Q3 revenue up 11% YoY to $692.5M, above $668M est., net income of $853.5M after selling Depop, and gross merchandise sales up 9% YoY to $2.65B (Katherine Hamilton/Wall Street Journal)",
+      "Amazon unveils the $500 Echo Show 16, the $200 Echo Time alarm, and the $200+ Alexa Photo Frame, raises smart speaker prices, and previews Alexa Home Map (Chris Welch/Bloomberg)"
     ],
     "brief": [
+      {
+        "title": "What Anthropic’s IPO Filing Reveals",
+        "summary": "Explosive revenue growth, $132 billion in cash, and hundreds of billions in compute commitments. NLW breaks down what Anthropic’s IPO filing reveals about its business—and the future growth needed to justify its enormous bets. In the headlines: OpenAI’s scientific breakthroughs, GPT-6.1 Terra’s comp"
+      },
       {
         "title": "4 Questions for AI This Week",
         "summary": "Is China closing the AI gap? Is cyber chaos the new normal? Is data center funding drying up? And what happens if Anthropic’s IPO disappoints? From Kimi K3.1 to rogue agent swarms to Elon Musk’s debt market warning, NLW examines the four questions shaping AI this week. Listen to the new How We Got H"
@@ -105,200 +109,196 @@
       {
         "title": "Why AI Companies Are Betting Personality Beats Intelligence",
         "summary": "As AI models become more capable, personality is becoming a competitive battleground. From the GPT-4o backlash to Meta’s Muse and ChatGPT’s Dots, NLW explores why how an AI feels to use could increasingly determine which products win—and which models work best for different tasks. In the headlines:"
-      },
-      {
-        "title": "The AI Wealth Problem",
-        "summary": "Anthropic’s plan to devote billions to public benefit raises a bigger question: who gets to decide how AI wealth is shared? NLW explores the collision between philanthropy, concentrated power, and democratic accountability. In the headlines: OpenCode’s major security breach, mounting AI bubble fears"
       }
     ],
     "trendingModels": [
       {
-        "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
-        "pipeline": "image-text-to-text",
-        "likes": 3322,
-        "downloads": 105667,
-        "origin": "CN"
-      },
-      {
         "id": "RecursiveSI/flint",
         "pipeline": "text-generation",
-        "likes": 952,
-        "downloads": 10574,
+        "likes": 1140,
+        "downloads": 14047,
         "origin": "OTHER"
+      },
+      {
+        "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+        "pipeline": "image-text-to-text",
+        "likes": 3499,
+        "downloads": 116770,
+        "origin": "CN"
       },
       {
         "id": "Nanbeige/Nanbeige4.3-33B",
         "pipeline": "text-generation",
-        "likes": 642,
-        "downloads": 4785,
+        "likes": 705,
+        "downloads": 7412,
         "origin": "OTHER"
       },
       {
         "id": "XHToken/Spark-X2.6-4B",
         "pipeline": "text-generation",
-        "likes": 756,
-        "downloads": 6191,
-        "origin": "OTHER"
-      },
-      {
-        "id": "black-forest-labs/flux-3-image-klein-comfy",
-        "pipeline": "image-to-image",
-        "likes": 1815,
-        "downloads": 750694,
-        "origin": "OTHER"
-      },
-      {
-        "id": "Lightricks/LTX-2.5",
-        "pipeline": "image-to-video",
-        "likes": 9533,
-        "downloads": 2163739,
+        "likes": 841,
+        "downloads": 8222,
         "origin": "OTHER"
       },
       {
         "id": "MiniMaxAI/MiniMax-M3.1-Flash",
         "pipeline": "image-text-to-text",
-        "likes": 401,
-        "downloads": 11075,
+        "likes": 444,
+        "downloads": 13247,
         "origin": "CN"
+      },
+      {
+        "id": "black-forest-labs/flux-3-image-klein-comfy",
+        "pipeline": "image-to-image",
+        "likes": 1930,
+        "downloads": 798943,
+        "origin": "OTHER"
       },
       {
         "id": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
         "pipeline": "text-generation",
-        "likes": 378,
-        "downloads": 1105751,
+        "likes": 427,
+        "downloads": 1377570,
         "origin": "CN"
+      },
+      {
+        "id": "Lightricks/LTX-2.5",
+        "pipeline": "image-to-video",
+        "likes": 9675,
+        "downloads": 2234788,
+        "origin": "OTHER"
+      },
+      {
+        "id": "LiquidAI/LFM3-1.7B",
+        "pipeline": "text-generation",
+        "likes": 332,
+        "downloads": 8892,
+        "origin": "ALLIED"
       },
       {
         "id": "Qwen/Qwen3.8-27B",
         "pipeline": "image-text-to-text",
-        "likes": 18512,
-        "downloads": 7522728,
+        "likes": 18598,
+        "downloads": 7515620,
         "origin": "CN"
       },
       {
         "id": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
         "pipeline": "text-to-image",
-        "likes": 5164,
-        "downloads": 2201569,
+        "likes": 5237,
+        "downloads": 2182980,
         "origin": "CN"
       },
       {
-        "id": "InternScience/Sage-A1.5",
-        "pipeline": "text-generation",
-        "likes": 327,
-        "downloads": 6613,
-        "origin": "OTHER"
+        "id": "baidu/Unlimited-OCR-2",
+        "pipeline": "image-text-to-text",
+        "likes": 310,
+        "downloads": 8357,
+        "origin": "CN"
       },
       {
         "id": "unsloth/flint-GGUF",
         "pipeline": "text-generation",
-        "likes": 280,
-        "downloads": 149888,
+        "likes": 308,
+        "downloads": 178000,
         "origin": "OTHER"
+      },
+      {
+        "id": "tencent/Hy-SimulMT-30B-A3B-FP8",
+        "pipeline": "translation",
+        "likes": 281,
+        "downloads": 165,
+        "origin": "CN"
       },
       {
         "id": "OpenMOSS-Team/MOSS-Image-SFT",
         "pipeline": "text-to-image",
-        "likes": 771,
-        "downloads": 13253,
-        "origin": "OTHER"
-      },
-      {
-        "id": "fishaudio/drama-3",
-        "pipeline": "text-to-speech",
-        "likes": 1053,
-        "downloads": 24996,
+        "likes": 800,
+        "downloads": 14282,
         "origin": "OTHER"
       },
       {
         "id": "orcarouter/DeepSeek-V4.1-Flash-1017-abliterated-GGUF",
         "pipeline": "text-generation",
-        "likes": 259,
-        "downloads": 13441,
+        "likes": 299,
+        "downloads": 27056,
         "origin": "CN"
       },
       {
         "id": "HuggingFaceBio/Carbon-X",
         "pipeline": "text-generation",
-        "likes": 217,
-        "downloads": 1595,
+        "likes": 243,
+        "downloads": 2305,
         "origin": "OTHER"
       },
       {
-        "id": "Comfy-Org/MOSS-Image",
-        "pipeline": "",
-        "likes": 498,
-        "downloads": 2760550,
-        "origin": "OTHER"
-      },
-      {
-        "id": "Comfy-Org/Fibo-2.0",
-        "pipeline": "",
-        "likes": 201,
-        "downloads": 170383,
+        "id": "InternScience/Sage-A1.5",
+        "pipeline": "text-generation",
+        "likes": 354,
+        "downloads": 8218,
         "origin": "OTHER"
       }
     ],
     "research": [
       {
-        "title": "Retriever-Free Retrieval: Navigating Documents with Decision Models",
-        "summary": "While language models have become dramatically more capable, retrieval still largely relies on lexical matching or similarity in fixed embedding spaces. This creates a capability asymmetry: what the retriever fails to find, even the strongest generator cannot"
+        "title": "Honeycomb-Surfels: Compact Hexagonal Primitives for Efficient Scene Rendering and Reconstruction",
+        "summary": "Novel view synthesis and 3D reconstruction have advanced rapidly with radiance fields and splatting, yet their memory and computational demands limit their use in resource-constrained settings. We introduce Hexels: novel planar hexagonal surface elements with"
       },
       {
-        "title": "Center-of-Mass Interpretation of Evolution Strategies",
-        "summary": "Evolution strategies (ES) update a model by sampling a population of perturbed copies, scoring each one, and moving in the reward-weighted direction of the perturbations. This update is usually presented as an estimate of a smoothed gradient. We present a geom"
+        "title": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
+        "summary": "Vision-Language-Action (VLA) models have made substantial progress in robotic manipulation, but their generalization remains constrained by the diversity and coverage of action-labeled robot demonstrations. Human videos provide much broader behavioral and envi"
       },
       {
-        "title": "Auto-Research Arena: Benchmarking and Advancing Auto-Research in Language Modeling",
-        "summary": "As autonomous research systems become more capable, benchmarks must both evaluate their performance and support meaningful research progress. We introduce Auto-Research Arena, a multi-target benchmark for evaluating autonomous research systems and discovering"
+        "title": "When Should We Intervene at Test Time?",
+        "summary": "Test-time adaptation helps a deployed model respond to changing inputs, but the same intervention can rescue one batch and damage the next. Updating normalization statistics, for example, can improve corrupted images yet fail when a batch contains mostly one c"
       },
       {
-        "title": "Learning Force-Reactive Humanoid Loco-Manipulation",
-        "summary": "Many everyday tasks require controlling contact force as well as motion. On a humanoid, this force must often be coordinated across both hands and the whole body, and cannot be specified by kinematic trajectories alone. Therefore, we present FLORE, a framework"
+        "title": "Heads of Security: Learned Attention Gates Improve Prompt Injection Robustness",
+        "summary": "We introduce Heads of Security (HoS), a prompt injection defense that enforces instruction-data separation via a small set of learned per-head attention gates. HoS learns how each head should redistribute attention between trusted and untrusted tokens, enablin"
       },
       {
-        "title": "On the stability of learning",
-        "summary": "Learning algorithms are usually analyzed under the assumption that informative gradients are continuously available. But this is not always true---learning signals in biological neural networks, for example, may be sparse, local, and only intermittently availa"
+        "title": "Attention as Lattice Gauge Theory: Relations Interact Only Through Wilson Loops",
+        "summary": "Relations compose through the entity they share - Alice is Bob's mother and Bob is Carol's father, so Alice is Carol's grandmother - and the order matters, since a father's mother is not a mother's father; verifying a composed relation means closing the loop."
       },
       {
-        "title": "Patient-specific rubric-based evaluation of large language models across longitudinal cancer care",
-        "summary": "Large language models (LLMs) show promise in specialty medicine, yet existing evaluations largely focus on isolated clinical encounters rather than tracking how clinical responsibilities evolve across a longitudinal care pathway. Here we introduce NPC-RubricBe"
+        "title": "KPPax: preprocess differentiable kinetic ODE for machine learning in atmospheric chemistry",
+        "summary": "Atmospheric chemical mechanisms are commonly distributed in the language of the Kinetic PreProcessor (KPP), which generates efficient Fortran or C code but does not fit into the differentiable programming frameworks in which machine-learning models are develop"
       },
       {
-        "title": "Preserve to Expand: Source-Aware Adaptation and Model Merging for Multilingual LLM-Based ASR",
-        "summary": "Expanding multilingual ASR systems to new languages is challenging when adaptation must preserve previously supported languages without replaying source-language training data. We study this problem in connector-based Speech LLMs, where a trainable connector m"
+        "title": "Pushing Dexterity and Safety for In-Hand Object Pose Reaching That Works Remarkably Well",
+        "summary": "Dexterous manipulation with multi-fingered hands is the next frontier of robotics, yet learned hand skills remain limited to simple grasps or basic repeated motions, such as rotating an object. As robots attempt more demanding in-hand maneuvers, safety, such a"
       },
       {
-        "title": "Work Agents: Systems, Capabilities, and Optimization",
-        "summary": "As foundation models evolve from information generation to digital work execution, agents are increasingly capable of completing complex tasks across tools, applications, and workflows. However, existing research lacks a unified perspective on how agents relia"
+        "title": "GEPA-Curator: Curated Learning for Self Improving Agents",
+        "summary": "Large Language Models (LLMs) are increasingly used in multi-turn agentic workloads that require sustained interaction with complex environments. Existing reflective prompt optimizers such as GEPA learn from failed rollouts, but agentic failures can also come f"
       },
       {
-        "title": "I-HITL: Inalienable Human-in-the-Loop",
-        "summary": "Human oversight is a pillar of AI safety. It is often exercised by a human in the loop (HITL) who approves critical actions taken by an AI agent. AI agents' increasing ability to bypass guardrails, though, raises the question of how to enforce HITL robustly. W"
+        "title": "Can LLMs Uncover Hidden Physical Laws through Free Exploration?",
+        "summary": "Scientific discovery often begins with an unexpected observation that prompts a new research question. In a world with altered physical laws, can large language models (LLMs) notice unexpected behavior, such as heavier objects falling more slowly, and discover"
       },
       {
-        "title": "Information-Theoretic Secure Aggregation With Heterogeneous Client Quantization",
-        "summary": "In federated learning (FL), secure aggregation enables a server to compute the sum of local model updates of $N$ clients, without revealing any information on the individual model updates to the server, beyond their sum. Different clients may be subject to het"
+        "title": "Scaling Laws for Tool-Use Agents via Controllable Environment Synthesis",
+        "summary": "We explore how to build performant large language model (LLM) tool-use agents that complete complex, multi-step tasks. Specifically, we study how data composition in synthetically generated tool-use environments affects the training of such agents. To do so, w"
       },
       {
-        "title": "Profiling a Frontier Agent with EBench: From Direct Control to Harness with Policy",
-        "summary": "Frontier multimodal large language models (MLLMs) can control robots without robot-specific training, but how their capabilities compare and interact with post-trained vision-language-action (VLA) and world action model (WAM) policies across manipulation deman"
+        "title": "MuonGS: Pretraining LLMs with Relaxed Weight-Norm Control",
+        "summary": "Weight decay and explicit weight-norm constraints improve optimizer performance in language model pretraining, yet a unified understanding of why such control helps and how much is needed remains incomplete. We analyze norm control in Muon over the entire trai"
       },
       {
-        "title": "Reva: Real-Time Vulnerability Detection through Contextual Probing of Large Language Models",
-        "summary": "A vulnerability costs more to fix the later it is discovered. As coding agents generate code faster than developers can review it, software needs a first line of defense screening each new function in real time. LLM agents have recently become capable of findi"
+        "title": "Multi-State Linear Attention with Generalized Second-Order Routing",
+        "summary": "Self-attention plays a key role in long-sequence modeling, but its quadratic time complexity fundamentally limits the scaling of Large Language Models. Recently, Multi-State Linear Attention (MSLA) mechanisms have been proposed to make sequence modeling more e"
       },
       {
-        "title": "Understanding Jev-Style System One Models: Does Structure Reduce Selection Bias?",
-        "summary": "Selection bias in large language models (LLMs) can persist despite instructions to ignore presentation order or prompts that elicit reasoning. Recent efforts to reproduce Jev-style System One behavior have produced a growing family of models that predict proba"
+        "title": "Metacognitive Decoding: Efficient Inference for Diffusion Language Agents",
+        "summary": "Diffusion language models offer a promising path to efficient agents through parallel token generation. However, efficient interaction requires adapting both where computation is spent and how much text is generated. We introduce a metacognitive controller tha"
       },
       {
-        "title": "Pretraining Knows What, Simulation Teaches How: Compositional Generalization in a Sim-Trained Robot Agent",
-        "summary": "A robot policy needs to understand what a task is asking for in a scene, and how to move the robot to accomplish that task. To achieve these two skills, we introduce Zero-real Agent Policy (ZAP), a recipe that teaches a small off-the-shelf vision-language mode"
+        "title": "What Improves During Pretraining? Tracking Knowledge Acquisition with Point-in-Time Models",
+        "summary": "Language models pretrained on web corpora collected over multiple years learn both general and domain-specific knowledge. How these different kinds of knowledge are learned as pretraining progresses remains unclear. Recent point-in-time models trained on web s"
       },
       {
-        "title": "Does VGGT Know What It Does Not Know?",
-        "summary": "Feed-forward 3D reconstruction models such as VGGT regress cameras and geometry in a single forward pass, but they report no uncertainty for the camera poses they predict: an incorrect relative pose looks no different from a correct one. We ask whether the fro"
+        "title": "Rare, Relevant, and Still Wrong: How Memory Fails LLM Group Decisions",
+        "summary": "When an LLM group's discussion is compressed into a short memory for a final decision maker, what should the memory keep? Two natural heuristics keep the rarest claims or the claims relevant to the decision criteria. On hidden-profile tasks both look attractiv"
       }
     ],
     "leaderboard": [
@@ -456,53 +456,63 @@
     "press": [
       {
         "source": "Breaking Defense",
-        "title": "How the Pentagon wants to buy cyber outcomes, not equipment",
-        "summary": "The Pentagon has been exploring a new paradigm dubbed Cyber Effects-as-a-Service, aiming to purchase specific outcomes as opposed to bespoke capabilities."
+        "title": "Canadian firms line up for potential GCAP, Gripen work",
+        "summary": "Back in July, the Italian Ministry of Defense told Breaking Defense that at that stage, being an observer did not entail that Canada had an industrial role in GCAP, adding that it was infeasible then “to predict the timing, modalities, or c"
       },
       {
         "source": "Breaking Defense",
-        "title": "2026 midterm cheat sheet: Which races to watch on defense",
-        "summary": "With pollsters predicting that Democrats will flip one or both chambers of Congress, there could be major changes to the roster of defense advocates on Capitol Hill."
+        "title": "UK commits to 3 percent GDP on defense by 2030, new investment partnerships with industry",
+        "summary": "Chancellor John Healey said that the UK’s recent Defence Investment Plan would be “fully” funded, indicating the money for defense would come from cuts to other priorities."
       },
       {
         "source": "Breaking Defense",
-        "title": "The new must-have capabilities for drones",
-        "summary": "Sponsored Electronic warfare, GPS denial, and battlefield attrition are driving new requirements for small UAS."
+        "title": "How General Atomics views Europe’s unmanned future",
+        "summary": "In this fireside chat, Dave Alexander of General Atomics Aeronautical Systems talks through his company’s strategy for the European market."
       },
       {
         "source": "Breaking Defense",
-        "title": "USAF should buy newly designed air refuelers to meet China threat: Report",
-        "summary": "Although there’s a “temptation” to keep buying KC-46s, a plan to procure 75 more of the Boeing-made tankers should be an “upper limit” followed by a new, longer range tanker, the Hudson Institute’s Timothy Walton told Breaking Defense."
+        "title": "Navy faces ‘years-long’ maintenance crunch amid record-breaking, extended deployments",
+        "summary": "Extended deployments in the Middle East could compound existing maintenance delays, with Navy leaders warning that returning ships will strain shipyard capacity and force trade-offs between repairs and modernization."
       },
       {
         "source": "Breaking Defense",
-        "title": "Helsing rolls out Contra air defense design, plus two new inteceptors",
-        "summary": "The company claims the Contra system can track and engage “hundreds or thousands of drone and missile threats at the same time.”"
+        "title": "Startup Biosphere wins Pentagon contract to scale up production of key chemicals",
+        "summary": "The biomanufacturing facility will boast 20,000 liters of UV-sterilized vats, able to brew anything from “bio-cement” for helipads to explosives for Hellfire missiles."
       },
       {
         "source": "Breaking Defense",
-        "title": "Cyprus to acquire new offshore patrol vessel with ‘advanced’ naval systems from Israel",
-        "summary": "The new patrol vessel will be built by Israel Shipyards and “support expanded patrol, surveillance, and search-and-rescue missions,” according to Israel’s Ministry of Defense."
+        "title": "Is the Finnish-Norwegian call with Putin a crack in Nordic resolve, or the start of a new path?",
+        "summary": "Western European leaders have largely avoided speaking with Putin since Russia’s full-scale invasion of Ukraine in February 2022."
       },
       {
         "source": "Breaking Defense",
-        "title": "EXCLUSIVE: SOUTHCOM chief seeks unmanned river solution as he embraces autonomy",
-        "summary": "In an interview with Breaking Defense, Gen. Francis Donovan said autonomous systems are “not just for testing anymore” but “taking the fight to the enemy.”"
+        "title": "Australia pushes to beef up air defenses",
+        "summary": "Australia expects to select the winning platform for LAND 6504 in late 2027 following a RFP that is expected in the early part of the year."
       },
       {
         "source": "Breaking Defense",
-        "title": "Is the Pentagon’s demand signal for drones working? It depends on who you ask.",
-        "summary": "“There’s a lot of positive signaling, but we need to see the whites of the eyes: We need to see sustained, normalized demand,” said James Slider, CEO of Performance Drone Works."
+        "title": "China has tripled its satellite fleet since 2018 as expansion continues: DIA",
+        "summary": "The Defense Intelligence Agency’s third iteration of its unclassified report on space threats also includes a never-before released image of China’s"
       },
       {
         "source": "Breaking Defense",
-        "title": "Unmanned systems take center stage at Turkish Ateş Serbest military demonstration",
-        "summary": "The highlight of the exercise may have been the Turkish military showing off a new drone for the first time: Turkish Aerospace Industries’ Ayaz, a turbojet-powered one-way attack unmanned aerial vehicle."
+        "title": "Defense Department selects Poland for new PAC-3 maintenance facility",
+        "summary": "The US, in partnership with Lockheed Martin, Poland, Germany, the Netherlands and Sweden, announced the new facility aimed at scaling and speeding up Patriot interceptor repairs."
       },
       {
         "source": "Breaking Defense",
-        "title": "GDIT announces Amy Johnson as new president",
-        "summary": "Johnson replaces longtime president Amy Gilliland, who was let go from the company earlier this month after almost a decade of leading the business unit."
+        "title": "A more flexible way to defend maneuver forces from drones that doesn’t tie them down",
+        "summary": "Sponsored Short-range air defense that is designed to move and adapt regardless of vehicle."
+      },
+      {
+        "source": "DefenseScoop",
+        "title": "Army taps AWS and WWT to boost AI-enabled cybersecurity initiative",
+        "summary": "“Partnering with commercial industry is a national security imperative for the Army, as the private sector drives rapid innovation in superintelligence, cloud architecture and cyber operations capabilities,” Col. David Bergmann said. The po"
+      },
+      {
+        "source": "DefenseScoop",
+        "title": "Air Force launches next phase of hypersonic missile program with $694M contract award for ARRW",
+        "summary": "DefenseScoop talked to analysts about the implications of the deal. The post Air Force launches next phase of hypersonic missile program with $694M contract award for ARRW appeared first on DefenseScoop ."
       },
       {
         "source": "DefenseScoop",
@@ -543,50 +553,40 @@
         "source": "DefenseScoop",
         "title": "Army Special Forces leaders see promise, high demand for new robotics technician integrator job",
         "summary": "Special Forces leaders told DefenseScoop they believed the technicians will bring foundational change, but recognized high demand for the new role as the service charts the program’s path. The post Army Special Forces leaders see promise, h"
-      },
-      {
-        "source": "DefenseScoop",
-        "title": "Former U.S. officials urge D.C. Circuit to reconsider decision in Anthropic-Pentagon fight",
-        "summary": "In a new legal brief, they warned that the high-stakes ruling will “threaten all defense contractors.” The post Former U.S. officials urge D.C. Circuit to reconsider decision in Anthropic-Pentagon fight appeared first on DefenseScoop ."
-      },
-      {
-        "source": "DefenseScoop",
-        "title": "Air Force starting to game out sustainment framework for CCA drones",
-        "summary": "Once the AI-enabled uncrewed systems are fielded, the Air Force will need its maintenance enterprise to help keep them flying and ready for combat. The post Air Force starting to game out sustainment framework for CCA drones appeared first"
       }
     ],
     "labs": [
       {
         "lab": "DoD",
         "items": [
-          "What's In a Name: 'War' Sends Clarifying Message to Adversaries About Departmental Mission",
-          "Junior ROTC Cadets Test Teamwork, Endurance at National Raider Challenge",
-          "Project Agincourt Leaders Reach Out to Industry With Path Forward",
-          "U.S., Australia, U.K. Launch Maritime Demonstration to Enhance Interoperability",
-          "Air Force Research Lab Demonstrates Rocket Cargo Delivery",
-          "Hegseth, Guyanese President Establish Enhanced Military Partnership"
+          "Assistant Secretary Says There's 'Exceptional Interest' in the Next Great American Base",
+          "Caine Says Super Intelligence Is a Strategic Priority",
+          "Transcom Commander Draws Connection Between Hope, Lethality",
+          "Hegseth Swears In Air Force General After Vaccine-Mandated Early Retirement",
+          "Army Battery Sharpens Skills During Nighttime Reload Training",
+          "What's In a Name: 'War' Sends Clarifying Message to Adversaries About Departmental Mission"
         ]
       },
       {
         "lab": "FedScoop",
         "items": [
+          "DHS sunsets its Acquisition Planning Forecast System",
+          "Scale publishes first AI benchmark through CAISSI partnership",
+          "GSA expands OneGov agreement with Anthropic, touting steep discounts",
+          "What do agencies get now that USAi isn’t free? GSA doing the ‘boring’ work for them",
           "Records show White House, DOGE involvement in National Science Foundation grant terminations",
-          "Financial agency rule changes leave banks open to cyber threats, Elizabeth Warren warns",
-          "America needs a national model for solving big problems with AI",
-          "HHS sole-source award to Anthropic continues to raise questions",
-          "Fighting fraud at financial agencies is ‘all about prevention’ and collaboration",
-          "NRC finalizes rule allowing commercial reactor license applicants to reuse DOE, DOD data"
+          "Financial agency rule changes leave banks open to cyber threats, Elizabeth Warren warns"
         ]
       },
       {
         "lab": "Federal News Network",
         "items": [
-          "Your Social Security Reality Check: Fear, facts and the fixes feds need",
-          "Data readiness is the foundation for AI-enabled JADC2",
-          "DoD issues guidance for procuring ‘unbiased’ AI systems",
-          "Government efficiency starts before the work begins",
-          "Citizen reports of problems with government programs can reveal larger issues",
-          "Inflation affects every retiree, but not all federal retirees receive the same cost-of-living protection"
+          "White House chooses 11 new fellows to work with agencies on key priorities",
+          "Federal Retirement Checklist: 7 key benefits you can’t afford to ignore",
+          "Whoever wins in November, the career civil service needs rules that last",
+          "Industry, legal experts urge FAR Council to set standards for AI in federal procurement",
+          "SSA touts shorter wait times as its digital-first approach meets union pushback",
+          "Twenty years, four agencies, one unanswered question"
         ]
       }
     ]
