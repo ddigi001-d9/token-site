@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-28T16:57:55.028Z",
-  "runNumber": 133,
+  "generatedAt": "2026-10-29T17:17:31.743Z",
+  "runNumber": 134,
   "situation": {
     "headline": "Assessment unavailable",
     "velocity": "STABLE",
@@ -61,23 +61,27 @@
   "groundTruth": [],
   "aiNews": {
     "headlines": [
-      "GitHub says it's seeing 7.4B commits per month, up from 2.9B in August, and has added 4M CPU cores and 160PB of storage in 2026 so far to support this growth (Frederic Lardinois/The New Stack)",
-      "GitHub says Copilot Fusion, which handles model selection and orchestration, is now generally available, releases the GitHub Copilot app, and more (Meredith Shubel/The New Stack)",
-      "Reddit rolls out a dual-feed homepage, with For You and Following feeds, joining TikTok, Instagram, and others in offering a For You feed (Aisha Malik/TechCrunch)",
-      "OpenAI says it's launching an election \"war room\" ahead of the US midterms to identify potential spread of misinfo or other efforts to disrupt the elections (Calder McHugh/Politico)",
-      "Nvidia debuts Nemotron 3.5 Transcribe, an open-weight model for multilingual audio transcription and translation, and Granary v2, its open-source speech dataset (Kyt Dotson/SiliconANGLE)",
-      "Foundry, a manufacturing-as-a-service startup that builds factories with robots powered by physical AI models, raised a $100M Series A led by Marlinspike (Rocket Drew/The Information)",
-      "Dropbox plans to cut 6% of its staff, or 200 jobs, costing $27M to $33M in severance and related costs, and says CTO Ali Dasdan will step down on November 18 (Anhata Rooprai/Reuters)",
-      "X adds an intrusive promotional animation of an arm reaching across the screen to direct users to a \"promote\" post button, targeting verified and Premium users (Andrew Liszewski/The Verge)",
-      "Chinese PCB maker Dongshan rises on its Hong Kong debut, after raising $1.3B in an IPO, below its $3B goal, at a $30B valuation, amid a tricky IPO market (Sangmi Cha/Bloomberg)",
-      "Amazon Kindle Paperwhite and Kindle Colorsoft review: premium feel, lightweight, nice colors, and snappy performance, but expensive after price increases (Nena Farrell/Wired)",
-      "Artificial Analysis launches the Intelligence Index v5, with new coding and science benchmarks, built on private datasets; Claude Opus 5.5 (max) leads at 58 (@artificialanlys)",
-      "Google unveils Google Multi-Party Compute (MPC), a digital-asset custody and security service in private preview, set for commercial availability in early 2027 (Aoyon Ashraf/CoinDesk)",
-      "Samsung unveils the $229 Galaxy Buds On, its first open-fit, C-shaped cuff earbuds to compete with Sony and Bose, designed with AI's help, shipping November 6 (Chris Welch/Bloomberg)",
-      "Etsy reports Q3 revenue up 11% YoY to $692.5M, above $668M est., net income of $853.5M after selling Depop, and gross merchandise sales up 9% YoY to $2.65B (Katherine Hamilton/Wall Street Journal)",
-      "Amazon unveils the $500 Echo Show 16, the $200 Echo Time alarm, and the $200+ Alexa Photo Frame, raises smart speaker prices, and previews Alexa Home Map (Chris Welch/Bloomberg)"
+      "SuperMe, which generates AI-powered chats with simulated profiles of prominent industry experts to let users ask questions, raised $20M (Ivan Mehta/TechCrunch)",
+      "Source: Dulo, a startup co-founded by Google veteran Sebastian Thrun to build \"foundation models for hardware design\", raised a $130M seed (Rocket Drew/The Information)",
+      "Alphabet discloses $1T+ in purchase commitments, future leases, and other obligations; its Q3 filing shows $98.5B in contingent commitments, up $23B from Q2 (Davey Alba/Bloomberg)",
+      "Alphabet's stock falls 12%+, wiping a record $500B from its market cap, after reporting negative cash flow amid its AI spending; the Nasdaq falls 1.4%+ (Stephen Morris/Financial Times)",
+      "Airbnb spent $12.6M+ since 2025 to become a top LA political contributor, backing Mayor Karen Bass and pushing for friendlier rules ahead of the 2028 Olympics (Liam Dillon/Politico)",
+      "Canada-based Cohere completes the first close of a round that it expects to total up to $5B, with Canada agreeing to invest up to $1.14B, at a $20.5B valuation (Bloomberg)",
+      "Sources: Situational Awareness is pitching clients to invest in Fluidstack alongside it in a round that values the neocloud at $40B, up from $18B in September (Bloomberg)",
+      "The UK FCA, which sued Justin Sun-linked crypto exchange HTX in 2025 for \"unlawfully promoting crypto asset services\", says HTX will exit the UK in a settlement (Financial Times)",
+      "Collective, which uses AI to automate bookkeeping for solo business owners, raised a $40M Series B and $60M in nondilutive capital from GC's Customer Value Fund (Natalie Breymeyer/Axios)",
+      "Ottawa-based Solink, which uses AI to pull data from already-installed security cameras, raised $100M+ led by Vertu Capital, bringing its total raised to $198M+ (Duncan Riley/SiliconANGLE)",
+      "Thrive Holdings agrees to acquire ADT in an all-cash take-private deal, valuing ADT at $7.6B in equity value, a 46% premium over its October 27 closing price (Claire Rychlewski/Axios)",
+      "Mistral releases the weights for Mistral Large 4, or Le Chonk, and says it rivals top open models such as GLM-5.3 on the Artificial Analysis Coding Agent Index (Radhika Rajkumar/ZDNET)",
+      "Serval, which offers AI agents for enterprise IT operations like access management, raised $150M led by Sequoia at a $3B valuation, up from $1B in December 2025 (Harshita Mary Varghese/Reuters)",
+      "Wabi, which is building an AI assistant that integrates into group chats and can take actions like booking appointments, raised $55M at a $1.25B valuation (Micah Barkley/Bloomberg)",
+      "Sources: Microsoft is seeking to raise $25B+ in its first US investment-grade bond sale since 2017, when it raised $17B, to fund AI-related capital expenditures (Bloomberg)"
     ],
     "brief": [
+      {
+        "title": "AI Can Now Create Worlds You Can Change in Real Time",
+        "summary": "Google’s Genie 4 brings AI-generated worlds closer to reality, with live prompting, native audio, and more realistic interactions. NLW explores what this means for gaming, robotics, and the path from impressive demos to useful tools. Plus: Anthropic’s one-person biotech acquisition and the debate ov"
+      },
       {
         "title": "What Anthropic’s IPO Filing Reveals",
         "summary": "Explosive revenue growth, $132 billion in cash, and hundreds of billions in compute commitments. NLW breaks down what Anthropic’s IPO filing reveals about its business—and the future growth needed to justify its enormous bets. In the headlines: OpenAI’s scientific breakthroughs, GPT-6.1 Terra’s comp"
@@ -105,138 +109,134 @@
       {
         "title": "How AI Is Changing What Work Means",
         "summary": "Why is a financial research firm using AI to design proteins that target scorpion venom? Because AI is changing what work means—and what businesses are capable of doing. Citrini Research’s unexpected experiment opens up bigger questions about who gets to do science, whether AI labs will compete with"
-      },
-      {
-        "title": "Why AI Companies Are Betting Personality Beats Intelligence",
-        "summary": "As AI models become more capable, personality is becoming a competitive battleground. From the GPT-4o backlash to Meta’s Muse and ChatGPT’s Dots, NLW explores why how an AI feels to use could increasingly determine which products win—and which models work best for different tasks. In the headlines:"
       }
     ],
     "trendingModels": [
       {
-        "id": "RecursiveSI/flint",
-        "pipeline": "text-generation",
-        "likes": 1140,
-        "downloads": 14047,
-        "origin": "OTHER"
-      },
-      {
         "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
         "pipeline": "image-text-to-text",
-        "likes": 3499,
-        "downloads": 116770,
+        "likes": 3722,
+        "downloads": 131062,
         "origin": "CN"
       },
       {
         "id": "Nanbeige/Nanbeige4.3-33B",
         "pipeline": "text-generation",
-        "likes": 705,
-        "downloads": 7412,
+        "likes": 759,
+        "downloads": 9655,
+        "origin": "OTHER"
+      },
+      {
+        "id": "RecursiveSI/flint",
+        "pipeline": "text-generation",
+        "likes": 1232,
+        "downloads": 16598,
         "origin": "OTHER"
       },
       {
         "id": "XHToken/Spark-X2.6-4B",
         "pipeline": "text-generation",
-        "likes": 841,
-        "downloads": 8222,
-        "origin": "OTHER"
-      },
-      {
-        "id": "MiniMaxAI/MiniMax-M3.1-Flash",
-        "pipeline": "image-text-to-text",
-        "likes": 444,
-        "downloads": 13247,
-        "origin": "CN"
-      },
-      {
-        "id": "black-forest-labs/flux-3-image-klein-comfy",
-        "pipeline": "image-to-image",
-        "likes": 1930,
-        "downloads": 798943,
-        "origin": "OTHER"
-      },
-      {
-        "id": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
-        "pipeline": "text-generation",
-        "likes": 427,
-        "downloads": 1377570,
-        "origin": "CN"
-      },
-      {
-        "id": "Lightricks/LTX-2.5",
-        "pipeline": "image-to-video",
-        "likes": 9675,
-        "downloads": 2234788,
-        "origin": "OTHER"
-      },
-      {
-        "id": "LiquidAI/LFM3-1.7B",
-        "pipeline": "text-generation",
-        "likes": 332,
-        "downloads": 8892,
-        "origin": "ALLIED"
-      },
-      {
-        "id": "Qwen/Qwen3.8-27B",
-        "pipeline": "image-text-to-text",
-        "likes": 18598,
-        "downloads": 7515620,
-        "origin": "CN"
-      },
-      {
-        "id": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
-        "pipeline": "text-to-image",
-        "likes": 5237,
-        "downloads": 2182980,
-        "origin": "CN"
-      },
-      {
-        "id": "baidu/Unlimited-OCR-2",
-        "pipeline": "image-text-to-text",
-        "likes": 310,
-        "downloads": 8357,
-        "origin": "CN"
-      },
-      {
-        "id": "unsloth/flint-GGUF",
-        "pipeline": "text-generation",
-        "likes": 308,
-        "downloads": 178000,
+        "likes": 896,
+        "downloads": 10163,
         "origin": "OTHER"
       },
       {
         "id": "tencent/Hy-SimulMT-30B-A3B-FP8",
         "pipeline": "translation",
-        "likes": 281,
-        "downloads": 165,
+        "likes": 457,
+        "downloads": 396,
         "origin": "CN"
       },
       {
-        "id": "OpenMOSS-Team/MOSS-Image-SFT",
-        "pipeline": "text-to-image",
-        "likes": 800,
-        "downloads": 14282,
+        "id": "LiquidAI/LFM3-1.7B",
+        "pipeline": "text-generation",
+        "likes": 454,
+        "downloads": 15885,
+        "origin": "ALLIED"
+      },
+      {
+        "id": "MiniMaxAI/MiniMax-M3.1-Flash",
+        "pipeline": "image-text-to-text",
+        "likes": 482,
+        "downloads": 15738,
+        "origin": "CN"
+      },
+      {
+        "id": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+        "pipeline": "text-generation",
+        "likes": 463,
+        "downloads": 1578937,
+        "origin": "CN"
+      },
+      {
+        "id": "Lightricks/LTX-2.5",
+        "pipeline": "image-to-video",
+        "likes": 9816,
+        "downloads": 2269999,
         "origin": "OTHER"
+      },
+      {
+        "id": "black-forest-labs/flux-3-image-klein-comfy",
+        "pipeline": "image-to-image",
+        "likes": 2020,
+        "downloads": 832197,
+        "origin": "OTHER"
+      },
+      {
+        "id": "baidu/Unlimited-OCR-2",
+        "pipeline": "image-text-to-text",
+        "likes": 370,
+        "downloads": 18141,
+        "origin": "CN"
+      },
+      {
+        "id": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+        "pipeline": "automatic-speech-recognition",
+        "likes": 363,
+        "downloads": 4276,
+        "origin": "ALLIED"
+      },
+      {
+        "id": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+        "pipeline": "text-to-image",
+        "likes": 5299,
+        "downloads": 2172670,
+        "origin": "CN"
+      },
+      {
+        "id": "Qwen/Qwen3.8-27B",
+        "pipeline": "image-text-to-text",
+        "likes": 18668,
+        "downloads": 7509924,
+        "origin": "CN"
       },
       {
         "id": "orcarouter/DeepSeek-V4.1-Flash-1017-abliterated-GGUF",
         "pipeline": "text-generation",
-        "likes": 299,
-        "downloads": 27056,
+        "likes": 335,
+        "downloads": 28763,
         "origin": "CN"
       },
       {
-        "id": "HuggingFaceBio/Carbon-X",
-        "pipeline": "text-generation",
-        "likes": 243,
-        "downloads": 2305,
-        "origin": "OTHER"
+        "id": "ccore/Qwen3.5-4B-3D-Coder",
+        "pipeline": "",
+        "likes": 267,
+        "downloads": 12237,
+        "origin": "CN"
       },
       {
-        "id": "InternScience/Sage-A1.5",
+        "id": "mistralai/Mistral-Large-4-1T-A52B",
+        "pipeline": "image-text-to-text",
+        "likes": 1139,
+        "downloads": 278,
+        "origin": "ALLIED"
+      },
+      {
+        "id": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
         "pipeline": "text-generation",
-        "likes": 354,
-        "downloads": 8218,
-        "origin": "OTHER"
+        "likes": 241,
+        "downloads": 57228,
+        "origin": "ALLIED"
       }
     ],
     "research": [
@@ -303,10 +303,18 @@
     ],
     "leaderboard": [
       {
+        "model": "Gemini 4 Carbon (High)",
+        "org": "google",
+        "rating": 1540,
+        "rank": 1,
+        "open": false,
+        "origin": "ALLIED"
+      },
+      {
         "model": "Gemini 4 Argon (High)",
         "org": "google",
-        "rating": 1526,
-        "rank": 1,
+        "rating": 1529,
+        "rank": 2,
         "open": false,
         "origin": "ALLIED"
       },
@@ -314,15 +322,15 @@
         "model": "Claude Opus 5.5 (High)",
         "org": "anthropic",
         "rating": 1516,
-        "rank": 2,
+        "rank": 3,
         "open": false,
         "origin": "ALLIED"
       },
       {
         "model": "Claude Fable 5.1 (Max)",
         "org": "anthropic",
-        "rating": 1513,
-        "rank": 3,
+        "rating": 1514,
+        "rank": 4,
         "open": false,
         "origin": "ALLIED"
       },
@@ -330,31 +338,31 @@
         "model": "Claude Opus 5 (Max)",
         "org": "anthropic",
         "rating": 1508,
-        "rank": 4,
+        "rank": 5,
         "open": false,
         "origin": "ALLIED"
       },
       {
         "model": "Claude Opus 5 (High)",
         "org": "anthropic",
-        "rating": 1503,
-        "rank": 5,
+        "rating": 1504,
+        "rank": 6,
         "open": false,
         "origin": "ALLIED"
       },
       {
         "model": "Claude Opus 4.6 (High)",
         "org": "anthropic",
-        "rating": 1501,
-        "rank": 6,
+        "rating": 1502,
+        "rank": 7,
         "open": false,
         "origin": "ALLIED"
       },
       {
         "model": "Muse Wonder (Max)",
         "org": "meta",
-        "rating": 1501,
-        "rank": 7,
+        "rating": 1499,
+        "rank": 8,
         "open": false,
         "origin": "OTHER"
       },
@@ -362,65 +370,57 @@
         "model": "Gemini 3.8 Flash (High)",
         "org": "google",
         "rating": 1498,
-        "rank": 8,
+        "rank": 9,
         "open": false,
         "origin": "ALLIED"
       },
       {
         "model": "Claude Opus 4.6",
         "org": "anthropic",
-        "rating": 1497,
-        "rank": 9,
+        "rating": 1496,
+        "rank": 10,
         "open": false,
         "origin": "ALLIED"
       },
       {
-        "model": "Muse Spark 1.3 (Max)",
-        "org": "meta",
-        "rating": 1491,
-        "rank": 10,
+        "model": "Claude Fable 5 (High)",
+        "org": "anthropic",
+        "rating": 1492,
+        "rank": 11,
         "open": false,
-        "origin": "OTHER"
+        "origin": "ALLIED"
       },
       {
         "model": "MiMo-V2.6-Pro",
         "org": "xiaomi",
         "rating": 1491,
-        "rank": 11,
+        "rank": 12,
         "open": true,
         "origin": "OTHER"
       },
       {
-        "model": "Claude Fable 5 (High)",
-        "org": "anthropic",
+        "model": "Muse Spark 1.3 (Max)",
+        "org": "meta",
         "rating": 1491,
-        "rank": 12,
+        "rank": 13,
         "open": false,
-        "origin": "ALLIED"
+        "origin": "OTHER"
       },
       {
         "model": "Claude Opus 4.7 (High)",
         "org": "anthropic",
-        "rating": 1490,
-        "rank": 13,
-        "open": false,
-        "origin": "ALLIED"
-      },
-      {
-        "model": "Gemini 3.7 Flash (High)",
-        "org": "google",
         "rating": 1490,
         "rank": 14,
         "open": false,
         "origin": "ALLIED"
       },
       {
-        "model": "Qwen3.8-Max",
-        "org": "alibaba",
-        "rating": 1484,
+        "model": "Gemini 3.7 Flash (High)",
+        "org": "google",
+        "rating": 1489,
         "rank": 15,
         "open": false,
-        "origin": "CN"
+        "origin": "ALLIED"
       }
     ]
   },
@@ -456,6 +456,41 @@
     "press": [
       {
         "source": "Breaking Defense",
+        "title": "US, Japan reach agreements for AMRAAM assembly, SM-3 production boost: Japanese MoD",
+        "summary": "The “groundbreaking agreement” on AMRAAM production “will not only ensure the acquisition of equipment needed by both Japan and the United States, but will also strengthen Japan’s defense industry base,” said Japanese Defense Minister Shinj"
+      },
+      {
+        "source": "Breaking Defense",
+        "title": "Giving counter-UAS operators 75 km of advance warning throws the advantage to them",
+        "summary": "Sponsored SkyValor extends RF detection range, providing more time to assess and respond to drone threats."
+      },
+      {
+        "source": "Breaking Defense",
+        "title": "Kaliningrad is more than the Suwałki Gap, and NATO cannot ignore it",
+        "summary": "In an age of drones and long-range precision weapons, Kaliningrad’s location shows Europe’s security isn’t neatly divided between frontline states and everyone else."
+      },
+      {
+        "source": "Breaking Defense",
+        "title": "Pentagon will pick new US base location by June 2027, prioritizing 4 requirements",
+        "summary": "In an interview with Breaking Defense, Dale Marks, the assistant secretary of defense for Energy, Installations, and Environment, laid out new details on the effort."
+      },
+      {
+        "source": "Breaking Defense",
+        "title": "Counter-UAS solution finds and classifies targets at standoff distance with “autonomous perception”",
+        "summary": "Sponsored Warden’s passive, first layer of detection complements EO/IR and radar."
+      },
+      {
+        "source": "Breaking Defense",
+        "title": "AUKUS partners test autonomous systems as Europe weighs maritime surveillance needs",
+        "summary": "The UK headed up the anti-submarine warfare component of Maritime Big Play exercise, which took place off the coast of San Diego in October."
+      },
+      {
+        "source": "Breaking Defense",
+        "title": "With daily jamming of US forces on Korean Peninsula, industry needs resilient solutions: USFK commander",
+        "summary": "“If your capability requires pristine satellite communications, infinite bandwidth, and uninterrupted fiber optic backbone to function, it will not survive 48 hours on the peninsula,” Gen. Xavier Brunson, commander of US Forces Korea, said."
+      },
+      {
+        "source": "Breaking Defense",
         "title": "Canadian firms line up for potential GCAP, Gripen work",
         "summary": "Back in July, the Italian Ministry of Defense told Breaking Defense that at that stage, being an observer did not entail that Canada had an industrial role in GCAP, adding that it was infeasible then “to predict the timing, modalities, or c"
       },
@@ -470,39 +505,19 @@
         "summary": "In this fireside chat, Dave Alexander of General Atomics Aeronautical Systems talks through his company’s strategy for the European market."
       },
       {
-        "source": "Breaking Defense",
-        "title": "Navy faces ‘years-long’ maintenance crunch amid record-breaking, extended deployments",
-        "summary": "Extended deployments in the Middle East could compound existing maintenance delays, with Navy leaders warning that returning ships will strain shipyard capacity and force trade-offs between repairs and modernization."
+        "source": "DefenseScoop",
+        "title": "GDIT puts Vion mission partner environment technology through its paces during Pacific exercise",
+        "summary": "The tech stack includes deployable cloud hardware, a secure zero-trust platform, common data-centric services, and C2 mission applications, a company official told DefenseScoop. The post GDIT puts Vion mission partner environment technology"
       },
       {
-        "source": "Breaking Defense",
-        "title": "Startup Biosphere wins Pentagon contract to scale up production of key chemicals",
-        "summary": "The biomanufacturing facility will boast 20,000 liters of UV-sterilized vats, able to brew anything from “bio-cement” for helipads to explosives for Hellfire missiles."
+        "source": "DefenseScoop",
+        "title": "Army designates 2 additional ‘permissive’ sites for commercial vendors to test their drone and counter-drone tech",
+        "summary": "The move is part of a broader Army initiative aimed at facilitating vendor access to test ranges. The post Army designates 2 additional ‘permissive’ sites for commercial vendors to test their drone and counter-drone tech appeared first on D"
       },
       {
-        "source": "Breaking Defense",
-        "title": "Is the Finnish-Norwegian call with Putin a crack in Nordic resolve, or the start of a new path?",
-        "summary": "Western European leaders have largely avoided speaking with Putin since Russia’s full-scale invasion of Ukraine in February 2022."
-      },
-      {
-        "source": "Breaking Defense",
-        "title": "Australia pushes to beef up air defenses",
-        "summary": "Australia expects to select the winning platform for LAND 6504 in late 2027 following a RFP that is expected in the early part of the year."
-      },
-      {
-        "source": "Breaking Defense",
-        "title": "China has tripled its satellite fleet since 2018 as expansion continues: DIA",
-        "summary": "The Defense Intelligence Agency’s third iteration of its unclassified report on space threats also includes a never-before released image of China’s"
-      },
-      {
-        "source": "Breaking Defense",
-        "title": "Defense Department selects Poland for new PAC-3 maintenance facility",
-        "summary": "The US, in partnership with Lockheed Martin, Poland, Germany, the Netherlands and Sweden, announced the new facility aimed at scaling and speeding up Patriot interceptor repairs."
-      },
-      {
-        "source": "Breaking Defense",
-        "title": "A more flexible way to defend maneuver forces from drones that doesn’t tie them down",
-        "summary": "Sponsored Short-range air defense that is designed to move and adapt regardless of vehicle."
+        "source": "DefenseScoop",
+        "title": "U.S. military building resilience against emerging OPSEC risks from automated surveillance networks",
+        "summary": "Frontier AI and other advanced technologies are making it easier for adversaries to find and exploit vulnerabilities associated with those interconnected capabilities. The post U.S. military building resilience against emerging OPSEC risks"
       },
       {
         "source": "DefenseScoop",
@@ -538,55 +553,40 @@
         "source": "DefenseScoop",
         "title": "Pentagon issues guidance on AI procurements to support Trump’s ‘truth-seeking’ and ‘ideological neutrality’ directives",
         "summary": "The memo to acquisition leaders came from the principal director for Defense Pricing, Contracting, and Acquisition Policy. The post Pentagon issues guidance on AI procurements to support Trump’s ‘truth-seeking’ and ‘ideological neutrality’"
-      },
-      {
-        "source": "DefenseScoop",
-        "title": "Hegseth warns troops against using military information for gambling, prediction market bets",
-        "summary": "DefenseScoop obtained an official memorandum on Thursday, which was issued by the defense secretary on Oct. 20. The post Hegseth warns troops against using military information for gambling, prediction market bets appeared first on DefenseS"
-      },
-      {
-        "source": "DefenseScoop",
-        "title": "SOCOM seeks common PaaS environment to support testing and fielding of new tech",
-        "summary": "The command released an RFI and a draft performance work statement for the initiative. The post SOCOM seeks common PaaS environment to support testing and fielding of new tech appeared first on DefenseScoop ."
-      },
-      {
-        "source": "DefenseScoop",
-        "title": "Army Special Forces leaders see promise, high demand for new robotics technician integrator job",
-        "summary": "Special Forces leaders told DefenseScoop they believed the technicians will bring foundational change, but recognized high demand for the new role as the service charts the program’s path. The post Army Special Forces leaders see promise, h"
       }
     ],
     "labs": [
       {
         "lab": "DoD",
         "items": [
+          "Marines, Japanese Forces Sharpen Explosive Disposal Skills During Keen Sword 2027",
+          "Hegseth Outlines Cooperative Agenda for Regional Stability in Asia",
+          "Navy Submarine Arrives in Western Australia for Scheduled Maintenance Period",
           "Assistant Secretary Says There's 'Exceptional Interest' in the Next Great American Base",
           "Caine Says Super Intelligence Is a Strategic Priority",
-          "Transcom Commander Draws Connection Between Hope, Lethality",
-          "Hegseth Swears In Air Force General After Vaccine-Mandated Early Retirement",
-          "Army Battery Sharpens Skills During Nighttime Reload Training",
-          "What's In a Name: 'War' Sends Clarifying Message to Adversaries About Departmental Mission"
+          "Transcom Commander Draws Connection Between Hope, Lethality"
         ]
       },
       {
         "lab": "FedScoop",
         "items": [
+          "Leak site publishes data on more than 41,000 DHS employees obtained by hacktivists",
+          "GSA exposed sensitive information to all agency users on Google Drive, OIG finds",
+          "Closing the visibility gaps putting public programs at risk",
           "DHS sunsets its Acquisition Planning Forecast System",
           "Scale publishes first AI benchmark through CAISSI partnership",
-          "GSA expands OneGov agreement with Anthropic, touting steep discounts",
-          "What do agencies get now that USAi isn’t free? GSA doing the ‘boring’ work for them",
-          "Records show White House, DOGE involvement in National Science Foundation grant terminations",
-          "Financial agency rule changes leave banks open to cyber threats, Elizabeth Warren warns"
+          "GSA expands OneGov agreement with Anthropic, touting steep discounts"
         ]
       },
       {
         "lab": "Federal News Network",
         "items": [
-          "White House chooses 11 new fellows to work with agencies on key priorities",
-          "Federal Retirement Checklist: 7 key benefits you can’t afford to ignore",
-          "Whoever wins in November, the career civil service needs rules that last",
-          "Industry, legal experts urge FAR Council to set standards for AI in federal procurement",
-          "SSA touts shorter wait times as its digital-first approach meets union pushback",
-          "Twenty years, four agencies, one unanswered question"
+          "knowing what the military needs and producing enough of it are two different challenges",
+          "OPM looks to recruit the next generation of federal employees",
+          "The Justice Department has fewer attorneys. The workload didn’t get the memo.",
+          "The Talent Gap: Can government win over the next generation?",
+          "OPM staffing losses are still straining agency operations, watchdog finds",
+          "DHS bans Swiss cyber firm from federal systems"
         ]
       }
     ]
