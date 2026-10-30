@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-29T17:17:31.743Z",
-  "runNumber": 134,
+  "generatedAt": "2026-10-30T16:56:00.628Z",
+  "runNumber": 135,
   "situation": {
     "headline": "Assessment unavailable",
     "velocity": "STABLE",
@@ -61,23 +61,27 @@
   "groundTruth": [],
   "aiNews": {
     "headlines": [
-      "SuperMe, which generates AI-powered chats with simulated profiles of prominent industry experts to let users ask questions, raised $20M (Ivan Mehta/TechCrunch)",
-      "Source: Dulo, a startup co-founded by Google veteran Sebastian Thrun to build \"foundation models for hardware design\", raised a $130M seed (Rocket Drew/The Information)",
-      "Alphabet discloses $1T+ in purchase commitments, future leases, and other obligations; its Q3 filing shows $98.5B in contingent commitments, up $23B from Q2 (Davey Alba/Bloomberg)",
-      "Alphabet's stock falls 12%+, wiping a record $500B from its market cap, after reporting negative cash flow amid its AI spending; the Nasdaq falls 1.4%+ (Stephen Morris/Financial Times)",
-      "Airbnb spent $12.6M+ since 2025 to become a top LA political contributor, backing Mayor Karen Bass and pushing for friendlier rules ahead of the 2028 Olympics (Liam Dillon/Politico)",
-      "Canada-based Cohere completes the first close of a round that it expects to total up to $5B, with Canada agreeing to invest up to $1.14B, at a $20.5B valuation (Bloomberg)",
-      "Sources: Situational Awareness is pitching clients to invest in Fluidstack alongside it in a round that values the neocloud at $40B, up from $18B in September (Bloomberg)",
-      "The UK FCA, which sued Justin Sun-linked crypto exchange HTX in 2025 for \"unlawfully promoting crypto asset services\", says HTX will exit the UK in a settlement (Financial Times)",
-      "Collective, which uses AI to automate bookkeeping for solo business owners, raised a $40M Series B and $60M in nondilutive capital from GC's Customer Value Fund (Natalie Breymeyer/Axios)",
-      "Ottawa-based Solink, which uses AI to pull data from already-installed security cameras, raised $100M+ led by Vertu Capital, bringing its total raised to $198M+ (Duncan Riley/SiliconANGLE)",
-      "Thrive Holdings agrees to acquire ADT in an all-cash take-private deal, valuing ADT at $7.6B in equity value, a 46% premium over its October 27 closing price (Claire Rychlewski/Axios)",
-      "Mistral releases the weights for Mistral Large 4, or Le Chonk, and says it rivals top open models such as GLM-5.3 on the Artificial Analysis Coding Agent Index (Radhika Rajkumar/ZDNET)",
-      "Serval, which offers AI agents for enterprise IT operations like access management, raised $150M led by Sequoia at a $3B valuation, up from $1B in December 2025 (Harshita Mary Varghese/Reuters)",
-      "Wabi, which is building an AI assistant that integrates into group chats and can take actions like booking appointments, raised $55M at a $1.25B valuation (Micah Barkley/Bloomberg)",
-      "Sources: Microsoft is seeking to raise $25B+ in its first US investment-grade bond sale since 2017, when it raised $17B, to fund AI-related capital expenditures (Bloomberg)"
+      "London's High Court dismisses Meta, TikTok, and X's challenge to Ofcom's Online Safety Act information requests, rejecting arguments they were disproportionate (Sam Tobin/Reuters)",
+      "Binance says it has reserved $6.34B+ in company funds, including $5B already held in impacted token assets, to deal with the fallout from the $6.3B hack (Rajveer Singh Pardesi/Reuters)",
+      "FEC data: AI-oriented PACs spent nearly $80M on the 2026 US elections, mostly before the primaries; pro-regulatory PACs outspent Leading the Future's network (Ian Krietzberg/Puck)",
+      "CXMT reports Q3 revenue of $16.7B, up 613.2% YoY, and a net profit of $8.17B, swinging to profitability on the back of rising AI-driven memory chip prices (Reuters)",
+      "NAND maker Kioxia reports FY Q2 operating profit up 22x YoY to $12.7B, in line with est., but forecasts Q3 operating profit of $12.7B, below $14.9B est. (Bloomberg)",
+      "The UK CMA opens a probe into whether Meta imposed exploitative terms on publishers and advertisers to use their content to develop its AI and other services (Reuters)",
+      "Binance reveals that a follow-up investigation has found \"additional points of breach\" beyond a possibly compromised laptop and says this was a \"complex attack\" (@binance)",
+      "Dream, which is training AI world models on US building data to automate construction design and engineering, emerges from stealth with a $17M seed led by a16z (Marina Temkin/TechCrunch)",
+      "Ravical, whose AI-powered platform helps accounting and tax firms manage their operations, raised a $17M seed led by MMC, bringing its total funding to $25M (Tamara Djurickovic/Tech.eu)",
+      "Inside Nscale's 2,250-acre, 8GW Monarch Compute Campus in West Virginia, which has been hit by construction issues, local opposition, and financing risks (Financial Times)",
+      "Sources: Spotify aims to launch its AI remix service in Q1 2027 and may charge $4-$5/month extra; it is still negotiating licensing deals with Sony and Warner (Anna Nicolaou/Financial Times)",
+      "How a wave of startups are betting on AI to make formal software verification practical and essential, including &Truth, which launches with a $70M seed (Paresh Dave/Wired)",
+      "TRM Labs attributes the Binance hack to North Korea-based TraderTraitor, which drained $6.36B from Binance wallets across 10 blockchains, mostly in 20 minutes (Tom Westbrook/Reuters)",
+      "Binance pledges to cover all losses from a $6.3B hack, potentially the largest crypto theft ever, surpassing the $1.5B Bybit hack in February 2025 (South China Morning Post)",
+      "CrowdStrike: China-linked hackers used AI tool ARTEX with a DeepSeek LLM and another model to target 200+ organizations in 11 days, compromising at least nine (Kevin Collier/NBC News)"
     ],
     "brief": [
+      {
+        "title": "The AI Rankings Just Got Reshuffled",
+        "summary": "A major overhaul of AI’s most-watched benchmark is reshuffling the model rankings and revealing a wider gap between open and closed models. NLW examines what the new tests reveal about real-world capabilities—and how much those rankings should matter when choosing your AI tools. In the headlines: Go"
+      },
       {
         "title": "AI Can Now Create Worlds You Can Change in Real Time",
         "summary": "Google’s Genie 4 brings AI-generated worlds closer to reality, with live prompting, native audio, and more realistic interactions. NLW explores what this means for gaming, robotics, and the path from impressive demos to useful tools. Plus: Anthropic’s one-person biotech acquisition and the debate ov"
@@ -105,200 +109,196 @@
       {
         "title": "The AI vs AI Battle for the Internet",
         "summary": "AI attackers and AI defenders are now battling over the internet’s vulnerabilities at superhuman speed. A massive PHP exploit and a wave of attacks reveal why cybersecurity is entering a new era—and why businesses are struggling to keep up. In the headlines: Anthropic unveils Claude Duet, Walmart we"
-      },
-      {
-        "title": "How AI Is Changing What Work Means",
-        "summary": "Why is a financial research firm using AI to design proteins that target scorpion venom? Because AI is changing what work means—and what businesses are capable of doing. Citrini Research’s unexpected experiment opens up bigger questions about who gets to do science, whether AI labs will compete with"
       }
     ],
     "trendingModels": [
       {
         "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
         "pipeline": "image-text-to-text",
-        "likes": 3722,
-        "downloads": 131062,
+        "likes": 3970,
+        "downloads": 145869,
         "origin": "CN"
       },
       {
         "id": "Nanbeige/Nanbeige4.3-33B",
         "pipeline": "text-generation",
-        "likes": 759,
-        "downloads": 9655,
+        "likes": 792,
+        "downloads": 12178,
         "origin": "OTHER"
-      },
-      {
-        "id": "RecursiveSI/flint",
-        "pipeline": "text-generation",
-        "likes": 1232,
-        "downloads": 16598,
-        "origin": "OTHER"
-      },
-      {
-        "id": "XHToken/Spark-X2.6-4B",
-        "pipeline": "text-generation",
-        "likes": 896,
-        "downloads": 10163,
-        "origin": "OTHER"
-      },
-      {
-        "id": "tencent/Hy-SimulMT-30B-A3B-FP8",
-        "pipeline": "translation",
-        "likes": 457,
-        "downloads": 396,
-        "origin": "CN"
       },
       {
         "id": "LiquidAI/LFM3-1.7B",
         "pipeline": "text-generation",
-        "likes": 454,
-        "downloads": 15885,
+        "likes": 536,
+        "downloads": 23694,
         "origin": "ALLIED"
       },
       {
-        "id": "MiniMaxAI/MiniMax-M3.1-Flash",
-        "pipeline": "image-text-to-text",
-        "likes": 482,
-        "downloads": 15738,
-        "origin": "CN"
+        "id": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+        "pipeline": "automatic-speech-recognition",
+        "likes": 471,
+        "downloads": 15980,
+        "origin": "ALLIED"
       },
       {
         "id": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
         "pipeline": "text-generation",
-        "likes": 463,
-        "downloads": 1578937,
+        "likes": 498,
+        "downloads": 1747945,
         "origin": "CN"
       },
       {
-        "id": "Lightricks/LTX-2.5",
-        "pipeline": "image-to-video",
-        "likes": 9816,
-        "downloads": 2269999,
-        "origin": "OTHER"
-      },
-      {
-        "id": "black-forest-labs/flux-3-image-klein-comfy",
-        "pipeline": "image-to-image",
-        "likes": 2020,
-        "downloads": 832197,
+        "id": "RecursiveSI/flint",
+        "pipeline": "text-generation",
+        "likes": 1253,
+        "downloads": 19015,
         "origin": "OTHER"
       },
       {
         "id": "baidu/Unlimited-OCR-2",
         "pipeline": "image-text-to-text",
-        "likes": 370,
-        "downloads": 18141,
+        "likes": 434,
+        "downloads": 24276,
         "origin": "CN"
       },
       {
-        "id": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
-        "pipeline": "automatic-speech-recognition",
-        "likes": 363,
-        "downloads": 4276,
+        "id": "Lightricks/LTX-2.5",
+        "pipeline": "image-to-video",
+        "likes": 9927,
+        "downloads": 2335172,
+        "origin": "OTHER"
+      },
+      {
+        "id": "mistralai/Mistral-Large-4-1T-A52B",
+        "pipeline": "image-text-to-text",
+        "likes": 1316,
+        "downloads": 1239,
         "origin": "ALLIED"
+      },
+      {
+        "id": "XHToken/Spark-X2.6-4B",
+        "pipeline": "text-generation",
+        "likes": 916,
+        "downloads": 12515,
+        "origin": "OTHER"
+      },
+      {
+        "id": "black-forest-labs/flux-3-image-klein-comfy",
+        "pipeline": "image-to-image",
+        "likes": 2094,
+        "downloads": 886973,
+        "origin": "OTHER"
       },
       {
         "id": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
         "pipeline": "text-to-image",
-        "likes": 5299,
-        "downloads": 2172670,
-        "origin": "CN"
-      },
-      {
-        "id": "Qwen/Qwen3.8-27B",
-        "pipeline": "image-text-to-text",
-        "likes": 18668,
-        "downloads": 7509924,
+        "likes": 5355,
+        "downloads": 2516721,
         "origin": "CN"
       },
       {
         "id": "orcarouter/DeepSeek-V4.1-Flash-1017-abliterated-GGUF",
         "pipeline": "text-generation",
-        "likes": 335,
-        "downloads": 28763,
+        "likes": 365,
+        "downloads": 30433,
         "origin": "CN"
       },
       {
         "id": "ccore/Qwen3.5-4B-3D-Coder",
         "pipeline": "",
-        "likes": 267,
-        "downloads": 12237,
+        "likes": 304,
+        "downloads": 20197,
         "origin": "CN"
       },
       {
-        "id": "mistralai/Mistral-Large-4-1T-A52B",
+        "id": "Qwen/Qwen3.8-27B",
         "pipeline": "image-text-to-text",
-        "likes": 1139,
-        "downloads": 278,
-        "origin": "ALLIED"
+        "likes": 18784,
+        "downloads": 7624809,
+        "origin": "CN"
       },
       {
         "id": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
         "pipeline": "text-generation",
-        "likes": 241,
-        "downloads": 57228,
+        "likes": 277,
+        "downloads": 64263,
+        "origin": "ALLIED"
+      },
+      {
+        "id": "MiniMaxAI/MiniMax-M3.1-Flash",
+        "pipeline": "image-text-to-text",
+        "likes": 499,
+        "downloads": 18795,
+        "origin": "CN"
+      },
+      {
+        "id": "LiquidAI/LFM3-Omni-2B",
+        "pipeline": "any-to-any",
+        "likes": 221,
+        "downloads": 3080,
         "origin": "ALLIED"
       }
     ],
     "research": [
       {
-        "title": "Honeycomb-Surfels: Compact Hexagonal Primitives for Efficient Scene Rendering and Reconstruction",
-        "summary": "Novel view synthesis and 3D reconstruction have advanced rapidly with radiance fields and splatting, yet their memory and computational demands limit their use in resource-constrained settings. We introduce Hexels: novel planar hexagonal surface elements with"
+        "title": "Elucidating the Design Space of LM Data Attribution",
+        "summary": "Data attribution methods for Language Models (LMs) are typically evaluated using downstream tasks like fact retrieval. However, existing evaluations vary multiple dataset properties simultaneously, making it impossible to isolate exactly why an attribution alg"
       },
       {
-        "title": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
-        "summary": "Vision-Language-Action (VLA) models have made substantial progress in robotic manipulation, but their generalization remains constrained by the diversity and coverage of action-labeled robot demonstrations. Human videos provide much broader behavioral and envi"
+        "title": "Propose-Filter-Release: Scaling Noise to Typical Sensitivity via Private Filtering",
+        "summary": "An estimator can be accurate and stable on typical data, yet sensitive to a few possible records. Differentially private mechanisms commonly scale their noise to the worst-case influence of a single record, which lets these records dictate the noise even when"
       },
       {
-        "title": "When Should We Intervene at Test Time?",
-        "summary": "Test-time adaptation helps a deployed model respond to changing inputs, but the same intervention can rescue one batch and damage the next. Updating normalization statistics, for example, can improve corrupted images yet fail when a batch contains mostly one c"
+        "title": "Rethinking Neural Thickets Without Weight Perturbations",
+        "summary": "The Neural Thickets hypothesis posits that pretrained language models lie in dense neighborhoods of task-specific experts in weight space, which random Gaussian perturbations can uncover. We reproduce the reported gains, but show that they do not require this"
       },
       {
-        "title": "Heads of Security: Learned Attention Gates Improve Prompt Injection Robustness",
-        "summary": "We introduce Heads of Security (HoS), a prompt injection defense that enforces instruction-data separation via a small set of learned per-head attention gates. HoS learns how each head should redistribute attention between trusted and untrusted tokens, enablin"
+        "title": "Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers",
+        "summary": "Pixel-space generative Transformers typically use one token per image patch, so capturing finer detail requires more tokens and makes global attention increasingly expensive. We observe that finer detail does not necessarily require more global communication:"
       },
       {
-        "title": "Attention as Lattice Gauge Theory: Relations Interact Only Through Wilson Loops",
-        "summary": "Relations compose through the entity they share - Alice is Bob's mother and Bob is Carol's father, so Alice is Carol's grandmother - and the order matters, since a father's mother is not a mother's father; verifying a composed relation means closing the loop."
+        "title": "Adaptive Scenario Generation for KL-DRO Around a Learned Density Model",
+        "summary": "Distributionally robust optimization (DRO) hedges data-driven two-stage stochastic programs against error in the distribution estimated from a finite record, and standard ambiguity sets differ in how they treat realizations absent from that record. A divergenc"
       },
       {
-        "title": "KPPax: preprocess differentiable kinetic ODE for machine learning in atmospheric chemistry",
-        "summary": "Atmospheric chemical mechanisms are commonly distributed in the language of the Kinetic PreProcessor (KPP), which generates efficient Fortran or C code but does not fit into the differentiable programming frameworks in which machine-learning models are develop"
+        "title": "Luggage re-identification: A study of strategies towards a real-world application",
+        "summary": "Luggage re-identification (ReID) is a critical task in video surveillance for forensics, security or border management (suspicious or abandoned luggage recognition), as well as luggage management (lost luggage recovery). It enables the association of observati"
       },
       {
-        "title": "Pushing Dexterity and Safety for In-Hand Object Pose Reaching That Works Remarkably Well",
-        "summary": "Dexterous manipulation with multi-fingered hands is the next frontier of robotics, yet learned hand skills remain limited to simple grasps or basic repeated motions, such as rotating an object. As robots attempt more demanding in-hand maneuvers, safety, such a"
+        "title": "From extreme weather to agricultural consequences with agentic AI",
+        "summary": "Extreme weather is forecast days ahead, yet its consequences for agriculture remain hard to predict: a forecast says where a storm will strike, not which crops will suffer or how much is at risk, and the records that could tell span many sources. We present Wx"
       },
       {
-        "title": "GEPA-Curator: Curated Learning for Self Improving Agents",
-        "summary": "Large Language Models (LLMs) are increasingly used in multi-turn agentic workloads that require sustained interaction with complex environments. Existing reflective prompt optimizers such as GEPA learn from failed rollouts, but agentic failures can also come f"
+        "title": "world2vec: Mechanistic world models through latent dynamics learning",
+        "summary": "World models can achieve strong control performance without faithfully capturing the dynamics of their environment, limiting their potential for mechanistic interpretability and scientific discovery. Here, we introduce world2vec to learn mechanistic world mode"
       },
       {
-        "title": "Can LLMs Uncover Hidden Physical Laws through Free Exploration?",
-        "summary": "Scientific discovery often begins with an unexpected observation that prompts a new research question. In a world with altered physical laws, can large language models (LLMs) notice unexpected behavior, such as heavier objects falling more slowly, and discover"
+        "title": "Probing Spatial State Representations in Visual Foundation Models",
+        "summary": "An observer sees only part of the surrounding world, yet must keep track of what lies beyond the current view. Spatial perception therefore involves more than recognizing individual images: it calls for a persistent spatial state that is updated under self-mot"
       },
       {
-        "title": "Scaling Laws for Tool-Use Agents via Controllable Environment Synthesis",
-        "summary": "We explore how to build performant large language model (LLM) tool-use agents that complete complex, multi-step tasks. Specifically, we study how data composition in synthetically generated tool-use environments affects the training of such agents. To do so, w"
+        "title": "ShallowDefend: Harnessing Shallow Safety Alignment for Multi-Turn Defender",
+        "summary": "Safety alignment has enabled large language models to reliably refuse harmful requests directly, yet the same request distributed across a multi-turn conversation still succeeds far too often. This brittleness has a mechanistic root: Alignment is shallow, with"
       },
       {
-        "title": "MuonGS: Pretraining LLMs with Relaxed Weight-Norm Control",
-        "summary": "Weight decay and explicit weight-norm constraints improve optimizer performance in language model pretraining, yet a unified understanding of why such control helps and how much is needed remains incomplete. We analyze norm control in Muon over the entire trai"
+        "title": "Testimony from Timelines: Evidence-Grounded Significance Testing of Temporal Clinical Hypotheses",
+        "summary": "Ask a language model whether sales tend to dip after a product recall, or whether one side effect tends to follow another after a vaccine, and it answers in a fluent sentence that reads like a finding, with no test behind it. Assertions about how events unfold"
       },
       {
-        "title": "Multi-State Linear Attention with Generalized Second-Order Routing",
-        "summary": "Self-attention plays a key role in long-sequence modeling, but its quadratic time complexity fundamentally limits the scaling of Large Language Models. Recently, Multi-State Linear Attention (MSLA) mechanisms have been proposed to make sequence modeling more e"
+        "title": "An ODE-based Sampler for Discrete Diffusion Models",
+        "summary": "The marginals of a continuous diffusion model can be reproduced by a deterministic ordinary differential equation (ODE), known as the probability flow ODE, which provides a foundation for accelerated sampling and consistency distillation. In this paper we addr"
       },
       {
-        "title": "Metacognitive Decoding: Efficient Inference for Diffusion Language Agents",
-        "summary": "Diffusion language models offer a promising path to efficient agents through parallel token generation. However, efficient interaction requires adapting both where computation is spent and how much text is generated. We introduce a metacognitive controller tha"
+        "title": "Difficulty Calibration Across Time for Membership Inference in Diffusion Models",
+        "summary": "Modern diffusion models are trained on massive datasets that often include copyrighted or private images. Membership inference attacks (MIAs) address this by testing whether a given image was in a model's training set. The standard approach scores an image by"
       },
       {
-        "title": "What Improves During Pretraining? Tracking Knowledge Acquisition with Point-in-Time Models",
-        "summary": "Language models pretrained on web corpora collected over multiple years learn both general and domain-specific knowledge. How these different kinds of knowledge are learned as pretraining progresses remains unclear. Recent point-in-time models trained on web s"
+        "title": "TextSeal2: Distortion-Free LLM Watermarking with Copula Mixing and Memoryless Races",
+        "summary": "We present TextSeal2, a distortion-free watermark for large language models that keeps its signal under speculative decoding: tokens that replace rejected drafts remain watermarked with the same keys, and the acceptance rate is unchanged. It also preserves out"
       },
       {
-        "title": "Rare, Relevant, and Still Wrong: How Memory Fails LLM Group Decisions",
-        "summary": "When an LLM group's discussion is compressed into a short memory for a final decision maker, what should the memory keep? Two natural heuristics keep the rarest claims or the claims relevant to the decision criteria. On hidden-profile tasks both look attractiv"
+        "title": "When to Assist and What to Suggest: Joint Gating and Memory-Grounded Hint Generation in One Compact Decoder",
+        "summary": "Proactive assistants offer short, memory-grounded hints during a conversation, deciding when to assist and what to suggest. Current systems split this between a gate and a larger generator; we evaluate both together on 28,058 decision points. Stage-wise genera"
       }
     ],
     "leaderboard": [
@@ -456,53 +456,68 @@
     "press": [
       {
         "source": "Breaking Defense",
+        "title": "New UK policy requires foreign defense contractors to invest locally for all £50M+ deals",
+        "summary": "The new policy is due to come into effect in April 2027 and make sure that “British workers and businesses still benefit,” from contracts inked with foreign firms, according to the UK Ministry of Defence"
+      },
+      {
+        "source": "Breaking Defense",
+        "title": "Navy flexes new acquisition muscles with TOTE’s $269M LSM award to Hanwha",
+        "summary": "The award marks the first shipyard selection from TOTE Services as the vessel construction manager of the LSM program for the Navy."
+      },
+      {
+        "source": "Breaking Defense",
+        "title": "Pentagon eyes ‘public-private partnerships’ to help fund FORTRESS America homeland base plan",
+        "summary": "“The model that we’re trying to drive on is not me having to go back up on Capitol Hill with my hand out,” Assistant Secretary of Defense for Energy, Installations, and Environment Dale Marks told Breaking Defense."
+      },
+      {
+        "source": "Breaking Defense",
+        "title": "Qatar’s domestic weapons, Turkey’s drone arsenal and the Mecca pact’s next test",
+        "summary": "Middle East Bureau Chief Agnes Helou breaks down efforts by Turkey and Gulf nations to bolster their defense capabilities amid ongoing regional instability."
+      },
+      {
+        "source": "Breaking Defense",
+        "title": "3 congressional races that matter for defense",
+        "summary": "Several lawmakers with major influence over defense policy and spending are fighting for their political futures."
+      },
+      {
+        "source": "Breaking Defense",
+        "title": "Canada unveils first national security strategy in more than 20 years",
+        "summary": "The strategy comes amid tension between Canada and its North American neighbor over tense trade negotiations."
+      },
+      {
+        "source": "Breaking Defense",
+        "title": "Army’s MV-75 production award could slip due to CR, raising program costs: Textron",
+        "summary": "Bell Textron executives warned that a delay in the helicopter’s first low-rate production contract could increase the program’s expected financial hit to as much as $150 million."
+      },
+      {
+        "source": "Breaking Defense",
+        "title": "Beyond autopilot: Understanding the five levels of battlefield drone autonomy",
+        "summary": "Sponsored By going beyond simple automation, drones can carry out tasks with minimal input from operators."
+      },
+      {
+        "source": "Breaking Defense",
+        "title": "Taiwan 2027 conflict window remains valid, Army Pacific commander says",
+        "summary": "Army Pacific is positioning personnel and equipment across the Pacific to meet the 2027 “Davidson window” benchmark and deter a potential Chinese attack on Taiwan, Gen. Ronald Clark said."
+      },
+      {
+        "source": "Breaking Defense",
         "title": "US, Japan reach agreements for AMRAAM assembly, SM-3 production boost: Japanese MoD",
         "summary": "The “groundbreaking agreement” on AMRAAM production “will not only ensure the acquisition of equipment needed by both Japan and the United States, but will also strengthen Japan’s defense industry base,” said Japanese Defense Minister Shinj"
       },
       {
-        "source": "Breaking Defense",
-        "title": "Giving counter-UAS operators 75 km of advance warning throws the advantage to them",
-        "summary": "Sponsored SkyValor extends RF detection range, providing more time to assess and respond to drone threats."
+        "source": "DefenseScoop",
+        "title": "How can we trust AI in national defense missions?",
+        "summary": "You can’t evaluate what you can’t inspect. You can’t defend a decision you can’t explain. You can’t correct a failure you can’t see. And an answer you can’t trace is an answer you can’t trust. The post How can we trust AI in national defens"
       },
       {
-        "source": "Breaking Defense",
-        "title": "Kaliningrad is more than the Suwałki Gap, and NATO cannot ignore it",
-        "summary": "In an age of drones and long-range precision weapons, Kaliningrad’s location shows Europe’s security isn’t neatly divided between frontline states and everyone else."
+        "source": "DefenseScoop",
+        "title": "The missing puzzle piece in space superiority: Why it’s time for the U.S. government to prioritize VLEO",
+        "summary": "A nuclear detonation in space could make all of LEO unusable for up to a year. The post The missing puzzle piece in space superiority: Why it’s time for the U.S. government to prioritize VLEO appeared first on DefenseScoop ."
       },
       {
-        "source": "Breaking Defense",
-        "title": "Pentagon will pick new US base location by June 2027, prioritizing 4 requirements",
-        "summary": "In an interview with Breaking Defense, Dale Marks, the assistant secretary of defense for Energy, Installations, and Environment, laid out new details on the effort."
-      },
-      {
-        "source": "Breaking Defense",
-        "title": "Counter-UAS solution finds and classifies targets at standoff distance with “autonomous perception”",
-        "summary": "Sponsored Warden’s passive, first layer of detection complements EO/IR and radar."
-      },
-      {
-        "source": "Breaking Defense",
-        "title": "AUKUS partners test autonomous systems as Europe weighs maritime surveillance needs",
-        "summary": "The UK headed up the anti-submarine warfare component of Maritime Big Play exercise, which took place off the coast of San Diego in October."
-      },
-      {
-        "source": "Breaking Defense",
-        "title": "With daily jamming of US forces on Korean Peninsula, industry needs resilient solutions: USFK commander",
-        "summary": "“If your capability requires pristine satellite communications, infinite bandwidth, and uninterrupted fiber optic backbone to function, it will not survive 48 hours on the peninsula,” Gen. Xavier Brunson, commander of US Forces Korea, said."
-      },
-      {
-        "source": "Breaking Defense",
-        "title": "Canadian firms line up for potential GCAP, Gripen work",
-        "summary": "Back in July, the Italian Ministry of Defense told Breaking Defense that at that stage, being an observer did not entail that Canada had an industrial role in GCAP, adding that it was infeasible then “to predict the timing, modalities, or c"
-      },
-      {
-        "source": "Breaking Defense",
-        "title": "UK commits to 3 percent GDP on defense by 2030, new investment partnerships with industry",
-        "summary": "Chancellor John Healey said that the UK’s recent Defence Investment Plan would be “fully” funded, indicating the money for defense would come from cuts to other priorities."
-      },
-      {
-        "source": "Breaking Defense",
-        "title": "How General Atomics views Europe’s unmanned future",
-        "summary": "In this fireside chat, Dave Alexander of General Atomics Aeronautical Systems talks through his company’s strategy for the European market."
+        "source": "DefenseScoop",
+        "title": "Army selects Lockheed Martin for billion-dollar Future Interceptor program",
+        "summary": "Under a cost-sharing arrangement, Lockheed is expected to kick in $423 million for the project while Uncle Sam provides about $660 million. The post Army selects Lockheed Martin for billion-dollar Future Interceptor program appeared first o"
       },
       {
         "source": "DefenseScoop",
@@ -538,55 +553,40 @@
         "source": "DefenseScoop",
         "title": "Anduril expanding into laptop manufacturing in partnership with Qualcomm",
         "summary": "The companies plan to market the tech to government and military customers, among other potential buyers. The post Anduril expanding into laptop manufacturing in partnership with Qualcomm appeared first on DefenseScoop ."
-      },
-      {
-        "source": "DefenseScoop",
-        "title": "Smack Technologies lands new deal for AI prototype to enhance joint military campaigning",
-        "summary": "The OTA comes as SOCOM is fast-tracking frontier AI capabilities to solve real-world operational challenges and free up its leaders to focus on the most complex strategic and tactical priorities. The post Smack Technologies lands new deal f"
-      },
-      {
-        "source": "DefenseScoop",
-        "title": "As Project Gatekeeper goes live, Army plans integration with frontier AI models",
-        "summary": "Soon, Project Gatekeeper’s security testing will be powered by frontier AI models and the wider public will be able to access the platform using Login.Gov credentials. The post As Project Gatekeeper goes live, Army plans integration with fr"
-      },
-      {
-        "source": "DefenseScoop",
-        "title": "Pentagon issues guidance on AI procurements to support Trump’s ‘truth-seeking’ and ‘ideological neutrality’ directives",
-        "summary": "The memo to acquisition leaders came from the principal director for Defense Pricing, Contracting, and Acquisition Policy. The post Pentagon issues guidance on AI procurements to support Trump’s ‘truth-seeking’ and ‘ideological neutrality’"
       }
     ],
     "labs": [
       {
         "lab": "DoD",
         "items": [
+          "Western Hemisphere Nations Meet to Advance Anti-Cartel Campaign Plan",
+          "Assistant Secretary Says New Infrastructure Initiatives Are a 'National Calling'",
+          "Marine Corps Base Hawaii Barracks Project Crosses Halfway Mark",
+          "Army Mountain Division Takes on Panamanian Jungle",
           "Marines, Japanese Forces Sharpen Explosive Disposal Skills During Keen Sword 2027",
-          "Hegseth Outlines Cooperative Agenda for Regional Stability in Asia",
-          "Navy Submarine Arrives in Western Australia for Scheduled Maintenance Period",
-          "Assistant Secretary Says There's 'Exceptional Interest' in the Next Great American Base",
-          "Caine Says Super Intelligence Is a Strategic Priority",
-          "Transcom Commander Draws Connection Between Hope, Lethality"
+          "Hegseth Outlines Cooperative Agenda for Regional Stability in Asia"
         ]
       },
       {
         "lab": "FedScoop",
         "items": [
+          "Trump’s AI use to inform military operations questioned by House duo",
+          "Treasury, IRS use of third-party ID verification under fire from top Senate Finance, Banking Dems",
+          "Understaffed CFPB’s security program has foundational ‘weaknesses,’ OIG says",
+          "Overcoming gaps in federal business systems modernization",
           "Leak site publishes data on more than 41,000 DHS employees obtained by hacktivists",
-          "GSA exposed sensitive information to all agency users on Google Drive, OIG finds",
-          "Closing the visibility gaps putting public programs at risk",
-          "DHS sunsets its Acquisition Planning Forecast System",
-          "Scale publishes first AI benchmark through CAISSI partnership",
-          "GSA expands OneGov agreement with Anthropic, touting steep discounts"
+          "GSA exposed sensitive information to all agency users on Google Drive, OIG finds"
         ]
       },
       {
         "lab": "Federal News Network",
         "items": [
-          "knowing what the military needs and producing enough of it are two different challenges",
-          "OPM looks to recruit the next generation of federal employees",
-          "The Justice Department has fewer attorneys. The workload didn’t get the memo.",
-          "The Talent Gap: Can government win over the next generation?",
-          "OPM staffing losses are still straining agency operations, watchdog finds",
-          "DHS bans Swiss cyber firm from federal systems"
+          "Industry pushes back on DoD’s proposed rules for moving program",
+          "OPM formally discontinues Federal Employee Viewpoint Survey",
+          "AI safety depends on government capacity. Washington is weakening it.",
+          "Can federal IT modernization deliver on its promises?",
+          "Federal security leaders team up as post-quantum deadlines tighten",
+          "A discovery at NIST changed how researchers think about an unusual quantum material"
         ]
       }
     ]
