@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-30T16:56:00.628Z",
-  "runNumber": 135,
+  "generatedAt": "2026-10-31T15:56:24.910Z",
+  "runNumber": 136,
   "situation": {
     "headline": "Assessment unavailable",
     "velocity": "STABLE",
@@ -61,23 +61,27 @@
   "groundTruth": [],
   "aiNews": {
     "headlines": [
-      "London's High Court dismisses Meta, TikTok, and X's challenge to Ofcom's Online Safety Act information requests, rejecting arguments they were disproportionate (Sam Tobin/Reuters)",
-      "Binance says it has reserved $6.34B+ in company funds, including $5B already held in impacted token assets, to deal with the fallout from the $6.3B hack (Rajveer Singh Pardesi/Reuters)",
-      "FEC data: AI-oriented PACs spent nearly $80M on the 2026 US elections, mostly before the primaries; pro-regulatory PACs outspent Leading the Future's network (Ian Krietzberg/Puck)",
-      "CXMT reports Q3 revenue of $16.7B, up 613.2% YoY, and a net profit of $8.17B, swinging to profitability on the back of rising AI-driven memory chip prices (Reuters)",
-      "NAND maker Kioxia reports FY Q2 operating profit up 22x YoY to $12.7B, in line with est., but forecasts Q3 operating profit of $12.7B, below $14.9B est. (Bloomberg)",
-      "The UK CMA opens a probe into whether Meta imposed exploitative terms on publishers and advertisers to use their content to develop its AI and other services (Reuters)",
-      "Binance reveals that a follow-up investigation has found \"additional points of breach\" beyond a possibly compromised laptop and says this was a \"complex attack\" (@binance)",
-      "Dream, which is training AI world models on US building data to automate construction design and engineering, emerges from stealth with a $17M seed led by a16z (Marina Temkin/TechCrunch)",
-      "Ravical, whose AI-powered platform helps accounting and tax firms manage their operations, raised a $17M seed led by MMC, bringing its total funding to $25M (Tamara Djurickovic/Tech.eu)",
-      "Inside Nscale's 2,250-acre, 8GW Monarch Compute Campus in West Virginia, which has been hit by construction issues, local opposition, and financing risks (Financial Times)",
-      "Sources: Spotify aims to launch its AI remix service in Q1 2027 and may charge $4-$5/month extra; it is still negotiating licensing deals with Sony and Warner (Anna Nicolaou/Financial Times)",
-      "How a wave of startups are betting on AI to make formal software verification practical and essential, including &Truth, which launches with a $70M seed (Paresh Dave/Wired)",
-      "TRM Labs attributes the Binance hack to North Korea-based TraderTraitor, which drained $6.36B from Binance wallets across 10 blockchains, mostly in 20 minutes (Tom Westbrook/Reuters)",
-      "Binance pledges to cover all losses from a $6.3B hack, potentially the largest crypto theft ever, surpassing the $1.5B Bybit hack in February 2025 (South China Morning Post)",
-      "CrowdStrike: China-linked hackers used AI tool ARTEX with a DeepSeek LLM and another model to target 200+ organizations in 11 days, compromising at least nine (Kevin Collier/NBC News)"
+      "Binance says it has covered 90% of its hack losses, having set aside $6.34B+ of company funds; the remaining 10% is in less liquid tokens (Angela Christy/Reuters)",
+      "How AI detectors like Pangram are changing human writing: authors drop em dashes, \"not X, but Y\" phrasing, and words like \"delve\", or add typos, to look human (Morgan Meaker/Bloomberg)",
+      "A look at growing bipartisan opposition to AI data centers in drought-stricken Arizona, where TSMC's chip fabs were welcomed but newer projects face backlash (Gaby Del Valle/The Verge)",
+      "As AI models commoditize, lasting wealth will accrue to those controlling chokepoints like distribution, payment rails, and a stablecoin dollar, not to the labs (The Commanding Heights)",
+      "When talking about local inference, Sam Altman says supply-constrained DRAM is better used in data centers than sitting in PCs and \"being used 5% of the time\" (Andrew E. Freedman/Tom's Hardware)",
+      "Sources: neoclouds CoreWeave, Nebius, and Nscale have effectively been shut out of the bond market in recent weeks as lenders and investors demand tougher terms (Wall Street Journal)",
+      "S&P downgraded Meta's outlook from stable to negative, citing high capex and negative free cash flow; META fell 15% in October, its worst month in four years (Jonathan Vanian/CNBC)",
+      "Anthropic says a malicious actor used access to Cursor's marketplace to publish a \"tampered\" copy of the Claude Code extension, which it didn't build or publish (Felix Rieseberg/@felixrieseberg)",
+      "John Ternus says Apple doesn't \"want to ship AI for AI's sake\" and that Tim Cook is \"available to help wherever I ask\" on policy; Ternus has yet to meet Trump (Steven Levy/Wired)",
+      "Sources: OpenAI has secured $11B in commitments for its latest funding round, less than half its initial $30B target, and expects to raise more in coming weeks (Berber Jin/Wall Street Journal)",
+      "Sources: OpenAI now seeks $20B at a $1.25T valuation for its latest round, from $30B at a $1.4T valuation, as some investors cut commitments amid an AI selloff (Financial Times)",
+      "Sources: Baseten is raising $2B in two tranches, one valuing it at $26B and the other at $30B; Baseten was valued at $13B in June after raising $1.5B (Bloomberg)",
+      "Sources: Google is in talks with the DOD on a new effort to secure the data that feeds into software being built for the Golden Dome missile defense program (Bloomberg)",
+      "Filing: Vancouver, WA-based Powerlattice, which makes a power delivery chiplet to reduce AI compute power needs by 50%+, raised $86M, after raising $31M in 2025 (Kurt Schlosser/GeekWire)",
+      "OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI across multiple crawlers (Emma Roth/The Verge)"
     ],
     "brief": [
+      {
+        "title": "How the Most AI-Pilled Company in the World Works",
+        "summary": "Spawn’s ten-person team shipped 77,000 code changes in a month with an always-on fleet of AI agents. NLW breaks down the systems behind that output, why human taste and ambition still matter, and five practical lessons other businesses can apply. In the headlines: legal AI startup Crosby bids for We"
+      },
       {
         "title": "The AI Rankings Just Got Reshuffled",
         "summary": "A major overhaul of AI’s most-watched benchmark is reshuffling the model rankings and revealing a wider gap between open and closed models. NLW examines what the new tests reveal about real-world capabilities—and how much those rankings should matter when choosing your AI tools. In the headlines: Go"
@@ -105,138 +109,134 @@
       {
         "title": "The Most Concerning AI Bubble Signals",
         "summary": "AI bubble fears are getting louder as Anthropic’s IPO approaches. From GPUs sitting in warehouses to shaky data center debt and revenue concentrated among venture-backed startups, NLW examines which warning signs deserve attention and what would turn today’s market jitters into something much more s"
-      },
-      {
-        "title": "The AI vs AI Battle for the Internet",
-        "summary": "AI attackers and AI defenders are now battling over the internet’s vulnerabilities at superhuman speed. A massive PHP exploit and a wave of attacks reveal why cybersecurity is entering a new era—and why businesses are struggling to keep up. In the headlines: Anthropic unveils Claude Duet, Walmart we"
       }
     ],
     "trendingModels": [
       {
-        "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
-        "pipeline": "image-text-to-text",
-        "likes": 3970,
-        "downloads": 145869,
-        "origin": "CN"
-      },
-      {
         "id": "Nanbeige/Nanbeige4.3-33B",
         "pipeline": "text-generation",
-        "likes": 792,
-        "downloads": 12178,
+        "likes": 838,
+        "downloads": 13832,
         "origin": "OTHER"
+      },
+      {
+        "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+        "pipeline": "image-text-to-text",
+        "likes": 4071,
+        "downloads": 156373,
+        "origin": "CN"
       },
       {
         "id": "LiquidAI/LFM3-1.7B",
         "pipeline": "text-generation",
-        "likes": 536,
-        "downloads": 23694,
+        "likes": 606,
+        "downloads": 32933,
         "origin": "ALLIED"
       },
       {
         "id": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
         "pipeline": "automatic-speech-recognition",
-        "likes": 471,
-        "downloads": 15980,
+        "likes": 525,
+        "downloads": 24357,
         "origin": "ALLIED"
       },
       {
-        "id": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
-        "pipeline": "text-generation",
-        "likes": 498,
-        "downloads": 1747945,
-        "origin": "CN"
-      },
-      {
-        "id": "RecursiveSI/flint",
-        "pipeline": "text-generation",
-        "likes": 1253,
-        "downloads": 19015,
-        "origin": "OTHER"
+        "id": "mistralai/Mistral-Large-4-1T-A52B",
+        "pipeline": "image-text-to-text",
+        "likes": 1386,
+        "downloads": 2945,
+        "origin": "ALLIED"
       },
       {
         "id": "baidu/Unlimited-OCR-2",
         "pipeline": "image-text-to-text",
-        "likes": 434,
-        "downloads": 24276,
+        "likes": 469,
+        "downloads": 69231,
         "origin": "CN"
       },
       {
         "id": "Lightricks/LTX-2.5",
         "pipeline": "image-to-video",
-        "likes": 9927,
-        "downloads": 2335172,
+        "likes": 10036,
+        "downloads": 2441077,
         "origin": "OTHER"
       },
       {
-        "id": "mistralai/Mistral-Large-4-1T-A52B",
-        "pipeline": "image-text-to-text",
-        "likes": 1316,
-        "downloads": 1239,
-        "origin": "ALLIED"
+        "id": "ccore/Qwen3.5-4B-3D-Coder",
+        "pipeline": "",
+        "likes": 372,
+        "downloads": 29615,
+        "origin": "CN"
+      },
+      {
+        "id": "RecursiveSI/flint",
+        "pipeline": "text-generation",
+        "likes": 1272,
+        "downloads": 23079,
+        "origin": "OTHER"
       },
       {
         "id": "XHToken/Spark-X2.6-4B",
         "pipeline": "text-generation",
-        "likes": 916,
-        "downloads": 12515,
+        "likes": 935,
+        "downloads": 14515,
         "origin": "OTHER"
       },
       {
         "id": "black-forest-labs/flux-3-image-klein-comfy",
         "pipeline": "image-to-image",
-        "likes": 2094,
-        "downloads": 886973,
+        "likes": 2167,
+        "downloads": 925236,
         "origin": "OTHER"
       },
       {
         "id": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
         "pipeline": "text-to-image",
-        "likes": 5355,
-        "downloads": 2516721,
+        "likes": 5397,
+        "downloads": 2558497,
         "origin": "CN"
       },
       {
-        "id": "orcarouter/DeepSeek-V4.1-Flash-1017-abliterated-GGUF",
+        "id": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
         "pipeline": "text-generation",
-        "likes": 365,
-        "downloads": 30433,
-        "origin": "CN"
-      },
-      {
-        "id": "ccore/Qwen3.5-4B-3D-Coder",
-        "pipeline": "",
-        "likes": 304,
-        "downloads": 20197,
+        "likes": 513,
+        "downloads": 2076624,
         "origin": "CN"
       },
       {
         "id": "Qwen/Qwen3.8-27B",
         "pipeline": "image-text-to-text",
-        "likes": 18784,
-        "downloads": 7624809,
+        "likes": 18838,
+        "downloads": 7581050,
         "origin": "CN"
       },
       {
-        "id": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
-        "pipeline": "text-generation",
-        "likes": 277,
-        "downloads": 64263,
-        "origin": "ALLIED"
-      },
-      {
-        "id": "MiniMaxAI/MiniMax-M3.1-Flash",
-        "pipeline": "image-text-to-text",
-        "likes": 499,
-        "downloads": 18795,
-        "origin": "CN"
+        "id": "Pika-Labs/Pika-H3-Flex",
+        "pipeline": "image-to-video",
+        "likes": 243,
+        "downloads": 294,
+        "origin": "OTHER"
       },
       {
         "id": "LiquidAI/LFM3-Omni-2B",
         "pipeline": "any-to-any",
-        "likes": 221,
-        "downloads": 3080,
+        "likes": 240,
+        "downloads": 5695,
         "origin": "ALLIED"
+      },
+      {
+        "id": "orcarouter/DeepSeek-V4.1-Flash-1017-abliterated-GGUF",
+        "pipeline": "text-generation",
+        "likes": 388,
+        "downloads": 31320,
+        "origin": "CN"
+      },
+      {
+        "id": "openbmb/MiniCPM-OCR-1.0",
+        "pipeline": "image-text-to-text",
+        "likes": 372,
+        "downloads": 3050,
+        "origin": "CN"
       }
     ],
     "research": [
@@ -456,8 +456,23 @@
     "press": [
       {
         "source": "Breaking Defense",
+        "title": "US greenlights 500 Patriot missiles for Ukraine, with $2.1 billion to be paid by allies",
+        "summary": "The announcement comes amid heightened tensions between Kyiv and Washington, including purported delays in the transfer of interceptors."
+      },
+      {
+        "source": "Breaking Defense",
+        "title": "Bilateral no more: PACOM officials highlight multi-national data sharing network",
+        "summary": "“For the first time, PACOM and several key allies and partners communicated, collaborated, planned, and executed with common tools, common data flows and language translation,” PACOM deputy commander Lt. Gen. George Rowell, said."
+      },
+      {
+        "source": "Breaking Defense",
+        "title": "Pentagon reveals FY26 intelligence budget at $30.9 billion",
+        "summary": "Meanwhile, the National Intelligence Program budget was revealed at $78.1 billion."
+      },
+      {
+        "source": "Breaking Defense",
         "title": "New UK policy requires foreign defense contractors to invest locally for all £50M+ deals",
-        "summary": "The new policy is due to come into effect in April 2027 and make sure that “British workers and businesses still benefit,” from contracts inked with foreign firms, according to the UK Ministry of Defence"
+        "summary": "The new policy is due to come into effect in April 2027 and make sure that “British workers and businesses still benefit,” from contracts inked with foreign firms, according to the UK."
       },
       {
         "source": "Breaking Defense",
@@ -488,21 +503,6 @@
         "source": "Breaking Defense",
         "title": "Army’s MV-75 production award could slip due to CR, raising program costs: Textron",
         "summary": "Bell Textron executives warned that a delay in the helicopter’s first low-rate production contract could increase the program’s expected financial hit to as much as $150 million."
-      },
-      {
-        "source": "Breaking Defense",
-        "title": "Beyond autopilot: Understanding the five levels of battlefield drone autonomy",
-        "summary": "Sponsored By going beyond simple automation, drones can carry out tasks with minimal input from operators."
-      },
-      {
-        "source": "Breaking Defense",
-        "title": "Taiwan 2027 conflict window remains valid, Army Pacific commander says",
-        "summary": "Army Pacific is positioning personnel and equipment across the Pacific to meet the 2027 “Davidson window” benchmark and deter a potential Chinese attack on Taiwan, Gen. Ronald Clark said."
-      },
-      {
-        "source": "Breaking Defense",
-        "title": "US, Japan reach agreements for AMRAAM assembly, SM-3 production boost: Japanese MoD",
-        "summary": "The “groundbreaking agreement” on AMRAAM production “will not only ensure the acquisition of equipment needed by both Japan and the United States, but will also strengthen Japan’s defense industry base,” said Japanese Defense Minister Shinj"
       },
       {
         "source": "DefenseScoop",
@@ -559,34 +559,34 @@
       {
         "lab": "DoD",
         "items": [
+          "Coast Guard Cutter Stratton Returns Home After Lengthy Northern Patrol",
           "Western Hemisphere Nations Meet to Advance Anti-Cartel Campaign Plan",
           "Assistant Secretary Says New Infrastructure Initiatives Are a 'National Calling'",
           "Marine Corps Base Hawaii Barracks Project Crosses Halfway Mark",
           "Army Mountain Division Takes on Panamanian Jungle",
-          "Marines, Japanese Forces Sharpen Explosive Disposal Skills During Keen Sword 2027",
-          "Hegseth Outlines Cooperative Agenda for Regional Stability in Asia"
+          "Marines, Japanese Forces Sharpen Explosive Disposal Skills During Keen Sword 2027"
         ]
       },
       {
         "lab": "FedScoop",
         "items": [
+          "Fed watchdog pushes central bank toward more streamlined IT operations",
           "Trump’s AI use to inform military operations questioned by House duo",
           "Treasury, IRS use of third-party ID verification under fire from top Senate Finance, Banking Dems",
           "Understaffed CFPB’s security program has foundational ‘weaknesses,’ OIG says",
           "Overcoming gaps in federal business systems modernization",
-          "Leak site publishes data on more than 41,000 DHS employees obtained by hacktivists",
-          "GSA exposed sensitive information to all agency users on Google Drive, OIG finds"
+          "Leak site publishes data on more than 41,000 DHS employees obtained by hacktivists"
         ]
       },
       {
         "lab": "Federal News Network",
         "items": [
-          "Industry pushes back on DoD’s proposed rules for moving program",
-          "OPM formally discontinues Federal Employee Viewpoint Survey",
-          "AI safety depends on government capacity. Washington is weakening it.",
-          "Can federal IT modernization deliver on its promises?",
-          "Federal security leaders team up as post-quantum deadlines tighten",
-          "A discovery at NIST changed how researchers think about an unusual quantum material"
+          "‘Dangerous:’ CISA official criticizes company’s decision to release PHP bug early",
+          "Air Force kicks off effort to provide free Wi-Fi to Airmen in dorms",
+          "Federal Movers & Shakers October 30, 2026",
+          "Falling response rates push Census Bureau to test new ways of collecting data",
+          "As the acquisition world turns: 4 plot twists in the latest storyline",
+          "IRS facing new lawsuit over return-to-office policy"
         ]
       }
     ]
