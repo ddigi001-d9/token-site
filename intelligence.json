@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-31T15:56:24.910Z",
-  "runNumber": 136,
+  "generatedAt": "2026-11-01T16:59:11.140Z",
+  "runNumber": 137,
   "situation": {
     "headline": "Assessment unavailable",
     "velocity": "STABLE",
@@ -61,23 +61,27 @@
   "groundTruth": [],
   "aiNews": {
     "headlines": [
+      "A profile of White House OSTP Director Michael Kratsios, an ex-Peter Thiel aide who is among a handful of players steering the Trump administration's AI policy (Harry Lambert/Colossus)",
+      "Solve: the cost of insuring against debt defaults at hyperscalers Amazon, Alphabet, Microsoft, Meta, and Oracle has hit its highest level since 2021 (Gunjan Banerji/Wall Street Journal)",
+      "A look at a crude campaign of cyberattacks by Russia-linked hacktivist groups that have caused physical damage in NATO-aligned countries over the past two years (Ryan Gallagher/Bloomberg)",
+      "Lumaril, which develops AI software for optimizing industrial production by connecting to existing control systems, raised a $66M Series A at a $400M valuation (Sarah Klearman/Wall Street Journal)",
+      "Binance has started resuming withdrawals in phases, including for BTC and ETH, after covering 95% of the $6.3B in tokens stolen in the hack by TraderTraitor (Reuters)",
+      "Shanghai-based NeuroXess, which is developing BCI technology for movement support, speech decoding, and control of external devices, raised a $105M Series B (TechNode)",
+      "Enterprise voice AI tools provider Deepgram acquires Daily, which has raised $62M+ and develops open-source voice AI framework Pipecat, for an undisclosed sum (Ivan Mehta/TechCrunch)",
+      "DeepSeek open sources Super-Agent, a coding agent research prototype it says proactively monitors developer group chats for coding issues and suggests solutions (Debby Wu/Bloomberg)",
+      "Insurance software maker Guidewire agrees to acquire Hyperexponential, which makes AI-powered insurance underwriting and pricing software, for $1.7B+ in cash (Anzar Mehraj/Reuters)",
+      "The FBI attributes the $6.3B Binance hack to North Korea's elite hacking unit TraderTraitor, which the agency has also blamed for the $1.5B Bybit hack in 2025 (Kevin Whitelaw/Bloomberg)",
+      "Tests: chatbots rely on three obscure AI-built voter sites for US midterm answers; Copilot cited the error-prone Ballot Brief in 75% of tests and ChatGPT in 22% (Washington Post)",
+      "Researchers are paid $5K for reporting a bug to OpenAI that would let attackers run code in logged-in sessions of all who opened the hacker's ChatGPT share link (Swati Khandelwal/The Hacker News)",
+      "Sources: Meta built a prototype humanoid robot with Chinese firm Fourier in three months and is building a second; Meta says it has no plans to sell these units (Jyoti Mann/The Information)",
       "Binance says it has covered 90% of its hack losses, having set aside $6.34B+ of company funds; the remaining 10% is in less liquid tokens (Angela Christy/Reuters)",
-      "How AI detectors like Pangram are changing human writing: authors drop em dashes, \"not X, but Y\" phrasing, and words like \"delve\", or add typos, to look human (Morgan Meaker/Bloomberg)",
-      "A look at growing bipartisan opposition to AI data centers in drought-stricken Arizona, where TSMC's chip fabs were welcomed but newer projects face backlash (Gaby Del Valle/The Verge)",
-      "As AI models commoditize, lasting wealth will accrue to those controlling chokepoints like distribution, payment rails, and a stablecoin dollar, not to the labs (The Commanding Heights)",
-      "When talking about local inference, Sam Altman says supply-constrained DRAM is better used in data centers than sitting in PCs and \"being used 5% of the time\" (Andrew E. Freedman/Tom's Hardware)",
-      "Sources: neoclouds CoreWeave, Nebius, and Nscale have effectively been shut out of the bond market in recent weeks as lenders and investors demand tougher terms (Wall Street Journal)",
-      "S&P downgraded Meta's outlook from stable to negative, citing high capex and negative free cash flow; META fell 15% in October, its worst month in four years (Jonathan Vanian/CNBC)",
-      "Anthropic says a malicious actor used access to Cursor's marketplace to publish a \"tampered\" copy of the Claude Code extension, which it didn't build or publish (Felix Rieseberg/@felixrieseberg)",
-      "John Ternus says Apple doesn't \"want to ship AI for AI's sake\" and that Tim Cook is \"available to help wherever I ask\" on policy; Ternus has yet to meet Trump (Steven Levy/Wired)",
-      "Sources: OpenAI has secured $11B in commitments for its latest funding round, less than half its initial $30B target, and expects to raise more in coming weeks (Berber Jin/Wall Street Journal)",
-      "Sources: OpenAI now seeks $20B at a $1.25T valuation for its latest round, from $30B at a $1.4T valuation, as some investors cut commitments amid an AI selloff (Financial Times)",
-      "Sources: Baseten is raising $2B in two tranches, one valuing it at $26B and the other at $30B; Baseten was valued at $13B in June after raising $1.5B (Bloomberg)",
-      "Sources: Google is in talks with the DOD on a new effort to secure the data that feeds into software being built for the Golden Dome missile defense program (Bloomberg)",
-      "Filing: Vancouver, WA-based Powerlattice, which makes a power delivery chiplet to reduce AI compute power needs by 50%+, raised $86M, after raising $31M in 2025 (Kurt Schlosser/GeekWire)",
-      "OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI across multiple crawlers (Emma Roth/The Verge)"
+      "How AI detectors like Pangram are changing human writing: authors drop em dashes, \"not X, but Y\" phrasing, and words like \"delve\", or add typos, to look human (Morgan Meaker/Bloomberg)"
     ],
     "brief": [
+      {
+        "title": "AI Won’t Make Our Minds Useless According to 400 Years of History",
+        "summary": "What if abundant intelligence makes human ambition expand rather than human relevance disappear? NLW explores Venkatesh Rao’s “Cognitive Mercantilism,” which uses the history of capitalism to challenge assumptions about AI and our intellectual future. From the agricultural revolution to today’s AI a"
+      },
       {
         "title": "How the Most AI-Pilled Company in the World Works",
         "summary": "Spawn’s ten-person team shipped 77,000 code changes in a month with an always-on fleet of AI agents. NLW breaks down the systems behind that output, why human taste and ambition still matter, and five practical lessons other businesses can apply. In the headlines: legal AI startup Crosby bids for We"
@@ -105,138 +109,134 @@
       {
         "title": "How I'm Actually Using AI Right Now (Including Claude Duet)",
         "summary": "Claude Duet's launch is an opportunity to take stock of how I'm actually using AI today. From strategy and research to coding, content creation and data analysis, I break down my current AI stack and which models work best for which tasks. Then, a comparison of ChatGPT Dots and Claude Duet, and why"
-      },
-      {
-        "title": "The Most Concerning AI Bubble Signals",
-        "summary": "AI bubble fears are getting louder as Anthropic’s IPO approaches. From GPUs sitting in warehouses to shaky data center debt and revenue concentrated among venture-backed startups, NLW examines which warning signs deserve attention and what would turn today’s market jitters into something much more s"
       }
     ],
     "trendingModels": [
       {
-        "id": "Nanbeige/Nanbeige4.3-33B",
-        "pipeline": "text-generation",
-        "likes": 838,
-        "downloads": 13832,
-        "origin": "OTHER"
-      },
-      {
         "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
         "pipeline": "image-text-to-text",
-        "likes": 4071,
-        "downloads": 156373,
+        "likes": 4197,
+        "downloads": 170353,
         "origin": "CN"
       },
       {
         "id": "LiquidAI/LFM3-1.7B",
         "pipeline": "text-generation",
-        "likes": 606,
-        "downloads": 32933,
+        "likes": 669,
+        "downloads": 37568,
         "origin": "ALLIED"
+      },
+      {
+        "id": "Nanbeige/Nanbeige4.3-33B",
+        "pipeline": "text-generation",
+        "likes": 962,
+        "downloads": 15795,
+        "origin": "OTHER"
       },
       {
         "id": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
         "pipeline": "automatic-speech-recognition",
-        "likes": 525,
-        "downloads": 24357,
+        "likes": 577,
+        "downloads": 29364,
         "origin": "ALLIED"
       },
       {
         "id": "mistralai/Mistral-Large-4-1T-A52B",
         "pipeline": "image-text-to-text",
-        "likes": 1386,
-        "downloads": 2945,
+        "likes": 1428,
+        "downloads": 4576,
         "origin": "ALLIED"
       },
       {
         "id": "baidu/Unlimited-OCR-2",
         "pipeline": "image-text-to-text",
-        "likes": 469,
-        "downloads": 69231,
+        "likes": 503,
+        "downloads": 109519,
         "origin": "CN"
       },
       {
         "id": "Lightricks/LTX-2.5",
         "pipeline": "image-to-video",
-        "likes": 10036,
-        "downloads": 2441077,
+        "likes": 10167,
+        "downloads": 2431846,
         "origin": "OTHER"
       },
       {
         "id": "ccore/Qwen3.5-4B-3D-Coder",
         "pipeline": "",
-        "likes": 372,
-        "downloads": 29615,
+        "likes": 452,
+        "downloads": 44825,
         "origin": "CN"
-      },
-      {
-        "id": "RecursiveSI/flint",
-        "pipeline": "text-generation",
-        "likes": 1272,
-        "downloads": 23079,
-        "origin": "OTHER"
-      },
-      {
-        "id": "XHToken/Spark-X2.6-4B",
-        "pipeline": "text-generation",
-        "likes": 935,
-        "downloads": 14515,
-        "origin": "OTHER"
-      },
-      {
-        "id": "black-forest-labs/flux-3-image-klein-comfy",
-        "pipeline": "image-to-image",
-        "likes": 2167,
-        "downloads": 925236,
-        "origin": "OTHER"
       },
       {
         "id": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
         "pipeline": "text-to-image",
-        "likes": 5397,
-        "downloads": 2558497,
-        "origin": "CN"
-      },
-      {
-        "id": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
-        "pipeline": "text-generation",
-        "likes": 513,
-        "downloads": 2076624,
-        "origin": "CN"
-      },
-      {
-        "id": "Qwen/Qwen3.8-27B",
-        "pipeline": "image-text-to-text",
-        "likes": 18838,
-        "downloads": 7581050,
+        "likes": 5455,
+        "downloads": 2548468,
         "origin": "CN"
       },
       {
         "id": "Pika-Labs/Pika-H3-Flex",
         "pipeline": "image-to-video",
-        "likes": 243,
-        "downloads": 294,
+        "likes": 294,
+        "downloads": 404,
+        "origin": "OTHER"
+      },
+      {
+        "id": "black-forest-labs/flux-3-image-klein-comfy",
+        "pipeline": "image-to-image",
+        "likes": 2233,
+        "downloads": 970633,
+        "origin": "OTHER"
+      },
+      {
+        "id": "XHToken/Spark-X2.6-4B",
+        "pipeline": "text-generation",
+        "likes": 945,
+        "downloads": 16707,
+        "origin": "OTHER"
+      },
+      {
+        "id": "Qwen/Qwen3.8-27B",
+        "pipeline": "image-text-to-text",
+        "likes": 18896,
+        "downloads": 7892866,
+        "origin": "CN"
+      },
+      {
+        "id": "RecursiveSI/flint",
+        "pipeline": "text-generation",
+        "likes": 1285,
+        "downloads": 26703,
+        "origin": "OTHER"
+      },
+      {
+        "id": "speridlabs/idol",
+        "pipeline": "image-to-3d",
+        "likes": 270,
+        "downloads": 4194,
         "origin": "OTHER"
       },
       {
         "id": "LiquidAI/LFM3-Omni-2B",
         "pipeline": "any-to-any",
-        "likes": 240,
-        "downloads": 5695,
+        "likes": 259,
+        "downloads": 8376,
         "origin": "ALLIED"
       },
       {
-        "id": "orcarouter/DeepSeek-V4.1-Flash-1017-abliterated-GGUF",
+        "id": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
         "pipeline": "text-generation",
-        "likes": 388,
-        "downloads": 31320,
+        "likes": 530,
+        "downloads": 2294642,
         "origin": "CN"
       },
       {
-        "id": "openbmb/MiniCPM-OCR-1.0",
-        "pipeline": "image-text-to-text",
-        "likes": 372,
-        "downloads": 3050,
-        "origin": "CN"
+        "id": "Diffuspace/Clover-35B-A3B-Preview",
+        "pipeline": "text-generation",
+        "likes": 201,
+        "downloads": 2352,
+        "origin": "OTHER"
       }
     ],
     "research": [
