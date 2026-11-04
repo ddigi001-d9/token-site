@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-03T18:12:57.718Z",
-  "runNumber": 139,
+  "generatedAt": "2026-11-04T18:26:11.292Z",
+  "runNumber": 140,
   "situation": {
     "headline": "Assessment unavailable",
     "velocity": "STABLE",
@@ -61,23 +61,27 @@
   "groundTruth": [],
   "aiNews": {
     "headlines": [
-      "AI inference startup Fal raised $1.3B led by Bessemer at a $16B valuation, up from $8B in April; a source says it hit $800M in annualized revenue this year (Natasha Mascarenhas/Bloomberg)",
-      "Sources: UK-based Google DeepMind staff urge leaders to drop non-disparagement clauses barring public warnings about AI risks even after they leave the company (Gerrit De Vynck/Washington Post)",
-      "Microsoft updates Windows 11 to make PCs with 8GB of RAM up to 20% more responsive and multitasking up to 40% faster in lab tests, utilizing memory compression (Lance Whitney/ZDNET)",
-      "Rockstar plans to let users pre-load GTA VI on November 10, ahead of its November 19 launch, and says the game requires up to 212GB \"depending on your device\" (Emma Roth/The Verge)",
-      "Binance says North Korean hackers stole $6.3B through a months-long scheme with fake LinkedIn job interviews and an ad campaign to deliver malicious software (Jeff John Roberts/Fortune)",
-      "ChatGPT Consumer Product Lead Adam Fry says ChatGPT has hit 1.2B WAUs, adding 200M over the past two months, and its search volume is now 20% of Google's (Alex Kantrowitz/Big Technology)",
-      "Google plans to make it easier to restrict its AI tools for students in early 2027, but says schools that block AI entirely will lose student access to Search (New York Times)",
-      "CrowdStrike agrees to buy Fiddler AI, which helps monitor AI agents, for $400M, and Dreadnode, an automated security AI testing tool, for $95M, mostly in cash (James Rundle/Wall Street Journal)",
-      "Sources: Anthropic has told investors in recent meetings that its 15-person chip design team is using Claude for engineering and design work on its custom chips (The Information)",
-      "iPad mini (2026) review: great OLED display, it's waterproof and dustproof, and the A20 Pro is fast, but it's expensive, has no 120Hz display, and lacks Face ID (David Pierce/The Verge)",
-      "New England-based autonomous submarine startup Corridian emerges from stealth with a $38M seed led by Point72 Ventures and plans to unveil its first AUV in 2027 (Colin Demarest/Axios)",
-      "Shopify reports Q3 revenue up 32% YoY to $3.74B, vs. $3.75B est., GMV up 29% to $119.15B, net income up 75% to $462M, and adjusted EPS of $0.49; SHOP falls 5%+ (Adriano Marchese/Wall Street Journal)",
-      "US data center operators and power developers are repurposing jet engines to secure power in as little as two years, bypassing multi-year grid-connection delays (New York Times)",
-      "John Ternus' first earnings call was a timid, scripted affair, as Apple faces a challenging Christmas quarter and a difficult 2027; AAPL falls 3%+ (Dave Lee/Bloomberg)",
-      "Chainalysis and Elliptic expect North Korean hackers to take months to launder the stolen Binance funds, using crypto swapping services and DeFi lending markets (Financial Times)"
+      "Shares of US tech giants jump after Democrats' midterm sweep as investors bet that a Democrat-controlled Congress will slow AI capex that's draining cash flow (Bloomberg)",
+      "Sequoia raised $10B in new funds, and announces it is shutting down its Arc accelerator and Scouts program, merging its early-stage and growth teams, and more (Connie Loizos/TechCrunch)",
+      "Pangram releases Pangram Image 1.0, which it says is state-of-the-art in AI image and AI video detection, and the smaller Image Flash 1.0 for AI video detection (Isaac Kasahara/Pangram)",
+      "Titan OS, which monetizes smart TVs via ads and FAST deals, raised $46M in equity and debt, taking its total funding to $110M, and says it now has 30M users (Ivan Mehta/TechCrunch)",
+      "Democrats' sweep of Congress raises the likelihood of strong frontier AI legislation passing in early 2027, including mandatory testing and developer liability (Shakeel Hashim/Transformer)",
+      "CoreWeave's stock and unsecured bonds fall after sweeping Democratic midterm victories, as Texas Governor-elect Gina Hinojosa calls for a data center moratorium (Katherine Schwartz/Bloomberg)",
+      "Sources: Tron, Tether, Binance, and TRM Labs' T3 Financial Crime Unit quietly dissolved in August due to slow response times, after freezing $250M in assets (Ryan Weeks/Bloomberg)",
+      "Circle reports Q3 revenue up 17% YoY to $875M, driven in part by its ARC token presales, net income up 5% to $226M, and says it is cutting 5% of its employees (Yueqi Yang/The Information)",
+      "TeraWulf secures a credit backstop agreement with Google to support financing for its data center project with Anthropic in Kentucky, set to come online H2 2027 (Deborah Sophia/Reuters)",
+      "Crypto and AI super PACs spent $250M in 2026 midterms, but lost 9/12 competitive races called so far, spending $74.7M on losing candidates and $28.3M on winners (Molly White/Citation Needed)",
+      "Sources: Singapore-based, Nigeria-focused payments startup OPay halts its $300M US IPO just hours after pricing it due to inquiries from a Chinese regulator (Bloomberg)",
+      "Revolut hits a $115B valuation, up from $75B in November 2025, after a secondary share sale led by Glade Brook, Coatue, and others, as it plans a US bank launch (Jagmeet Singh/TechCrunch)",
+      "UK AI Minister Kanishka Narayan says AI is set to add £55B to £140B to the economy by 2030, below a £400B estimate from a Google-led report touted by officials (Ben Gartside/Wired)",
+      "The French Blood Establishment says external providers' blood cold storage units were hacked to raise temperatures, in a wave of refrigeration cyberattacks (Sawdah Bhaimiya/CNBC)",
+      "Sequoia says it's closing its London office after six years and consolidating operations back to the Bay Area, as it doesn't \"see the need for a local presence\" (Mike Butcher/Pathfounders)"
     ],
     "brief": [
+      {
+        "title": "AI Lurches Toward Recursive Self-Improvement",
+        "summary": "Check out How We Got Here Ep. 2 - How We Made the Wrong Things Cheap ⁠⁠⁠⁠⁠⁠⁠⁠ ⁠⁠⁠⁠⁠⁠⁠⁠ Learn More about the AI Champions Program: ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ Brought to you by: KPMG – New KPMG and UT Austin research shows what separates “AI Amplifiers” from everyone else. Learn more at ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠kpmg.com/"
+      },
       {
         "title": "How to Deslopify Your AI",
         "summary": "AI slop shifts the burden of thinking from the person producing the work to whoever receives it. In this Operators’ Cut, Nufar Gaspar joins NLW to share practical habits for creating better work with AI, from developing your own point of view and teaching models your taste to building effective revi"
@@ -105,200 +109,196 @@
       {
         "title": "4 Questions for AI This Week",
         "summary": "Is China closing the AI gap? Is cyber chaos the new normal? Is data center funding drying up? And what happens if Anthropic’s IPO disappoints? From Kimi K3.1 to rogue agent swarms to Elon Musk’s debt market warning, NLW examines the four questions shaping AI this week. Listen to the new How We Got H"
-      },
-      {
-        "title": "Introducing How We Got Here -- NLW's new podcast",
-        "summary": "NLW's new show How We Got Here launched today. It's a weekly deep dive into how today's biggest stories came to be, made for the topics that have too much backstory to fit into the AI Daily Brief. This is the first five minutes of Episode 1, How Tech Lost America, about how tech went from America's"
       }
     ],
     "trendingModels": [
       {
-        "id": "LiquidAI/LFM3-1.7B",
-        "pipeline": "text-generation",
-        "likes": 1379,
-        "downloads": 47817,
-        "origin": "ALLIED"
-      },
-      {
         "id": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
         "pipeline": "automatic-speech-recognition",
-        "likes": 720,
-        "downloads": 38942,
+        "likes": 1458,
+        "downloads": 44939,
         "origin": "ALLIED"
       },
       {
         "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
         "pipeline": "image-text-to-text",
-        "likes": 4828,
-        "downloads": 187260,
+        "likes": 5250,
+        "downloads": 221621,
         "origin": "CN"
+      },
+      {
+        "id": "LiquidAI/LFM3-1.7B",
+        "pipeline": "text-generation",
+        "likes": 1470,
+        "downloads": 54959,
+        "origin": "ALLIED"
       },
       {
         "id": "mistralai/Mistral-Large-4-1T-A52B",
         "pipeline": "image-text-to-text",
-        "likes": 1532,
-        "downloads": 6556,
+        "likes": 1583,
+        "downloads": 8200,
         "origin": "ALLIED"
       },
       {
         "id": "speridlabs/idol",
         "pipeline": "image-to-3d",
-        "likes": 490,
-        "downloads": 10742,
+        "likes": 587,
+        "downloads": 14613,
+        "origin": "OTHER"
+      },
+      {
+        "id": "Pika-Labs/Pika-H3-Flex",
+        "pipeline": "image-to-video",
+        "likes": 421,
+        "downloads": 749,
         "origin": "OTHER"
       },
       {
         "id": "Lightricks/LTX-2.5",
         "pipeline": "image-to-video",
-        "likes": 10460,
-        "downloads": 2488128,
+        "likes": 10590,
+        "downloads": 2493402,
         "origin": "OTHER"
       },
       {
         "id": "ccore/Qwen3.5-4B-3D-Coder",
         "pipeline": "",
-        "likes": 594,
-        "downloads": 91123,
+        "likes": 645,
+        "downloads": 123321,
         "origin": "CN"
       },
       {
-        "id": "Pika-Labs/Pika-H3-Flex",
-        "pipeline": "image-to-video",
-        "likes": 384,
-        "downloads": 633,
-        "origin": "OTHER"
-      },
-      {
-        "id": "baidu/Unlimited-OCR-2",
+        "id": "moonshotai/Kimi-K3.1-Pro",
         "pipeline": "image-text-to-text",
-        "likes": 584,
-        "downloads": 189897,
-        "origin": "CN"
-      },
-      {
-        "id": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
-        "pipeline": "text-to-image",
-        "likes": 5606,
-        "downloads": 2508590,
+        "likes": 326,
+        "downloads": 797,
         "origin": "CN"
       },
       {
         "id": "burner22/numbat",
         "pipeline": "",
-        "likes": 316,
-        "downloads": 7461,
+        "likes": 337,
+        "downloads": 8118,
+        "origin": "OTHER"
+      },
+      {
+        "id": "FusionCow/Sulphur-3",
+        "pipeline": "",
+        "likes": 354,
+        "downloads": 528,
         "origin": "OTHER"
       },
       {
         "id": "Qwen/Qwen3.8-27B",
         "pipeline": "image-text-to-text",
-        "likes": 19059,
-        "downloads": 8014877,
+        "likes": 19137,
+        "downloads": 8032442,
+        "origin": "CN"
+      },
+      {
+        "id": "abenzerps/Qwen-Image-2.1-Turbo-Quantized",
+        "pipeline": "text-to-image",
+        "likes": 5645,
+        "downloads": 305860,
         "origin": "CN"
       },
       {
         "id": "black-forest-labs/flux-3-image-klein-comfy",
         "pipeline": "image-to-image",
-        "likes": 2402,
-        "downloads": 1032077,
-        "origin": "OTHER"
-      },
-      {
-        "id": "LiquidAI/LFM3-Omni-2B",
-        "pipeline": "any-to-any",
-        "likes": 331,
-        "downloads": 11662,
-        "origin": "ALLIED"
-      },
-      {
-        "id": "FusionCow/Sulphur-3",
-        "pipeline": "",
-        "likes": 318,
-        "downloads": 395,
-        "origin": "OTHER"
-      },
-      {
-        "id": "Nanbeige/Nanbeige4.3-33B",
-        "pipeline": "text-generation",
-        "likes": 1020,
-        "downloads": 17839,
-        "origin": "OTHER"
-      },
-      {
-        "id": "Edge0/Audio8-TTS-Realistic-Air",
-        "pipeline": "text-to-speech",
-        "likes": 270,
-        "downloads": 8090,
+        "likes": 2474,
+        "downloads": 1052684,
         "origin": "OTHER"
       },
       {
         "id": "AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF",
         "pipeline": "text-generation",
-        "likes": 250,
-        "downloads": 53913,
+        "likes": 286,
+        "downloads": 73659,
         "origin": "CN"
+      },
+      {
+        "id": "Edge0/Audio8-TTS-Realistic-Air",
+        "pipeline": "text-to-speech",
+        "likes": 290,
+        "downloads": 9695,
+        "origin": "OTHER"
+      },
+      {
+        "id": "baidu/Unlimited-OCR-2",
+        "pipeline": "image-text-to-text",
+        "likes": 606,
+        "downloads": 230232,
+        "origin": "CN"
+      },
+      {
+        "id": "sensenova/SenseNova-Loop-9B-Preview",
+        "pipeline": "image-text-to-text",
+        "likes": 230,
+        "downloads": 2704,
+        "origin": "ALLIED"
       }
     ],
     "research": [
       {
-        "title": "Pixel-UMI: Learning Environment-Aware Whole-Body Manipulation from Sensorized Human Demonstrations",
-        "summary": "Sensorized human demonstrations offer scalable data for mobile manipulation, but embodiment differences complicate policy learning. We present Pixel-UMI, a pipeline for learning environment-aware whole-body policies from human data. We first introduce Environm"
+        "title": "DreamX: Video Diffusion Model is a Universal Latent Action Learner",
+        "summary": "Learning a universal action representation from video requires modeling dynamics that are consistent across different executions of the same action yet invariant to changes in embodiment and appearance. Existing latent action models infer actions from visual t"
       },
       {
-        "title": "Pixel: A Co-Designed Full-Stack Robot System for Learning General-Purpose Mobile Manipulation",
-        "summary": "General-purpose mobile manipulation requires a combination of capable robot hardware, scalable demonstration collection, expressive whole-body control, and effective policy learning. Yet these components are often developed independently, creating mismatches t"
+        "title": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
+        "summary": "For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foundation models now write code and run multistep tasks, and personal agents act on a person's behalf. Yet people still forget what they once kn"
       },
       {
-        "title": "From Natural Language to Exact Cover: A Neuro-Symbolic Approach to Zebra Puzzles",
-        "summary": "Chain-of-Thought (CoT) generation has substantially improved the performance of Large Language Models (LLMs) on complex reasoning tasks, including code generation, data analysis, and exam-style question answering. Despite these advances, purely neural LLMs con"
+        "title": "Aligning Language Models with General Preferences: An Empirical Study of Direct Nash Optimization",
+        "summary": "Direct Nash Optimization (DNO) aligns a language model to a general preference function by approximating the Nash equilibrium of a two-player preference game. Its practical variant, DNO-Prct, iterates on-policy sampling, LLM-based rating of the samples togethe"
       },
       {
-        "title": "WebHarbor: Docking Real Websites for Evolving GUI Agent Environments",
-        "summary": "GUI web agents require realistic and interactive environments that remain stable during both evaluation and training. Live website evaluation suffers from changing content, access restrictions, and limited coverage of authenticated workflows, while existing sy"
+        "title": "PolicyIK: High-Precision Inverse Kinematics for Robot Arms with Reinforcement Learning",
+        "summary": "Inverse kinematics (IK) converts end-effector pose commands into joint motion, and many vision-language-action (VLA) policies rely on it to act on a given arm and to transfer across embodiments. Precise IK remains laborious: redundancy and singularities compli"
       },
       {
-        "title": "Pretraining Data Scale Reverses the Muon-AdamW Fine-Tuning Gap",
-        "summary": "Muon has recently emerged as a promising optimizer for pretraining large language models, offering a speedup over AdamW in minimizing pretraining loss. However, it remains unclear whether Muon's advantage persists after fine-tuning. In this paper, we study the"
+        "title": "GUILD: Guided Iterative Data Collection for Imitation Learning",
+        "summary": "Imitation learning policies in robotics are trained on datasets collected through costly real-world teleoperation. Often, the data-collection process is unguided, relying on the teleoperator's intuition, resulting in data that contributes little to overall pol"
       },
       {
-        "title": "Not All Reasoning Generalizes: A Case Study on Learning Generalizable Reasoning Strategies in RLVR",
-        "summary": "Reinforcement learning with verifiable rewards (RLVR) can enable generalizable improvement for large language model (LLM) reasoning. This paper studies how to incentivize such generalization via reasoning strategies. We study this question with a controllable"
+        "title": "Suppressing Misaligned Behaviors in Language Models, Durably",
+        "summary": "Undesired model behaviors can emerge or re-emerge at any stage of training. Once observed, how effectively can we suppress them? To study this question, we first construct two model organisms--language models deliberately trained to exhibit a specific misalign"
       },
       {
-        "title": "FADE: Factored Ability--Difficulty Filtering for Online RLVR Scheduling",
-        "summary": "Group-based reinforcement learning with verifiable rewards (RLVR) learns only from prompts whose sampled completions disagree: all-pass and all-fail groups produce zero relative advantage and burn generation budget without moving the policy. Adaptive scheduler"
+        "title": "Reading Why: Born-Measured Attention with Exact Word Evidence on Light and Qubits",
+        "summary": "When a language model answers, we can usually only estimate why. We build a transformer in which every step is a Born measurement - attention $ \\langle q k\\rangle ^4$ normalised over each row, a measured product in place of the feed-forward nonlinearity, and a"
       },
       {
-        "title": "Thought-deciphering via hierarchical EEG-to-text alignment",
-        "summary": "Communication is important for our well-being, but it can be impaired by disabilities, such as locked-in syndrome (LIS), cerebral palsy (CP), and dysarthria. Non-invasive brain-to-text brain-computer interfaces (BCIs) offer a promising solution by providing an"
+        "title": "Agnostic Learning by Imitating",
+        "summary": "Given a class of machine learning models and sample access to a data distribution with binary labels, which computational task is harder: training a discriminative model that distinguishes positive and negative labels as well as the best member of the class, o"
       },
       {
-        "title": "D&A: Decoupling Description and Assessment Enables VLMs as Zero-Shot Robotic Reward Models",
-        "summary": "Vision-Language Models (VLMs) hold promise for zero-shot video task-progress estimation in robot learning, yet existing frameworks frequently suffer from confirmation bias, hallucinating progress in failed executions due to implicit success assumptions or rela"
+        "title": "Adversarial Speculative Reasoning Improves Long Horizon Agents",
+        "summary": "Speculative decoding has been treated purely as a systems optimization that speeds up large language model decoding without changing the model behavior. Under this view, the growing effort to train better draft models has been focused solely on acceptance rate"
       },
       {
-        "title": "Strategist: Evolving Reasoning with Agents",
-        "summary": "A model is only half of an AI agent system. The other half is the inference strategy: the reasoning procedure that turns model calls into a response. Today that second half is written by hand, and the experience of building one strategy never carries to the ne"
+        "title": "A Circuit for In-Context Learning",
+        "summary": "In-context learning (ICL) lets a pretrained language model perform a task specified by demonstrations in its prompt, with no parameter updates. With arbitrary labels the model must acquire a mapping it cannot have memorized, so the learning happens within a si"
       },
       {
-        "title": "Tracing the Scientific Discovery Capacity of LLMs to Their Training Data",
-        "summary": "Large language models (LLMs) show growing promise for scientific discovery, yet basic questions remain about what enables reliable discovery. How can we trace the scientific discovery capacity of LLMs to their training data? We study this question as one of mi"
+        "title": "Weight-space programming for auditing clinical decision networks",
+        "summary": "Machine learning models in radiotherapy are commissioned by testing them on cases with known answers, which may not reveal a shortcut that the test cases share with the training data. Frontier language models have recently been reported to read and write the r"
       },
       {
-        "title": "Benchmark Prediction with Sparse and Unpaired Cached Responses",
-        "summary": "Evaluating a generative model on all queries from all available benchmark tasks is prohibitively expensive. As such, models are often evaluated on different subsets of tasks and/or different subsets of queries from a given task. The resulting collection of res"
+        "title": "MedPhysBench: A Benchmark for Evaluating Language Models on Medical Physics Calculations and Error Detection",
+        "summary": "Medical physicists turn a prescription into a delivered dose and check one another's calculations, because one error in a beam calibration or a monitor-unit (MU) calculation can affect every patient treated with it. MedPhysBench has ten seeded generators of ca"
       },
       {
-        "title": "Efficient Closure Learning in Dynamical Systems: A Comparison of Data-Assimilated and Embedded Approaches",
-        "summary": "Increased computing power has transformed computational science and improved predictive capabilities for complex systems, but many phenomena still exceed current simulation capabilities or require rapid evaluations for fast design iterations. Closure models ad"
+        "title": "A simple adaptive accelerated optimistic dual averaging method for unconstrained convex optimization in $p$-norm geometry",
+        "summary": "Efficient preconditioning plays an important role in large-scale first-order optimization. In this paper, we propose an adaptive accelerated optimistic dual averaging ($\\text A ^2$ODA) method for unconstrained convex optimization that adopts low-cost precondit"
       },
       {
-        "title": "ufakzeka-kulak: Building and Evaluating a 31.6M-Parameter Turkish Speech Recognizer from Scratch",
-        "summary": "ufakzeka-kulak is an open Turkish speech-to-text model of 31.6M parameters, a FastConformer encoder with a token-and-duration transducer (TDT) and a CTC head, trained from scratch and released under Apache-2.0. It writes cased, punctuated Turkish with numbers"
+        "title": "CATF: A Manager-Worker Framework for Context-Aware Time-Series Forecasting",
+        "summary": "We study context-aware time-series forecasting, in which a single target variable is predicted from its own history and a set of contextual variables, such as weather and calendar information. As the context becomes more diverse, a single model struggles to ca"
       },
       {
-        "title": "DiabAgent: Toward Agentic Physiological Control",
-        "summary": "As pretraining scales, medical language models have advanced rapidly in clinical question answering. Their ability to achieve effective physiological control through sustained intervention still lacks systematic quantitative evaluation. Type 1 diabetes provide"
+        "title": "PyRUA-DataFarm: LLM Agent as a Cost-Efficient Teleoperator for Real-Ready Robot Data",
+        "summary": "Teleoperation remains the default way to collect robot demonstrations, but every episode costs robot and operator time, and every new task starts from scratch. We ask whether a coding agent can take over the teleoperator's job. In our DataFarm, the agent recei"
       }
     ],
     "leaderboard": [
@@ -456,53 +456,53 @@
     "press": [
       {
         "source": "Breaking Defense",
-        "title": "BAE Systems launches new Sea Tridon naval gun series",
-        "summary": "These variants are designed to adapt to newer, unmanned threats, and also feature some new technology upgrades."
+        "title": "India taps two domestic shipbuilders for $5.7B corvette program",
+        "summary": "India awarded Garden Reach Shipbuilders & Engineers and Goa Shipyard Limited contracts to build five and three corvettes, respectively, for the country’s navy."
       },
       {
         "source": "Breaking Defense",
-        "title": "Syria weighs joining the Mecca Pact, foreign minister says",
-        "summary": "“Discussions are currently under way to evaluate Syria’s entry into the Mecca alliance,” Syria’s foreign minister Asaad al-Shaibani said."
+        "title": "EXCLUSIVE: House China committee pushes Air Force on think tank cuts",
+        "summary": "“Under-resourcing” the China Aerospace Studies Institute (CASI) “could risk undermining the ability of military leaders and civilian policymakers to understand” Beijing’s aerospace strategy and military prowess, according to a letter addres"
       },
       {
         "source": "Breaking Defense",
-        "title": "The defense show circuit keeps rolling, plus Jimmy Stewart goes to war",
-        "summary": "The Breakout previews a busy week overseas and takes a closer look at the Hollywood star who became an Air Force general."
+        "title": "Shield AI cofounder teases ‘snowball’ of X-BAT fighter drone announcements in Europe",
+        "summary": "Ryan Tseng told Breaking Defense that the prospective deals and new industry pacts will be publicized when “we’re ready to announce them.”"
       },
       {
         "source": "Breaking Defense",
-        "title": "Gambit Series offers a scalable path for collaborative combat aircraft",
-        "summary": "Sponsored Gambit represents a scalable solution designed to counter today’s threats and address tomorrow’s challenges."
+        "title": "Congress’s defense advocates take big hit in 2026 midterm elections",
+        "summary": "A “blue tsunami” of Democrat wins in the midterms has huge implications for the makeup of the congressional defense committees next year."
       },
       {
         "source": "Breaking Defense",
-        "title": "Former Army secretary Dan Driscoll heads to OpenAI",
-        "summary": "“I’m joining OpenAI to help the United States and our allies put this technology to work responsibly, for the people who keep us safe,” Dan Driscoll said in OpenAI’s announcement."
+        "title": "UK airshow RIAT permanently relocates from Fairford",
+        "summary": "The new location for the show going forward will be MOD Boscombe Down, roughly 90 minutes south of Fairford by car and equidistant from London"
       },
       {
         "source": "Breaking Defense",
-        "title": "The Congressional ‘right to repair’ solution needs some repairs itself",
-        "summary": "Better licensing and data management would do more for the Pentagon’s maintainers than sweeping new government rights to defense intellectual property, argues Elaine McCusker of AEI."
+        "title": "Leonardo, Fincanteri revamp joint venture, aiming to trim frigate build time by 18 months",
+        "summary": "Fincantieri CEO Pierroberto Folgiero said his company’s joint venture with Leonardo, the Orrizonte Sistemi Navali, now aims to cut down frigate production time by 18 months."
       },
       {
         "source": "Breaking Defense",
-        "title": "Sweden’s Saab launches family of AI agents for future aircraft projects",
-        "summary": "Key to the autonomous project is Saab’s AI Fighter Jet Pilot Academy, designed to develop the agents and, in parallel, establish infrastructure necessary to “create, train and evaluate” them, says the firm."
+        "title": "Israel Weapons Industry expands into Southeast Asia with Thailand’s deployment of counter-drone system",
+        "summary": "“We are seeing strong demand for our platforms and systems across the region,” the company said in response to questions about its growth strategy for southern Asia.”"
       },
       {
         "source": "Breaking Defense",
-        "title": "Industry needs more consistent demand signal to scale UGV production: Autonomy consortium exec",
-        "summary": "“I think industry has the challenge of understanding what the demand signal is, and then again where to put their dollars,” Warren Sponsler, the COO of NAMC, said in an interview."
+        "title": "EXCLUSIVE: SNC pulls out of Navy’s trainer jet competition, leaving Textron likely winner",
+        "summary": "The service is now planning to issue an award for the UJTS program between July and the end of September 2027."
       },
       {
         "source": "Breaking Defense",
-        "title": "The fiscal risks of bringing US troops out of Europe",
-        "summary": "Reducing America’s military footprint in Europe may seem fiscally prudent, but relocating troops and giving up overseas bases could leave US taxpayers with a much bigger bill."
+        "title": "Thales subsidiary lands US Navy contract for remote mine hunting modules",
+        "summary": "The contract, awarded to Advanced Acoustic Concepts, is worth $53.9 million and also covers engineering support for the modules."
       },
       {
         "source": "Breaking Defense",
-        "title": "Saab unveils new speed assault boat for Swedish Navy",
-        "summary": "“The CB90CX is designed for uncrewed operations from the outset,” Anders Hellman, head of Saab’s business unit in Docksta, told Breaking Defense."
+        "title": "Air Force divests its few A-29s, explores ‘future options’",
+        "summary": "A set of three A-29 Super Tucanos are destined for storage after officials at the Air Force Test Pilot School opted against using the turboprops, a spokesperson for Edwards Air Force Base told Breaking Defense."
       },
       {
         "source": "DefenseScoop",
@@ -559,34 +559,34 @@
       {
         "lab": "DoD",
         "items": [
+          "Operation Unified Resolve Sees 70% Drop in Rio Grande Valley Crossings",
+          "Army WCAP Women Wrestlers Help Team USA Capture World Title",
+          "Army Medical Center Tests Emergency Readiness During Mass Casualty Exercise",
           "USS George Washington Sailors Vote While Deployed",
           "Idaho Army National Guard Conducts Remote Rescue Mission",
-          "Coast Guard Cutter Stratton Returns Home After Lengthy Northern Patrol",
-          "Western Hemisphere Nations Meet to Advance Anti-Cartel Campaign Plan",
-          "Assistant Secretary Says New Infrastructure Initiatives Are a 'National Calling'",
-          "Marine Corps Base Hawaii Barracks Project Crosses Halfway Mark"
+          "Coast Guard Cutter Stratton Returns Home After Lengthy Northern Patrol"
         ]
       },
       {
         "lab": "FedScoop",
         "items": [
+          "GSA appoints former banking exec as new government contracting head",
+          "FedRAMP 20x picks up steam with first full ‘Class C’ certification to AI company",
+          "When the storm hits, the private sector must show up",
           "Another bipartisan push to reboot Congress’ tech expertise office is underway",
           "Could Nick Andersen’s leadership outlast the clock on his acting role?",
-          "Fed watchdog pushes central bank toward more streamlined IT operations",
-          "Trump’s AI use to inform military operations questioned by House duo",
-          "Treasury, IRS use of third-party ID verification under fire from top Senate Finance, Banking Dems",
-          "Understaffed CFPB’s security program has foundational ‘weaknesses,’ OIG says"
+          "Fed watchdog pushes central bank toward more streamlined IT operations"
         ]
       },
       {
         "lab": "Federal News Network",
         "items": [
-          "Public Service, Private Debt: Are you making the right student loan moves?",
-          "12 former public servants on the ballot in the midterm elections",
-          "DoDEA loses second director in a year, leaving top job vacant",
-          "Government watchdog backs Air Force decision to limit contract bids to cleared companies",
-          "USDA seeks to curb fraud through EBT card security requirements",
-          "Federal IT needs a new measure of success: Agility"
+          "The SEC and FDA are getting a better view into the companies they regulate",
+          "Mobile devices key to Coast Guard technical readiness",
+          "Many federal employee separations were not truly ‘voluntary,’ survey shows",
+          "Fixed-price is the new default. Do government contractors know what their contracts cost?",
+          "Government’s next AI challenge: Accountability",
+          "Thrift Savings Plan has another rough month in October"
         ]
       }
     ]
